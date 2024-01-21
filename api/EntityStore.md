@@ -4,7 +4,7 @@
 ## EntityStore Class
 
 An [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') is a container for [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s their components, scripts, tags
-and their tree structure.
+and the tree structure.
 
 ```csharp
 public sealed class EntityStore : Friflo.Engine.ECS.EntityStoreBase

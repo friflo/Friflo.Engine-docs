@@ -20,11 +20,12 @@ Derived
 
 ### Remarks
 An [Entity](Entity.md 'Friflo.Engine.ECS.Entity') can contain multiple components but only one of each type.<br/><br/>
+Optionally attribute the implementing struct with [ComponentKeyAttribute](ComponentKeyAttribute.md 'Friflo.Engine.ECS.ComponentKeyAttribute')<br/>
+to assign a custom component key name used for JSON serialization.<br/><br/>
 Common game specific [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') types defined by the Engine:
 - [EntityName](EntityName.md 'Friflo.Engine.ECS.EntityName')
+- [UniqueEntity](UniqueEntity.md 'Friflo.Engine.ECS.UniqueEntity')
 - [Position](Position.md 'Friflo.Engine.ECS.Position')
 - [Rotation](Rotation.md 'Friflo.Engine.ECS.Rotation')
 - [Scale3](Scale3.md 'Friflo.Engine.ECS.Scale3')
 - [Transform](Transform.md 'Friflo.Engine.ECS.Transform')
-Optionally attribute the implementing struct with [ComponentKeyAttribute](ComponentKeyAttribute.md 'Friflo.Engine.ECS.ComponentKeyAttribute')<br/>
-to assign a custom component key name used for JSON serialization.

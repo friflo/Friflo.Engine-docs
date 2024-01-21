@@ -18,7 +18,7 @@
 | [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType') | |
 | [EntityEqualityComparer](EntityEqualityComparer.md 'Friflo.Engine.ECS.EntityEqualityComparer') | |
 | [EntitySchema](EntitySchema.md 'Friflo.Engine.ECS.EntitySchema') | |
-| [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') | An [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') is a container for [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s their components, scripts, tags and their tree structure. |
+| [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') | An [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') is a container for [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s their components, scripts, tags and the tree structure. |
 | [EntityStoreBase](EntityStoreBase.md 'Friflo.Engine.ECS.EntityStoreBase') | |
 | [EntityStoreBase.Static](EntityStoreBase.Static.md 'Friflo.Engine.ECS.EntityStoreBase.Static') | |
 | [EntityUtils](EntityUtils.md 'Friflo.Engine.ECS.EntityUtils') | |

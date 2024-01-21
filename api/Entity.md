@@ -14,6 +14,7 @@ System.IEquatable<Friflo.Engine.ECS.Entity>
 Implements [System.IEquatable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')[Entity](Entity.md 'Friflo.Engine.ECS.Entity')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.IEquatable-1 'System.IEquatable`1')
 
 ### Remarks
+
 Every [Entity](Entity.md 'Friflo.Engine.ECS.Entity') has an [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id') and is a container of
 [Tags](Tags.md 'Friflo.Engine.ECS.Tags'), [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s, [Script](Script.md 'Friflo.Engine.ECS.Script')'s and other child [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s.<br/><br/>
 Comparison to other game engines.
@@ -22,16 +23,30 @@ Comparison to other game engines.
                       The key difference is Godot is an OOP architecture inheriting from `Node` over multiple levels.
 - <b>FLAX</b>   - [Entity](Entity.md 'Friflo.Engine.ECS.Entity') is the counterpart of an `Actor` - an OOP architecture like Godot.
 - <b>STRIDE</b> - [Entity](Entity.md 'Friflo.Engine.ECS.Entity') is the counterpart of a STRIDE `Entity` - a component based architecture like Unity.<br/>
-                      In contrast to this engine or Unity it has no ECS architecture - Entity Component System.<br/>
-An [Entity](Entity.md 'Friflo.Engine.ECS.Entity') is typically an object that can be rendered on screen like a cube, sphere, capsule, mesh, sprite, ... .<br/>
-Therefore a renderable component needs to be added with [AddComponent&lt;T&gt;()](Entity.AddComponent_T_().md 'Friflo.Engine.ECS.Entity.AddComponent<T>()') to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity').<br/><br/>
-An [Entity](Entity.md 'Friflo.Engine.ECS.Entity') can be added to another [Entity](Entity.md 'Friflo.Engine.ECS.Entity') using [AddChild(Entity)](Entity.AddChild(Entity).md 'Friflo.Engine.ECS.Entity.AddChild(Friflo.Engine.ECS.Entity)').<br/>
-The added [Entity](Entity.md 'Friflo.Engine.ECS.Entity') becomes a child of the [Entity](Entity.md 'Friflo.Engine.ECS.Entity') it is added to - its [Parent](Entity.Parent.md 'Friflo.Engine.ECS.Entity.Parent').<br/>
-This enables to build up a complex game scene with a hierarchy of [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s.<br/>
-The order of children contained by an entity is the insertion order.<br/><br/>
-A [Script](Script.md 'Friflo.Engine.ECS.Script')'s can be added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') to add custom logic (script) and data to an entity.<br/>[Script](Script.md 'Friflo.Engine.ECS.Script')'s are added or removed with [AddScript&lt;TScript&gt;(TScript)](Entity.AddScript_TScript_(TScript).md 'Friflo.Engine.ECS.Entity.AddScript<TScript>(TScript)') / [RemoveScript&lt;T&gt;()](Entity.RemoveScript_T_().md 'Friflo.Engine.ECS.Entity.RemoveScript<T>()').<br/><br/>[Tags](Entity.Tags.md 'Friflo.Engine.ECS.Entity.Tags') can be added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') to enable filtering entities in queries.<br/>
-By adding [Tags](Entity.Tags.md 'Friflo.Engine.ECS.Entity.Tags') to an [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') it can be restricted to return only entities matching the
-these [Tags](Entity.Tags.md 'Friflo.Engine.ECS.Entity.Tags').<br/><br/><b>Properties and Methods by category</b>
+                      In contrast to this engine or Unity it has no ECS architecture - Entity Component System.
+
+<b>Components</b><br/>
+            An [Entity](Entity.md 'Friflo.Engine.ECS.Entity') is typically an object that can be rendered on screen like a cube, sphere, capsule, mesh, sprite, ... .<br/>
+            Therefore a renderable component needs to be added with [AddComponent&lt;T&gt;()](Entity.AddComponent_T_().md 'Friflo.Engine.ECS.Entity.AddComponent<T>()') to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity').<br/><br/><b>Child entities</b><br/>
+            An [Entity](Entity.md 'Friflo.Engine.ECS.Entity') can be added to another [Entity](Entity.md 'Friflo.Engine.ECS.Entity') using [AddChild(Entity)](Entity.AddChild(Entity).md 'Friflo.Engine.ECS.Entity.AddChild(Friflo.Engine.ECS.Entity)').<br/>
+            The added [Entity](Entity.md 'Friflo.Engine.ECS.Entity') becomes a child of the [Entity](Entity.md 'Friflo.Engine.ECS.Entity') it is added to - its [Parent](Entity.Parent.md 'Friflo.Engine.ECS.Entity.Parent').<br/>
+            This enables to build up a complex game scene with a hierarchy of [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s.<br/>
+            The order of children contained by an entity is the insertion order.<br/><br/><b>Scripts</b><br/>
+            A [Script](Script.md 'Friflo.Engine.ECS.Script')'s can be added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') to add custom logic (script) and data to an entity.<br/>[Script](Script.md 'Friflo.Engine.ECS.Script')'s are added or removed with [AddScript&lt;TScript&gt;(TScript)](Entity.AddScript_TScript_(TScript).md 'Friflo.Engine.ECS.Entity.AddScript<TScript>(TScript)') / [RemoveScript&lt;T&gt;()](Entity.RemoveScript_T_().md 'Friflo.Engine.ECS.Entity.RemoveScript<T>()').<br/><br/><b>Tags</b><br/>[Tags](Entity.Tags.md 'Friflo.Engine.ECS.Entity.Tags') can be added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') to enable filtering entities in queries.<br/>
+            By adding [Tags](Entity.Tags.md 'Friflo.Engine.ECS.Entity.Tags') to an [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') it can be restricted to return only entities matching the
+            these [Tags](Entity.Tags.md 'Friflo.Engine.ECS.Entity.Tags').<br/><br/><b>Events</b><br/>
+            All entity changes - aka mutations - can be observed for specific [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s and the whole [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore').<br/>
+            In detail the following changes can be observed.
+            
+
+|type|entity event|event argument|action|
+|-|-|-|-|
+|component|[OnComponentChanged](Entity.OnComponentChanged.md 'Friflo.Engine.ECS.Entity.OnComponentChanged')|[ComponentChanged](ComponentChanged.md 'Friflo.Engine.ECS.ComponentChanged')|[Add](ComponentChangedAction.md#Friflo.Engine.ECS.ComponentChangedAction.Add 'Friflo.Engine.ECS.ComponentChangedAction.Add'), [Update](ComponentChangedAction.md#Friflo.Engine.ECS.ComponentChangedAction.Update 'Friflo.Engine.ECS.ComponentChangedAction.Update'), [Remove](ComponentChangedAction.md#Friflo.Engine.ECS.ComponentChangedAction.Remove 'Friflo.Engine.ECS.ComponentChangedAction.Remove')|
+|script|[OnScriptChanged](Entity.OnScriptChanged.md 'Friflo.Engine.ECS.Entity.OnScriptChanged')|[ScriptChanged](ScriptChanged.md 'Friflo.Engine.ECS.ScriptChanged')|[Remove](ScriptChangedAction.md#Friflo.Engine.ECS.ScriptChangedAction.Remove 'Friflo.Engine.ECS.ScriptChangedAction.Remove'), [Add](ScriptChangedAction.md#Friflo.Engine.ECS.ScriptChangedAction.Add 'Friflo.Engine.ECS.ScriptChangedAction.Add'), [Replace](ScriptChangedAction.md#Friflo.Engine.ECS.ScriptChangedAction.Replace 'Friflo.Engine.ECS.ScriptChangedAction.Replace')|
+|tags|[OnTagsChanged](Entity.OnTagsChanged.md 'Friflo.Engine.ECS.Entity.OnTagsChanged')|[TagsChanged](TagsChanged.md 'Friflo.Engine.ECS.TagsChanged')|[AddedTags](TagsChanged.AddedTags.md 'Friflo.Engine.ECS.TagsChanged.AddedTags'), [RemovedTags](TagsChanged.RemovedTags.md 'Friflo.Engine.ECS.TagsChanged.RemovedTags')|
+|child entity|[OnChildEntitiesChanged](Entity.OnChildEntitiesChanged.md 'Friflo.Engine.ECS.Entity.OnChildEntitiesChanged')|[ChildEntitiesChanged](ChildEntitiesChanged.md 'Friflo.Engine.ECS.ChildEntitiesChanged')|[Add](ChildEntitiesChangedAction.md#Friflo.Engine.ECS.ChildEntitiesChangedAction.Add 'Friflo.Engine.ECS.ChildEntitiesChangedAction.Add'), [Remove](ChildEntitiesChangedAction.md#Friflo.Engine.ECS.ChildEntitiesChangedAction.Remove 'Friflo.Engine.ECS.ChildEntitiesChangedAction.Remove')|
+
+<b>Properties and Methods by category</b>
 - <b>general</b><br/>[Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id')<br/>[Pid](Entity.Pid.md 'Friflo.Engine.ECS.Entity.Pid')<br/>[Archetype](Entity.Archetype.md 'Friflo.Engine.ECS.Entity.Archetype')<br/>[Store](Entity.Store.md 'Friflo.Engine.ECS.Entity.Store')<br/>[DebugJSON](Entity.DebugJSON.md 'Friflo.Engine.ECS.Entity.DebugJSON')<br/>
 - <b>components</b> · generic             <br/>[HasComponent&lt;T&gt;()](Entity.HasComponent_T_().md 'Friflo.Engine.ECS.Entity.HasComponent<T>()')<br/>[GetComponent&lt;T&gt;()](Entity.GetComponent_T_().md 'Friflo.Engine.ECS.Entity.GetComponent<T>()') - read / write<br/>[TryGetComponent&lt;T&gt;(T)](Entity.TryGetComponent_T_(T).md 'Friflo.Engine.ECS.Entity.TryGetComponent<T>(T)')<br/>[AddComponent&lt;T&gt;()](Entity.AddComponent_T_().md 'Friflo.Engine.ECS.Entity.AddComponent<T>()')<br/>[RemoveComponent&lt;T&gt;()](Entity.RemoveComponent_T_().md 'Friflo.Engine.ECS.Entity.RemoveComponent<T>()')<br/>
 - <b>components</b> · common              <br/>[Components](Entity.Components.md 'Friflo.Engine.ECS.Entity.Components')<br/>[Name](Entity.Name.md 'Friflo.Engine.ECS.Entity.Name')<br/>[Position](Entity.Position.md 'Friflo.Engine.ECS.Entity.Position')<br/>[Rotation](Entity.Rotation.md 'Friflo.Engine.ECS.Entity.Rotation')<br/>[Scale3](Entity.Scale3.md 'Friflo.Engine.ECS.Entity.Scale3')<br/>[HasName](Entity.HasName.md 'Friflo.Engine.ECS.Entity.HasName')<br/>[HasPosition](Entity.HasPosition.md 'Friflo.Engine.ECS.Entity.HasPosition')<br/>[HasRotation](Entity.HasRotation.md 'Friflo.Engine.ECS.Entity.HasRotation')<br/>[HasScale3](Entity.HasScale3.md 'Friflo.Engine.ECS.Entity.HasScale3')<br/>
