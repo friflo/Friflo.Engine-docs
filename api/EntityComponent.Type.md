@@ -3,6 +3,8 @@
 
 ## EntityComponent.Type Property
 
+Return the [System.Type](https://docs.microsoft.com/en-us/dotnet/api/System.Type 'System.Type') of an entity component.
+
 ```csharp
 public Friflo.Engine.ECS.ComponentType Type { get; }
 ```

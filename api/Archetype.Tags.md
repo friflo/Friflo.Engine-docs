@@ -3,6 +3,8 @@
 
 ## Archetype.Tags Property
 
+The [ITag](ITag.md 'Friflo.Engine.ECS.ITag') types managed by the archetype.
+
 ```csharp
 public ref readonly Friflo.Engine.ECS.Tags Tags { get; }
 ```

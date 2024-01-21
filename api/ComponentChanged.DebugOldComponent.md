@@ -3,8 +3,7 @@
 
 ## ComponentChanged.DebugOldComponent Property
 
-Return the old [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') for debugging.<br/>
-           It degrades performance as it boxes the returned component.
+Return the old [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') for debugging.<br/><b>Note</b>: It degrades performance as it boxes the returned component.
 
 ```csharp
 public Friflo.Engine.ECS.IComponent DebugOldComponent { get; }

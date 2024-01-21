@@ -3,7 +3,8 @@
 
 ## ComponentTypes Struct
 
-[ComponentTypes](ComponentTypes.md 'Friflo.Engine.ECS.ComponentTypes') define a set of [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s used to list the component types of an [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype').
+[ComponentTypes](ComponentTypes.md 'Friflo.Engine.ECS.ComponentTypes') define a set of [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s used to list the
+            component [System.Type](https://docs.microsoft.com/en-us/dotnet/api/System.Type 'System.Type')'s of an [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype').
 
 ```csharp
 public struct ComponentTypes :

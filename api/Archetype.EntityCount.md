@@ -3,7 +3,7 @@
 
 ## Archetype.EntityCount Property
 
-Number of entities stored in the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype')
+Number of entities / components stored in the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype')
 
 ```csharp
 public int EntityCount { get; }

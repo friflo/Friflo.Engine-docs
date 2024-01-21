@@ -3,25 +3,34 @@
 
 ## Archetype Class
 
+An [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') store entities with a specific set of [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') and [ITag](ITag.md 'Friflo.Engine.ECS.ITag') types.
+
 ```csharp
 public sealed class Archetype
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; Archetype
 
+### Remarks
+E.g. all entities with a [Position](Position.md 'Friflo.Engine.ECS.Position') and [Rotation](Rotation.md 'Friflo.Engine.ECS.Rotation') componet are store in the same archetype.<br/>
+In case of removing one of these components or adding a new one from / to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') the entity is moved to a different archetype.<br/><br/>
+This is the basic pattern for an archetype base ECS. This approach enables efficient entity / component queries.<br/>
+A query result is simply the union of all archetypes having the requested components.<br/><br/>
+Queries can be created via generic [EntityStoreBase](EntityStoreBase.md 'Friflo.Engine.ECS.EntityStoreBase').`Query()` methods.<br/>
+
 | Properties | |
 | :--- | :--- |
-| [Capacity](Archetype.Capacity.md 'Friflo.Engine.ECS.Archetype.Capacity') | |
-| [ComponentCount](Archetype.ComponentCount.md 'Friflo.Engine.ECS.Archetype.ComponentCount') | |
-| [ComponentTypes](Archetype.ComponentTypes.md 'Friflo.Engine.ECS.Archetype.ComponentTypes') | |
+| [Capacity](Archetype.Capacity.md 'Friflo.Engine.ECS.Archetype.Capacity') | The current capacity reserved to store entity components. |
+| [ComponentCount](Archetype.ComponentCount.md 'Friflo.Engine.ECS.Archetype.ComponentCount') | Number of [ComponentTypes](Archetype.ComponentTypes.md 'Friflo.Engine.ECS.Archetype.ComponentTypes') managed by the archetype. |
+| [ComponentTypes](Archetype.ComponentTypes.md 'Friflo.Engine.ECS.Archetype.ComponentTypes') | The [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') types managed by the archetype. |
 | [Entities](Archetype.Entities.md 'Friflo.Engine.ECS.Archetype.Entities') | Return all [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s stored in the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype'). |
-| [EntityCount](Archetype.EntityCount.md 'Friflo.Engine.ECS.Archetype.EntityCount') | Number of entities stored in the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') |
-| [EntityIds](Archetype.EntityIds.md 'Friflo.Engine.ECS.Archetype.EntityIds') | The entity ids store in the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') |
-| [Store](Archetype.Store.md 'Friflo.Engine.ECS.Archetype.Store') | |
-| [Tags](Archetype.Tags.md 'Friflo.Engine.ECS.Archetype.Tags') | |
+| [EntityCount](Archetype.EntityCount.md 'Friflo.Engine.ECS.Archetype.EntityCount') | Number of entities / components stored in the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') |
+| [EntityIds](Archetype.EntityIds.md 'Friflo.Engine.ECS.Archetype.EntityIds') | The list of entity ids stored in the archetype. |
+| [Store](Archetype.Store.md 'Friflo.Engine.ECS.Archetype.Store') | The [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') owning the archetype. |
+| [Tags](Archetype.Tags.md 'Friflo.Engine.ECS.Archetype.Tags') | The [ITag](ITag.md 'Friflo.Engine.ECS.ITag') types managed by the archetype. |
 
 | Methods | |
 | :--- | :--- |
-| [CreateEntity()](Archetype.CreateEntity().md 'Friflo.Engine.ECS.Archetype.CreateEntity()') | |
-| [EnsureCapacity(int)](Archetype.EnsureCapacity(int).md 'Friflo.Engine.ECS.Archetype.EnsureCapacity(int)') | |
+| [CreateEntity()](Archetype.CreateEntity().md 'Friflo.Engine.ECS.Archetype.CreateEntity()') | Create an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') with the [ComponentTypes](Archetype.ComponentTypes.md 'Friflo.Engine.ECS.Archetype.ComponentTypes') and [Tags](Archetype.Tags.md 'Friflo.Engine.ECS.Archetype.Tags') managed by the archetype. |
+| [EnsureCapacity(int)](Archetype.EnsureCapacity(int).md 'Friflo.Engine.ECS.Archetype.EnsureCapacity(int)') | Allocates memory for entity components to enable adding / creating entities without reallocation. |
 | [ToString()](Archetype.ToString().md 'Friflo.Engine.ECS.Archetype.ToString()') | |

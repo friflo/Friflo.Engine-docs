@@ -3,6 +3,8 @@
 
 ## ChildEnumerator Struct
 
+Use to enumerate the child entities stored in [Entity](Entity.md 'Friflo.Engine.ECS.Entity').[ChildEntities](Entity.ChildEntities.md 'Friflo.Engine.ECS.Entity.ChildEntities').
+
 ```csharp
 public struct ChildEnumerator :
 System.Collections.Generic.IEnumerator<Friflo.Engine.ECS.Entity>,

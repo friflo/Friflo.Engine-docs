@@ -22,7 +22,7 @@ It basically acts as a singleton within an [EntityStore](EntityStore.md 'Friflo.
 
 | Fields | |
 | :--- | :--- |
-| [uid](UniqueEntity.uid.md 'Friflo.Engine.ECS.UniqueEntity.uid') | |
+| [uid](UniqueEntity.uid.md 'Friflo.Engine.ECS.UniqueEntity.uid') | Unique string identifier assigned to specific [Entity](Entity.md 'Friflo.Engine.ECS.Entity') |
 
 | Methods | |
 | :--- | :--- |

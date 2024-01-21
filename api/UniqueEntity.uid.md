@@ -3,6 +3,8 @@
 
 ## UniqueEntity.uid Field
 
+Unique string identifier assigned to specific [Entity](Entity.md 'Friflo.Engine.ECS.Entity')
+
 ```csharp
 public string uid;
 ```

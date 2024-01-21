@@ -3,6 +3,8 @@
 
 ## Archetype.CreateEntity() Method
 
+Create an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') with the [ComponentTypes](Archetype.ComponentTypes.md 'Friflo.Engine.ECS.Archetype.ComponentTypes') and [Tags](Archetype.Tags.md 'Friflo.Engine.ECS.Archetype.Tags') managed by the archetype.
+
 ```csharp
 public Friflo.Engine.ECS.Entity CreateEntity();
 ```

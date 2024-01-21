@@ -3,6 +3,8 @@
 
 ## EntityName.value Field
 
+Descriptive entity name for debugging or in an editor.
+
 ```csharp
 public string value;
 ```

@@ -4,10 +4,7 @@
 ## ComponentChanged.OldComponent<T>() Method
 
 Returns the old component value before executing [Update](ComponentChangedAction.md#Friflo.Engine.ECS.ComponentChangedAction.Update 'Friflo.Engine.ECS.ComponentChangedAction.Update')
-or [Remove](ComponentChangedAction.md#Friflo.Engine.ECS.ComponentChangedAction.Remove 'Friflo.Engine.ECS.ComponentChangedAction.Remove') component.<br/><br/><b>Note</b>:
-The [OldComponent&lt;T&gt;()](ComponentChanged.OldComponent_T_().md 'Friflo.Engine.ECS.ComponentChanged.OldComponent<T>()') return value is only valid within the event handler call.<br/>[ComponentChanged](ComponentChanged.md 'Friflo.Engine.ECS.ComponentChanged') may return an invalid value when calling it outside the event handler scope.<br/>
-Instead store the value returned by [OldComponent&lt;T&gt;()](ComponentChanged.OldComponent_T_().md 'Friflo.Engine.ECS.ComponentChanged.OldComponent<T>()') within the handler when using it after the event handler returns.<br/>
-Reason: For performance there is only one field per component type storing the old component value.<br/>
+or [Remove](ComponentChangedAction.md#Friflo.Engine.ECS.ComponentChangedAction.Remove 'Friflo.Engine.ECS.ComponentChangedAction.Remove') component.<br/><b>Note</b>: See Remarks for restrictions.
 
 ```csharp
 public T OldComponent<T>()
@@ -31,3 +28,9 @@ In case the [Action](ComponentChanged.Action.md 'Friflo.Engine.ECS.ComponentChan
 
 [System.ArgumentException](https://docs.microsoft.com/en-us/dotnet/api/System.ArgumentException 'System.ArgumentException')  
 In case the component is accessed with the wrong generic type.
+
+### Remarks
+<b>Note</b>:
+            The [OldComponent&lt;T&gt;()](ComponentChanged.OldComponent_T_().md 'Friflo.Engine.ECS.ComponentChanged.OldComponent<T>()') return value is only valid within the event handler call.<br/>[ComponentChanged](ComponentChanged.md 'Friflo.Engine.ECS.ComponentChanged') may return an invalid value when calling it outside the event handler scope.<br/>
+            Instead store the value returned by [OldComponent&lt;T&gt;()](ComponentChanged.OldComponent_T_().md 'Friflo.Engine.ECS.ComponentChanged.OldComponent<T>()') within the handler when using it after the event handler returns.<br/>
+            Reason: For performance there is only one field per component type storing the old component value.<br/>

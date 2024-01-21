@@ -3,6 +3,8 @@
 
 ## EntityName Struct
 
+Can be added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') to provide a descriptive name for debugging or in an editor.
+
 ```csharp
 public struct EntityName :
 Friflo.Engine.ECS.IComponent
@@ -16,7 +18,7 @@ Implements [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')
 
 | Fields | |
 | :--- | :--- |
-| [value](EntityName.value.md 'Friflo.Engine.ECS.EntityName.value') | |
+| [value](EntityName.value.md 'Friflo.Engine.ECS.EntityName.value') | Descriptive entity name for debugging or in an editor. |
 
 | Properties | |
 | :--- | :--- |

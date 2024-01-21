@@ -3,7 +3,7 @@
 
 ## UnresolvedComponent Struct
 
-Is used an item in [Unresolved](Unresolved.md 'Friflo.Engine.ECS.Unresolved').[components](Unresolved.components.md 'Friflo.Engine.ECS.Unresolved.components') to store an unresolved entity component.
+Is used as item type for [Unresolved](Unresolved.md 'Friflo.Engine.ECS.Unresolved').[components](Unresolved.components.md 'Friflo.Engine.ECS.Unresolved.components') storing unresolved entity components.
 
 ```csharp
 public readonly struct UnresolvedComponent

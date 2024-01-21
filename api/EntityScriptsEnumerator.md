@@ -3,6 +3,8 @@
 
 ## EntityScriptsEnumerator Struct
 
+Used to enumerate the [Script](Script.md 'Friflo.Engine.ECS.Script')'s added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity').
+
 ```csharp
 public struct EntityScriptsEnumerator :
 System.Collections.Generic.IEnumerator<Friflo.Engine.ECS.Script>,

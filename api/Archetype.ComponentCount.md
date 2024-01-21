@@ -3,6 +3,8 @@
 
 ## Archetype.ComponentCount Property
 
+Number of [ComponentTypes](Archetype.ComponentTypes.md 'Friflo.Engine.ECS.Archetype.ComponentTypes') managed by the archetype.
+
 ```csharp
 public int ComponentCount { get; }
 ```

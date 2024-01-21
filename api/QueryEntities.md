@@ -3,7 +3,7 @@
 
 ## QueryEntities Struct
 
-Provide the result set of an [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') as a list of [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s.
+Provide the result set of an [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') as a set of [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s.
 
 ```csharp
 public readonly struct QueryEntities :

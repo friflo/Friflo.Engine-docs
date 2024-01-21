@@ -3,6 +3,8 @@
 
 ## Archetype.ComponentTypes Property
 
+The [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') types managed by the archetype.
+
 ```csharp
 public ref readonly Friflo.Engine.ECS.ComponentTypes ComponentTypes { get; }
 ```

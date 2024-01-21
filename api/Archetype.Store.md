@@ -3,6 +3,8 @@
 
 ## Archetype.Store Property
 
+The [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') owning the archetype.
+
 ```csharp
 public Friflo.Engine.ECS.EntityStoreBase Store { get; }
 ```

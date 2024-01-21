@@ -3,6 +3,8 @@
 
 ## TagsEnumerator Struct
 
+Used to enumerate the [ITag](ITag.md 'Friflo.Engine.ECS.ITag')'s stored in [Tags](Tags.md 'Friflo.Engine.ECS.Tags').
+
 ```csharp
 public struct TagsEnumerator :
 System.Collections.Generic.IEnumerator<Friflo.Engine.ECS.TagType>,

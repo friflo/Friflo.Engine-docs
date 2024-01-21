@@ -16,13 +16,11 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 The [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') provide the features listed below
 - Store a map (container) of entities in linear memory.<br/>
   Entity data can retrieved by entity <b>id</b> using the property [GetEntityById(int)](EntityStore.GetEntityById(int).md 'Friflo.Engine.ECS.EntityStore.GetEntityById(int)').<br/>[Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s have the states below:<br/>
-  - <b>
-      <see cref="T:Friflo.Engine.ECS.StoreOwnership"/>:</b>[attached](StoreOwnership.md#Friflo.Engine.ECS.StoreOwnership.attached 'Friflo.Engine.ECS.StoreOwnership.attached') / [detached](StoreOwnership.md#Friflo.Engine.ECS.StoreOwnership.detached 'Friflo.Engine.ECS.StoreOwnership.detached')<br/>
-                      if [detached](StoreOwnership.md#Friflo.Engine.ECS.StoreOwnership.detached 'Friflo.Engine.ECS.StoreOwnership.detached') - [System.NullReferenceException](https://docs.microsoft.com/en-us/dotnet/api/System.NullReferenceException 'System.NullReferenceException') are thrown by [Entity](Entity.md 'Friflo.Engine.ECS.Entity') methods.
-  - <b>
-      <see cref="T:Friflo.Engine.ECS.TreeMembership"/>:</b>[treeNode](TreeMembership.md#Friflo.Engine.ECS.TreeMembership.treeNode 'Friflo.Engine.ECS.TreeMembership.treeNode') / [floating](TreeMembership.md#Friflo.Engine.ECS.TreeMembership.floating 'Friflo.Engine.ECS.TreeMembership.floating') node (not part of the [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') tree graph).<br/>
+  - [StoreOwnership](StoreOwnership.md 'Friflo.Engine.ECS.StoreOwnership'): [attached](StoreOwnership.md#Friflo.Engine.ECS.StoreOwnership.attached 'Friflo.Engine.ECS.StoreOwnership.attached') / [detached](StoreOwnership.md#Friflo.Engine.ECS.StoreOwnership.detached 'Friflo.Engine.ECS.StoreOwnership.detached')<br/>
+                      if [detached](StoreOwnership.md#Friflo.Engine.ECS.StoreOwnership.detached 'Friflo.Engine.ECS.StoreOwnership.detached') - [System.NullReferenceException](https://docs.microsoft.com/en-us/dotnet/api/System.NullReferenceException 'System.NullReferenceException') are thrown by [Entity](Entity.md 'Friflo.Engine.ECS.Entity') properties and methods.
+  - [TreeMembership](TreeMembership.md 'Friflo.Engine.ECS.TreeMembership'): [treeNode](TreeMembership.md#Friflo.Engine.ECS.TreeMembership.treeNode 'Friflo.Engine.ECS.TreeMembership.treeNode') / [floating](TreeMembership.md#Friflo.Engine.ECS.TreeMembership.floating 'Friflo.Engine.ECS.TreeMembership.floating') node (not part of the [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') tree graph).<br/>
                       All children of a [treeNode](TreeMembership.md#Friflo.Engine.ECS.TreeMembership.treeNode 'Friflo.Engine.ECS.TreeMembership.treeNode') are [treeNode](TreeMembership.md#Friflo.Engine.ECS.TreeMembership.treeNode 'Friflo.Engine.ECS.TreeMembership.treeNode')'s themselves.
-- Manage a tree graph of entities which starts with the [StoreRoot](EntityStore.StoreRoot.md 'Friflo.Engine.ECS.EntityStore.StoreRoot') entity to build up a scene graph
+- Manage a tree graph of entities which starts with the [StoreRoot](EntityStore.StoreRoot.md 'Friflo.Engine.ECS.EntityStore.StoreRoot') entity to build up a scene graph.
 - Store the data of [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s and [Script](Script.md 'Friflo.Engine.ECS.Script')'s.
 
 | Constructors | |

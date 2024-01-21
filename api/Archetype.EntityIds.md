@@ -3,7 +3,7 @@
 
 ## Archetype.EntityIds Property
 
-The entity ids store in the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype')
+The list of entity ids stored in the archetype.
 
 ```csharp
 public System.ReadOnlySpan<int> EntityIds { get; }

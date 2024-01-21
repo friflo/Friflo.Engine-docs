@@ -3,6 +3,8 @@
 
 ## Archetype.Capacity Property
 
+The current capacity reserved to store entity components.
+
 ```csharp
 public int Capacity { get; }
 ```
