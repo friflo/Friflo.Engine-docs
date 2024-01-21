@@ -2,7 +2,7 @@
 
 
 This project contains the API Reference of the [**Friflo Engine ECS**](https://github.com/friflo/Friflo.Json.Fliox/tree/main/Engine) library.    
-Following section list fundamental [Friflo.Engine.ECS](api/Friflo/Json/Fliox/Hub/index.md) structs and classes.
+Following section list fundamental [Friflo.Engine.ECS](api/Friflo.Engine.ECS.md) structs and classes.
 
 
 
