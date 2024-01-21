@@ -6,6 +6,13 @@ Following section list fundamental [Friflo.Engine.ECS](api/Friflo/Json/Fliox/Hub
 
 
 
+- [Entity](api/Entity.md) struct
+- [EntityStore](api/EntityStore.md) class
+
+- [IComponent](api/IComponent.md) interface
+- [ITag](api/ITag.md) interface
+- [Script](api/Script.md) class
+
 
 
 

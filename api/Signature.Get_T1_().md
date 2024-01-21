@@ -1,0 +1,21 @@
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[Signature](Signature.md 'Friflo.Engine.ECS.Signature')
+
+## Signature.Get<T1>() Method
+
+Returns a [Signature&lt;T1&gt;](Signature_T1_.md 'Friflo.Engine.ECS.Signature<T1>') containing the given component types.<br/>[Signature&lt;T1&gt;](Signature_T1_.md 'Friflo.Engine.ECS.Signature<T1>') features:
+- Get the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') of an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') using [GetArchetype&lt;T1&gt;(Signature&lt;T1&gt;, Tags)](EntityStoreBase.GetArchetype_T1_(Signature_T1_,Tags).md 'Friflo.Engine.ECS.EntityStoreBase.GetArchetype<T1>(Friflo.Engine.ECS.Signature<T1>, Friflo.Engine.ECS.Tags)').
+- Create a query to process all entities containing the given component types with [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore').Query() methods.
+
+```csharp
+public static Friflo.Engine.ECS.Signature<T1> Get<T1>()
+    where T1 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType;
+```
+#### Type parameters
+
+<a name='Friflo.Engine.ECS.Signature.Get_T1_().T1'></a>
+
+`T1`
+
+#### Returns
+[Friflo.Engine.ECS.Signature&lt;](Signature_T1_.md 'Friflo.Engine.ECS.Signature<T1>')[T1](Signature.Get_T1_().md#Friflo.Engine.ECS.Signature.Get_T1_().T1 'Friflo.Engine.ECS.Signature.Get<T1>().T1')[&gt;](Signature_T1_.md 'Friflo.Engine.ECS.Signature<T1>')
