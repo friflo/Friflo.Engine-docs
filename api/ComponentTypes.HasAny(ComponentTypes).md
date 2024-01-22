@@ -3,6 +3,8 @@
 
 ## ComponentTypes.HasAny(ComponentTypes) Method
 
+Return true if it contains any of the passed [componentTypes](ComponentTypes.HasAny(ComponentTypes).md#Friflo.Engine.ECS.ComponentTypes.HasAny(Friflo.Engine.ECS.ComponentTypes).componentTypes 'Friflo.Engine.ECS.ComponentTypes.HasAny(Friflo.Engine.ECS.ComponentTypes).componentTypes').
+
 ```csharp
 public readonly bool HasAny(in Friflo.Engine.ECS.ComponentTypes componentTypes);
 ```

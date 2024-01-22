@@ -3,7 +3,7 @@
 
 ## Tags.Remove(Tags) Method
 
-Removes the passed [tags](Tags.Remove(Tags).md#Friflo.Engine.ECS.Tags.Remove(Friflo.Engine.ECS.Tags).tags 'Friflo.Engine.ECS.Tags.Remove(Friflo.Engine.ECS.Tags).tags') from [Tags](Tags.md 'Friflo.Engine.ECS.Tags').
+Removes the passed [tags](Tags.Remove(Tags).md#Friflo.Engine.ECS.Tags.Remove(Friflo.Engine.ECS.Tags).tags 'Friflo.Engine.ECS.Tags.Remove(Friflo.Engine.ECS.Tags).tags').
 
 ```csharp
 public void Remove(in Friflo.Engine.ECS.Tags tags);

@@ -3,6 +3,8 @@
 
 ## EntityStore.PidToId(long) Method
 
+Return the [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id') for the passed entity [pid](EntityStore.PidToId(long).md#Friflo.Engine.ECS.EntityStore.PidToId(long).pid 'Friflo.Engine.ECS.EntityStore.PidToId(long).pid').
+
 ```csharp
 public int PidToId(long pid);
 ```

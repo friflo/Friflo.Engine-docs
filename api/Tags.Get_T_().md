@@ -3,7 +3,7 @@
 
 ## Tags.Get<T>() Method
 
-Create [Tags](Tags.md 'Friflo.Engine.ECS.Tags') containging the given [ITag](ITag.md 'Friflo.Engine.ECS.ITag')
+Create an instance containing the given [ITag](ITag.md 'Friflo.Engine.ECS.ITag') type [T](Tags.Get_T_().md#Friflo.Engine.ECS.Tags.Get_T_().T 'Friflo.Engine.ECS.Tags.Get<T>().T').
 
 ```csharp
 public static Friflo.Engine.ECS.Tags Get<T>()

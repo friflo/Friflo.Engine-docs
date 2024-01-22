@@ -3,7 +3,7 @@
 
 ## Tags.Remove<T>() Method
 
-Removes the passed [ITag](ITag.md 'Friflo.Engine.ECS.ITag') from [Tags](Tags.md 'Friflo.Engine.ECS.Tags').
+Removes the passed [ITag](ITag.md 'Friflo.Engine.ECS.ITag') type [T](Tags.Remove_T_().md#Friflo.Engine.ECS.Tags.Remove_T_().T 'Friflo.Engine.ECS.Tags.Remove<T>().T').
 
 ```csharp
 public void Remove<T>()

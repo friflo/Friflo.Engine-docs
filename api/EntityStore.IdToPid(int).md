@@ -3,6 +3,8 @@
 
 ## EntityStore.IdToPid(int) Method
 
+Return the [Pid](Entity.Pid.md 'Friflo.Engine.ECS.Entity.Pid') for the passed entity [id](EntityStore.IdToPid(int).md#Friflo.Engine.ECS.EntityStore.IdToPid(int).id 'Friflo.Engine.ECS.EntityStore.IdToPid(int).id').
+
 ```csharp
 public long IdToPid(int id);
 ```

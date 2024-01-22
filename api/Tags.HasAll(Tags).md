@@ -3,7 +3,7 @@
 
 ## Tags.HasAll(Tags) Method
 
-Return true if the [Tags](Tags.md 'Friflo.Engine.ECS.Tags') contain all passed [tags](Tags.HasAll(Tags).md#Friflo.Engine.ECS.Tags.HasAll(Friflo.Engine.ECS.Tags).tags 'Friflo.Engine.ECS.Tags.HasAll(Friflo.Engine.ECS.Tags).tags').
+Return true if it contains all passed [tags](Tags.HasAll(Tags).md#Friflo.Engine.ECS.Tags.HasAll(Friflo.Engine.ECS.Tags).tags 'Friflo.Engine.ECS.Tags.HasAll(Friflo.Engine.ECS.Tags).tags').
 
 ```csharp
 public readonly bool HasAll(in Friflo.Engine.ECS.Tags tags);

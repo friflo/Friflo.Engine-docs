@@ -3,6 +3,8 @@
 
 ## EntityStore.CreateEntity() Method
 
+Create and return new [Entity](Entity.md 'Friflo.Engine.ECS.Entity') in the entity store.
+
 ```csharp
 public Friflo.Engine.ECS.Entity CreateEntity();
 ```

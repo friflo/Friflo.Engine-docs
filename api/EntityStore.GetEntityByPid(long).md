@@ -3,6 +3,8 @@
 
 ## EntityStore.GetEntityByPid(long) Method
 
+Return the [Entity](Entity.md 'Friflo.Engine.ECS.Entity') with the passed entity [pid](EntityStore.GetEntityByPid(long).md#Friflo.Engine.ECS.EntityStore.GetEntityByPid(long).pid 'Friflo.Engine.ECS.EntityStore.GetEntityByPid(long).pid').
+
 ```csharp
 public Friflo.Engine.ECS.Entity GetEntityByPid(long pid);
 ```

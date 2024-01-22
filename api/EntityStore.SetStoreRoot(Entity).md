@@ -3,6 +3,8 @@
 
 ## EntityStore.SetStoreRoot(Entity) Method
 
+Set the passed [entity](EntityStore.SetStoreRoot(Entity).md#Friflo.Engine.ECS.EntityStore.SetStoreRoot(Friflo.Engine.ECS.Entity).entity 'Friflo.Engine.ECS.EntityStore.SetStoreRoot(Friflo.Engine.ECS.Entity).entity') as the [StoreRoot](EntityStore.StoreRoot.md 'Friflo.Engine.ECS.EntityStore.StoreRoot') entity.
+
 ```csharp
 public void SetStoreRoot(Friflo.Engine.ECS.Entity entity);
 ```

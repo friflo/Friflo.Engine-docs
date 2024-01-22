@@ -3,7 +3,7 @@
 
 ## Archetype.EnsureCapacity(int) Method
 
-Allocates memory for entity components to enable adding / creating entities without reallocation.
+Allocates memory for entity components in the archetype to enable adding entity components without reallocation.
 
 ```csharp
 public int EnsureCapacity(int capacity);
@@ -16,4 +16,4 @@ public int EnsureCapacity(int capacity);
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')  
-the number of entities that can be added without reallocation
+The number of entities that can be added without reallocation.

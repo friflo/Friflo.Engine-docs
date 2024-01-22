@@ -3,7 +3,7 @@
 
 ## ComponentTypesEnumerator Struct
 
-Return the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s of [ComponentTypes](ComponentTypes.md 'Friflo.Engine.ECS.ComponentTypes').
+Return the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') types of [ComponentTypes](ComponentTypes.md 'Friflo.Engine.ECS.ComponentTypes').
 
 ```csharp
 public struct ComponentTypesEnumerator :

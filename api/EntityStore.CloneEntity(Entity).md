@@ -3,14 +3,16 @@
 
 ## EntityStore.CloneEntity(Entity) Method
 
+Create and return a clone of the of the passed [entity](EntityStore.CloneEntity(Entity).md#Friflo.Engine.ECS.EntityStore.CloneEntity(Friflo.Engine.ECS.Entity).entity 'Friflo.Engine.ECS.EntityStore.CloneEntity(Friflo.Engine.ECS.Entity).entity') in the store.
+
 ```csharp
-public Friflo.Engine.ECS.Entity CloneEntity(Friflo.Engine.ECS.Entity original);
+public Friflo.Engine.ECS.Entity CloneEntity(Friflo.Engine.ECS.Entity entity);
 ```
 #### Parameters
 
-<a name='Friflo.Engine.ECS.EntityStore.CloneEntity(Friflo.Engine.ECS.Entity).original'></a>
+<a name='Friflo.Engine.ECS.EntityStore.CloneEntity(Friflo.Engine.ECS.Entity).entity'></a>
 
-`original` [Entity](Entity.md 'Friflo.Engine.ECS.Entity')
+`entity` [Entity](Entity.md 'Friflo.Engine.ECS.Entity')
 
 #### Returns
 [Entity](Entity.md 'Friflo.Engine.ECS.Entity')

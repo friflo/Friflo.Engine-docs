@@ -3,6 +3,8 @@
 
 ## ComponentTypes.Remove(ComponentTypes) Method
 
+Remove all passed  [componentTypes](ComponentTypes.Remove(ComponentTypes).md#Friflo.Engine.ECS.ComponentTypes.Remove(Friflo.Engine.ECS.ComponentTypes).componentTypes 'Friflo.Engine.ECS.ComponentTypes.Remove(Friflo.Engine.ECS.ComponentTypes).componentTypes').
+
 ```csharp
 public void Remove(in Friflo.Engine.ECS.ComponentTypes componentTypes);
 ```

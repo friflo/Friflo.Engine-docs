@@ -3,6 +3,8 @@
 
 ## EntityStore.GetEntityNode(int) Method
 
+Return the internal node for the passed entity [id](EntityStore.GetEntityNode(int).md#Friflo.Engine.ECS.EntityStore.GetEntityNode(int).id 'Friflo.Engine.ECS.EntityStore.GetEntityNode(int).id').
+
 ```csharp
 public ref readonly Friflo.Engine.ECS.EntityNode GetEntityNode(int id);
 ```

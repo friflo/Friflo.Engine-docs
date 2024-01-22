@@ -3,6 +3,8 @@
 
 ## EntityStore.TryGetEntityByPid(long, Entity) Method
 
+Try to return the [Entity](Entity.md 'Friflo.Engine.ECS.Entity') with the passed entity [pid](EntityStore.TryGetEntityByPid(long,Entity).md#Friflo.Engine.ECS.EntityStore.TryGetEntityByPid(long,Friflo.Engine.ECS.Entity).pid 'Friflo.Engine.ECS.EntityStore.TryGetEntityByPid(long, Friflo.Engine.ECS.Entity).pid').<br/>
+
 ```csharp
 public bool TryGetEntityByPid(long pid, out Friflo.Engine.ECS.Entity value);
 ```

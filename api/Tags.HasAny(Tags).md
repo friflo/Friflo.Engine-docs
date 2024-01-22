@@ -3,7 +3,7 @@
 
 ## Tags.HasAny(Tags) Method
 
-Return true if the [Tags](Tags.md 'Friflo.Engine.ECS.Tags') contain any of the passed [tags](Tags.HasAny(Tags).md#Friflo.Engine.ECS.Tags.HasAny(Friflo.Engine.ECS.Tags).tags 'Friflo.Engine.ECS.Tags.HasAny(Friflo.Engine.ECS.Tags).tags').
+Return true if it contains any of the passed [tags](Tags.HasAny(Tags).md#Friflo.Engine.ECS.Tags.HasAny(Friflo.Engine.ECS.Tags).tags 'Friflo.Engine.ECS.Tags.HasAny(Friflo.Engine.ECS.Tags).tags').
 
 ```csharp
 public readonly bool HasAny(in Friflo.Engine.ECS.Tags tags);

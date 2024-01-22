@@ -3,6 +3,9 @@
 
 ## ComponentTypes.Has<T1,T2,T3>() Method
 
+Return true if it contains all passed [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') types
+[T1](ComponentTypes.Has_T1,T2,T3_().md#Friflo.Engine.ECS.ComponentTypes.Has_T1,T2,T3_().T1 'Friflo.Engine.ECS.ComponentTypes.Has<T1,T2,T3>().T1'), [T2](ComponentTypes.Has_T1,T2,T3_().md#Friflo.Engine.ECS.ComponentTypes.Has_T1,T2,T3_().T2 'Friflo.Engine.ECS.ComponentTypes.Has<T1,T2,T3>().T2') and [T3](ComponentTypes.Has_T1,T2,T3_().md#Friflo.Engine.ECS.ComponentTypes.Has_T1,T2,T3_().T3 'Friflo.Engine.ECS.ComponentTypes.Has<T1,T2,T3>().T3').
+
 ```csharp
 public readonly bool Has<T1,T2,T3>()
     where T1 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
