@@ -3,6 +3,8 @@
 
 ## ScriptType.IsBlittable Field
 
+Return true if [Script](Script.md 'Friflo.Engine.ECS.Script')'s of this type can be copied.
+
 ```csharp
 public readonly bool IsBlittable;
 ```

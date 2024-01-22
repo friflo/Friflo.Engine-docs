@@ -3,6 +3,8 @@
 
 ## TagType.TagName Field
 
+The key name of an [ITag](ITag.md 'Friflo.Engine.ECS.ITag') used for JSON serialization.
+
 ```csharp
 public readonly string TagName;
 ```

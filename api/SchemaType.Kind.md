@@ -3,6 +3,8 @@
 
 ## SchemaType.Kind Field
 
+Returns the [SchemaTypeKind](SchemaTypeKind.md 'Friflo.Engine.ECS.SchemaTypeKind') of the type.
+
 ```csharp
 public readonly SchemaTypeKind Kind;
 ```

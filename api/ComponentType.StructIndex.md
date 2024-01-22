@@ -3,7 +3,7 @@
 
 ## ComponentType.StructIndex Field
 
-The index in [Components](EntitySchema.Components.md 'Friflo.Engine.ECS.EntitySchema.Components').<br/>
+The index in [EntitySchema](EntitySchema.md 'Friflo.Engine.ECS.EntitySchema').[Components](EntitySchema.Components.md 'Friflo.Engine.ECS.EntitySchema.Components').
 
 ```csharp
 public readonly int StructIndex;

@@ -3,7 +3,7 @@
 
 ## ScriptType.ScriptIndex Field
 
-Ihe index in [Scripts](EntitySchema.Scripts.md 'Friflo.Engine.ECS.EntitySchema.Scripts').<br/>
+Ihe index in [EntitySchema](EntitySchema.md 'Friflo.Engine.ECS.EntitySchema').[Scripts](EntitySchema.Scripts.md 'Friflo.Engine.ECS.EntitySchema.Scripts').
 
 ```csharp
 public readonly int ScriptIndex;

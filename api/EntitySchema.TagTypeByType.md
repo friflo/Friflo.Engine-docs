@@ -3,6 +3,8 @@
 
 ## EntitySchema.TagTypeByType Property
 
+A map to lookup [TagType](TagType.md 'Friflo.Engine.ECS.TagType')'s by [System.Type](https://docs.microsoft.com/en-us/dotnet/api/System.Type 'System.Type').
+
 ```csharp
 public System.Collections.Generic.IReadOnlyDictionary<System.Type,Friflo.Engine.ECS.TagType> TagTypeByType { get; }
 ```

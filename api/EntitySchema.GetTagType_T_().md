@@ -3,7 +3,7 @@
 
 ## EntitySchema.GetTagType<T>() Method
 
-return the [TagType](TagType.md 'Friflo.Engine.ECS.TagType') of a struct implementing [ITag](ITag.md 'Friflo.Engine.ECS.ITag').
+Return the [TagType](TagType.md 'Friflo.Engine.ECS.TagType') of a struct implementing [ITag](ITag.md 'Friflo.Engine.ECS.ITag').
 
 ```csharp
 public Friflo.Engine.ECS.TagType GetTagType<T>()

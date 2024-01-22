@@ -14,13 +14,13 @@ public enum TreeMembership
 
 `floating` 0
 
-The entity is not member of the [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') tree graph
+The entity is not member of the [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') tree graph.
 
 <a name='Friflo.Engine.ECS.TreeMembership.treeNode'></a>
 
 `treeNode` 1
 
-The entity is member of the [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') tree graph
+The entity is member of the [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') tree graph.
 
 ### Remarks
 Requirement: The entity must be [attached](StoreOwnership.md#Friflo.Engine.ECS.StoreOwnership.attached 'Friflo.Engine.ECS.StoreOwnership.attached') to an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore')

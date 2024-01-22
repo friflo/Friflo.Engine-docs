@@ -3,8 +3,8 @@
 
 ## Entity Struct
 
-An [Entity](Entity.md 'Friflo.Engine.ECS.Entity') represent an object in an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') - e.g. a cube in a game scene.<br/>
-Is is the <b>main API</b> when dealing with entities in the engine.
+Represent an object in an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') - e.g. a cube in a game scene.<br/>
+It is the <b>main API</b> to deal with entities in the engine.
 
 ```csharp
 public readonly struct Entity :

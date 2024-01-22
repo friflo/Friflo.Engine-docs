@@ -3,7 +3,7 @@
 
 ## EntitySchema.GetComponentType<T>() Method
 
-return teh [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType') of a struct implementing [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent').
+Return the [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType') of a struct implementing [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent').
 
 ```csharp
 public Friflo.Engine.ECS.ComponentType GetComponentType<T>()

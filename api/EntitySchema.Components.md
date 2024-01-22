@@ -3,7 +3,7 @@
 
 ## EntitySchema.Components Property
 
-return all <b>component</b> types - structs implementing [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')
+Return all <b>component</b> types - structs implementing [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent').
 
 ```csharp
 public System.ReadOnlySpan<Friflo.Engine.ECS.ComponentType> Components { get; }

@@ -26,4 +26,4 @@ A [Script](Script.md 'Friflo.Engine.ECS.Script') was removed from an [Entity](En
 
 `Replace` 2
 
-An [Entity](Entity.md 'Friflo.Engine.ECS.Entity')[Script](Script.md 'Friflo.Engine.ECS.Script') was replaced.
+An entity [Script](Script.md 'Friflo.Engine.ECS.Script') was replaced by another script.

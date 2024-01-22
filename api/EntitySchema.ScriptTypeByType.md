@@ -3,6 +3,8 @@
 
 ## EntitySchema.ScriptTypeByType Property
 
+A map to lookup [ScriptType](ScriptType.md 'Friflo.Engine.ECS.ScriptType')'s by [System.Type](https://docs.microsoft.com/en-us/dotnet/api/System.Type 'System.Type').
+
 ```csharp
 public System.Collections.Generic.IReadOnlyDictionary<System.Type,Friflo.Engine.ECS.ScriptType> ScriptTypeByType { get; }
 ```

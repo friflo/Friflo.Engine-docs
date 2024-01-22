@@ -15,22 +15,22 @@
 | [ChunkExtensions](ChunkExtensions.md 'Friflo.Engine.ECS.ChunkExtensions') | |
 | [ComponentKeyAttribute](ComponentKeyAttribute.md 'Friflo.Engine.ECS.ComponentKeyAttribute') | Assign a custom key used for JSON serialization for annotated [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') and [Script](Script.md 'Friflo.Engine.ECS.Script') types.<br/> |
 | [ComponentSystem](ComponentSystem.md 'Friflo.Engine.ECS.ComponentSystem') | |
-| [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType') | |
+| [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType') | Provide meta data for an [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') struct. |
 | [EntityEqualityComparer](EntityEqualityComparer.md 'Friflo.Engine.ECS.EntityEqualityComparer') | |
-| [EntitySchema](EntitySchema.md 'Friflo.Engine.ECS.EntitySchema') | |
+| [EntitySchema](EntitySchema.md 'Friflo.Engine.ECS.EntitySchema') | Provide type information about all [ITag](ITag.md 'Friflo.Engine.ECS.ITag'), [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') and [Script](Script.md 'Friflo.Engine.ECS.Script') types available in the application. |
 | [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') | An [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') is a container for [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s their components, scripts, tags and the tree structure. |
 | [EntityStoreBase](EntityStoreBase.md 'Friflo.Engine.ECS.EntityStoreBase') | |
 | [EntityStoreBase.Static](EntityStoreBase.Static.md 'Friflo.Engine.ECS.EntityStoreBase.Static') | |
 | [EntityUtils](EntityUtils.md 'Friflo.Engine.ECS.EntityUtils') | |
 | [RawEntityStore](RawEntityStore.md 'Friflo.Engine.ECS.RawEntityStore') | A [RawEntityStore](RawEntityStore.md 'Friflo.Engine.ECS.RawEntityStore') enables using an entity store without using [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s.<br/> |
-| [SchemaType](SchemaType.md 'Friflo.Engine.ECS.SchemaType') | |
+| [SchemaType](SchemaType.md 'Friflo.Engine.ECS.SchemaType') | Provide meta data for [Script](Script.md 'Friflo.Engine.ECS.Script') classes and [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') / [ITag](ITag.md 'Friflo.Engine.ECS.ITag') structs. |
 | [Script](Script.md 'Friflo.Engine.ECS.Script') | To enable adding a script class to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') it need to extend [Script](Script.md 'Friflo.Engine.ECS.Script'). |
-| [ScriptType](ScriptType.md 'Friflo.Engine.ECS.ScriptType') | |
+| [ScriptType](ScriptType.md 'Friflo.Engine.ECS.ScriptType') | Provide meta data for a [Script](Script.md 'Friflo.Engine.ECS.Script') class. |
 | [Signature](Signature.md 'Friflo.Engine.ECS.Signature') | A [Signature](Signature.md 'Friflo.Engine.ECS.Signature') is used to:<br/> |
 | [StoreDispatcher](StoreDispatcher.md 'Friflo.Engine.ECS.StoreDispatcher') | Contains methods to dispatch execution of [System.Action](https://docs.microsoft.com/en-us/dotnet/api/System.Action 'System.Action')'s or [System.Func&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Func-1 'System.Func`1')'s to the main thread. |
 | [Systems](Systems.md 'Friflo.Engine.ECS.Systems') | |
 | [TagNameAttribute](TagNameAttribute.md 'Friflo.Engine.ECS.TagNameAttribute') | Assign a custom tag name used for JSON serialization for annotated <b>struct</b>s implementing [ITag](ITag.md 'Friflo.Engine.ECS.ITag'). |
-| [TagType](TagType.md 'Friflo.Engine.ECS.TagType') | |
+| [TagType](TagType.md 'Friflo.Engine.ECS.TagType') | Provide meta data for an [ITag](ITag.md 'Friflo.Engine.ECS.ITag') struct. |
 
 | Structs | |
 | :--- | :--- |
@@ -59,7 +59,7 @@
 | [EngineDependant](EngineDependant.md 'Friflo.Engine.ECS.EngineDependant') | |
 | [EntitiesChanged](EntitiesChanged.md 'Friflo.Engine.ECS.EntitiesChanged') | |
 | [EntitiesEnumerator](EntitiesEnumerator.md 'Friflo.Engine.ECS.EntitiesEnumerator') | Used to enumerate the [Entities](ArchetypeQuery.Entities.md 'Friflo.Engine.ECS.ArchetypeQuery.Entities') of an  [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery'). |
-| [Entity](Entity.md 'Friflo.Engine.ECS.Entity') | An [Entity](Entity.md 'Friflo.Engine.ECS.Entity') represent an object in an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') - e.g. a cube in a game scene.<br/> Is is the <b>main API</b> when dealing with entities in the engine. |
+| [Entity](Entity.md 'Friflo.Engine.ECS.Entity') | Represent an object in an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') - e.g. a cube in a game scene.<br/> It is the <b>main API</b> to deal with entities in the engine. |
 | [EntityComponent](EntityComponent.md 'Friflo.Engine.ECS.EntityComponent') | An item in [EntityComponents](EntityComponents.md 'Friflo.Engine.ECS.EntityComponents') containing an entity [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent'). |
 | [EntityComponents](EntityComponents.md 'Friflo.Engine.ECS.EntityComponents') | Return the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity'). |
 | [EntityName](EntityName.md 'Friflo.Engine.ECS.EntityName') | Can be added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') to provide a descriptive name for debugging or in an editor. |
@@ -101,8 +101,8 @@
 | [ChildEntitiesChangedAction](ChildEntitiesChangedAction.md 'Friflo.Engine.ECS.ChildEntitiesChangedAction') | The modification type of an [ChildEntitiesChanged](ChildEntitiesChanged.md 'Friflo.Engine.ECS.ChildEntitiesChanged') event: [Add](ChildEntitiesChangedAction.md#Friflo.Engine.ECS.ChildEntitiesChangedAction.Add 'Friflo.Engine.ECS.ChildEntitiesChangedAction.Add') or [Remove](ChildEntitiesChangedAction.md#Friflo.Engine.ECS.ChildEntitiesChangedAction.Remove 'Friflo.Engine.ECS.ChildEntitiesChangedAction.Remove') entity. |
 | [ComponentChangedAction](ComponentChangedAction.md 'Friflo.Engine.ECS.ComponentChangedAction') | The modification type of a [ComponentChanged](ComponentChanged.md 'Friflo.Engine.ECS.ComponentChanged') event: [Remove](ComponentChangedAction.md#Friflo.Engine.ECS.ComponentChangedAction.Remove 'Friflo.Engine.ECS.ComponentChangedAction.Remove'), [Add](ComponentChangedAction.md#Friflo.Engine.ECS.ComponentChangedAction.Add 'Friflo.Engine.ECS.ComponentChangedAction.Add') or [Update](ComponentChangedAction.md#Friflo.Engine.ECS.ComponentChangedAction.Update 'Friflo.Engine.ECS.ComponentChangedAction.Update') component. |
 | [DebugEntityEventKind](DebugEntityEventKind.md 'Friflo.Engine.ECS.DebugEntityEventKind') | Event type of a [DebugEventHandler](DebugEventHandler.md 'Friflo.Engine.ECS.DebugEventHandler'): [Event](DebugEntityEventKind.md#Friflo.Engine.ECS.DebugEntityEventKind.Event 'Friflo.Engine.ECS.DebugEntityEventKind.Event') or [Signal](DebugEntityEventKind.md#Friflo.Engine.ECS.DebugEntityEventKind.Signal 'Friflo.Engine.ECS.DebugEntityEventKind.Signal'). |
-| [NodeFlags](NodeFlags.md 'Friflo.Engine.ECS.NodeFlags') | |
-| [PidType](PidType.md 'Friflo.Engine.ECS.PidType') | |
+| [NodeFlags](NodeFlags.md 'Friflo.Engine.ECS.NodeFlags') | Flags assigned to [EntityNode](EntityNode.md 'Friflo.Engine.ECS.EntityNode')'s internally stored in an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore'). |
+| [PidType](PidType.md 'Friflo.Engine.ECS.PidType') | Specify the way how [Pid](Entity.Pid.md 'Friflo.Engine.ECS.Entity.Pid')'s are generated. |
 | [SchemaTypeKind](SchemaTypeKind.md 'Friflo.Engine.ECS.SchemaTypeKind') | Declares the [Kind](SchemaType.Kind.md 'Friflo.Engine.ECS.SchemaType.Kind') of a [SchemaType](SchemaType.md 'Friflo.Engine.ECS.SchemaType') |
 | [ScriptChangedAction](ScriptChangedAction.md 'Friflo.Engine.ECS.ScriptChangedAction') | The modification type of a [ScriptChanged](ScriptChanged.md 'Friflo.Engine.ECS.ScriptChanged') event: [Remove](ScriptChangedAction.md#Friflo.Engine.ECS.ScriptChangedAction.Remove 'Friflo.Engine.ECS.ScriptChangedAction.Remove'), [Add](ScriptChangedAction.md#Friflo.Engine.ECS.ScriptChangedAction.Add 'Friflo.Engine.ECS.ScriptChangedAction.Add') or [Replace](ScriptChangedAction.md#Friflo.Engine.ECS.ScriptChangedAction.Replace 'Friflo.Engine.ECS.ScriptChangedAction.Replace') script. |
 | [StoreOwnership](StoreOwnership.md 'Friflo.Engine.ECS.StoreOwnership') | Describe the ownership state of an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') |

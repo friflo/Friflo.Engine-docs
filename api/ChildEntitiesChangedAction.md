@@ -14,6 +14,10 @@ public enum ChildEntitiesChangedAction
 
 `Add` 0
 
+An entity was added as a child to another [Entity](Entity.md 'Friflo.Engine.ECS.Entity').
+
 <a name='Friflo.Engine.ECS.ChildEntitiesChangedAction.Remove'></a>
 
 `Remove` 1
+
+A child entity was removed from an [Entity](Entity.md 'Friflo.Engine.ECS.Entity').

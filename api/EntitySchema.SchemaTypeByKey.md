@@ -3,6 +3,8 @@
 
 ## EntitySchema.SchemaTypeByKey Property
 
+A map to lookup [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType')'s and [ScriptType](ScriptType.md 'Friflo.Engine.ECS.ScriptType')'s by [ComponentKey](SchemaType.ComponentKey.md 'Friflo.Engine.ECS.SchemaType.ComponentKey').
+
 ```csharp
 public System.Collections.Generic.IReadOnlyDictionary<string,Friflo.Engine.ECS.SchemaType> SchemaTypeByKey { get; }
 ```

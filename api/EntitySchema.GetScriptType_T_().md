@@ -3,7 +3,7 @@
 
 ## EntitySchema.GetScriptType<T>() Method
 
-return the [ScriptType](ScriptType.md 'Friflo.Engine.ECS.ScriptType') of a class extending [Script](Script.md 'Friflo.Engine.ECS.Script').
+Return the [ScriptType](ScriptType.md 'Friflo.Engine.ECS.ScriptType') of a class extending [Script](Script.md 'Friflo.Engine.ECS.Script').
 
 ```csharp
 public Friflo.Engine.ECS.ScriptType GetScriptType<T>()

@@ -3,6 +3,8 @@
 
 ## ComponentType.StructSize Field
 
+The size in bytes of the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') struct.
+
 ```csharp
 public readonly int StructSize;
 ```

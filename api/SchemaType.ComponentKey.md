@@ -4,7 +4,7 @@
 ## SchemaType.ComponentKey Field
 
 If [Kind](SchemaType.Kind.md 'Friflo.Engine.ECS.SchemaType.Kind') is a [Component](SchemaTypeKind.md#Friflo.Engine.ECS.SchemaTypeKind.Component 'Friflo.Engine.ECS.SchemaTypeKind.Component') or a [Script](Script.md 'Friflo.Engine.ECS.Script')
-the key assigned in [ComponentKeyAttribute](ComponentKeyAttribute.md 'Friflo.Engine.ECS.ComponentKeyAttribute')
+the key assigned with [ComponentKeyAttribute](ComponentKeyAttribute.md 'Friflo.Engine.ECS.ComponentKeyAttribute').
 
 ```csharp
 public readonly string ComponentKey;

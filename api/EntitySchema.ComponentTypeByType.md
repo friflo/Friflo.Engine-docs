@@ -3,6 +3,8 @@
 
 ## EntitySchema.ComponentTypeByType Property
 
+A map to lookup [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType')'s by [System.Type](https://docs.microsoft.com/en-us/dotnet/api/System.Type 'System.Type').
+
 ```csharp
 public System.Collections.Generic.IReadOnlyDictionary<System.Type,Friflo.Engine.ECS.ComponentType> ComponentTypeByType { get; }
 ```

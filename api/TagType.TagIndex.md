@@ -3,7 +3,7 @@
 
 ## TagType.TagIndex Field
 
-The index in [Tags](EntitySchema.Tags.md 'Friflo.Engine.ECS.EntitySchema.Tags').<br/>
+The index in [EntitySchema](EntitySchema.md 'Friflo.Engine.ECS.EntitySchema').[Tags](EntitySchema.Tags.md 'Friflo.Engine.ECS.EntitySchema.Tags').
 
 ```csharp
 public readonly int TagIndex;

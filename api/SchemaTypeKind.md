@@ -14,25 +14,19 @@ public enum SchemaTypeKind
 
 `Component` 0
 
-Declare a [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType') is an <b>
-  <see cref="T:Friflo.Engine.ECS.IComponent"/>
-</b>
+Declare a [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType') is an [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent').
 
 <a name='Friflo.Engine.ECS.SchemaTypeKind.Script'></a>
 
 `Script` 1
 
-Declare a [ScriptType](ScriptType.md 'Friflo.Engine.ECS.ScriptType') is a <b>
-  <see cref="F:Friflo.Engine.ECS.SchemaTypeKind.Script"/>
-</b>
+Declare a [ScriptType](ScriptType.md 'Friflo.Engine.ECS.ScriptType') is a [Script](SchemaTypeKind.md#Friflo.Engine.ECS.SchemaTypeKind.Script 'Friflo.Engine.ECS.SchemaTypeKind.Script').
 
 <a name='Friflo.Engine.ECS.SchemaTypeKind.Tag'></a>
 
 `Tag` 2
 
-Declare a [TagType](TagType.md 'Friflo.Engine.ECS.TagType') is an <b>
-  <see cref="T:Friflo.Engine.ECS.ITag"/>
-</b>
+Declare a [TagType](TagType.md 'Friflo.Engine.ECS.TagType') is an [ITag](ITag.md 'Friflo.Engine.ECS.ITag').
 
 ### Remarks
-A <b>Tag</b> is defined by struct definition without fields / properties extending [ITag](ITag.md 'Friflo.Engine.ECS.ITag')
+A <b>Tag</b> is defined by struct definition without fields / properties extending [ITag](ITag.md 'Friflo.Engine.ECS.ITag').

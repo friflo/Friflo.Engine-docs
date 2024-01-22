@@ -3,7 +3,7 @@
 
 ## EntitySchema.Scripts Property
 
-return all [Script](Script.md 'Friflo.Engine.ECS.Script') types - classes extending [Script](Script.md 'Friflo.Engine.ECS.Script')
+Return all [Script](Script.md 'Friflo.Engine.ECS.Script') types - classes extending [Script](Script.md 'Friflo.Engine.ECS.Script')
 
 ```csharp
 public System.ReadOnlySpan<Friflo.Engine.ECS.ScriptType> Scripts { get; }

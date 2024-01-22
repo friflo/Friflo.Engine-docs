@@ -3,6 +3,8 @@
 
 ## SchemaType.Name Field
 
+Returns the [System.Type](https://docs.microsoft.com/en-us/dotnet/api/System.Type 'System.Type') name of the struct / class.
+
 ```csharp
 public readonly string Name;
 ```

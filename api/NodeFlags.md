@@ -3,6 +3,8 @@
 
 ## NodeFlags Enum
 
+Flags assigned to [EntityNode](EntityNode.md 'Friflo.Engine.ECS.EntityNode')'s internally stored in an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore').
+
 ```csharp
 public enum NodeFlags : System.Byte
 ```

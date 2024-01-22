@@ -3,7 +3,7 @@
 
 ## EntitySchema.Tags Property
 
-return all <b>Tag</b> types - structs implementing [ITag](ITag.md 'Friflo.Engine.ECS.ITag')
+Return all <b>Tag</b> types - structs implementing [ITag](ITag.md 'Friflo.Engine.ECS.ITag').
 
 ```csharp
 public System.ReadOnlySpan<Friflo.Engine.ECS.TagType> Tags { get; }
