@@ -3,6 +3,8 @@
 
 ## ChunkEntities.this[int] Property
 
+Return the entity [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id') for a [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') component at the given [index](ChunkEntities.this[int].md#Friflo.Engine.ECS.ChunkEntities.this[int].index 'Friflo.Engine.ECS.ChunkEntities.this[int].index').
+
 ```csharp
 public int this[int index] { get; }
 ```

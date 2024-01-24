@@ -3,6 +3,8 @@
 
 ## ChunkEntities.Length Field
 
+The number of entities in [ChunkEntities](ChunkEntities.md 'Friflo.Engine.ECS.ChunkEntities').
+
 ```csharp
 public readonly int Length;
 ```

@@ -3,6 +3,8 @@
 
 ## ChunkEntitiesEnumerator Struct
 
+Used to enumerate the [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s of [ChunkEntities](ChunkEntities.md 'Friflo.Engine.ECS.ChunkEntities').
+
 ```csharp
 public struct ChunkEntitiesEnumerator :
 System.Collections.Generic.IEnumerator<Friflo.Engine.ECS.Entity>,
@@ -14,7 +16,7 @@ Implements [System.Collections.Generic.IEnumerator&lt;](https://docs.microsoft.c
 
 | Properties | |
 | :--- | :--- |
-| [Current](ChunkEntitiesEnumerator.Current.md 'Friflo.Engine.ECS.ChunkEntitiesEnumerator.Current') | |
+| [Current](ChunkEntitiesEnumerator.Current.md 'Friflo.Engine.ECS.ChunkEntitiesEnumerator.Current') | The current [Entity](Entity.md 'Friflo.Engine.ECS.Entity') of the enumerator. |
 
 | Methods | |
 | :--- | :--- |

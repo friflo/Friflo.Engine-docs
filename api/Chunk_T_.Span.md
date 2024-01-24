@@ -3,6 +3,8 @@
 
 ## Chunk<T>.Span Property
 
+Return the components in a [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') as a [Span](Chunk_T_.Span.md 'Friflo.Engine.ECS.Chunk<T>.Span').
+
 ```csharp
 public System.Span<T> Span { get; }
 ```

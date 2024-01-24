@@ -3,6 +3,8 @@
 
 ## QueryChunks<T1,T2,T3,T4,T5> Struct
 
+Contains the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>')'s storing components and entities of an [ArchetypeQuery&lt;T1,T2,T3,T4,T5&gt;](ArchetypeQuery_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4,T5>').
+
 ```csharp
 public readonly struct QueryChunks<T1,T2,T3,T4,T5> :
 System.Collections.Generic.IEnumerable<Friflo.Engine.ECS.Chunks<T1, T2, T3, T4, T5>>,

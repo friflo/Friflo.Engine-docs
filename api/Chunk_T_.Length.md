@@ -3,6 +3,8 @@
 
 ## Chunk<T>.Length Field
 
+Return the number of components in a [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>').
+
 ```csharp
 public readonly int Length;
 ```

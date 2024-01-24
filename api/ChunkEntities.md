@@ -3,7 +3,7 @@
 
 ## ChunkEntities Struct
 
-Provide the entity id for each [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>').[Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') element with [Ids](ChunkEntities.Ids.md 'Friflo.Engine.ECS.ChunkEntities.Ids') or [this[int]](ChunkEntities.this[int].md 'Friflo.Engine.ECS.ChunkEntities.this[int]').<br/>
+Provide the entity [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id')'s for [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') components using [Ids](ChunkEntities.Ids.md 'Friflo.Engine.ECS.ChunkEntities.Ids') or [this[int]](ChunkEntities.this[int].md 'Friflo.Engine.ECS.ChunkEntities.this[int]').<br/>
 
 ```csharp
 public readonly struct ChunkEntities :
@@ -21,17 +21,17 @@ The recommended methods used by an application are [Ids](ChunkEntities.Ids.md 'F
 
 | Fields | |
 | :--- | :--- |
-| [Archetype](ChunkEntities.Archetype.md 'Friflo.Engine.ECS.ChunkEntities.Archetype') | |
-| [Length](ChunkEntities.Length.md 'Friflo.Engine.ECS.ChunkEntities.Length') | |
+| [Archetype](ChunkEntities.Archetype.md 'Friflo.Engine.ECS.ChunkEntities.Archetype') | The [Archetype](ChunkEntities.Archetype.md 'Friflo.Engine.ECS.ChunkEntities.Archetype') containing the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') components. |
+| [Length](ChunkEntities.Length.md 'Friflo.Engine.ECS.ChunkEntities.Length') | The number of entities in [ChunkEntities](ChunkEntities.md 'Friflo.Engine.ECS.ChunkEntities'). |
 
 | Properties | |
 | :--- | :--- |
-| [Ids](ChunkEntities.Ids.md 'Friflo.Engine.ECS.ChunkEntities.Ids') | |
-| [this[int]](ChunkEntities.this[int].md 'Friflo.Engine.ECS.ChunkEntities.this[int]') | |
+| [Ids](ChunkEntities.Ids.md 'Friflo.Engine.ECS.ChunkEntities.Ids') | Return the entity [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id')'s for the components in a [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>'). |
+| [this[int]](ChunkEntities.this[int].md 'Friflo.Engine.ECS.ChunkEntities.this[int]') | Return the entity [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id') for a [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') component at the given [index](ChunkEntities.this[int].md#Friflo.Engine.ECS.ChunkEntities.this[int].index 'Friflo.Engine.ECS.ChunkEntities.this[int].index'). |
 
 | Methods | |
 | :--- | :--- |
-| [EntityAt(int)](ChunkEntities.EntityAt(int).md 'Friflo.Engine.ECS.ChunkEntities.EntityAt(int)') | |
+| [EntityAt(int)](ChunkEntities.EntityAt(int).md 'Friflo.Engine.ECS.ChunkEntities.EntityAt(int)') | Return the [Entity](Entity.md 'Friflo.Engine.ECS.Entity') for a [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') component at the given [index](ChunkEntities.EntityAt(int).md#Friflo.Engine.ECS.ChunkEntities.EntityAt(int).index 'Friflo.Engine.ECS.ChunkEntities.EntityAt(int).index'). |
 | [GetEnumerator()](ChunkEntities.GetEnumerator().md 'Friflo.Engine.ECS.ChunkEntities.GetEnumerator()') | |
 | [ToString()](ChunkEntities.ToString().md 'Friflo.Engine.ECS.ChunkEntities.ToString()') | |
 

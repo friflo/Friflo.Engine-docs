@@ -27,15 +27,15 @@ public readonly struct Chunk<T>
 
 | Fields | |
 | :--- | :--- |
-| [Length](Chunk_T_.Length.md 'Friflo.Engine.ECS.Chunk<T>.Length') | |
+| [Length](Chunk_T_.Length.md 'Friflo.Engine.ECS.Chunk<T>.Length') | Return the number of components in a [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>'). |
 
 | Properties | |
 | :--- | :--- |
-| [Span](Chunk_T_.Span.md 'Friflo.Engine.ECS.Chunk<T>.Span') | |
+| [Span](Chunk_T_.Span.md 'Friflo.Engine.ECS.Chunk<T>.Span') | Return the components in a [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') as a [Span](Chunk_T_.Span.md 'Friflo.Engine.ECS.Chunk<T>.Span'). |
 | [StepSpan128](Chunk_T_.StepSpan128.md 'Friflo.Engine.ECS.Chunk<T>.StepSpan128') | The step value in a for loop when converting a [AsSpan128&lt;TTo&gt;()](Chunk_T_.AsSpan128_TTo_().md 'Friflo.Engine.ECS.Chunk<T>.AsSpan128<TTo>()') value to a [System.Runtime.Intrinsics.Vector128&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Runtime.Intrinsics.Vector128-1 'System.Runtime.Intrinsics.Vector128`1')<br/><br/> See example at [AsSpan256&lt;TTo&gt;()](Chunk_T_.AsSpan256_TTo_().md 'Friflo.Engine.ECS.Chunk<T>.AsSpan256<TTo>()'). |
 | [StepSpan256](Chunk_T_.StepSpan256.md 'Friflo.Engine.ECS.Chunk<T>.StepSpan256') | The step value in a for loop when converting a [AsSpan256&lt;TTo&gt;()](Chunk_T_.AsSpan256_TTo_().md 'Friflo.Engine.ECS.Chunk<T>.AsSpan256<TTo>()') value to a [System.Runtime.Intrinsics.Vector256&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Runtime.Intrinsics.Vector256-1 'System.Runtime.Intrinsics.Vector256`1')<br/><br/> See example at [AsSpan256&lt;TTo&gt;()](Chunk_T_.AsSpan256_TTo_().md 'Friflo.Engine.ECS.Chunk<T>.AsSpan256<TTo>()'). |
 | [StepSpan512](Chunk_T_.StepSpan512.md 'Friflo.Engine.ECS.Chunk<T>.StepSpan512') | The step value in a for loop when converting a [AsSpan512&lt;TTo&gt;()](Chunk_T_.AsSpan512_TTo_().md 'Friflo.Engine.ECS.Chunk<T>.AsSpan512<TTo>()') value to a `Vector512{T}`<br/><br/> See example at [AsSpan256&lt;TTo&gt;()](Chunk_T_.AsSpan256_TTo_().md 'Friflo.Engine.ECS.Chunk<T>.AsSpan256<TTo>()'). |
-| [this[int]](Chunk_T_.this[int].md 'Friflo.Engine.ECS.Chunk<T>.this[int]') | |
+| [this[int]](Chunk_T_.this[int].md 'Friflo.Engine.ECS.Chunk<T>.this[int]') | Return the component at the passed [index](Chunk_T_.this[int].md#Friflo.Engine.ECS.Chunk_T_.this[int].index 'Friflo.Engine.ECS.Chunk<T>.this[int].index') as a reference. |
 
 | Methods | |
 | :--- | :--- |

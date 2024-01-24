@@ -3,6 +3,8 @@
 
 ## ChunkEntities.EntityAt(int) Method
 
+Return the [Entity](Entity.md 'Friflo.Engine.ECS.Entity') for a [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') component at the given [index](ChunkEntities.EntityAt(int).md#Friflo.Engine.ECS.ChunkEntities.EntityAt(int).index 'Friflo.Engine.ECS.ChunkEntities.EntityAt(int).index').
+
 ```csharp
 public Friflo.Engine.ECS.Entity EntityAt(int index);
 ```

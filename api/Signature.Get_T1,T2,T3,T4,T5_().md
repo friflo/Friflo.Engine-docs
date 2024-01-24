@@ -3,7 +3,7 @@
 
 ## Signature.Get<T1,T2,T3,T4,T5>() Method
 
-Returns a query [Signature&lt;T1,T2,T3,T4,T5&gt;](Signature_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>') containing the given component types.<br/>
+Returns a query [Signature&lt;T1,T2,T3,T4,T5&gt;](Signature_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>') containing the specified component types.<br/>
 
 ```csharp
 public static Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5> Get<T1,T2,T3,T4,T5>()
@@ -39,4 +39,4 @@ public static Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5> Get<T1,T2,T3,T4,T5>()
 [Friflo.Engine.ECS.Signature&lt;](Signature_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>')[T1](Signature.Get_T1,T2,T3,T4,T5_().md#Friflo.Engine.ECS.Signature.Get_T1,T2,T3,T4,T5_().T1 'Friflo.Engine.ECS.Signature.Get<T1,T2,T3,T4,T5>().T1')[,](Signature_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>')[T2](Signature.Get_T1,T2,T3,T4,T5_().md#Friflo.Engine.ECS.Signature.Get_T1,T2,T3,T4,T5_().T2 'Friflo.Engine.ECS.Signature.Get<T1,T2,T3,T4,T5>().T2')[,](Signature_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>')[T3](Signature.Get_T1,T2,T3,T4,T5_().md#Friflo.Engine.ECS.Signature.Get_T1,T2,T3,T4,T5_().T3 'Friflo.Engine.ECS.Signature.Get<T1,T2,T3,T4,T5>().T3')[,](Signature_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>')[T4](Signature.Get_T1,T2,T3,T4,T5_().md#Friflo.Engine.ECS.Signature.Get_T1,T2,T3,T4,T5_().T4 'Friflo.Engine.ECS.Signature.Get<T1,T2,T3,T4,T5>().T4')[,](Signature_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>')[T5](Signature.Get_T1,T2,T3,T4,T5_().md#Friflo.Engine.ECS.Signature.Get_T1,T2,T3,T4,T5_().T5 'Friflo.Engine.ECS.Signature.Get<T1,T2,T3,T4,T5>().T5')[&gt;](Signature_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>')
 
 ### Remarks
-It can be used to query entities with the given component types with [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore').Query() methods.
+It can be used to query entities with the specified component types with [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore').Query() methods.

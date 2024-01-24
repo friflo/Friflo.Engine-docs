@@ -3,6 +3,8 @@
 
 ## ChunkEntities.Ids Property
 
+Return the entity [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id')'s for the components in a [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>').
+
 ```csharp
 public System.ReadOnlySpan<int> Ids { get; }
 ```

@@ -17,7 +17,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Properties | |
 | :--- | :--- |
-| [Chunks](ArchetypeQuery_T1_.Chunks.md 'Friflo.Engine.ECS.ArchetypeQuery<T1>.Chunks') | |
+| [Chunks](ArchetypeQuery_T1_.Chunks.md 'Friflo.Engine.ECS.ArchetypeQuery<T1>.Chunks') | Return the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>')'s storing the components and entities of an [ArchetypeQuery&lt;T1&gt;](ArchetypeQuery_T1_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1>'). |
 
 | Methods | |
 | :--- | :--- |

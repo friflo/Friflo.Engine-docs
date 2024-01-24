@@ -3,6 +3,8 @@
 
 ## Chunk<T>.this[int] Property
 
+Return the component at the passed [index](Chunk_T_.this[int].md#Friflo.Engine.ECS.Chunk_T_.this[int].index 'Friflo.Engine.ECS.Chunk<T>.this[int].index') as a reference.
+
 ```csharp
 public ref T this[int index] { get; }
 ```

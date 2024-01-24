@@ -3,6 +3,8 @@
 
 ## ChunkEntitiesEnumerator.Current Property
 
+The current [Entity](Entity.md 'Friflo.Engine.ECS.Entity') of the enumerator.
+
 ```csharp
 public readonly Friflo.Engine.ECS.Entity Current { get; }
 ```

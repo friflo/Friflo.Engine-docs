@@ -3,6 +3,8 @@
 
 ## ArchetypeQuery<T1,T2>.Chunks Property
 
+Return the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>')'s storing the components and entities of an [ArchetypeQuery&lt;T1,T2&gt;](ArchetypeQuery_T1,T2_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2>').
+
 ```csharp
 public Friflo.Engine.ECS.QueryChunks<T1,T2> Chunks { get; }
 ```

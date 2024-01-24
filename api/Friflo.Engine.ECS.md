@@ -26,7 +26,7 @@
 | [SchemaType](SchemaType.md 'Friflo.Engine.ECS.SchemaType') | Provide meta data for [Script](Script.md 'Friflo.Engine.ECS.Script') classes and [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') / [ITag](ITag.md 'Friflo.Engine.ECS.ITag') structs. |
 | [Script](Script.md 'Friflo.Engine.ECS.Script') | To enable adding a script class to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') it need to extend [Script](Script.md 'Friflo.Engine.ECS.Script'). |
 | [ScriptType](ScriptType.md 'Friflo.Engine.ECS.ScriptType') | Provide meta data for a [Script](Script.md 'Friflo.Engine.ECS.Script') class. |
-| [Signature](Signature.md 'Friflo.Engine.ECS.Signature') | A [Signature](Signature.md 'Friflo.Engine.ECS.Signature') is used to query entities of an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') |
+| [Signature](Signature.md 'Friflo.Engine.ECS.Signature') | A [Signature](Signature.md 'Friflo.Engine.ECS.Signature') specify the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') types used to query entity components<br/> using the [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore').Query([Signature](Signature.md 'Friflo.Engine.ECS.Signature')) methods. |
 | [StoreDispatcher](StoreDispatcher.md 'Friflo.Engine.ECS.StoreDispatcher') | Contains methods to dispatch execution of [System.Action](https://docs.microsoft.com/en-us/dotnet/api/System.Action 'System.Action')'s or [System.Func&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Func-1 'System.Func`1')'s to the main thread. |
 | [Systems](Systems.md 'Friflo.Engine.ECS.Systems') | |
 | [TagNameAttribute](TagNameAttribute.md 'Friflo.Engine.ECS.TagNameAttribute') | Assign a custom tag name used for JSON serialization for annotated <b>struct</b>s implementing [ITag](ITag.md 'Friflo.Engine.ECS.ITag'). |
@@ -38,8 +38,8 @@
 | [ChildEntitiesChanged](ChildEntitiesChanged.md 'Friflo.Engine.ECS.ChildEntitiesChanged') | Is the event for event handlers added to [OnChildEntitiesChanged](Entity.OnChildEntitiesChanged.md 'Friflo.Engine.ECS.Entity.OnChildEntitiesChanged') or [OnChildEntitiesChanged](EntityStore.OnChildEntitiesChanged.md 'Friflo.Engine.ECS.EntityStore.OnChildEntitiesChanged'). |
 | [ChildEnumerator](ChildEnumerator.md 'Friflo.Engine.ECS.ChildEnumerator') | Use to enumerate the child entities stored in [Entity](Entity.md 'Friflo.Engine.ECS.Entity').[ChildEntities](Entity.ChildEntities.md 'Friflo.Engine.ECS.Entity.ChildEntities'). |
 | [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') | A [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') is container of <b>struct</b> components of Type [T](Chunk_T_.md#Friflo.Engine.ECS.Chunk_T_.T 'Friflo.Engine.ECS.Chunk<T>.T'). |
-| [ChunkEntities](ChunkEntities.md 'Friflo.Engine.ECS.ChunkEntities') | Provide the entity id for each [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>').[Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') element with [Ids](ChunkEntities.Ids.md 'Friflo.Engine.ECS.ChunkEntities.Ids') or [this[int]](ChunkEntities.this[int].md 'Friflo.Engine.ECS.ChunkEntities.this[int]').<br/> |
-| [ChunkEntitiesEnumerator](ChunkEntitiesEnumerator.md 'Friflo.Engine.ECS.ChunkEntitiesEnumerator') | |
+| [ChunkEntities](ChunkEntities.md 'Friflo.Engine.ECS.ChunkEntities') | Provide the entity [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id')'s for [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') components using [Ids](ChunkEntities.Ids.md 'Friflo.Engine.ECS.ChunkEntities.Ids') or [this[int]](ChunkEntities.this[int].md 'Friflo.Engine.ECS.ChunkEntities.this[int]').<br/> |
+| [ChunkEntitiesEnumerator](ChunkEntitiesEnumerator.md 'Friflo.Engine.ECS.ChunkEntitiesEnumerator') | Used to enumerate the [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s of [ChunkEntities](ChunkEntities.md 'Friflo.Engine.ECS.ChunkEntities'). |
 | [ChunkEnumerator&lt;T1,T2,T3,T4,T5&gt;](ChunkEnumerator_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.ChunkEnumerator<T1,T2,T3,T4,T5>') | |
 | [ChunkEnumerator&lt;T1,T2,T3,T4&gt;](ChunkEnumerator_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.ChunkEnumerator<T1,T2,T3,T4>') | |
 | [ChunkEnumerator&lt;T1,T2,T3&gt;](ChunkEnumerator_T1,T2,T3_.md 'Friflo.Engine.ECS.ChunkEnumerator<T1,T2,T3>') | |
@@ -67,11 +67,11 @@
 | [EntityScripts](EntityScripts.md 'Friflo.Engine.ECS.EntityScripts') | Return the [Script](Script.md 'Friflo.Engine.ECS.Script')'s added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity'). |
 | [EntityScriptsEnumerator](EntityScriptsEnumerator.md 'Friflo.Engine.ECS.EntityScriptsEnumerator') | Used to enumerate the [Script](Script.md 'Friflo.Engine.ECS.Script')'s added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity'). |
 | [Position](Position.md 'Friflo.Engine.ECS.Position') | |
-| [QueryChunks&lt;T1,T2,T3,T4,T5&gt;](QueryChunks_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>') | |
-| [QueryChunks&lt;T1,T2,T3,T4&gt;](QueryChunks_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4>') | |
-| [QueryChunks&lt;T1,T2,T3&gt;](QueryChunks_T1,T2,T3_.md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3>') | |
-| [QueryChunks&lt;T1,T2&gt;](QueryChunks_T1,T2_.md 'Friflo.Engine.ECS.QueryChunks<T1,T2>') | |
-| [QueryChunks&lt;T1&gt;](QueryChunks_T1_.md 'Friflo.Engine.ECS.QueryChunks<T1>') | |
+| [QueryChunks&lt;T1,T2,T3,T4,T5&gt;](QueryChunks_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>') | Contains the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>')'s storing components and entities of an [ArchetypeQuery&lt;T1,T2,T3,T4,T5&gt;](ArchetypeQuery_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4,T5>'). |
+| [QueryChunks&lt;T1,T2,T3,T4&gt;](QueryChunks_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4>') | Contains the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>')'s storing components and entities of an [ArchetypeQuery&lt;T1,T2,T3,T4&gt;](ArchetypeQuery_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>'). |
+| [QueryChunks&lt;T1,T2,T3&gt;](QueryChunks_T1,T2,T3_.md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3>') | Contains the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>')'s storing components and entities of an [ArchetypeQuery&lt;T1,T2,T3&gt;](ArchetypeQuery_T1,T2,T3_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3>'). |
+| [QueryChunks&lt;T1,T2&gt;](QueryChunks_T1,T2_.md 'Friflo.Engine.ECS.QueryChunks<T1,T2>') | Contains the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>')'s storing components and entities of an [ArchetypeQuery&lt;T1,T2&gt;](ArchetypeQuery_T1,T2_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2>'). |
+| [QueryChunks&lt;T1&gt;](QueryChunks_T1_.md 'Friflo.Engine.ECS.QueryChunks<T1>') | Contains the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>')'s storing components and entities of an [ArchetypeQuery&lt;T1&gt;](ArchetypeQuery_T1_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1>'). |
 | [QueryEntities](QueryEntities.md 'Friflo.Engine.ECS.QueryEntities') | Provide the result set of an [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') as a set of [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s. |
 | [Rotation](Rotation.md 'Friflo.Engine.ECS.Rotation') | |
 | [Scale3](Scale3.md 'Friflo.Engine.ECS.Scale3') | |

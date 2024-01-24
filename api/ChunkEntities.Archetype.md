@@ -3,6 +3,8 @@
 
 ## ChunkEntities.Archetype Field
 
+The [Archetype](ChunkEntities.Archetype.md 'Friflo.Engine.ECS.ChunkEntities.Archetype') containing the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') components.
+
 ```csharp
 public readonly Archetype Archetype;
 ```
