@@ -3,6 +3,8 @@
 
 ## EntityStoreBase.ArchetypeCount Property
 
+Returns the current number of [Archetypes](EntityStoreBase.Archetypes.md 'Friflo.Engine.ECS.EntityStoreBase.Archetypes') managed by the entity store.
+
 ```csharp
 public int ArchetypeCount { get; }
 ```

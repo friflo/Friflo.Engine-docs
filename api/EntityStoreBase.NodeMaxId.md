@@ -3,6 +3,8 @@
 
 ## EntityStoreBase.NodeMaxId Property
 
+Return the largest entity [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id') store in the entity store.
+
 ```csharp
 public int NodeMaxId { get; }
 ```

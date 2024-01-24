@@ -14,7 +14,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 ### Remarks
 A [Script](Script.md 'Friflo.Engine.ECS.Script') is a reference type - a class-  which contains data <b>and</b> behavior - aka scripts / methods.<br/> 
 An [Entity](Entity.md 'Friflo.Engine.ECS.Entity') can contain multiple [Script](Script.md 'Friflo.Engine.ECS.Script')'s but only one of each type.<br/>[Script](Script.md 'Friflo.Engine.ECS.Script')'s can be used if <b>OPP</b> programming approach is preferred
-while dealing with a small amount (< 100) of [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s.<br/><br/>
+and dealing with less than a few 1.000 instances.<br/><br/>
 Optionally attribute the extended class with [ComponentKeyAttribute](ComponentKeyAttribute.md 'Friflo.Engine.ECS.ComponentKeyAttribute')<br/>
 to assign a custom component key name used for JSON serialization.<br/><br/><i>Info:</i> Its functionality is similar to a class extending `MonoBehaviour` added to a `GameObject` in Unity.
 

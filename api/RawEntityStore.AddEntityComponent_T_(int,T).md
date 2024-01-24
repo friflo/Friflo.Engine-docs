@@ -4,7 +4,7 @@
 ## RawEntityStore.AddEntityComponent<T>(int, T) Method
 
 ```csharp
-public Friflo.Engine.ECS.ComponentChangedAction AddEntityComponent<T>(int id, in T component)
+public bool AddEntityComponent<T>(int id, in T component)
     where T : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType;
 ```
 #### Type parameters
@@ -23,4 +23,4 @@ public Friflo.Engine.ECS.ComponentChangedAction AddEntityComponent<T>(int id, in
 `component` [T](RawEntityStore.AddEntityComponent_T_(int,T).md#Friflo.Engine.ECS.RawEntityStore.AddEntityComponent_T_(int,T).T 'Friflo.Engine.ECS.RawEntityStore.AddEntityComponent<T>(int, T).T')
 
 #### Returns
-[ComponentChangedAction](ComponentChangedAction.md 'Friflo.Engine.ECS.ComponentChangedAction')
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')

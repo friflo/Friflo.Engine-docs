@@ -3,6 +3,8 @@
 
 ## EntityStoreBase.FindArchetype(ComponentTypes, Tags) Method
 
+Return the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') storing the specified [componentTypes](EntityStoreBase.FindArchetype(ComponentTypes,Tags).md#Friflo.Engine.ECS.EntityStoreBase.FindArchetype(Friflo.Engine.ECS.ComponentTypes,Friflo.Engine.ECS.Tags).componentTypes 'Friflo.Engine.ECS.EntityStoreBase.FindArchetype(Friflo.Engine.ECS.ComponentTypes, Friflo.Engine.ECS.Tags).componentTypes') and [tags](EntityStoreBase.FindArchetype(ComponentTypes,Tags).md#Friflo.Engine.ECS.EntityStoreBase.FindArchetype(Friflo.Engine.ECS.ComponentTypes,Friflo.Engine.ECS.Tags).tags 'Friflo.Engine.ECS.EntityStoreBase.FindArchetype(Friflo.Engine.ECS.ComponentTypes, Friflo.Engine.ECS.Tags).tags').<br/>
+
 ```csharp
 public Friflo.Engine.ECS.Archetype FindArchetype(in Friflo.Engine.ECS.ComponentTypes componentTypes, in Friflo.Engine.ECS.Tags tags);
 ```
@@ -17,4 +19,5 @@ public Friflo.Engine.ECS.Archetype FindArchetype(in Friflo.Engine.ECS.ComponentT
 `tags` [Tags](Tags.md 'Friflo.Engine.ECS.Tags')
 
 #### Returns
-[Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype')
+[Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype')  
+null if the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') is not present.

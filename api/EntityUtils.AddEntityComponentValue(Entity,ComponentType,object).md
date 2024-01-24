@@ -4,7 +4,7 @@
 ## EntityUtils.AddEntityComponentValue(Entity, ComponentType, object) Method
 
 ```csharp
-public static Friflo.Engine.ECS.ComponentChangedAction AddEntityComponentValue(Friflo.Engine.ECS.Entity entity, Friflo.Engine.ECS.ComponentType componentType, object value);
+public static bool AddEntityComponentValue(Friflo.Engine.ECS.Entity entity, Friflo.Engine.ECS.ComponentType componentType, object value);
 ```
 #### Parameters
 
@@ -21,4 +21,4 @@ public static Friflo.Engine.ECS.ComponentChangedAction AddEntityComponentValue(F
 `value` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 
 #### Returns
-[ComponentChangedAction](ComponentChangedAction.md 'Friflo.Engine.ECS.ComponentChangedAction')
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')

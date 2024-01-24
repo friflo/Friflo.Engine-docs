@@ -3,7 +3,7 @@
 
 ## Chunk<T>.AsSpan256<TTo>() Method
 
-Return the components as a [System.Span&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1 'System.Span`1') of type <typeparam name="TTo"/> - which can be assigned to [System.Runtime.Intrinsics.Vector256&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Runtime.Intrinsics.Vector256-1 'System.Runtime.Intrinsics.Vector256`1')'s.<br/>
+Return the components as a [System.Span&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1 'System.Span`1') of type [TTo](Chunk_T_.AsSpan256_TTo_().md#Friflo.Engine.ECS.Chunk_T_.AsSpan256_TTo_().TTo 'Friflo.Engine.ECS.Chunk<T>.AsSpan256<TTo>().TTo') - which can be assigned to [System.Runtime.Intrinsics.Vector256&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Runtime.Intrinsics.Vector256-1 'System.Runtime.Intrinsics.Vector256`1')'s.<br/>
 The returned [System.Span&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1 'System.Span`1') contains padding elements on its tail to enable safe conversion to a [System.Runtime.Intrinsics.Vector256&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Runtime.Intrinsics.Vector256-1 'System.Runtime.Intrinsics.Vector256`1').
 
 ```csharp

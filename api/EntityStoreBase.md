@@ -3,6 +3,8 @@
 
 ## EntityStoreBase Class
 
+Store the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')s and [ITag](ITag.md 'Friflo.Engine.ECS.ITag') for the [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s of an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore').
+
 ```csharp
 public abstract class EntityStoreBase
 ```
@@ -13,24 +15,23 @@ Derived
 &#8627; [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore')  
 &#8627; [RawEntityStore](RawEntityStore.md 'Friflo.Engine.ECS.RawEntityStore')
 
+### Remarks
+[EntityStoreBase](EntityStoreBase.md 'Friflo.Engine.ECS.EntityStoreBase') is separated as a base from [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') as is can be used for<br/>
+            different entity store implementations like the [RawEntityStore](RawEntityStore.md 'Friflo.Engine.ECS.RawEntityStore').
+
 | Properties | |
 | :--- | :--- |
-| [ArchetypeCount](EntityStoreBase.ArchetypeCount.md 'Friflo.Engine.ECS.EntityStoreBase.ArchetypeCount') | |
+| [ArchetypeCount](EntityStoreBase.ArchetypeCount.md 'Friflo.Engine.ECS.EntityStoreBase.ArchetypeCount') | Returns the current number of [Archetypes](EntityStoreBase.Archetypes.md 'Friflo.Engine.ECS.EntityStoreBase.Archetypes') managed by the entity store. |
 | [Archetypes](EntityStoreBase.Archetypes.md 'Friflo.Engine.ECS.EntityStoreBase.Archetypes') | Array of [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype')'s utilized by the entity store |
 | [EntityCount](EntityStoreBase.EntityCount.md 'Friflo.Engine.ECS.EntityStoreBase.EntityCount') | Number of all entities stored in the entity store |
-| [NodeMaxId](EntityStoreBase.NodeMaxId.md 'Friflo.Engine.ECS.EntityStoreBase.NodeMaxId') | |
-| [Systems](EntityStoreBase.Systems.md 'Friflo.Engine.ECS.EntityStoreBase.Systems') | |
+| [NodeMaxId](EntityStoreBase.NodeMaxId.md 'Friflo.Engine.ECS.EntityStoreBase.NodeMaxId') | Return the largest entity [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id') store in the entity store. |
+| [Systems](EntityStoreBase.Systems.md 'Friflo.Engine.ECS.EntityStoreBase.Systems') | Return the [Systems](Systems.md 'Friflo.Engine.ECS.Systems') instance attached to the entity store. |
 | [UniqueEntities](EntityStoreBase.UniqueEntities.md 'Friflo.Engine.ECS.EntityStoreBase.UniqueEntities') | Return all [UniqueEntity](UniqueEntity.md 'Friflo.Engine.ECS.UniqueEntity')'s in the entity store |
 
 | Methods | |
 | :--- | :--- |
-| [FindArchetype(ComponentTypes, Tags)](EntityStoreBase.FindArchetype(ComponentTypes,Tags).md 'Friflo.Engine.ECS.EntityStoreBase.FindArchetype(Friflo.Engine.ECS.ComponentTypes, Friflo.Engine.ECS.Tags)') | |
-| [GetArchetype(Tags)](EntityStoreBase.GetArchetype(Tags).md 'Friflo.Engine.ECS.EntityStoreBase.GetArchetype(Friflo.Engine.ECS.Tags)') | |
-| [GetArchetype&lt;T1,T2,T3,T4,T5&gt;(Signature&lt;T1,T2,T3,T4,T5&gt;, Tags)](EntityStoreBase.GetArchetype_T1,T2,T3,T4,T5_(Signature_T1,T2,T3,T4,T5_,Tags).md 'Friflo.Engine.ECS.EntityStoreBase.GetArchetype<T1,T2,T3,T4,T5>(Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>, Friflo.Engine.ECS.Tags)') | |
-| [GetArchetype&lt;T1,T2,T3,T4&gt;(Signature&lt;T1,T2,T3,T4&gt;, Tags)](EntityStoreBase.GetArchetype_T1,T2,T3,T4_(Signature_T1,T2,T3,T4_,Tags).md 'Friflo.Engine.ECS.EntityStoreBase.GetArchetype<T1,T2,T3,T4>(Friflo.Engine.ECS.Signature<T1,T2,T3,T4>, Friflo.Engine.ECS.Tags)') | |
-| [GetArchetype&lt;T1,T2,T3&gt;(Signature&lt;T1,T2,T3&gt;, Tags)](EntityStoreBase.GetArchetype_T1,T2,T3_(Signature_T1,T2,T3_,Tags).md 'Friflo.Engine.ECS.EntityStoreBase.GetArchetype<T1,T2,T3>(Friflo.Engine.ECS.Signature<T1,T2,T3>, Friflo.Engine.ECS.Tags)') | |
-| [GetArchetype&lt;T1,T2&gt;(Signature&lt;T1,T2&gt;, Tags)](EntityStoreBase.GetArchetype_T1,T2_(Signature_T1,T2_,Tags).md 'Friflo.Engine.ECS.EntityStoreBase.GetArchetype<T1,T2>(Friflo.Engine.ECS.Signature<T1,T2>, Friflo.Engine.ECS.Tags)') | |
-| [GetArchetype&lt;T1&gt;(Signature&lt;T1&gt;, Tags)](EntityStoreBase.GetArchetype_T1_(Signature_T1_,Tags).md 'Friflo.Engine.ECS.EntityStoreBase.GetArchetype<T1>(Friflo.Engine.ECS.Signature<T1>, Friflo.Engine.ECS.Tags)') | |
+| [FindArchetype(ComponentTypes, Tags)](EntityStoreBase.FindArchetype(ComponentTypes,Tags).md 'Friflo.Engine.ECS.EntityStoreBase.FindArchetype(Friflo.Engine.ECS.ComponentTypes, Friflo.Engine.ECS.Tags)') | Return the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') storing the specified [componentTypes](EntityStoreBase.FindArchetype(ComponentTypes,Tags).md#Friflo.Engine.ECS.EntityStoreBase.FindArchetype(Friflo.Engine.ECS.ComponentTypes,Friflo.Engine.ECS.Tags).componentTypes 'Friflo.Engine.ECS.EntityStoreBase.FindArchetype(Friflo.Engine.ECS.ComponentTypes, Friflo.Engine.ECS.Tags).componentTypes') and [tags](EntityStoreBase.FindArchetype(ComponentTypes,Tags).md#Friflo.Engine.ECS.EntityStoreBase.FindArchetype(Friflo.Engine.ECS.ComponentTypes,Friflo.Engine.ECS.Tags).tags 'Friflo.Engine.ECS.EntityStoreBase.FindArchetype(Friflo.Engine.ECS.ComponentTypes, Friflo.Engine.ECS.Tags).tags').<br/> |
+| [GetArchetype(ComponentTypes, Tags)](EntityStoreBase.GetArchetype(ComponentTypes,Tags).md 'Friflo.Engine.ECS.EntityStoreBase.GetArchetype(Friflo.Engine.ECS.ComponentTypes, Friflo.Engine.ECS.Tags)') | Return the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') storing the specified [componentTypes](EntityStoreBase.GetArchetype(ComponentTypes,Tags).md#Friflo.Engine.ECS.EntityStoreBase.GetArchetype(Friflo.Engine.ECS.ComponentTypes,Friflo.Engine.ECS.Tags).componentTypes 'Friflo.Engine.ECS.EntityStoreBase.GetArchetype(Friflo.Engine.ECS.ComponentTypes, Friflo.Engine.ECS.Tags).componentTypes') and [tags](EntityStoreBase.GetArchetype(ComponentTypes,Tags).md#Friflo.Engine.ECS.EntityStoreBase.GetArchetype(Friflo.Engine.ECS.ComponentTypes,Friflo.Engine.ECS.Tags).tags 'Friflo.Engine.ECS.EntityStoreBase.GetArchetype(Friflo.Engine.ECS.ComponentTypes, Friflo.Engine.ECS.Tags).tags').<br/> The [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') is created if not already present. |
 | [GetUniqueEntity(string)](EntityStoreBase.GetUniqueEntity(string).md 'Friflo.Engine.ECS.EntityStoreBase.GetUniqueEntity(string)') | Return the entity with a [UniqueEntity](UniqueEntity.md 'Friflo.Engine.ECS.UniqueEntity') component and its [uid](UniqueEntity.uid.md 'Friflo.Engine.ECS.UniqueEntity.uid') == [uid](EntityStoreBase.GetUniqueEntity(string).md#Friflo.Engine.ECS.EntityStoreBase.GetUniqueEntity(string).uid 'Friflo.Engine.ECS.EntityStoreBase.GetUniqueEntity(string).uid') |
 | [Query()](EntityStoreBase.Query().md 'Friflo.Engine.ECS.EntityStoreBase.Query()') | Create a reusable [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') for the entity store |
 | [Query&lt;T1,T2,T3,T4,T5&gt;()](EntityStoreBase.Query_T1,T2,T3,T4,T5_().md 'Friflo.Engine.ECS.EntityStoreBase.Query<T1,T2,T3,T4,T5>()') | |

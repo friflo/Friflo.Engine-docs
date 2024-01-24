@@ -3,7 +3,7 @@
 
 ## PidType Enum
 
-Specify the way how [Pid](Entity.Pid.md 'Friflo.Engine.ECS.Entity.Pid')'s are generated.
+Specify the way how an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') generates entity [Pid](Entity.Pid.md 'Friflo.Engine.ECS.Entity.Pid')'s.
 
 ```csharp
 public enum PidType

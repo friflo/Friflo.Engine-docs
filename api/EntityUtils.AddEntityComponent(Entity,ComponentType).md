@@ -4,7 +4,7 @@
 ## EntityUtils.AddEntityComponent(Entity, ComponentType) Method
 
 ```csharp
-public static Friflo.Engine.ECS.ComponentChangedAction AddEntityComponent(Friflo.Engine.ECS.Entity entity, Friflo.Engine.ECS.ComponentType componentType);
+public static bool AddEntityComponent(Friflo.Engine.ECS.Entity entity, Friflo.Engine.ECS.ComponentType componentType);
 ```
 #### Parameters
 
@@ -17,4 +17,4 @@ public static Friflo.Engine.ECS.ComponentChangedAction AddEntityComponent(Friflo
 `componentType` [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType')
 
 #### Returns
-[ComponentChangedAction](ComponentChangedAction.md 'Friflo.Engine.ECS.ComponentChangedAction')
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')
