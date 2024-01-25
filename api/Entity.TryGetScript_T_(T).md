@@ -5,7 +5,7 @@
 
 ```csharp
 public bool TryGetScript<T>(out T result)
-    where T : Friflo.Engine.ECS.Script;
+    where T : Friflo.Engine.ECS.Script, new();
 ```
 #### Type parameters
 

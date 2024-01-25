@@ -7,7 +7,7 @@ Return the [ScriptType](ScriptType.md 'Friflo.Engine.ECS.ScriptType') of a class
 
 ```csharp
 public Friflo.Engine.ECS.ScriptType GetScriptType<T>()
-    where T : Friflo.Engine.ECS.Script;
+    where T : Friflo.Engine.ECS.Script, new();
 ```
 #### Type parameters
 

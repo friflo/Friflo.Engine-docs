@@ -7,7 +7,7 @@ Remove the script with the given type from the entity.
 
 ```csharp
 public T RemoveScript<T>()
-    where T : Friflo.Engine.ECS.Script;
+    where T : Friflo.Engine.ECS.Script, new();
 ```
 #### Type parameters
 

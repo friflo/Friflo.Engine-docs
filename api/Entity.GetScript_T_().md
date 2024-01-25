@@ -7,7 +7,7 @@ Returns the [Script](Script.md 'Friflo.Engine.ECS.Script') of Type [T](Entity.Ge
 
 ```csharp
 public T GetScript<T>()
-    where T : Friflo.Engine.ECS.Script;
+    where T : Friflo.Engine.ECS.Script, new();
 ```
 #### Type parameters
 

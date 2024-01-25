@@ -8,7 +8,7 @@ Add the given [script](Entity.AddScript_TScript_(TScript).md#Friflo.Engine.ECS.E
 
 ```csharp
 public TScript AddScript<TScript>(TScript script)
-    where TScript : Friflo.Engine.ECS.Script;
+    where TScript : Friflo.Engine.ECS.Script, new();
 ```
 #### Type parameters
 
