@@ -15,7 +15,7 @@ public readonly struct ScriptChanged
             These events are fired on:
             
 - [AddScript&lt;TScript&gt;(TScript)](Entity.AddScript_TScript_(TScript).md 'Friflo.Engine.ECS.Entity.AddScript<TScript>(TScript)')
-- [RemoveScript&lt;T&gt;()](Entity.RemoveScript_T_().md 'Friflo.Engine.ECS.Entity.RemoveScript<T>()')
+- [RemoveScript&lt;TScript&gt;()](Entity.RemoveScript_TScript_().md 'Friflo.Engine.ECS.Entity.RemoveScript<TScript>()')
 
 | Fields | |
 | :--- | :--- |

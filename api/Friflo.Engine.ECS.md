@@ -13,6 +13,7 @@
 | [ArchetypeQuery&lt;T1&gt;](ArchetypeQuery_T1_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1>') | |
 | [ArchetypeUtils](ArchetypeUtils.md 'Friflo.Engine.ECS.ArchetypeUtils') | |
 | [ChunkExtensions](ChunkExtensions.md 'Friflo.Engine.ECS.ChunkExtensions') | |
+| [CommandBuffer](CommandBuffer.md 'Friflo.Engine.ECS.CommandBuffer') | A command buffer enables recording entity changes on <b>arbitrary</b> threads.<br/> These changes are executed by calling [Playback()](CommandBuffer.Playback().md 'Friflo.Engine.ECS.CommandBuffer.Playback()') on the <b>main</b> thread. |
 | [ComponentKeyAttribute](ComponentKeyAttribute.md 'Friflo.Engine.ECS.ComponentKeyAttribute') | Assign a custom key used for JSON serialization for annotated [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') and [Script](Script.md 'Friflo.Engine.ECS.Script') types.<br/> |
 | [ComponentSystem](ComponentSystem.md 'Friflo.Engine.ECS.ComponentSystem') | |
 | [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType') | Provide meta data for an [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') struct. |
