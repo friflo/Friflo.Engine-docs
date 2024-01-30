@@ -6,7 +6,7 @@
 Declares the [Kind](SchemaType.Kind.md 'Friflo.Engine.ECS.SchemaType.Kind') of a [SchemaType](SchemaType.md 'Friflo.Engine.ECS.SchemaType')
 
 ```csharp
-public enum SchemaTypeKind
+public enum SchemaTypeKind : System.Byte
 ```
 ### Fields
 

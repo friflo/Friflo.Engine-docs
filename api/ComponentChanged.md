@@ -18,12 +18,13 @@ These events are fired on:
 | Fields | |
 | :--- | :--- |
 | [Action](ComponentChanged.Action.md 'Friflo.Engine.ECS.ComponentChanged.Action') | The executed entity change: [Remove](ComponentChangedAction.md#Friflo.Engine.ECS.ComponentChangedAction.Remove 'Friflo.Engine.ECS.ComponentChangedAction.Remove'),             [Add](ComponentChangedAction.md#Friflo.Engine.ECS.ComponentChangedAction.Add 'Friflo.Engine.ECS.ComponentChangedAction.Add') or [Remove](ComponentChangedAction.md#Friflo.Engine.ECS.ComponentChangedAction.Remove 'Friflo.Engine.ECS.ComponentChangedAction.Remove') component. |
-| [ComponentType](ComponentChanged.ComponentType.md 'Friflo.Engine.ECS.ComponentChanged.ComponentType') | The [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType') of the added / removed component. |
 | [EntityId](ComponentChanged.EntityId.md 'Friflo.Engine.ECS.ComponentChanged.EntityId') | The `Id` of the [Entity](ComponentChanged.Entity.md 'Friflo.Engine.ECS.ComponentChanged.Entity') that emitted the event. |
 | [Store](ComponentChanged.Store.md 'Friflo.Engine.ECS.ComponentChanged.Store') | The [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') containing the [Entity](ComponentChanged.Entity.md 'Friflo.Engine.ECS.ComponentChanged.Entity') that emitted the event. |
+| [StructIndex](ComponentChanged.StructIndex.md 'Friflo.Engine.ECS.ComponentChanged.StructIndex') | |
 
 | Properties | |
 | :--- | :--- |
+| [ComponentType](ComponentChanged.ComponentType.md 'Friflo.Engine.ECS.ComponentChanged.ComponentType') | The [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType') of the added / removed component. |
 | [DebugComponent](ComponentChanged.DebugComponent.md 'Friflo.Engine.ECS.ComponentChanged.DebugComponent') | Return the current [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') for debugging.<br/><b>Note</b>: It degrades performance as it boxes the returned component. |
 | [DebugOldComponent](ComponentChanged.DebugOldComponent.md 'Friflo.Engine.ECS.ComponentChanged.DebugOldComponent') | Return the old [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') for debugging.<br/><b>Note</b>: It degrades performance as it boxes the returned component. |
 | [Entity](ComponentChanged.Entity.md 'Friflo.Engine.ECS.ComponentChanged.Entity') | The [Entity](ComponentChanged.Entity.md 'Friflo.Engine.ECS.ComponentChanged.Entity') that emitted the event - aka the publisher. |

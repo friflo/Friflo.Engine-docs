@@ -3,6 +3,8 @@
 
 ## EntityStore.GetCommandBuffer() Method
 
+Returns a [CommandBuffer](CommandBuffer.md 'Friflo.Engine.ECS.CommandBuffer') used to record and [Playback()](CommandBuffer.Playback().md 'Friflo.Engine.ECS.CommandBuffer.Playback()') entity changes.
+
 ```csharp
 public Friflo.Engine.ECS.CommandBuffer GetCommandBuffer();
 ```

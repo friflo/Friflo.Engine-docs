@@ -1,13 +1,13 @@
 #### [Friflo.Engine.ECS](index.md 'index')
 ### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[ComponentChanged](ComponentChanged.md 'Friflo.Engine.ECS.ComponentChanged')
 
-## ComponentChanged.ComponentType Field
+## ComponentChanged.ComponentType Property
 
 The [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType') of the added / removed component.
 
 ```csharp
-public readonly ComponentType ComponentType;
+public Friflo.Engine.ECS.ComponentType ComponentType { get; }
 ```
 
-#### Field Value
+#### Property Value
 [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType')
