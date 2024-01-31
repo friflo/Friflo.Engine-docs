@@ -5,7 +5,7 @@
 | Classes | |
 | :--- | :--- |
 | [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') | An [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') store entities with a specific set of [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') and [ITag](ITag.md 'Friflo.Engine.ECS.ITag') types. |
-| [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') | [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') an all its generic implementation are immutable and designed to reuse its instances. |
+| [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') | [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') and all its generic implementations are designed to be reused. |
 | [ArchetypeQuery&lt;T1,T2,T3,T4,T5&gt;](ArchetypeQuery_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4,T5>') | |
 | [ArchetypeQuery&lt;T1,T2,T3,T4&gt;](ArchetypeQuery_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>') | |
 | [ArchetypeQuery&lt;T1,T2,T3&gt;](ArchetypeQuery_T1,T2,T3_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3>') | |

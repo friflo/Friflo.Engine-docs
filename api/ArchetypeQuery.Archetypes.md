@@ -3,6 +3,8 @@
 
 ## ArchetypeQuery.Archetypes Property
 
+Returns the set of [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype')'s matching the query.
+
 ```csharp
 public System.ReadOnlySpan<Friflo.Engine.ECS.Archetype> Archetypes { get; }
 ```

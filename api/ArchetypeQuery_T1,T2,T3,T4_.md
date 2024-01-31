@@ -36,5 +36,12 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Methods | |
 | :--- | :--- |
+| [AllComponents(ComponentTypes)](ArchetypeQuery_T1,T2,T3,T4_.AllComponents(ComponentTypes).md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>.AllComponents(Friflo.Engine.ECS.ComponentTypes)') | |
 | [AllTags(Tags)](ArchetypeQuery_T1,T2,T3,T4_.AllTags(Tags).md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>.AllTags(Friflo.Engine.ECS.Tags)') | |
+| [AnyComponents(ComponentTypes)](ArchetypeQuery_T1,T2,T3,T4_.AnyComponents(ComponentTypes).md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>.AnyComponents(Friflo.Engine.ECS.ComponentTypes)') | |
+| [AnyTags(Tags)](ArchetypeQuery_T1,T2,T3,T4_.AnyTags(Tags).md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>.AnyTags(Friflo.Engine.ECS.Tags)') | |
 | [ReadOnly&lt;T&gt;()](ArchetypeQuery_T1,T2,T3,T4_.ReadOnly_T_().md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>.ReadOnly<T>()') | |
+| [WithoutAllComponents(ComponentTypes)](ArchetypeQuery_T1,T2,T3,T4_.WithoutAllComponents(ComponentTypes).md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>.WithoutAllComponents(Friflo.Engine.ECS.ComponentTypes)') | |
+| [WithoutAllTags(Tags)](ArchetypeQuery_T1,T2,T3,T4_.WithoutAllTags(Tags).md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>.WithoutAllTags(Friflo.Engine.ECS.Tags)') | |
+| [WithoutAnyComponents(ComponentTypes)](ArchetypeQuery_T1,T2,T3,T4_.WithoutAnyComponents(ComponentTypes).md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>.WithoutAnyComponents(Friflo.Engine.ECS.ComponentTypes)') | |
+| [WithoutAnyTags(Tags)](ArchetypeQuery_T1,T2,T3,T4_.WithoutAnyTags(Tags).md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>.WithoutAnyTags(Friflo.Engine.ECS.Tags)') | |

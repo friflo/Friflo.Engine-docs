@@ -4,9 +4,7 @@
 ## ArchetypeQuery.Entities Property
 
 Return the [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') entities mainly for debugging.<br/>
-For efficient access to entity [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s use one of the generic <b>
-tore.Query()</c>
- methods.
+For efficient access to entity [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s use one of the generic `EntityStore.Query()` methods.
 
 ```csharp
 public Friflo.Engine.ECS.QueryEntities Entities { get; }

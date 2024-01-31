@@ -3,6 +3,8 @@
 
 ## ArchetypeQuery.ChunkCount Property
 
+Return the number of `Chunks` returned by the query.
+
 ```csharp
 public int ChunkCount { get; }
 ```

@@ -3,6 +3,8 @@
 
 ## ArchetypeQuery.EventFilter Property
 
+An [EventFilter](EventFilter.md 'Friflo.Engine.ECS.EventFilter') used to filter the query result for added/removed components/tags.
+
 ```csharp
 public Friflo.Engine.ECS.EventFilter EventFilter { get; }
 ```

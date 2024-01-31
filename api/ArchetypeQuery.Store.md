@@ -3,6 +3,8 @@
 
 ## ArchetypeQuery.Store Property
 
+The [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') on which the query operates.
+
 ```csharp
 public Friflo.Engine.ECS.EntityStore Store { get; }
 ```

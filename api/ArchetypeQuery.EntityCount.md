@@ -3,6 +3,8 @@
 
 ## ArchetypeQuery.EntityCount Property
 
+Return the number of entities matching the query.
+
 ```csharp
 public int EntityCount { get; }
 ```
