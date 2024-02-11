@@ -3,7 +3,7 @@
 
 ## EntityStoreBase.Query<T1,T2,T3,T4,T5>(Signature<T1,T2,T3,T4,T5>) Method
 
-Create a reusable [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') for the entity store
+Create a reusable [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') for given component [signature](EntityStoreBase.Query_T1,T2,T3,T4,T5_(Signature_T1,T2,T3,T4,T5_).md#Friflo.Engine.ECS.EntityStoreBase.Query_T1,T2,T3,T4,T5_(Friflo.Engine.ECS.Signature_T1,T2,T3,T4,T5_).signature 'Friflo.Engine.ECS.EntityStoreBase.Query<T1,T2,T3,T4,T5>(Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>).signature').
 
 ```csharp
 public Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4,T5> Query<T1,T2,T3,T4,T5>(in Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5> signature)

@@ -6,7 +6,7 @@
 The modification type of a [ScriptChanged](ScriptChanged.md 'Friflo.Engine.ECS.ScriptChanged') event: [Remove](ScriptChangedAction.md#Friflo.Engine.ECS.ScriptChangedAction.Remove 'Friflo.Engine.ECS.ScriptChangedAction.Remove'), [Add](ScriptChangedAction.md#Friflo.Engine.ECS.ScriptChangedAction.Add 'Friflo.Engine.ECS.ScriptChangedAction.Add') or [Replace](ScriptChangedAction.md#Friflo.Engine.ECS.ScriptChangedAction.Replace 'Friflo.Engine.ECS.ScriptChangedAction.Replace') script.
 
 ```csharp
-public enum ScriptChangedAction
+public enum ScriptChangedAction : System.Byte
 ```
 ### Fields
 

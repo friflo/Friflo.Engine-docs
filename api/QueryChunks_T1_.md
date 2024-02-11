@@ -19,6 +19,10 @@ System.Collections.IEnumerable
 
 Implements [System.Collections.Generic.IEnumerable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1 'System.Collections.Generic.IEnumerable`1')[Friflo.Engine.ECS.Chunks&lt;](Chunks_T1_.md 'Friflo.Engine.ECS.Chunks<T1>')[T1](QueryChunks_T1_.md#Friflo.Engine.ECS.QueryChunks_T1_.T1 'Friflo.Engine.ECS.QueryChunks<T1>.T1')[&gt;](Chunks_T1_.md 'Friflo.Engine.ECS.Chunks<T1>')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1 'System.Collections.Generic.IEnumerable`1'), [System.Collections.IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerable 'System.Collections.IEnumerable')
 
+| Properties | |
+| :--- | :--- |
+| [EntityCount](QueryChunks_T1_.EntityCount.md 'Friflo.Engine.ECS.QueryChunks<T1>.EntityCount') | |
+
 | Methods | |
 | :--- | :--- |
 | [GetEnumerator()](QueryChunks_T1_.GetEnumerator().md 'Friflo.Engine.ECS.QueryChunks<T1>.GetEnumerator()') | |

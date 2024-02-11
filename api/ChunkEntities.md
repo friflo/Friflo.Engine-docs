@@ -22,7 +22,9 @@ The recommended methods used by an application are [Ids](ChunkEntities.Ids.md 'F
 | Fields | |
 | :--- | :--- |
 | [Archetype](ChunkEntities.Archetype.md 'Friflo.Engine.ECS.ChunkEntities.Archetype') | The [Archetype](ChunkEntities.Archetype.md 'Friflo.Engine.ECS.ChunkEntities.Archetype') containing the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') components. |
+| [Execution](ChunkEntities.Execution.md 'Friflo.Engine.ECS.ChunkEntities.Execution') | The execution type used to provide the chunk entities. |
 | [Length](ChunkEntities.Length.md 'Friflo.Engine.ECS.ChunkEntities.Length') | The number of entities in [ChunkEntities](ChunkEntities.md 'Friflo.Engine.ECS.ChunkEntities'). |
+| [TaskIndex](ChunkEntities.TaskIndex.md 'Friflo.Engine.ECS.ChunkEntities.TaskIndex') | if    0 - The entities are provided from the main (caller) thread using `foreach(...)` loop, [Run()](QueryJob.Run().md 'Friflo.Engine.ECS.QueryJob.Run()') or [RunParallel()](QueryJob.RunParallel().md 'Friflo.Engine.ECS.QueryJob.RunParallel()').<br/> if >= 1 - The entities are provided from a worker thread using [RunParallel()](QueryJob.RunParallel().md 'Friflo.Engine.ECS.QueryJob.RunParallel()'). |
 
 | Properties | |
 | :--- | :--- |

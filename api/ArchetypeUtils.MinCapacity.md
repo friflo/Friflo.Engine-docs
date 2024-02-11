@@ -3,7 +3,7 @@
 
 ## ArchetypeUtils.MinCapacity Field
 
-Minimum: 64 to support padding for vectorization.
+Minimum: 64 see [Friflo.Engine.ECS.ArchetypeUtils.MaxComponentMultiple](https://docs.microsoft.com/en-us/dotnet/api/Friflo.Engine.ECS.ArchetypeUtils.MaxComponentMultiple 'Friflo.Engine.ECS.ArchetypeUtils.MaxComponentMultiple') to support padding for vectorization.
 
 ```csharp
 public const int MinCapacity = 512;

@@ -16,7 +16,7 @@ Implements [System.Collections.Generic.IEnumerable&lt;](https://docs.microsoft.c
 | Constructors | |
 | :--- | :--- |
 | [Tags(TagType)](Tags.Tags(TagType).md 'Friflo.Engine.ECS.Tags.Tags(Friflo.Engine.ECS.TagType)') | |
-| [Tags(Vector256&lt;long&gt;)](Tags.Tags(Vector256_long_).md 'Friflo.Engine.ECS.Tags.Tags(System.Runtime.Intrinsics.Vector256<long>)') | |
+| [Tags(BitSet)](Tags.Tags(BitSet).md 'Friflo.Engine.ECS.Tags.Tags(Friflo.Engine.ECS.Utils.BitSet)') | |
 
 | Properties | |
 | :--- | :--- |

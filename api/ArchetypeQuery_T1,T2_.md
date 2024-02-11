@@ -30,6 +30,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [AllTags(Tags)](ArchetypeQuery_T1,T2_.AllTags(Tags).md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2>.AllTags(Friflo.Engine.ECS.Tags)') | |
 | [AnyComponents(ComponentTypes)](ArchetypeQuery_T1,T2_.AnyComponents(ComponentTypes).md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2>.AnyComponents(Friflo.Engine.ECS.ComponentTypes)') | |
 | [AnyTags(Tags)](ArchetypeQuery_T1,T2_.AnyTags(Tags).md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2>.AnyTags(Friflo.Engine.ECS.Tags)') | |
+| [ForEach(Action&lt;Chunk&lt;T1&gt;,Chunk&lt;T2&gt;,ChunkEntities&gt;)](ArchetypeQuery_T1,T2_.ForEach(Action_Chunk_T1_,Chunk_T2_,ChunkEntities_).md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2>.ForEach(System.Action<Friflo.Engine.ECS.Chunk<T1>,Friflo.Engine.ECS.Chunk<T2>,Friflo.Engine.ECS.ChunkEntities>)') | Returns a [QueryJob](QueryJob.md 'Friflo.Engine.ECS.QueryJob') that enables [Parallel](JobExecution.md#Friflo.Engine.ECS.JobExecution.Parallel 'Friflo.Engine.ECS.JobExecution.Parallel') query execution. |
 | [ReadOnly&lt;T&gt;()](ArchetypeQuery_T1,T2_.ReadOnly_T_().md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2>.ReadOnly<T>()') | |
 | [WithoutAllComponents(ComponentTypes)](ArchetypeQuery_T1,T2_.WithoutAllComponents(ComponentTypes).md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2>.WithoutAllComponents(Friflo.Engine.ECS.ComponentTypes)') | |
 | [WithoutAllTags(Tags)](ArchetypeQuery_T1,T2_.WithoutAllTags(Tags).md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2>.WithoutAllTags(Friflo.Engine.ECS.Tags)') | |

@@ -29,6 +29,10 @@ System.Collections.IEnumerable
 
 Implements [System.Collections.Generic.IEnumerable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1 'System.Collections.Generic.IEnumerable`1')[Friflo.Engine.ECS.Chunks&lt;](Chunks_T1,T2,T3_.md 'Friflo.Engine.ECS.Chunks<T1,T2,T3>')[T1](QueryChunks_T1,T2,T3_.md#Friflo.Engine.ECS.QueryChunks_T1,T2,T3_.T1 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3>.T1')[,](Chunks_T1,T2,T3_.md 'Friflo.Engine.ECS.Chunks<T1,T2,T3>')[T2](QueryChunks_T1,T2,T3_.md#Friflo.Engine.ECS.QueryChunks_T1,T2,T3_.T2 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3>.T2')[,](Chunks_T1,T2,T3_.md 'Friflo.Engine.ECS.Chunks<T1,T2,T3>')[T3](QueryChunks_T1,T2,T3_.md#Friflo.Engine.ECS.QueryChunks_T1,T2,T3_.T3 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3>.T3')[&gt;](Chunks_T1,T2,T3_.md 'Friflo.Engine.ECS.Chunks<T1,T2,T3>')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1 'System.Collections.Generic.IEnumerable`1'), [System.Collections.IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerable 'System.Collections.IEnumerable')
 
+| Properties | |
+| :--- | :--- |
+| [EntityCount](QueryChunks_T1,T2,T3_.EntityCount.md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3>.EntityCount') | |
+
 | Methods | |
 | :--- | :--- |
 | [GetEnumerator()](QueryChunks_T1,T2,T3_.GetEnumerator().md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3>.GetEnumerator()') | |

@@ -12,7 +12,7 @@ public sealed class Archetype
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; Archetype
 
 ### Remarks
-E.g. all entities with a [Position](Position.md 'Friflo.Engine.ECS.Position') and [Rotation](Rotation.md 'Friflo.Engine.ECS.Rotation') componet are store in the same archetype.<br/>
+E.g. all entities with a [Position](Position.md 'Friflo.Engine.ECS.Position') and [Rotation](Rotation.md 'Friflo.Engine.ECS.Rotation') component are store in the same archetype.<br/>
 In case of removing one of these components or adding a new one from / to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') the entity is moved to a different archetype.<br/><br/>
 This is the basic pattern for an archetype base ECS. This approach enables efficient entity / component queries.<br/>
 A query result is simply the union of all archetypes having the requested components.<br/><br/>
