@@ -13,9 +13,8 @@ public Friflo.Engine.ECS.ChildEntities ChildEntities { get; }
 [ChildEntities](ChildEntities.md 'Friflo.Engine.ECS.ChildEntities')
 
 ### Remarks
-Return all child entities of an entity. Enumerate with: 
+Executes in O(1).<br/> Enumerate with:
 
 ```csharp
 foreach (var child in entity.ChildEntities)
 ```
-Executes in O(1)

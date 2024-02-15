@@ -27,7 +27,7 @@ To execute a query job [Parallel](JobExecution.md#Friflo.Engine.ECS.JobExecution
 | Properties | |
 | :--- | :--- |
 | [JobRunner](QueryJob.JobRunner.md 'Friflo.Engine.ECS.QueryJob.JobRunner') | The job runner used to execute a query [Parallel](JobExecution.md#Friflo.Engine.ECS.JobExecution.Parallel 'Friflo.Engine.ECS.JobExecution.Parallel'). |
-| [MinParallelChunkLength](QueryJob.MinParallelChunkLength.md 'Friflo.Engine.ECS.QueryJob.MinParallelChunkLength') | The minimum number of [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') components per thread required to execute the query [Parallel](JobExecution.md#Friflo.Engine.ECS.JobExecution.Parallel 'Friflo.Engine.ECS.JobExecution.Parallel'). Default: 1000. |
+| [MinParallelChunkLength](QueryJob.MinParallelChunkLength.md 'Friflo.Engine.ECS.QueryJob.MinParallelChunkLength') | The minimum number of [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') components per thread required to execute a query [Parallel](JobExecution.md#Friflo.Engine.ECS.JobExecution.Parallel 'Friflo.Engine.ECS.JobExecution.Parallel').<br/> Default: 1000. |
 | [ParallelComponentMultiple](QueryJob.ParallelComponentMultiple.md 'Friflo.Engine.ECS.QueryJob.ParallelComponentMultiple') | The [ParallelComponentMultiple](QueryJob.ParallelComponentMultiple.md 'Friflo.Engine.ECS.QueryJob.ParallelComponentMultiple') is used to align the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') components length  of a [Parallel](JobExecution.md#Friflo.Engine.ECS.JobExecution.Parallel 'Friflo.Engine.ECS.JobExecution.Parallel') executed component chunks. |
 
 | Methods | |

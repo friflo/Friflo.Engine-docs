@@ -17,6 +17,7 @@
 | [ComponentKeyAttribute](ComponentKeyAttribute.md 'Friflo.Engine.ECS.ComponentKeyAttribute') | Assign a custom key used for JSON serialization for annotated [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') and [Script](Script.md 'Friflo.Engine.ECS.Script') types.<br/> |
 | [ComponentSystem](ComponentSystem.md 'Friflo.Engine.ECS.ComponentSystem') | |
 | [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType') | Provide meta data for an [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') struct. |
+| [EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch') | An entity batch is a container of component and tag commands that can be [Apply()](EntityBatch.Apply().md 'Friflo.Engine.ECS.EntityBatch.Apply()')'ed to an entity.<br/> It can be used on a single entity via [Batch](Entity.Batch.md 'Friflo.Engine.ECS.Entity.Batch') or as a <b>bulk operation</b> an a set of entities. |
 | [EntityEqualityComparer](EntityEqualityComparer.md 'Friflo.Engine.ECS.EntityEqualityComparer') | |
 | [EntitySchema](EntitySchema.md 'Friflo.Engine.ECS.EntitySchema') | Provide type information about all [ITag](ITag.md 'Friflo.Engine.ECS.ITag'), [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') and [Script](Script.md 'Friflo.Engine.ECS.Script') types available in the application. |
 | [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') | An [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') is a container for [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s their components, scripts, tags and the tree structure. |

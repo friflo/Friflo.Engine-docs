@@ -7,11 +7,11 @@ Property is mainly used to display a component value in the Debugger.<br/>
 It has poor performance as is boxes the returned component.
 
 ```csharp
-public object Value { get; }
+public Friflo.Engine.ECS.IComponent Value { get; }
 ```
 
 #### Property Value
-[System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
+[IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')
 
 ### Remarks
 To access a component use [GetComponent&lt;T&gt;()](Entity.GetComponent_T_().md 'Friflo.Engine.ECS.Entity.GetComponent<T>()')
