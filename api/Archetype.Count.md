@@ -1,10 +1,12 @@
 #### [Friflo.Engine.ECS](index.md 'index')
 ### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype')
 
-## Archetype.EntityCount Property
+## Archetype.Count Property
+
+Number of entities / components stored in the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype')
 
 ```csharp
-public int EntityCount { get; }
+public int Count { get; }
 ```
 
 #### Property Value

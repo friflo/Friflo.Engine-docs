@@ -22,8 +22,9 @@ Derived
 | :--- | :--- |
 | [Archetypes](ArchetypeQuery.Archetypes.md 'Friflo.Engine.ECS.ArchetypeQuery.Archetypes') | Returns the set of [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype')'s matching the query. |
 | [ChunkCount](ArchetypeQuery.ChunkCount.md 'Friflo.Engine.ECS.ArchetypeQuery.ChunkCount') | Return the number of `Chunks` returned by the query. |
+| [Count](ArchetypeQuery.Count.md 'Friflo.Engine.ECS.ArchetypeQuery.Count') | Return the number of entities matching the query. |
 | [Entities](ArchetypeQuery.Entities.md 'Friflo.Engine.ECS.ArchetypeQuery.Entities') | Return the [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') entities mainly for debugging.<br/> For efficient access to entity [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s use one of the generic `EntityStore.Query()` methods. |
-| [EntityCount](ArchetypeQuery.EntityCount.md 'Friflo.Engine.ECS.ArchetypeQuery.EntityCount') | Return the number of entities matching the query. |
+| [EntityCount](ArchetypeQuery.EntityCount.md 'Friflo.Engine.ECS.ArchetypeQuery.EntityCount') | |
 | [EventFilter](ArchetypeQuery.EventFilter.md 'Friflo.Engine.ECS.ArchetypeQuery.EventFilter') | An [EventFilter](EventFilter.md 'Friflo.Engine.ECS.EventFilter') used to filter the query result for added/removed components/tags. |
 | [Store](ArchetypeQuery.Store.md 'Friflo.Engine.ECS.ArchetypeQuery.Store') | The [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') on which the query operates. |
 

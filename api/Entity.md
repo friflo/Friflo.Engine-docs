@@ -63,13 +63,13 @@ Comparison to other game engines.
 | Properties | |
 | :--- | :--- |
 | [Archetype](Entity.Archetype.md 'Friflo.Engine.ECS.Entity.Archetype') | Returns the [Archetype](Entity.Archetype.md 'Friflo.Engine.ECS.Entity.Archetype') that contains the entity. |
-| [Batch](Entity.Batch.md 'Friflo.Engine.ECS.Entity.Batch') | Returns an [EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch') to add / remove components and tags of this entity as a batch operation. |
+| [Batch](Entity.Batch.md 'Friflo.Engine.ECS.Entity.Batch') | Returns an empty [EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch') to add / remove components and tags of this entity as a batch operation. |
 | [ChildCount](Entity.ChildCount.md 'Friflo.Engine.ECS.Entity.ChildCount') | Return the number of child entities. |
 | [ChildEntities](Entity.ChildEntities.md 'Friflo.Engine.ECS.Entity.ChildEntities') | Return all child entities of an entity. |
 | [ChildIds](Entity.ChildIds.md 'Friflo.Engine.ECS.Entity.ChildIds') | Return the ids of the child entities. |
+| [Components](Entity.Components.md 'Friflo.Engine.ECS.Entity.Components') | Return the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s added to the entity. |
 | [DebugEventHandlers](Entity.DebugEventHandlers.md 'Friflo.Engine.ECS.Entity.DebugEventHandlers') | Return event and signal handlers added to the entity. |
 | [DebugJSON](Entity.DebugJSON.md 'Friflo.Engine.ECS.Entity.DebugJSON') | Return the <b>JSON</b> representation of an entity. |
-| [EntityComponents](Entity.EntityComponents.md 'Friflo.Engine.ECS.Entity.EntityComponents') | Return the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s added to the entity. |
 | [HasName](Entity.HasName.md 'Friflo.Engine.ECS.Entity.HasName') | Returns true if the entity has an [EntityName](EntityName.md 'Friflo.Engine.ECS.EntityName'). |
 | [HasPosition](Entity.HasPosition.md 'Friflo.Engine.ECS.Entity.HasPosition') | Returns true if the entity has a [Position](Position.md 'Friflo.Engine.ECS.Position'). |
 | [HasRotation](Entity.HasRotation.md 'Friflo.Engine.ECS.Entity.HasRotation') | Returns true if the entity has a [Rotation](Rotation.md 'Friflo.Engine.ECS.Rotation'). |

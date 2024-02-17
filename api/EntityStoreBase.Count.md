@@ -1,10 +1,12 @@
 #### [Friflo.Engine.ECS](index.md 'index')
 ### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityStoreBase](EntityStoreBase.md 'Friflo.Engine.ECS.EntityStoreBase')
 
-## EntityStoreBase.EntityCount Property
+## EntityStoreBase.Count Property
+
+Number of all entities stored in the entity store
 
 ```csharp
-public int EntityCount { get; }
+public int Count { get; }
 ```
 
 #### Property Value

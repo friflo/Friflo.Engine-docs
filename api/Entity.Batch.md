@@ -3,7 +3,7 @@
 
 ## Entity.Batch Property
 
-Returns an [EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch') to add / remove components and tags of this entity as a batch operation.
+Returns an empty [EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch') to add / remove components and tags of this entity as a batch operation.
 
 ```csharp
 public Friflo.Engine.ECS.EntityBatch Batch { get; }

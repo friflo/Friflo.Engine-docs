@@ -23,9 +23,11 @@ Queries can be created via generic [EntityStoreBase](EntityStoreBase.md 'Friflo.
 | [Capacity](Archetype.Capacity.md 'Friflo.Engine.ECS.Archetype.Capacity') | The current capacity reserved to store entity components. |
 | [ComponentCount](Archetype.ComponentCount.md 'Friflo.Engine.ECS.Archetype.ComponentCount') | Number of [ComponentTypes](Archetype.ComponentTypes.md 'Friflo.Engine.ECS.Archetype.ComponentTypes') managed by the archetype. |
 | [ComponentTypes](Archetype.ComponentTypes.md 'Friflo.Engine.ECS.Archetype.ComponentTypes') | The [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') types managed by the archetype. |
+| [Count](Archetype.Count.md 'Friflo.Engine.ECS.Archetype.Count') | Number of entities / components stored in the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') |
 | [Entities](Archetype.Entities.md 'Friflo.Engine.ECS.Archetype.Entities') | Return all [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s stored in the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype'). |
-| [EntityCount](Archetype.EntityCount.md 'Friflo.Engine.ECS.Archetype.EntityCount') | Number of entities / components stored in the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') |
+| [EntityCount](Archetype.EntityCount.md 'Friflo.Engine.ECS.Archetype.EntityCount') | |
 | [EntityIds](Archetype.EntityIds.md 'Friflo.Engine.ECS.Archetype.EntityIds') | The list of entity ids stored in the archetype. |
+| [Name](Archetype.Name.md 'Friflo.Engine.ECS.Archetype.Name') | |
 | [Store](Archetype.Store.md 'Friflo.Engine.ECS.Archetype.Store') | The [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') owning the archetype. |
 | [Tags](Archetype.Tags.md 'Friflo.Engine.ECS.Archetype.Tags') | The [ITag](ITag.md 'Friflo.Engine.ECS.ITag') types managed by the archetype. |
 

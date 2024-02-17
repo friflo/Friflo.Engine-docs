@@ -41,6 +41,7 @@ Implements [System.Collections.Generic.IEnumerable&lt;](https://docs.microsoft.c
 
 | Properties | |
 | :--- | :--- |
+| [Count](QueryChunks_T1,T2,T3,T4,T5_.Count.md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.Count') | |
 | [EntityCount](QueryChunks_T1,T2,T3,T4,T5_.EntityCount.md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.EntityCount') | |
 
 | Methods | |
