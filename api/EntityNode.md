@@ -40,12 +40,12 @@ N:  number of possible values = int.MaxValue = 2147483647
 
 | Properties | |
 | :--- | :--- |
-| [Archetype](EntityNode.Archetype.md 'Friflo.Engine.ECS.EntityNode.Archetype') | |
-| [ChildCount](EntityNode.ChildCount.md 'Friflo.Engine.ECS.EntityNode.ChildCount') | |
-| [ChildIds](EntityNode.ChildIds.md 'Friflo.Engine.ECS.EntityNode.ChildIds') | |
-| [Flags](EntityNode.Flags.md 'Friflo.Engine.ECS.EntityNode.Flags') | |
-| [Id](EntityNode.Id.md 'Friflo.Engine.ECS.EntityNode.Id') | Unique id within an [EntityNode](EntityNode.md 'Friflo.Engine.ECS.EntityNode') instance |
-| [ParentId](EntityNode.ParentId.md 'Friflo.Engine.ECS.EntityNode.ParentId') | |
+| [Archetype](EntityNode.Archetype.md 'Friflo.Engine.ECS.EntityNode.Archetype') | The [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') the entity node is stored. |
+| [ChildCount](EntityNode.ChildCount.md 'Friflo.Engine.ECS.EntityNode.ChildCount') | Number of child entities. |
+| [ChildIds](EntityNode.ChildIds.md 'Friflo.Engine.ECS.EntityNode.ChildIds') | The child entities of an entity as an array of ids. |
+| [Flags](EntityNode.Flags.md 'Friflo.Engine.ECS.EntityNode.Flags') | Internally used flags assigned to the entity. |
+| [Id](EntityNode.Id.md 'Friflo.Engine.ECS.EntityNode.Id') | The unique entity id. |
+| [ParentId](EntityNode.ParentId.md 'Friflo.Engine.ECS.EntityNode.ParentId') | The parent id of the entity. 0 - if the entity has no parent. |
 | [Pid](EntityNode.Pid.md 'Friflo.Engine.ECS.EntityNode.Pid') | Permanent unique pid used for persistence of an entity in a database |
 
 | Methods | |

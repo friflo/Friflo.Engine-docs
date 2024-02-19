@@ -3,6 +3,8 @@
 
 ## EntityNode.ChildIds Property
 
+The child entities of an entity as an array of ids.
+
 ```csharp
 public System.ReadOnlySpan<int> ChildIds { get; }
 ```

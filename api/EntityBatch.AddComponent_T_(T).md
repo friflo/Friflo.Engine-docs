@@ -3,10 +3,10 @@
 
 ## EntityBatch.AddComponent<T>(T) Method
 
-Adds an add component command to the [EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch') with the given [component](EntityBatch.AddComponent_T_(T).md#Friflo.Engine.ECS.EntityBatch.AddComponent_T_(T).component 'Friflo.Engine.ECS.EntityBatch.AddComponent<T>(T).component').
+Obsolete - use renamed method: [Add&lt;T&gt;(T)](EntityBatch.Add_T_(T).md 'Friflo.Engine.ECS.EntityBatch.Add<T>(T)')
 
 ```csharp
-public Friflo.Engine.ECS.EntityBatch AddComponent<T>(in T component)
+public Friflo.Engine.ECS.EntityBatch AddComponent<T>(T component)
     where T : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType;
 ```
 #### Type parameters

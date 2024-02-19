@@ -3,7 +3,8 @@
 
 ## EntityBatch.Apply() Method
 
-Apply the add / remove commands to the entity the [Batch](Entity.Batch.md 'Friflo.Engine.ECS.Entity.Batch') operates.
+Apply added batch commands to the entity the preceding [Batch()](Entity.Batch().md 'Friflo.Engine.ECS.Entity.Batch()') operates.<br/><br/>
+Subsequent use of the batch throws [BatchAlreadyAppliedException](BatchAlreadyAppliedException.md 'Friflo.Engine.ECS.BatchAlreadyAppliedException').
 
 ```csharp
 public void Apply();

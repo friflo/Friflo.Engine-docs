@@ -3,6 +3,8 @@
 
 ## EntityEqualityComparer Class
 
+Used to check if two [Entity](Entity.md 'Friflo.Engine.ECS.Entity') instances are the same entity by comparing their [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id')'s.
+
 ```csharp
 public sealed class EntityEqualityComparer :
 System.Collections.Generic.IEqualityComparer<Friflo.Engine.ECS.Entity>

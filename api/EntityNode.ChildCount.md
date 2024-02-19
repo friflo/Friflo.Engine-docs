@@ -3,6 +3,8 @@
 
 ## EntityNode.ChildCount Property
 
+Number of child entities.
+
 ```csharp
 public int ChildCount { get; }
 ```

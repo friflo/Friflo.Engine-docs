@@ -3,6 +3,8 @@
 
 ## ParallelJobRunner Class
 
+Required for parallel - multi threaded - query job execution using [RunParallel()](QueryJob.RunParallel().md 'Friflo.Engine.ECS.QueryJob.RunParallel()').
+
 ```csharp
 public sealed class ParallelJobRunner :
 System.IDisposable

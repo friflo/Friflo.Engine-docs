@@ -6,5 +6,8 @@
 Clear all components and tags previously added to the batch.
 
 ```csharp
-public void Clear();
+public Friflo.Engine.ECS.CreateEntityBatch Clear();
 ```
+
+#### Returns
+[CreateEntityBatch](CreateEntityBatch.md 'Friflo.Engine.ECS.CreateEntityBatch')

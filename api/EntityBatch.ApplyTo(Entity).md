@@ -3,7 +3,8 @@
 
 ## EntityBatch.ApplyTo(Entity) Method
 
-Apply the batch commands to the given [entity](EntityBatch.ApplyTo(Entity).md#Friflo.Engine.ECS.EntityBatch.ApplyTo(Friflo.Engine.ECS.Entity).entity 'Friflo.Engine.ECS.EntityBatch.ApplyTo(Friflo.Engine.ECS.Entity).entity').
+Apply the batch commands to the given [entity](EntityBatch.ApplyTo(Entity).md#Friflo.Engine.ECS.EntityBatch.ApplyTo(Friflo.Engine.ECS.Entity).entity 'Friflo.Engine.ECS.EntityBatch.ApplyTo(Friflo.Engine.ECS.Entity).entity').<br/>
+The stored batch commands are not cleared.
 
 ```csharp
 public Friflo.Engine.ECS.EntityBatch ApplyTo(Friflo.Engine.ECS.Entity entity);

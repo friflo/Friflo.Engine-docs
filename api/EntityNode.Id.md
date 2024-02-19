@@ -3,7 +3,7 @@
 
 ## EntityNode.Id Property
 
-Unique id within an [EntityNode](EntityNode.md 'Friflo.Engine.ECS.EntityNode') instance
+The unique entity id.
 
 ```csharp
 public int Id { get; }

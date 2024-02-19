@@ -3,6 +3,8 @@
 
 ## EntityNode.ParentId Property
 
+The parent id of the entity. 0 - if the entity has no parent.
+
 ```csharp
 public int ParentId { get; }
 ```

@@ -3,7 +3,7 @@
 
 ## QueryJob.Run() Method
 
-Execute a [Sequential](JobExecution.md#Friflo.Engine.ECS.JobExecution.Sequential 'Friflo.Engine.ECS.JobExecution.Sequential') query.
+Execute the query [Sequential](JobExecution.md#Friflo.Engine.ECS.JobExecution.Sequential 'Friflo.Engine.ECS.JobExecution.Sequential').
 
 ```csharp
 public abstract void Run();

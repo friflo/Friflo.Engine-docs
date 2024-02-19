@@ -32,5 +32,5 @@ To execute a query job [Parallel](JobExecution.md#Friflo.Engine.ECS.JobExecution
 
 | Methods | |
 | :--- | :--- |
-| [Run()](QueryJob.Run().md 'Friflo.Engine.ECS.QueryJob.Run()') | Execute a [Sequential](JobExecution.md#Friflo.Engine.ECS.JobExecution.Sequential 'Friflo.Engine.ECS.JobExecution.Sequential') query. |
+| [Run()](QueryJob.Run().md 'Friflo.Engine.ECS.QueryJob.Run()') | Execute the query [Sequential](JobExecution.md#Friflo.Engine.ECS.JobExecution.Sequential 'Friflo.Engine.ECS.JobExecution.Sequential'). |
 | [RunParallel()](QueryJob.RunParallel().md 'Friflo.Engine.ECS.QueryJob.RunParallel()') | Execute the query.<br/>              All [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>')'s having at least [MinParallelChunkLength](QueryJob.MinParallelChunkLength.md 'Friflo.Engine.ECS.QueryJob.MinParallelChunkLength') * [ThreadCount](ParallelJobRunner.ThreadCount.md 'Friflo.Engine.ECS.ParallelJobRunner.ThreadCount')             components are executed [Parallel](JobExecution.md#Friflo.Engine.ECS.JobExecution.Parallel 'Friflo.Engine.ECS.JobExecution.Parallel'). |

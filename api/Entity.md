@@ -63,7 +63,6 @@ Comparison to other game engines.
 | Properties | |
 | :--- | :--- |
 | [Archetype](Entity.Archetype.md 'Friflo.Engine.ECS.Entity.Archetype') | Returns the [Archetype](Entity.Archetype.md 'Friflo.Engine.ECS.Entity.Archetype') that contains the entity. |
-| [Batch](Entity.Batch.md 'Friflo.Engine.ECS.Entity.Batch') | Returns an empty [EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch') to add / remove components and tags of this entity as a batch operation. |
 | [ChildCount](Entity.ChildCount.md 'Friflo.Engine.ECS.Entity.ChildCount') | Return the number of child entities. |
 | [ChildEntities](Entity.ChildEntities.md 'Friflo.Engine.ECS.Entity.ChildEntities') | Return all child entities of an entity. |
 | [ChildIds](Entity.ChildIds.md 'Friflo.Engine.ECS.Entity.ChildIds') | Return the ids of the child entities. |
@@ -96,6 +95,7 @@ Comparison to other game engines.
 | [AddSignalHandler&lt;TEvent&gt;(Action&lt;Signal&lt;TEvent&gt;&gt;)](Entity.AddSignalHandler_TEvent_(Action_Signal_TEvent__).md 'Friflo.Engine.ECS.Entity.AddSignalHandler<TEvent>(System.Action<Friflo.Engine.ECS.Signal<TEvent>>)') | Add the given [Signal&lt;TEvent&gt;](Signal_TEvent_.md 'Friflo.Engine.ECS.Signal<TEvent>') handler to the entity. |
 | [AddTag&lt;TTag&gt;()](Entity.AddTag_TTag_().md 'Friflo.Engine.ECS.Entity.AddTag<TTag>()') | Add the given [TTag](Entity.AddTag_TTag_().md#Friflo.Engine.ECS.Entity.AddTag_TTag_().TTag 'Friflo.Engine.ECS.Entity.AddTag<TTag>().TTag') to the entity. |
 | [AddTags(Tags)](Entity.AddTags(Tags).md 'Friflo.Engine.ECS.Entity.AddTags(Friflo.Engine.ECS.Tags)') | Add the given [tags](Entity.AddTags(Tags).md#Friflo.Engine.ECS.Entity.AddTags(Friflo.Engine.ECS.Tags).tags 'Friflo.Engine.ECS.Entity.AddTags(Friflo.Engine.ECS.Tags).tags') to the entity. |
+| [Batch()](Entity.Batch().md 'Friflo.Engine.ECS.Entity.Batch()') | Returns an [EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch') to add/remove components or tags to/from this entity using the batch. |
 | [DeleteEntity()](Entity.DeleteEntity().md 'Friflo.Engine.ECS.Entity.DeleteEntity()') | Delete the entity from its [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore').<br/> The deleted instance is in [detached](StoreOwnership.md#Friflo.Engine.ECS.StoreOwnership.detached 'Friflo.Engine.ECS.StoreOwnership.detached') state. Calling [Entity](Entity.md 'Friflo.Engine.ECS.Entity') methods result in [System.NullReferenceException](https://docs.microsoft.com/en-us/dotnet/api/System.NullReferenceException 'System.NullReferenceException')'s |
 | [EmitSignal&lt;TEvent&gt;(TEvent)](Entity.EmitSignal_TEvent_(TEvent).md 'Friflo.Engine.ECS.Entity.EmitSignal<TEvent>(TEvent)') | Emits the passed signal event to all signal handlers added with [AddSignalHandler&lt;TEvent&gt;(Action&lt;Signal&lt;TEvent&gt;&gt;)](Entity.AddSignalHandler_TEvent_(Action_Signal_TEvent__).md 'Friflo.Engine.ECS.Entity.AddSignalHandler<TEvent>(System.Action<Friflo.Engine.ECS.Signal<TEvent>>)'). |
 | [Equals(Entity)](Entity.Equals(Entity).md 'Friflo.Engine.ECS.Entity.Equals(Friflo.Engine.ECS.Entity)') | |

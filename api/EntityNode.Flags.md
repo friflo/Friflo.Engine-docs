@@ -3,6 +3,8 @@
 
 ## EntityNode.Flags Property
 
+Internally used flags assigned to the entity.
+
 ```csharp
 public Friflo.Engine.ECS.NodeFlags Flags { get; }
 ```

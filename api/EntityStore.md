@@ -28,10 +28,13 @@ The [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') provide the fe
 | [EntityStore()](EntityStore.EntityStore().md 'Friflo.Engine.ECS.EntityStore.EntityStore()') | |
 | [EntityStore(PidType)](EntityStore.EntityStore(PidType).md 'Friflo.Engine.ECS.EntityStore.EntityStore(Friflo.Engine.ECS.PidType)') | |
 
+| Fields | |
+| :--- | :--- |
+| [Info](EntityStore.Info.md 'Friflo.Engine.ECS.EntityStore.Info') | |
+
 | Properties | |
 | :--- | :--- |
 | [Capacity](EntityStore.Capacity.md 'Friflo.Engine.ECS.EntityStore.Capacity') | |
-| [CreateBatch](EntityStore.CreateBatch.md 'Friflo.Engine.ECS.EntityStore.CreateBatch') | Returns an empty [CreateEntityBatch](CreateEntityBatch.md 'Friflo.Engine.ECS.CreateEntityBatch') used to create entities. |
 | [Entities](EntityStore.Entities.md 'Friflo.Engine.ECS.EntityStore.Entities') | Return all [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s stored in the [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore'). |
 | [EntityScripts](EntityStore.EntityScripts.md 'Friflo.Engine.ECS.EntityStore.EntityScripts') | Return all [Script](Script.md 'Friflo.Engine.ECS.Script')'s added to [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s in the [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore'). |
 | [EventRecorder](EntityStore.EventRecorder.md 'Friflo.Engine.ECS.EntityStore.EventRecorder') | Record adding/removing of components/tags to/from entities if [Enabled](EventRecorder.Enabled.md 'Friflo.Engine.ECS.EventRecorder.Enabled') is true.<br/> It is required to filter these events using an [EventFilter](EventFilter.md 'Friflo.Engine.ECS.EventFilter'). |
