@@ -3,7 +3,8 @@
 
 ## ArchetypeQuery Class
 
-[ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') and all its generic implementations are designed to be reused.
+[ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') and all its generic implementations are designed to be reused.<br/>
+            By default an query does not contain [Disabled](Disabled.md 'Friflo.Engine.ECS.Disabled') entities. Use [WithDisabled()](ArchetypeQuery.WithDisabled().md 'Friflo.Engine.ECS.ArchetypeQuery.WithDisabled()') if needed.
 
 ```csharp
 public class ArchetypeQuery
@@ -36,6 +37,7 @@ Derived
 | [AnyTags(Tags)](ArchetypeQuery.AnyTags(Tags).md 'Friflo.Engine.ECS.ArchetypeQuery.AnyTags(Friflo.Engine.ECS.Tags)') | A query result will contain only entities having any of the the passed [tags](ArchetypeQuery.AnyTags(Tags).md#Friflo.Engine.ECS.ArchetypeQuery.AnyTags(Friflo.Engine.ECS.Tags).tags 'Friflo.Engine.ECS.ArchetypeQuery.AnyTags(Friflo.Engine.ECS.Tags).tags'). |
 | [HasEvent(int)](ArchetypeQuery.HasEvent(int).md 'Friflo.Engine.ECS.ArchetypeQuery.HasEvent(int)') | Returns true if a component or tag was added / removed to / from the entity with the passed [entityId](ArchetypeQuery.HasEvent(int).md#Friflo.Engine.ECS.ArchetypeQuery.HasEvent(int).entityId 'Friflo.Engine.ECS.ArchetypeQuery.HasEvent(int).entityId'). |
 | [ToString()](ArchetypeQuery.ToString().md 'Friflo.Engine.ECS.ArchetypeQuery.ToString()') | |
+| [WithDisabled()](ArchetypeQuery.WithDisabled().md 'Friflo.Engine.ECS.ArchetypeQuery.WithDisabled()') | A query result will contain [Disabled](Disabled.md 'Friflo.Engine.ECS.Disabled') entities. |
 | [WithoutAllComponents(ComponentTypes)](ArchetypeQuery.WithoutAllComponents(ComponentTypes).md 'Friflo.Engine.ECS.ArchetypeQuery.WithoutAllComponents(Friflo.Engine.ECS.ComponentTypes)') | Entities having all passed [componentTypes](ArchetypeQuery.WithoutAllComponents(ComponentTypes).md#Friflo.Engine.ECS.ArchetypeQuery.WithoutAllComponents(Friflo.Engine.ECS.ComponentTypes).componentTypes 'Friflo.Engine.ECS.ArchetypeQuery.WithoutAllComponents(Friflo.Engine.ECS.ComponentTypes).componentTypes') are excluded from query result. |
 | [WithoutAllTags(Tags)](ArchetypeQuery.WithoutAllTags(Tags).md 'Friflo.Engine.ECS.ArchetypeQuery.WithoutAllTags(Friflo.Engine.ECS.Tags)') | Entities having all passed [tags](ArchetypeQuery.WithoutAllTags(Tags).md#Friflo.Engine.ECS.ArchetypeQuery.WithoutAllTags(Friflo.Engine.ECS.Tags).tags 'Friflo.Engine.ECS.ArchetypeQuery.WithoutAllTags(Friflo.Engine.ECS.Tags).tags') are excluded from query result. |
 | [WithoutAnyComponents(ComponentTypes)](ArchetypeQuery.WithoutAnyComponents(ComponentTypes).md 'Friflo.Engine.ECS.ArchetypeQuery.WithoutAnyComponents(Friflo.Engine.ECS.ComponentTypes)') | Entities having any of the passed [componentTypes](ArchetypeQuery.WithoutAnyComponents(ComponentTypes).md#Friflo.Engine.ECS.ArchetypeQuery.WithoutAnyComponents(Friflo.Engine.ECS.ComponentTypes).componentTypes 'Friflo.Engine.ECS.ArchetypeQuery.WithoutAnyComponents(Friflo.Engine.ECS.ComponentTypes).componentTypes') are excluded from query result. |

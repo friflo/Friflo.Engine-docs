@@ -27,6 +27,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [AnyTags(Tags)](ArchetypeQuery_T1_.AnyTags(Tags).md 'Friflo.Engine.ECS.ArchetypeQuery<T1>.AnyTags(Friflo.Engine.ECS.Tags)') | |
 | [ForEach(Action&lt;Chunk&lt;T1&gt;,ChunkEntities&gt;)](ArchetypeQuery_T1_.ForEach(Action_Chunk_T1_,ChunkEntities_).md 'Friflo.Engine.ECS.ArchetypeQuery<T1>.ForEach(System.Action<Friflo.Engine.ECS.Chunk<T1>,Friflo.Engine.ECS.ChunkEntities>)') | Returns a [QueryJob](QueryJob.md 'Friflo.Engine.ECS.QueryJob') that enables [Parallel](JobExecution.md#Friflo.Engine.ECS.JobExecution.Parallel 'Friflo.Engine.ECS.JobExecution.Parallel') query execution. |
 | [ReadOnly&lt;T&gt;()](ArchetypeQuery_T1_.ReadOnly_T_().md 'Friflo.Engine.ECS.ArchetypeQuery<T1>.ReadOnly<T>()') | |
+| [WithDisabled()](ArchetypeQuery_T1_.WithDisabled().md 'Friflo.Engine.ECS.ArchetypeQuery<T1>.WithDisabled()') | |
 | [WithoutAllComponents(ComponentTypes)](ArchetypeQuery_T1_.WithoutAllComponents(ComponentTypes).md 'Friflo.Engine.ECS.ArchetypeQuery<T1>.WithoutAllComponents(Friflo.Engine.ECS.ComponentTypes)') | |
 | [WithoutAllTags(Tags)](ArchetypeQuery_T1_.WithoutAllTags(Tags).md 'Friflo.Engine.ECS.ArchetypeQuery<T1>.WithoutAllTags(Friflo.Engine.ECS.Tags)') | |
 | [WithoutAnyComponents(ComponentTypes)](ArchetypeQuery_T1_.WithoutAnyComponents(ComponentTypes).md 'Friflo.Engine.ECS.ArchetypeQuery<T1>.WithoutAnyComponents(Friflo.Engine.ECS.ComponentTypes)') | |

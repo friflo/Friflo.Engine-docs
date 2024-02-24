@@ -9,6 +9,9 @@ Used to create entity <b>Tag</b>'s by declaring a struct without fields or prope
 public interface ITag
 ```
 
+Derived  
+&#8627; [Disabled](Disabled.md 'Friflo.Engine.ECS.Disabled')
+
 ### Remarks
 In case you want to find a unique entity add the component [UniqueEntity](UniqueEntity.md 'Friflo.Engine.ECS.UniqueEntity') to an entity<br/>
 and use [GetUniqueEntity(string)](EntityStoreBase.GetUniqueEntity(string).md 'Friflo.Engine.ECS.EntityStoreBase.GetUniqueEntity(string)') to query for this entity.<br/><br/>

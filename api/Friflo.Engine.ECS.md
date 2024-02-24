@@ -5,7 +5,7 @@
 | Classes | |
 | :--- | :--- |
 | [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') | An [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') store entities with a specific set of [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') and [ITag](ITag.md 'Friflo.Engine.ECS.ITag') types. |
-| [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') | [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') and all its generic implementations are designed to be reused. |
+| [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') | [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') and all its generic implementations are designed to be reused.<br/>             By default an query does not contain [Disabled](Disabled.md 'Friflo.Engine.ECS.Disabled') entities. Use [WithDisabled()](ArchetypeQuery.WithDisabled().md 'Friflo.Engine.ECS.ArchetypeQuery.WithDisabled()') if needed. |
 | [ArchetypeQuery&lt;T1,T2,T3,T4,T5&gt;](ArchetypeQuery_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4,T5>') | |
 | [ArchetypeQuery&lt;T1,T2,T3,T4&gt;](ArchetypeQuery_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>') | |
 | [ArchetypeQuery&lt;T1,T2,T3&gt;](ArchetypeQuery_T1,T2,T3_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3>') | |
@@ -22,6 +22,7 @@
 | [CreateEntityBatch](CreateEntityBatch.md 'Friflo.Engine.ECS.CreateEntityBatch') | A create batch is used to optimize entity creation.<br/> Components and tags are buffered before creating an entity with [CreateEntity()](CreateEntityBatch.CreateEntity().md 'Friflo.Engine.ECS.CreateEntityBatch.CreateEntity()'). |
 | [EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch') | An entity batch is a container of component and tag commands that can be [Apply()](EntityBatch.Apply().md 'Friflo.Engine.ECS.EntityBatch.Apply()')'ed to an entity.<br/> It can be used on a single entity via [Batch()](Entity.Batch().md 'Friflo.Engine.ECS.Entity.Batch()') or as a <b>bulk operation</b> an a set of entities. |
 | [EntityEqualityComparer](EntityEqualityComparer.md 'Friflo.Engine.ECS.EntityEqualityComparer') | Used to check if two [Entity](Entity.md 'Friflo.Engine.ECS.Entity') instances are the same entity by comparing their [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id')'s. |
+| [EntityList](EntityList.md 'Friflo.Engine.ECS.EntityList') | A list of entities of a specific [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') used to apply changes to all entities in the container.<br/> Its recommended to reuse instances of this class to avoid unnecessary allocations. |
 | [EntitySchema](EntitySchema.md 'Friflo.Engine.ECS.EntitySchema') | Provide type information about all [ITag](ITag.md 'Friflo.Engine.ECS.ITag'), [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') and [Script](Script.md 'Friflo.Engine.ECS.Script') types available in the application. |
 | [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') | An [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') is a container for [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s their components, scripts, tags and the tree structure. |
 | [EntityStoreBase](EntityStoreBase.md 'Friflo.Engine.ECS.EntityStoreBase') | Store the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')s and [ITag](ITag.md 'Friflo.Engine.ECS.ITag') for the [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s of an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore'). |
@@ -69,6 +70,7 @@
 | [ComponentTypesEnumerator](ComponentTypesEnumerator.md 'Friflo.Engine.ECS.ComponentTypesEnumerator') | Return the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') types of [ComponentTypes](ComponentTypes.md 'Friflo.Engine.ECS.ComponentTypes'). |
 | [DebugEventHandler](DebugEventHandler.md 'Friflo.Engine.ECS.DebugEventHandler') | Used as item type in [DebugEventHandlers](DebugEventHandlers.md 'Friflo.Engine.ECS.DebugEventHandlers') providing the number of handlers for a specific event [Type](DebugEventHandler.Type.md 'Friflo.Engine.ECS.DebugEventHandler.Type'). |
 | [DebugEventHandlers](DebugEventHandlers.md 'Friflo.Engine.ECS.DebugEventHandlers') | Provide the event / signal handlers of an entity using [Entity](Entity.md 'Friflo.Engine.ECS.Entity').[DebugEventHandlers](Entity.DebugEventHandlers.md 'Friflo.Engine.ECS.Entity.DebugEventHandlers'). |
+| [Disabled](Disabled.md 'Friflo.Engine.ECS.Disabled') | If entity [Enabled](Entity.Enabled.md 'Friflo.Engine.ECS.Entity.Enabled') == false it is tagged with [Disabled](Disabled.md 'Friflo.Engine.ECS.Disabled').<br/> Disabled entities are excluded from query results by default. To include use [WithDisabled()](ArchetypeQuery.WithDisabled().md 'Friflo.Engine.ECS.ArchetypeQuery.WithDisabled()'). |
 | [EngineDependant](EngineDependant.md 'Friflo.Engine.ECS.EngineDependant') | |
 | [EntitiesChanged](EntitiesChanged.md 'Friflo.Engine.ECS.EntitiesChanged') | |
 | [EntitiesEnumerator](EntitiesEnumerator.md 'Friflo.Engine.ECS.EntitiesEnumerator') | Used to enumerate the [Entities](ArchetypeQuery.Entities.md 'Friflo.Engine.ECS.ArchetypeQuery.Entities') of an  [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery'). |
@@ -76,6 +78,7 @@
 | [EntityComponent](EntityComponent.md 'Friflo.Engine.ECS.EntityComponent') | An item in [EntityComponents](EntityComponents.md 'Friflo.Engine.ECS.EntityComponents') containing an entity [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent'). |
 | [EntityComponents](EntityComponents.md 'Friflo.Engine.ECS.EntityComponents') | Return the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity'). |
 | [EntityEvent](EntityEvent.md 'Friflo.Engine.ECS.EntityEvent') | The information about a structural change recorded by the [EventRecorder](EventRecorder.md 'Friflo.Engine.ECS.EventRecorder'). |
+| [EntityListEnumerator](EntityListEnumerator.md 'Friflo.Engine.ECS.EntityListEnumerator') | Enumerates the entities of an [EntityList](EntityList.md 'Friflo.Engine.ECS.EntityList'). |
 | [EntityName](EntityName.md 'Friflo.Engine.ECS.EntityName') | Can be added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') to provide a descriptive name for debugging or in an editor. |
 | [EntityNode](EntityNode.md 'Friflo.Engine.ECS.EntityNode') | Used by the [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') to store [Entity](Entity.md 'Friflo.Engine.ECS.Entity') components, scripts, tags and child entities internally as an array of nodes. |
 | [EntityScripts](EntityScripts.md 'Friflo.Engine.ECS.EntityScripts') | Return the [Script](Script.md 'Friflo.Engine.ECS.Script')'s added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity'). |
@@ -91,6 +94,8 @@
 | [Rotation](Rotation.md 'Friflo.Engine.ECS.Rotation') | |
 | [Scale3](Scale3.md 'Friflo.Engine.ECS.Scale3') | |
 | [ScriptChanged](ScriptChanged.md 'Friflo.Engine.ECS.ScriptChanged') | Is the event for event handlers added to [OnScriptChanged](Entity.OnScriptChanged.md 'Friflo.Engine.ECS.Entity.OnScriptChanged'), [OnScriptAdded](EntityStore.OnScriptAdded.md 'Friflo.Engine.ECS.EntityStore.OnScriptAdded') or [OnScriptRemoved](EntityStore.OnScriptRemoved.md 'Friflo.Engine.ECS.EntityStore.OnScriptRemoved'). |
+| [Scripts](Scripts.md 'Friflo.Engine.ECS.Scripts') | Contains the [Script](Script.md 'Friflo.Engine.ECS.Script')'s added to an entity. |
+| [ScriptsEnumerator](ScriptsEnumerator.md 'Friflo.Engine.ECS.ScriptsEnumerator') | Enumerator for entity [Scripts](Scripts.md 'Friflo.Engine.ECS.Scripts'). |
 | [Signal&lt;TEvent&gt;](Signal_TEvent_.md 'Friflo.Engine.ECS.Signal<TEvent>') | [Signal&lt;TEvent&gt;](Signal_TEvent_.md 'Friflo.Engine.ECS.Signal<TEvent>')'s are used to emit custom events from an entity to custom [Signal&lt;TEvent&gt;](Signal_TEvent_.md 'Friflo.Engine.ECS.Signal<TEvent>') handlers. |
 | [Signature&lt;T1,T2,T3,T4,T5&gt;](Signature_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>') | |
 | [Signature&lt;T1,T2,T3,T4&gt;](Signature_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>') | |
