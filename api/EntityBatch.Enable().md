@@ -3,6 +3,9 @@
 
 ## EntityBatch.Enable() Method
 
+Enables an entity.<br/>
+Enabled entities are included in query results.
+
 ```csharp
 public Friflo.Engine.ECS.EntityBatch Enable();
 ```

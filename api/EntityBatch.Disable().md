@@ -3,6 +3,9 @@
 
 ## EntityBatch.Disable() Method
 
+Disables an entity.<br/>[Disabled](Disabled.md 'Friflo.Engine.ECS.Disabled') entities are not included query results.
+To include them use [WithDisabled()](ArchetypeQuery.WithDisabled().md 'Friflo.Engine.ECS.ArchetypeQuery.WithDisabled()').
+
 ```csharp
 public Friflo.Engine.ECS.EntityBatch Disable();
 ```
