@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[QueryChunks&lt;T1&gt;](QueryChunks_T1_.md 'Friflo.Engine.ECS.QueryChunks<T1>')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[QueryChunks&lt;T1&gt;](QueryChunks_T1_.md#'Friflo.Engine.ECS.QueryChunks<T1>')
 
 ## QueryChunks<T1>.System.Collections.Generic.IEnumerable<Friflo.Engine.ECS.Chunks<T1>>.GetEnumerator() Method
 
@@ -7,4 +7,4 @@
 System.Collections.Generic.IEnumerator<Friflo.Engine.ECS.Chunks<T1>> System.Collections.Generic.IEnumerable<Friflo.Engine.ECS.Chunks<T1>>.GetEnumerator();
 ```
 
-Implements [GetEnumerator()](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1.GetEnumerator 'System.Collections.Generic.IEnumerable`1.GetEnumerator')
+Implements [GetEnumerator()](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1.GetEnumerator#'System.Collections.Generic.IEnumerable`1.GetEnumerator')

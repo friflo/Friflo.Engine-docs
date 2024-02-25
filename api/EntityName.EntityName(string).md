@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityName](EntityName.md 'Friflo.Engine.ECS.EntityName')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[EntityName](EntityName.md#'Friflo.Engine.ECS.EntityName')
 
 ## EntityName(string) Constructor
 
@@ -10,4 +10,4 @@ public EntityName(string value);
 
 <a name='Friflo.Engine.ECS.EntityName.EntityName(string).value'></a>
 
-`value` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
+`value` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String#'System.String')

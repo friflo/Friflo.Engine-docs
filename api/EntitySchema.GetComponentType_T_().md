@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntitySchema](EntitySchema.md 'Friflo.Engine.ECS.EntitySchema')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[EntitySchema](EntitySchema.md#'Friflo.Engine.ECS.EntitySchema')
 
 ## EntitySchema.GetComponentType<T>() Method
 
-Return the [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType') of a struct implementing [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent').
+Return the [ComponentType](ComponentType.md#'Friflo.Engine.ECS.ComponentType') of a struct implementing [IComponent](IComponent.md#'Friflo.Engine.ECS.IComponent').
 
 ```csharp
 public Friflo.Engine.ECS.ComponentType GetComponentType<T>()
@@ -16,4 +16,4 @@ public Friflo.Engine.ECS.ComponentType GetComponentType<T>()
 `T`
 
 #### Returns
-[ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType')
+[ComponentType](ComponentType.md#'Friflo.Engine.ECS.ComponentType')

@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[CreateEntityBatch](CreateEntityBatch.md 'Friflo.Engine.ECS.CreateEntityBatch')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[CreateEntityBatch](CreateEntityBatch.md#'Friflo.Engine.ECS.CreateEntityBatch')
 
 ## CreateEntityBatch.AddTag<T>() Method
 
-Add a tag that will be added to the entity when calling [CreateEntity()](CreateEntityBatch.CreateEntity().md 'Friflo.Engine.ECS.CreateEntityBatch.CreateEntity()').
+Add a tag that will be added to the entity when calling [CreateEntity()](CreateEntityBatch.CreateEntity().md#'Friflo.Engine.ECS.CreateEntityBatch.CreateEntity()').
 
 ```csharp
 public Friflo.Engine.ECS.CreateEntityBatch AddTag<T>()
@@ -16,4 +16,4 @@ public Friflo.Engine.ECS.CreateEntityBatch AddTag<T>()
 `T`
 
 #### Returns
-[CreateEntityBatch](CreateEntityBatch.md 'Friflo.Engine.ECS.CreateEntityBatch')
+[CreateEntityBatch](CreateEntityBatch.md#'Friflo.Engine.ECS.CreateEntityBatch')

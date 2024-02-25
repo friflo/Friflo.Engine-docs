@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[CreateEntityBatch](CreateEntityBatch.md 'Friflo.Engine.ECS.CreateEntityBatch')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[CreateEntityBatch](CreateEntityBatch.md#'Friflo.Engine.ECS.CreateEntityBatch')
 
 ## CreateEntityBatch.Get<T>() Method
 
@@ -17,4 +17,4 @@ public ref T Get<T>()
 `T`
 
 #### Returns
-[T](CreateEntityBatch.Get_T_().md#Friflo.Engine.ECS.CreateEntityBatch.Get_T_().T 'Friflo.Engine.ECS.CreateEntityBatch.Get<T>().T')
+[T](CreateEntityBatch.Get_T_().md#Friflo.Engine.ECS.CreateEntityBatch.Get_T_().T#'Friflo.Engine.ECS.CreateEntityBatch.Get<T>().T')

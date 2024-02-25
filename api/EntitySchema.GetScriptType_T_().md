@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntitySchema](EntitySchema.md 'Friflo.Engine.ECS.EntitySchema')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[EntitySchema](EntitySchema.md#'Friflo.Engine.ECS.EntitySchema')
 
 ## EntitySchema.GetScriptType<T>() Method
 
-Return the [ScriptType](ScriptType.md 'Friflo.Engine.ECS.ScriptType') of a class extending [Script](Script.md 'Friflo.Engine.ECS.Script').
+Return the [ScriptType](ScriptType.md#'Friflo.Engine.ECS.ScriptType') of a class extending [Script](Script.md#'Friflo.Engine.ECS.Script').
 
 ```csharp
 public Friflo.Engine.ECS.ScriptType GetScriptType<T>()
@@ -16,4 +16,4 @@ public Friflo.Engine.ECS.ScriptType GetScriptType<T>()
 `T`
 
 #### Returns
-[ScriptType](ScriptType.md 'Friflo.Engine.ECS.ScriptType')
+[ScriptType](ScriptType.md#'Friflo.Engine.ECS.ScriptType')

@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[RawEntityStore](RawEntityStore.md 'Friflo.Engine.ECS.RawEntityStore')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[RawEntityStore](RawEntityStore.md#'Friflo.Engine.ECS.RawEntityStore')
 
 ## RawEntityStore.AddEntityComponent<T>(int, T) Method
 
@@ -16,11 +16,11 @@ public bool AddEntityComponent<T>(int id, in T component)
 
 <a name='Friflo.Engine.ECS.RawEntityStore.AddEntityComponent_T_(int,T).id'></a>
 
-`id` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')
+`id` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32#'System.Int32')
 
 <a name='Friflo.Engine.ECS.RawEntityStore.AddEntityComponent_T_(int,T).component'></a>
 
-`component` [T](RawEntityStore.AddEntityComponent_T_(int,T).md#Friflo.Engine.ECS.RawEntityStore.AddEntityComponent_T_(int,T).T 'Friflo.Engine.ECS.RawEntityStore.AddEntityComponent<T>(int, T).T')
+`component` [T](RawEntityStore.AddEntityComponent_T_(int,T).md#Friflo.Engine.ECS.RawEntityStore.AddEntityComponent_T_(int,T).T#'Friflo.Engine.ECS.RawEntityStore.AddEntityComponent<T>(int, T).T')
 
 #### Returns
-[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean#'System.Boolean')

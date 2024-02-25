@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS.Collections](Friflo.Engine.ECS.Collections.md 'Friflo.Engine.ECS.Collections').[ExplorerItem](ExplorerItem.md 'Friflo.Engine.ECS.Collections.ExplorerItem')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS.Collections](Friflo.Engine.ECS.Collections.md#'Friflo.Engine.ECS.Collections').[ExplorerItem](ExplorerItem.md#'Friflo.Engine.ECS.Collections.ExplorerItem')
 
 ## ExplorerItem.System.Collections.IList.Clear() Method
 
@@ -7,4 +7,4 @@
 void System.Collections.IList.Clear();
 ```
 
-Implements [Clear()](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IList.Clear 'System.Collections.IList.Clear')
+Implements [Clear()](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IList.Clear#'System.Collections.IList.Clear')

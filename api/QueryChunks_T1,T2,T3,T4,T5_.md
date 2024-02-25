@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS')
 
 ## QueryChunks<T1,T2,T3,T4,T5> Struct
 
@@ -38,19 +38,19 @@ System.Collections.IEnumerable
 
 `T5`
 
-Implements [System.Collections.Generic.IEnumerable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1 'System.Collections.Generic.IEnumerable`1')[Friflo.Engine.ECS.Chunks&lt;](Chunks_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Chunks<T1,T2,T3,T4,T5>')[T1](QueryChunks_T1,T2,T3,T4,T5_.md#Friflo.Engine.ECS.QueryChunks_T1,T2,T3,T4,T5_.T1 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.T1')[,](Chunks_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Chunks<T1,T2,T3,T4,T5>')[T2](QueryChunks_T1,T2,T3,T4,T5_.md#Friflo.Engine.ECS.QueryChunks_T1,T2,T3,T4,T5_.T2 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.T2')[,](Chunks_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Chunks<T1,T2,T3,T4,T5>')[T3](QueryChunks_T1,T2,T3,T4,T5_.md#Friflo.Engine.ECS.QueryChunks_T1,T2,T3,T4,T5_.T3 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.T3')[,](Chunks_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Chunks<T1,T2,T3,T4,T5>')[T4](QueryChunks_T1,T2,T3,T4,T5_.md#Friflo.Engine.ECS.QueryChunks_T1,T2,T3,T4,T5_.T4 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.T4')[,](Chunks_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Chunks<T1,T2,T3,T4,T5>')[T5](QueryChunks_T1,T2,T3,T4,T5_.md#Friflo.Engine.ECS.QueryChunks_T1,T2,T3,T4,T5_.T5 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.T5')[&gt;](Chunks_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.Chunks<T1,T2,T3,T4,T5>')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1 'System.Collections.Generic.IEnumerable`1'), [System.Collections.IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerable 'System.Collections.IEnumerable')
+Implements [System.Collections.Generic.IEnumerable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1#'System.Collections.Generic.IEnumerable`1')[Friflo.Engine.ECS.Chunks&lt;](Chunks_T1,T2,T3,T4,T5_.md#'Friflo.Engine.ECS.Chunks<T1,T2,T3,T4,T5>')[T1](QueryChunks_T1,T2,T3,T4,T5_.md#Friflo.Engine.ECS.QueryChunks_T1,T2,T3,T4,T5_.T1#'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.T1')[,](Chunks_T1,T2,T3,T4,T5_.md#'Friflo.Engine.ECS.Chunks<T1,T2,T3,T4,T5>')[T2](QueryChunks_T1,T2,T3,T4,T5_.md#Friflo.Engine.ECS.QueryChunks_T1,T2,T3,T4,T5_.T2#'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.T2')[,](Chunks_T1,T2,T3,T4,T5_.md#'Friflo.Engine.ECS.Chunks<T1,T2,T3,T4,T5>')[T3](QueryChunks_T1,T2,T3,T4,T5_.md#Friflo.Engine.ECS.QueryChunks_T1,T2,T3,T4,T5_.T3#'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.T3')[,](Chunks_T1,T2,T3,T4,T5_.md#'Friflo.Engine.ECS.Chunks<T1,T2,T3,T4,T5>')[T4](QueryChunks_T1,T2,T3,T4,T5_.md#Friflo.Engine.ECS.QueryChunks_T1,T2,T3,T4,T5_.T4#'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.T4')[,](Chunks_T1,T2,T3,T4,T5_.md#'Friflo.Engine.ECS.Chunks<T1,T2,T3,T4,T5>')[T5](QueryChunks_T1,T2,T3,T4,T5_.md#Friflo.Engine.ECS.QueryChunks_T1,T2,T3,T4,T5_.T5#'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.T5')[&gt;](Chunks_T1,T2,T3,T4,T5_.md#'Friflo.Engine.ECS.Chunks<T1,T2,T3,T4,T5>')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1#'System.Collections.Generic.IEnumerable`1'), [System.Collections.IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerable#'System.Collections.IEnumerable')
 
 | Properties | |
 | :--- | :--- |
-| [Count](QueryChunks_T1,T2,T3,T4,T5_.Count.md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.Count') | |
-| [EntityCount](QueryChunks_T1,T2,T3,T4,T5_.EntityCount.md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.EntityCount') | |
+| [Count](QueryChunks_T1,T2,T3,T4,T5_.Count.md#'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.Count') | |
+| [EntityCount](QueryChunks_T1,T2,T3,T4,T5_.EntityCount.md#'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.EntityCount') | |
 
 | Methods | |
 | :--- | :--- |
-| [GetEnumerator()](QueryChunks_T1,T2,T3,T4,T5_.GetEnumerator().md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.GetEnumerator()') | |
-| [ToString()](QueryChunks_T1,T2,T3,T4,T5_.ToString().md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.ToString()') | |
+| [GetEnumerator()](QueryChunks_T1,T2,T3,T4,T5_.GetEnumerator().md#'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.GetEnumerator()') | |
+| [ToString()](QueryChunks_T1,T2,T3,T4,T5_.ToString().md#'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.ToString()') | |
 
 | Explicit Interface Implementations | |
 | :--- | :--- |
-| [System.Collections.Generic.IEnumerable&lt;Friflo.Engine.ECS.Chunks&lt;T1,T2,T3,T4,T5&gt;&gt;.GetEnumerator()](QueryChunks_T1,T2,T3,T4,T5_.System.Collections.Generic.IEnumerable_Friflo.Engine.ECS.Chunks_T1,T2,T3,T4,T5__.GetEnumerator().md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.System.Collections.Generic.IEnumerable<Friflo.Engine.ECS.Chunks<T1,T2,T3,T4,T5>>.GetEnumerator()') | |
-| [System.Collections.IEnumerable.GetEnumerator()](QueryChunks_T1,T2,T3,T4,T5_.System.Collections.IEnumerable.GetEnumerator().md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.System.Collections.IEnumerable.GetEnumerator()') | |
+| [System.Collections.Generic.IEnumerable&lt;Friflo.Engine.ECS.Chunks&lt;T1,T2,T3,T4,T5&gt;&gt;.GetEnumerator()](QueryChunks_T1,T2,T3,T4,T5_.System.Collections.Generic.IEnumerable_Friflo.Engine.ECS.Chunks_T1,T2,T3,T4,T5__.GetEnumerator().md#'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.System.Collections.Generic.IEnumerable<Friflo.Engine.ECS.Chunks<T1,T2,T3,T4,T5>>.GetEnumerator()') | |
+| [System.Collections.IEnumerable.GetEnumerator()](QueryChunks_T1,T2,T3,T4,T5_.System.Collections.IEnumerable.GetEnumerator().md#'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4,T5>.System.Collections.IEnumerable.GetEnumerator()') | |

@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[EntityBatch](EntityBatch.md#'Friflo.Engine.ECS.EntityBatch')
 
 ## EntityBatch.Remove<T>() Method
 
-Adds a remove component command to the [EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch').
+Adds a remove component command to the [EntityBatch](EntityBatch.md#'Friflo.Engine.ECS.EntityBatch').
 
 ```csharp
 public Friflo.Engine.ECS.EntityBatch Remove<T>()
@@ -16,4 +16,4 @@ public Friflo.Engine.ECS.EntityBatch Remove<T>()
 `T`
 
 #### Returns
-[EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch')
+[EntityBatch](EntityBatch.md#'Friflo.Engine.ECS.EntityBatch')

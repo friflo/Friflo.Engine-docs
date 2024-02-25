@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[Entity](Entity.md 'Friflo.Engine.ECS.Entity')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[Entity](Entity.md#'Friflo.Engine.ECS.Entity')
 
 ## Entity.ToString() Method
 
@@ -8,4 +8,4 @@ public override string ToString();
 ```
 
 #### Returns
-[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')
+[System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String#'System.String')

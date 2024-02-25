@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityEvent](EntityEvent.md 'Friflo.Engine.ECS.EntityEvent')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[EntityEvent](EntityEvent.md#'Friflo.Engine.ECS.EntityEvent')
 
 ## EntityEvent.Kind Field
 
@@ -10,4 +10,4 @@ public SchemaTypeKind Kind;
 ```
 
 #### Field Value
-[SchemaTypeKind](SchemaTypeKind.md 'Friflo.Engine.ECS.SchemaTypeKind')
+[SchemaTypeKind](SchemaTypeKind.md#'Friflo.Engine.ECS.SchemaTypeKind')

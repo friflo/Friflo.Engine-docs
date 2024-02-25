@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[ChildEntities](ChildEntities.md 'Friflo.Engine.ECS.ChildEntities')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[ChildEntities](ChildEntities.md#'Friflo.Engine.ECS.ChildEntities')
 
 ## ChildEntities.GetEnumerator() Method
 
@@ -7,7 +7,7 @@
 public Friflo.Engine.ECS.ChildEnumerator GetEnumerator();
 ```
 
-Implements [GetEnumerator()](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1.GetEnumerator 'System.Collections.Generic.IEnumerable`1.GetEnumerator'), [GetEnumerator()](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerable.GetEnumerator 'System.Collections.IEnumerable.GetEnumerator')
+Implements [GetEnumerator()](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1.GetEnumerator#'System.Collections.Generic.IEnumerable`1.GetEnumerator'), [GetEnumerator()](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerable.GetEnumerator#'System.Collections.IEnumerable.GetEnumerator')
 
 #### Returns
-[ChildEnumerator](ChildEnumerator.md 'Friflo.Engine.ECS.ChildEnumerator')
+[ChildEnumerator](ChildEnumerator.md#'Friflo.Engine.ECS.ChildEnumerator')

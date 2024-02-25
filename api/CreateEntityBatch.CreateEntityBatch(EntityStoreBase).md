@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[CreateEntityBatch](CreateEntityBatch.md 'Friflo.Engine.ECS.CreateEntityBatch')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[CreateEntityBatch](CreateEntityBatch.md#'Friflo.Engine.ECS.CreateEntityBatch')
 
 ## CreateEntityBatch(EntityStoreBase) Constructor
 
@@ -13,4 +13,4 @@ public CreateEntityBatch(Friflo.Engine.ECS.EntityStoreBase store);
 
 <a name='Friflo.Engine.ECS.CreateEntityBatch.CreateEntityBatch(Friflo.Engine.ECS.EntityStoreBase).store'></a>
 
-`store` [EntityStoreBase](EntityStoreBase.md 'Friflo.Engine.ECS.EntityStoreBase')
+`store` [EntityStoreBase](EntityStoreBase.md#'Friflo.Engine.ECS.EntityStoreBase')

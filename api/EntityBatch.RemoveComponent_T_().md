@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[EntityBatch](EntityBatch.md#'Friflo.Engine.ECS.EntityBatch')
 
 ## EntityBatch.RemoveComponent<T>() Method
 
-Obsolete - use renamed method: [Remove&lt;T&gt;()](EntityBatch.Remove_T_().md 'Friflo.Engine.ECS.EntityBatch.Remove<T>()')
+Obsolete - use renamed method: [Remove&lt;T&gt;()](EntityBatch.Remove_T_().md#'Friflo.Engine.ECS.EntityBatch.Remove<T>()')
 
 ```csharp
 public Friflo.Engine.ECS.EntityBatch RemoveComponent<T>()
@@ -16,4 +16,4 @@ public Friflo.Engine.ECS.EntityBatch RemoveComponent<T>()
 `T`
 
 #### Returns
-[EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch')
+[EntityBatch](EntityBatch.md#'Friflo.Engine.ECS.EntityBatch')

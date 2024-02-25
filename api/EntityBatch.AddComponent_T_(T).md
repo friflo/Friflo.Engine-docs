@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[EntityBatch](EntityBatch.md#'Friflo.Engine.ECS.EntityBatch')
 
 ## EntityBatch.AddComponent<T>(T) Method
 
-Obsolete - use renamed method: [Add&lt;T&gt;(T)](EntityBatch.Add_T_(T).md 'Friflo.Engine.ECS.EntityBatch.Add<T>(T)')
+Obsolete - use renamed method: [Add&lt;T&gt;(T)](EntityBatch.Add_T_(T).md#'Friflo.Engine.ECS.EntityBatch.Add<T>(T)')
 
 ```csharp
 public Friflo.Engine.ECS.EntityBatch AddComponent<T>(T component)
@@ -18,7 +18,7 @@ public Friflo.Engine.ECS.EntityBatch AddComponent<T>(T component)
 
 <a name='Friflo.Engine.ECS.EntityBatch.AddComponent_T_(T).component'></a>
 
-`component` [T](EntityBatch.AddComponent_T_(T).md#Friflo.Engine.ECS.EntityBatch.AddComponent_T_(T).T 'Friflo.Engine.ECS.EntityBatch.AddComponent<T>(T).T')
+`component` [T](EntityBatch.AddComponent_T_(T).md#Friflo.Engine.ECS.EntityBatch.AddComponent_T_(T).T#'Friflo.Engine.ECS.EntityBatch.AddComponent<T>(T).T')
 
 #### Returns
-[EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch')
+[EntityBatch](EntityBatch.md#'Friflo.Engine.ECS.EntityBatch')

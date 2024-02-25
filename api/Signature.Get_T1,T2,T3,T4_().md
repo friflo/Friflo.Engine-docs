@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[Signature](Signature.md 'Friflo.Engine.ECS.Signature')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[Signature](Signature.md#'Friflo.Engine.ECS.Signature')
 
 ## Signature.Get<T1,T2,T3,T4>() Method
 
-Returns a query [Signature&lt;T1,T2,T3,T4&gt;](Signature_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>') containing the specified component types.<br/>
+Returns a query [Signature&lt;T1,T2,T3,T4&gt;](Signature_T1,T2,T3,T4_.md#'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>') containing the specified component types.<br/>
 
 ```csharp
 public static Friflo.Engine.ECS.Signature<T1,T2,T3,T4> Get<T1,T2,T3,T4>()
@@ -31,7 +31,7 @@ public static Friflo.Engine.ECS.Signature<T1,T2,T3,T4> Get<T1,T2,T3,T4>()
 `T4`
 
 #### Returns
-[Friflo.Engine.ECS.Signature&lt;](Signature_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>')[T1](Signature.Get_T1,T2,T3,T4_().md#Friflo.Engine.ECS.Signature.Get_T1,T2,T3,T4_().T1 'Friflo.Engine.ECS.Signature.Get<T1,T2,T3,T4>().T1')[,](Signature_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>')[T2](Signature.Get_T1,T2,T3,T4_().md#Friflo.Engine.ECS.Signature.Get_T1,T2,T3,T4_().T2 'Friflo.Engine.ECS.Signature.Get<T1,T2,T3,T4>().T2')[,](Signature_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>')[T3](Signature.Get_T1,T2,T3,T4_().md#Friflo.Engine.ECS.Signature.Get_T1,T2,T3,T4_().T3 'Friflo.Engine.ECS.Signature.Get<T1,T2,T3,T4>().T3')[,](Signature_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>')[T4](Signature.Get_T1,T2,T3,T4_().md#Friflo.Engine.ECS.Signature.Get_T1,T2,T3,T4_().T4 'Friflo.Engine.ECS.Signature.Get<T1,T2,T3,T4>().T4')[&gt;](Signature_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>')
+[Friflo.Engine.ECS.Signature&lt;](Signature_T1,T2,T3,T4_.md#'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>')[T1](Signature.Get_T1,T2,T3,T4_().md#Friflo.Engine.ECS.Signature.Get_T1,T2,T3,T4_().T1#'Friflo.Engine.ECS.Signature.Get<T1,T2,T3,T4>().T1')[,](Signature_T1,T2,T3,T4_.md#'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>')[T2](Signature.Get_T1,T2,T3,T4_().md#Friflo.Engine.ECS.Signature.Get_T1,T2,T3,T4_().T2#'Friflo.Engine.ECS.Signature.Get<T1,T2,T3,T4>().T2')[,](Signature_T1,T2,T3,T4_.md#'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>')[T3](Signature.Get_T1,T2,T3,T4_().md#Friflo.Engine.ECS.Signature.Get_T1,T2,T3,T4_().T3#'Friflo.Engine.ECS.Signature.Get<T1,T2,T3,T4>().T3')[,](Signature_T1,T2,T3,T4_.md#'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>')[T4](Signature.Get_T1,T2,T3,T4_().md#Friflo.Engine.ECS.Signature.Get_T1,T2,T3,T4_().T4#'Friflo.Engine.ECS.Signature.Get<T1,T2,T3,T4>().T4')[&gt;](Signature_T1,T2,T3,T4_.md#'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>')
 
 ### Remarks
-It can be used to query entities with the specified component types with [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore').Query() methods.
+It can be used to query entities with the specified component types with [EntityStore](EntityStore.md#'Friflo.Engine.ECS.EntityStore').Query() methods.

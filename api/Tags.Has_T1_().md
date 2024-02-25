@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[Tags](Tags.md 'Friflo.Engine.ECS.Tags')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[Tags](Tags.md#'Friflo.Engine.ECS.Tags')
 
 ## Tags.Has<T1>() Method
 
-Return true if it contain the passed tag [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') type [T1](Tags.Has_T1_().md#Friflo.Engine.ECS.Tags.Has_T1_().T1 'Friflo.Engine.ECS.Tags.Has<T1>().T1').
+Return true if it contain the passed tag [IComponent](IComponent.md#'Friflo.Engine.ECS.IComponent') type [T1](Tags.Has_T1_().md#Friflo.Engine.ECS.Tags.Has_T1_().T1#'Friflo.Engine.ECS.Tags.Has<T1>().T1').
 
 ```csharp
 public readonly bool Has<T1>()
@@ -16,4 +16,4 @@ public readonly bool Has<T1>()
 `T1`
 
 #### Returns
-[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean#'System.Boolean')

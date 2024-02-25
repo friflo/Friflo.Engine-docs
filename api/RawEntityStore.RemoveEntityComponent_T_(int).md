@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[RawEntityStore](RawEntityStore.md 'Friflo.Engine.ECS.RawEntityStore')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[RawEntityStore](RawEntityStore.md#'Friflo.Engine.ECS.RawEntityStore')
 
 ## RawEntityStore.RemoveEntityComponent<T>(int) Method
 
@@ -16,7 +16,7 @@ public bool RemoveEntityComponent<T>(int id)
 
 <a name='Friflo.Engine.ECS.RawEntityStore.RemoveEntityComponent_T_(int).id'></a>
 
-`id` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')
+`id` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32#'System.Int32')
 
 #### Returns
-[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean#'System.Boolean')

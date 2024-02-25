@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[ComponentEnumerator](ComponentEnumerator.md 'Friflo.Engine.ECS.ComponentEnumerator')
+#### [Friflo.Engine.ECS](index.md#'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[ComponentEnumerator](ComponentEnumerator.md#'Friflo.Engine.ECS.ComponentEnumerator')
 
 ## ComponentEnumerator.System.Collections.IEnumerator.Current Property
 
@@ -7,4 +7,4 @@
 object System.Collections.IEnumerator.Current { get; }
 ```
 
-Implements [Current](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerator.Current 'System.Collections.IEnumerator.Current')
+Implements [Current](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerator.Current#'System.Collections.IEnumerator.Current')
