@@ -22,5 +22,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | Methods | |
 | :--- | :--- |
 | [Run()](QueryJob_T1_.Run().md 'Friflo.Engine.ECS.QueryJob<T1>.Run()') | |
-| [RunParallel()](QueryJob_T1_.RunParallel().md 'Friflo.Engine.ECS.QueryJob<T1>.RunParallel()') | |
+| [RunParallel()](QueryJob_T1_.RunParallel().md 'Friflo.Engine.ECS.QueryJob<T1>.RunParallel()') | Execute the query.             See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#parallel-query-job">Example.</a>.<br/>             All chunks having at least [MinParallelChunkLength](QueryJob.MinParallelChunkLength.md 'Friflo.Engine.ECS.QueryJob.MinParallelChunkLength') * [ThreadCount](ParallelJobRunner.ThreadCount.md 'Friflo.Engine.ECS.ParallelJobRunner.ThreadCount')             components are executed [Parallel](JobExecution.md#Friflo.Engine.ECS.JobExecution.Parallel 'Friflo.Engine.ECS.JobExecution.Parallel'). |
 | [ToString()](QueryJob_T1_.ToString().md 'Friflo.Engine.ECS.QueryJob<T1>.ToString()') | |

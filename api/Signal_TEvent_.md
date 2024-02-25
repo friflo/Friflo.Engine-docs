@@ -3,7 +3,8 @@
 
 ## Signal<TEvent> Struct
 
-[Signal&lt;TEvent&gt;](Signal_TEvent_.md 'Friflo.Engine.ECS.Signal<TEvent>')'s are used to emit custom events from an entity to custom [Signal&lt;TEvent&gt;](Signal_TEvent_.md 'Friflo.Engine.ECS.Signal<TEvent>') handlers.
+[Signal&lt;TEvent&gt;](Signal_TEvent_.md 'Friflo.Engine.ECS.Signal<TEvent>')'s are used to emit custom events from an entity to custom [Signal&lt;TEvent&gt;](Signal_TEvent_.md 'Friflo.Engine.ECS.Signal<TEvent>') handlers.<br/>
+            See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#signal">Example.</a>
 
 ```csharp
 public readonly struct Signal<TEvent>

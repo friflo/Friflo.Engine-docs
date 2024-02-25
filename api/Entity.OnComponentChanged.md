@@ -3,7 +3,8 @@
 
 ## Entity.OnComponentChanged Event
 
-Add / remove an event handler for [ComponentChanged](ComponentChanged.md 'Friflo.Engine.ECS.ComponentChanged') events triggered by: <br/>[AddComponent&lt;T&gt;()](Entity.AddComponent_T_().md 'Friflo.Engine.ECS.Entity.AddComponent<T>()')<br/>[RemoveComponent&lt;T&gt;()](Entity.RemoveComponent_T_().md 'Friflo.Engine.ECS.Entity.RemoveComponent<T>()').
+Add / remove an event handler for [ComponentChanged](ComponentChanged.md 'Friflo.Engine.ECS.ComponentChanged') events triggered by: <br/>[AddComponent&lt;T&gt;()](Entity.AddComponent_T_().md 'Friflo.Engine.ECS.Entity.AddComponent<T>()')<br/>[RemoveComponent&lt;T&gt;()](Entity.RemoveComponent_T_().md 'Friflo.Engine.ECS.Entity.RemoveComponent<T>()').<br/>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#event">Example.</a>
 
 ```csharp
 public event Action<ComponentChanged> OnComponentChanged;

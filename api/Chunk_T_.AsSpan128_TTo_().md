@@ -4,8 +4,8 @@
 ## Chunk<T>.AsSpan128<TTo>() Method
 
 Return the components as a [System.Span&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1 'System.Span`1') of type [TTo](Chunk_T_.AsSpan128_TTo_().md#Friflo.Engine.ECS.Chunk_T_.AsSpan128_TTo_().TTo 'Friflo.Engine.ECS.Chunk<T>.AsSpan128<TTo>().TTo').<br/>
-The returned [System.Span&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1 'System.Span`1') contains padding elements on its tail to enable assignment to Vector128{TTo}.
-<br/><br/> See example at [AsSpan256&lt;TTo&gt;()](Chunk_T_.AsSpan256_TTo_().md 'Friflo.Engine.ECS.Chunk<T>.AsSpan256<TTo>()').
+The returned [System.Span&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1 'System.Span`1') contains padding elements on its tail to enable assignment to Vector128{TTo}.<br/>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#query-vectorization---simd">Example.</a>.
 
 ```csharp
 public System.Span<TTo> AsSpan128<TTo>()

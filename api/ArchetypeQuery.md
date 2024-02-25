@@ -4,7 +4,8 @@
 ## ArchetypeQuery Class
 
 [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') and all its generic implementations are designed to be reused.<br/>
-            By default an query does not contain [Disabled](Disabled.md 'Friflo.Engine.ECS.Disabled') entities. Use [WithDisabled()](ArchetypeQuery.WithDisabled().md 'Friflo.Engine.ECS.ArchetypeQuery.WithDisabled()') if needed.
+            By default an query does not contain [Disabled](Disabled.md 'Friflo.Engine.ECS.Disabled') entities. Use [WithDisabled()](ArchetypeQuery.WithDisabled().md 'Friflo.Engine.ECS.ArchetypeQuery.WithDisabled()') if needed.<br/>
+            See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#query-entities">Example.</a>
 
 ```csharp
 public class ArchetypeQuery
@@ -26,7 +27,7 @@ Derived
 | [Count](ArchetypeQuery.Count.md 'Friflo.Engine.ECS.ArchetypeQuery.Count') | Return the number of entities matching the query. |
 | [Entities](ArchetypeQuery.Entities.md 'Friflo.Engine.ECS.ArchetypeQuery.Entities') | Return the [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') entities mainly for debugging.<br/> For efficient access to entity [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s use one of the generic `EntityStore.Query()` methods. |
 | [EntityCount](ArchetypeQuery.EntityCount.md 'Friflo.Engine.ECS.ArchetypeQuery.EntityCount') | |
-| [EventFilter](ArchetypeQuery.EventFilter.md 'Friflo.Engine.ECS.ArchetypeQuery.EventFilter') | An [EventFilter](EventFilter.md 'Friflo.Engine.ECS.EventFilter') used to filter the query result for added/removed components/tags. |
+| [EventFilter](ArchetypeQuery.EventFilter.md 'Friflo.Engine.ECS.ArchetypeQuery.EventFilter') | An [EventFilter](EventFilter.md 'Friflo.Engine.ECS.EventFilter') used to filter the query result for added/removed components/tags.<br/> See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#eventfilter">Example.</a> |
 | [Store](ArchetypeQuery.Store.md 'Friflo.Engine.ECS.ArchetypeQuery.Store') | The [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') on which the query operates. |
 
 | Methods | |

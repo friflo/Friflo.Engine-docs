@@ -3,7 +3,8 @@
 
 ## EntityStoreBase.Query<T1>() Method
 
-Create a reusable [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') for the given component type.
+Create a reusable [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') for the given component type.<br/>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#query-entities">Example.</a>
 
 ```csharp
 public Friflo.Engine.ECS.ArchetypeQuery<T1> Query<T1>()

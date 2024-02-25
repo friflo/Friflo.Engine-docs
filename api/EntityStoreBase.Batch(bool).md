@@ -3,7 +3,8 @@
 
 ## EntityStoreBase.Batch(bool) Method
 
-Returns a [CreateEntityBatch](CreateEntityBatch.md 'Friflo.Engine.ECS.CreateEntityBatch') used to create entities with components and tags added to the batch.
+Returns a [CreateEntityBatch](CreateEntityBatch.md 'Friflo.Engine.ECS.CreateEntityBatch') used to create entities with components and tags added to the batch.<br/>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#batch---create-entity">Example.</a>
 
 ```csharp
 public Friflo.Engine.ECS.CreateEntityBatch Batch(bool autoReturn=true);

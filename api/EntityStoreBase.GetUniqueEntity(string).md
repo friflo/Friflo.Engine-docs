@@ -3,7 +3,8 @@
 
 ## EntityStoreBase.GetUniqueEntity(string) Method
 
-Return the entity with a [UniqueEntity](UniqueEntity.md 'Friflo.Engine.ECS.UniqueEntity') component and its [uid](UniqueEntity.uid.md 'Friflo.Engine.ECS.UniqueEntity.uid') == [uid](EntityStoreBase.GetUniqueEntity(string).md#Friflo.Engine.ECS.EntityStoreBase.GetUniqueEntity(string).uid 'Friflo.Engine.ECS.EntityStoreBase.GetUniqueEntity(string).uid')
+Return the entity with a [UniqueEntity](UniqueEntity.md 'Friflo.Engine.ECS.UniqueEntity') component and its [uid](UniqueEntity.uid.md 'Friflo.Engine.ECS.UniqueEntity.uid') == [uid](EntityStoreBase.GetUniqueEntity(string).md#Friflo.Engine.ECS.EntityStoreBase.GetUniqueEntity(string).uid 'Friflo.Engine.ECS.EntityStoreBase.GetUniqueEntity(string).uid').<br/>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#unique-entity">Example.</a>
 
 ```csharp
 public Friflo.Engine.ECS.Entity GetUniqueEntity(string uid);

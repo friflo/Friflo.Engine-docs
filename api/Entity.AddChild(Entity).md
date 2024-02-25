@@ -3,7 +3,8 @@
 
 ## Entity.AddChild(Entity) Method
 
-Add the given [entity](Entity.AddChild(Entity).md#Friflo.Engine.ECS.Entity.AddChild(Friflo.Engine.ECS.Entity).entity 'Friflo.Engine.ECS.Entity.AddChild(Friflo.Engine.ECS.Entity).entity') as a child to the entity.
+Add the given [entity](Entity.AddChild(Entity).md#Friflo.Engine.ECS.Entity.AddChild(Friflo.Engine.ECS.Entity).entity 'Friflo.Engine.ECS.Entity.AddChild(Friflo.Engine.ECS.Entity).entity') as a child to the entity.<br/>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#child-entities">Example.</a>
 
 ```csharp
 public int AddChild(Friflo.Engine.ECS.Entity entity);

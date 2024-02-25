@@ -4,7 +4,8 @@
 ## CommandBuffer Class
 
 A command buffer enables recording entity changes on <b>arbitrary</b> threads.<br/>
-These changes are executed by calling [Playback()](CommandBuffer.Playback().md 'Friflo.Engine.ECS.CommandBuffer.Playback()') on the <b>main</b> thread.
+These changes are executed by calling [Playback()](CommandBuffer.Playback().md 'Friflo.Engine.ECS.CommandBuffer.Playback()') on the <b>main</b> thread.<br/>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#commandbuffer">Example.</a>
 
 ```csharp
 public sealed class CommandBuffer
