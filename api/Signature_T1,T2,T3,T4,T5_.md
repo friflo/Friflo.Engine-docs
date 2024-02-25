@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS')
 
 ## Signature<T1,T2,T3,T4,T5> Struct
 
@@ -35,9 +35,9 @@ public readonly struct Signature<T1,T2,T3,T4,T5>
 
 | Properties | |
 | :--- | :--- |
-| [ComponentCount](Signature_T1,T2,T3,T4,T5_.ComponentCount.md#'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>.ComponentCount') | |
-| [ComponentTypes](Signature_T1,T2,T3,T4,T5_.ComponentTypes.md#'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>.ComponentTypes') | |
+| [ComponentCount](Signature_T1,T2,T3,T4,T5_.ComponentCount.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>.ComponentCount') | |
+| [ComponentTypes](Signature_T1,T2,T3,T4,T5_.ComponentTypes.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>.ComponentTypes') | |
 
 | Methods | |
 | :--- | :--- |
-| [ToString()](Signature_T1,T2,T3,T4,T5_.ToString().md#'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>.ToString()') | |
+| [ToString()](Signature_T1,T2,T3,T4,T5_.ToString().md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4,T5>.ToString()') | |

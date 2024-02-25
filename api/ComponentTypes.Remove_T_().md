@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[ComponentTypes](ComponentTypes.md#'Friflo.Engine.ECS.ComponentTypes')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[ComponentTypes](ComponentTypes.md 'Friflo.Engine.ECS.ComponentTypes')
 
 ## ComponentTypes.Remove<T>() Method
 
-Add the passed [IComponent](IComponent.md#'Friflo.Engine.ECS.IComponent') type [T](ComponentTypes.Remove_T_().md#Friflo.Engine.ECS.ComponentTypes.Remove_T_().T#'Friflo.Engine.ECS.ComponentTypes.Remove<T>().T').
+Add the passed [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') type [T](ComponentTypes.Remove_T_().md#Friflo.Engine.ECS.ComponentTypes.Remove_T_().T 'Friflo.Engine.ECS.ComponentTypes.Remove<T>().T').
 
 ```csharp
 public void Remove<T>()

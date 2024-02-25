@@ -1,10 +1,10 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[Chunk&lt;T&gt;](Chunk_T_.md#'Friflo.Engine.ECS.Chunk<T>')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>')
 
 ## Chunk<T>.AsSpan256<TTo>() Method
 
-Return the components as a [System.Span&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1#'System.Span`1') of type [TTo](Chunk_T_.AsSpan256_TTo_().md#Friflo.Engine.ECS.Chunk_T_.AsSpan256_TTo_().TTo#'Friflo.Engine.ECS.Chunk<T>.AsSpan256<TTo>().TTo') - which can be assigned to Vector256{TTo}'s.<br/>
-The returned [System.Span&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1#'System.Span`1') contains padding elements on its tail to enable safe conversion to a Vector256{TTo}.<br/>
+Return the components as a [System.Span&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1 'System.Span`1') of type [TTo](Chunk_T_.AsSpan256_TTo_().md#Friflo.Engine.ECS.Chunk_T_.AsSpan256_TTo_().TTo 'Friflo.Engine.ECS.Chunk<T>.AsSpan256<TTo>().TTo') - which can be assigned to Vector256{TTo}'s.<br/>
+The returned [System.Span&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1 'System.Span`1') contains padding elements on its tail to enable safe conversion to a Vector256{TTo}.<br/>
 See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#query-vectorization---simd">Example.</a>.
 
 ```csharp
@@ -18,11 +18,11 @@ public System.Span<TTo> AsSpan256<TTo>()
 `TTo`
 
 #### Returns
-[System.Span&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1#'System.Span`1')[TTo](Chunk_T_.AsSpan256_TTo_().md#Friflo.Engine.ECS.Chunk_T_.AsSpan256_TTo_().TTo#'Friflo.Engine.ECS.Chunk<T>.AsSpan256<TTo>().TTo')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1#'System.Span`1')
+[System.Span&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1 'System.Span`1')[TTo](Chunk_T_.AsSpan256_TTo_().md#Friflo.Engine.ECS.Chunk_T_.AsSpan256_TTo_().TTo 'Friflo.Engine.ECS.Chunk<T>.AsSpan256<TTo>().TTo')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1 'System.Span`1')
 
 ### Remarks
-By adding padding elements the returned [System.Span&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1#'System.Span`1') can be converted to Vector256's <br/>
-without the need of an additional <b>for</b> loop to process the elements at the tail of the [System.Span&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1#'System.Span`1').<br/><br/><i>Vectorization example:</i><br/>
+By adding padding elements the returned [System.Span&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1 'System.Span`1') can be converted to Vector256's <br/>
+without the need of an additional <b>for</b> loop to process the elements at the tail of the [System.Span&lt;&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Span-1 'System.Span`1').<br/><br/><i>Vectorization example:</i><br/>
 
 ```csharp
 // e.g. using: struct ByteComponent : IComponent { public byte value; }

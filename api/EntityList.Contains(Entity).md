@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[EntityList](EntityList.md#'Friflo.Engine.ECS.EntityList')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityList](EntityList.md 'Friflo.Engine.ECS.EntityList')
 
 ## EntityList.Contains(Entity) Method
 
@@ -12,7 +12,7 @@ public bool Contains(Friflo.Engine.ECS.Entity item);
 
 <a name='Friflo.Engine.ECS.EntityList.Contains(Friflo.Engine.ECS.Entity).item'></a>
 
-`item` [Entity](Entity.md#'Friflo.Engine.ECS.Entity')
+`item` [Entity](Entity.md 'Friflo.Engine.ECS.Entity')
 
 #### Returns
-[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean#'System.Boolean')
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')

@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[EntityStore](EntityStore.md#'Friflo.Engine.ECS.EntityStore')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore')
 
 ## EntityStore.GetEntityNode(int) Method
 
-Return the internal node for the passed entity [id](EntityStore.GetEntityNode(int).md#Friflo.Engine.ECS.EntityStore.GetEntityNode(int).id#'Friflo.Engine.ECS.EntityStore.GetEntityNode(int).id').
+Return the internal node for the passed entity [id](EntityStore.GetEntityNode(int).md#Friflo.Engine.ECS.EntityStore.GetEntityNode(int).id 'Friflo.Engine.ECS.EntityStore.GetEntityNode(int).id').
 
 ```csharp
 public ref readonly Friflo.Engine.ECS.EntityNode GetEntityNode(int id);
@@ -12,7 +12,7 @@ public ref readonly Friflo.Engine.ECS.EntityNode GetEntityNode(int id);
 
 <a name='Friflo.Engine.ECS.EntityStore.GetEntityNode(int).id'></a>
 
-`id` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32#'System.Int32')
+`id` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')
 
 #### Returns
-[EntityNode](EntityNode.md#'Friflo.Engine.ECS.EntityNode')
+[EntityNode](EntityNode.md 'Friflo.Engine.ECS.EntityNode')

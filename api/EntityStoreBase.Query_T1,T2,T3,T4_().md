@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[EntityStoreBase](EntityStoreBase.md#'Friflo.Engine.ECS.EntityStoreBase')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityStoreBase](EntityStoreBase.md 'Friflo.Engine.ECS.EntityStoreBase')
 
 ## EntityStoreBase.Query<T1,T2,T3,T4>() Method
 
-Create a reusable [ArchetypeQuery](ArchetypeQuery.md#'Friflo.Engine.ECS.ArchetypeQuery') for the given component types.<br/>
+Create a reusable [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') for the given component types.<br/>
 See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#query-entities">Example.</a>
 
 ```csharp
@@ -32,4 +32,4 @@ public Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4> Query<T1,T2,T3,T4>()
 `T4`
 
 #### Returns
-[Friflo.Engine.ECS.ArchetypeQuery&lt;](ArchetypeQuery_T1,T2,T3,T4_.md#'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>')[T1](EntityStoreBase.Query_T1,T2,T3,T4_().md#Friflo.Engine.ECS.EntityStoreBase.Query_T1,T2,T3,T4_().T1#'Friflo.Engine.ECS.EntityStoreBase.Query<T1,T2,T3,T4>().T1')[,](ArchetypeQuery_T1,T2,T3,T4_.md#'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>')[T2](EntityStoreBase.Query_T1,T2,T3,T4_().md#Friflo.Engine.ECS.EntityStoreBase.Query_T1,T2,T3,T4_().T2#'Friflo.Engine.ECS.EntityStoreBase.Query<T1,T2,T3,T4>().T2')[,](ArchetypeQuery_T1,T2,T3,T4_.md#'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>')[T3](EntityStoreBase.Query_T1,T2,T3,T4_().md#Friflo.Engine.ECS.EntityStoreBase.Query_T1,T2,T3,T4_().T3#'Friflo.Engine.ECS.EntityStoreBase.Query<T1,T2,T3,T4>().T3')[,](ArchetypeQuery_T1,T2,T3,T4_.md#'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>')[T4](EntityStoreBase.Query_T1,T2,T3,T4_().md#Friflo.Engine.ECS.EntityStoreBase.Query_T1,T2,T3,T4_().T4#'Friflo.Engine.ECS.EntityStoreBase.Query<T1,T2,T3,T4>().T4')[&gt;](ArchetypeQuery_T1,T2,T3,T4_.md#'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>')
+[Friflo.Engine.ECS.ArchetypeQuery&lt;](ArchetypeQuery_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>')[T1](EntityStoreBase.Query_T1,T2,T3,T4_().md#Friflo.Engine.ECS.EntityStoreBase.Query_T1,T2,T3,T4_().T1 'Friflo.Engine.ECS.EntityStoreBase.Query<T1,T2,T3,T4>().T1')[,](ArchetypeQuery_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>')[T2](EntityStoreBase.Query_T1,T2,T3,T4_().md#Friflo.Engine.ECS.EntityStoreBase.Query_T1,T2,T3,T4_().T2 'Friflo.Engine.ECS.EntityStoreBase.Query<T1,T2,T3,T4>().T2')[,](ArchetypeQuery_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>')[T3](EntityStoreBase.Query_T1,T2,T3,T4_().md#Friflo.Engine.ECS.EntityStoreBase.Query_T1,T2,T3,T4_().T3 'Friflo.Engine.ECS.EntityStoreBase.Query<T1,T2,T3,T4>().T3')[,](ArchetypeQuery_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>')[T4](EntityStoreBase.Query_T1,T2,T3,T4_().md#Friflo.Engine.ECS.EntityStoreBase.Query_T1,T2,T3,T4_().T4 'Friflo.Engine.ECS.EntityStoreBase.Query<T1,T2,T3,T4>().T4')[&gt;](ArchetypeQuery_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4>')

@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS.Collections](Friflo.Engine.ECS.Collections.md#'Friflo.Engine.ECS.Collections').[ExplorerItem](ExplorerItem.md#'Friflo.Engine.ECS.Collections.ExplorerItem')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS.Collections](Friflo.Engine.ECS.Collections.md 'Friflo.Engine.ECS.Collections').[ExplorerItem](ExplorerItem.md 'Friflo.Engine.ECS.Collections.ExplorerItem')
 
 ## ExplorerItem.System.Collections.Generic.ICollection<Friflo.Engine.ECS.Collections.ExplorerItem>.IsReadOnly Property
 
@@ -7,4 +7,4 @@
 bool System.Collections.Generic.ICollection<Friflo.Engine.ECS.Collections.ExplorerItem>.IsReadOnly { get; }
 ```
 
-Implements [IsReadOnly](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.ICollection-1.IsReadOnly#'System.Collections.Generic.ICollection`1.IsReadOnly')
+Implements [IsReadOnly](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.ICollection-1.IsReadOnly 'System.Collections.Generic.ICollection`1.IsReadOnly')

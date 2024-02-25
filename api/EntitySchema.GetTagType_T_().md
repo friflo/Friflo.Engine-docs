@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[EntitySchema](EntitySchema.md#'Friflo.Engine.ECS.EntitySchema')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntitySchema](EntitySchema.md 'Friflo.Engine.ECS.EntitySchema')
 
 ## EntitySchema.GetTagType<T>() Method
 
-Return the [TagType](TagType.md#'Friflo.Engine.ECS.TagType') of a struct implementing [ITag](ITag.md#'Friflo.Engine.ECS.ITag').
+Return the [TagType](TagType.md 'Friflo.Engine.ECS.TagType') of a struct implementing [ITag](ITag.md 'Friflo.Engine.ECS.ITag').
 
 ```csharp
 public Friflo.Engine.ECS.TagType GetTagType<T>()
@@ -16,4 +16,4 @@ public Friflo.Engine.ECS.TagType GetTagType<T>()
 `T`
 
 #### Returns
-[TagType](TagType.md#'Friflo.Engine.ECS.TagType')
+[TagType](TagType.md 'Friflo.Engine.ECS.TagType')

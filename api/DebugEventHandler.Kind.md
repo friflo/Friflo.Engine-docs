@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[DebugEventHandler](DebugEventHandler.md#'Friflo.Engine.ECS.DebugEventHandler')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[DebugEventHandler](DebugEventHandler.md 'Friflo.Engine.ECS.DebugEventHandler')
 
 ## DebugEventHandler.Kind Field
 
@@ -10,4 +10,4 @@ public readonly DebugEntityEventKind Kind;
 ```
 
 #### Field Value
-[DebugEntityEventKind](DebugEntityEventKind.md#'Friflo.Engine.ECS.DebugEntityEventKind')
+[DebugEntityEventKind](DebugEntityEventKind.md 'Friflo.Engine.ECS.DebugEntityEventKind')

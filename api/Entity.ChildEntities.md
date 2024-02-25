@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[Entity](Entity.md#'Friflo.Engine.ECS.Entity')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[Entity](Entity.md 'Friflo.Engine.ECS.Entity')
 
 ## Entity.ChildEntities Property
 
@@ -10,7 +10,7 @@ public Friflo.Engine.ECS.ChildEntities ChildEntities { get; }
 ```
 
 #### Property Value
-[ChildEntities](ChildEntities.md#'Friflo.Engine.ECS.ChildEntities')
+[ChildEntities](ChildEntities.md 'Friflo.Engine.ECS.ChildEntities')
 
 ### Remarks
 Executes in O(1).<br/> Enumerate with:

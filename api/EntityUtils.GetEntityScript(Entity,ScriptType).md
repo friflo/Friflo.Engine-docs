@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[EntityUtils](EntityUtils.md#'Friflo.Engine.ECS.EntityUtils')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityUtils](EntityUtils.md 'Friflo.Engine.ECS.EntityUtils')
 
 ## EntityUtils.GetEntityScript(Entity, ScriptType) Method
 
@@ -10,11 +10,11 @@ public static Friflo.Engine.ECS.Script GetEntityScript(Friflo.Engine.ECS.Entity 
 
 <a name='Friflo.Engine.ECS.EntityUtils.GetEntityScript(Friflo.Engine.ECS.Entity,Friflo.Engine.ECS.ScriptType).entity'></a>
 
-`entity` [Entity](Entity.md#'Friflo.Engine.ECS.Entity')
+`entity` [Entity](Entity.md 'Friflo.Engine.ECS.Entity')
 
 <a name='Friflo.Engine.ECS.EntityUtils.GetEntityScript(Friflo.Engine.ECS.Entity,Friflo.Engine.ECS.ScriptType).scriptType'></a>
 
-`scriptType` [ScriptType](ScriptType.md#'Friflo.Engine.ECS.ScriptType')
+`scriptType` [ScriptType](ScriptType.md 'Friflo.Engine.ECS.ScriptType')
 
 #### Returns
-[Script](Script.md#'Friflo.Engine.ECS.Script')
+[Script](Script.md 'Friflo.Engine.ECS.Script')

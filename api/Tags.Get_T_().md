@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[Tags](Tags.md#'Friflo.Engine.ECS.Tags')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[Tags](Tags.md 'Friflo.Engine.ECS.Tags')
 
 ## Tags.Get<T>() Method
 
-Create an instance containing the given [ITag](ITag.md#'Friflo.Engine.ECS.ITag') type [T](Tags.Get_T_().md#Friflo.Engine.ECS.Tags.Get_T_().T#'Friflo.Engine.ECS.Tags.Get<T>().T').
+Create an instance containing the given [ITag](ITag.md 'Friflo.Engine.ECS.ITag') type [T](Tags.Get_T_().md#Friflo.Engine.ECS.Tags.Get_T_().T 'Friflo.Engine.ECS.Tags.Get<T>().T').
 
 ```csharp
 public static Friflo.Engine.ECS.Tags Get<T>()
@@ -16,4 +16,4 @@ public static Friflo.Engine.ECS.Tags Get<T>()
 `T`
 
 #### Returns
-[Tags](Tags.md#'Friflo.Engine.ECS.Tags')
+[Tags](Tags.md 'Friflo.Engine.ECS.Tags')

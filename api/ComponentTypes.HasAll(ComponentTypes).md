@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[ComponentTypes](ComponentTypes.md#'Friflo.Engine.ECS.ComponentTypes')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[ComponentTypes](ComponentTypes.md 'Friflo.Engine.ECS.ComponentTypes')
 
 ## ComponentTypes.HasAll(ComponentTypes) Method
 
-Return true if it contains all passed [componentTypes](ComponentTypes.HasAll(ComponentTypes).md#Friflo.Engine.ECS.ComponentTypes.HasAll(Friflo.Engine.ECS.ComponentTypes).componentTypes#'Friflo.Engine.ECS.ComponentTypes.HasAll(Friflo.Engine.ECS.ComponentTypes).componentTypes').
+Return true if it contains all passed [componentTypes](ComponentTypes.HasAll(ComponentTypes).md#Friflo.Engine.ECS.ComponentTypes.HasAll(Friflo.Engine.ECS.ComponentTypes).componentTypes 'Friflo.Engine.ECS.ComponentTypes.HasAll(Friflo.Engine.ECS.ComponentTypes).componentTypes').
 
 ```csharp
 public readonly bool HasAll(in Friflo.Engine.ECS.ComponentTypes componentTypes);
@@ -12,7 +12,7 @@ public readonly bool HasAll(in Friflo.Engine.ECS.ComponentTypes componentTypes);
 
 <a name='Friflo.Engine.ECS.ComponentTypes.HasAll(Friflo.Engine.ECS.ComponentTypes).componentTypes'></a>
 
-`componentTypes` [ComponentTypes](ComponentTypes.md#'Friflo.Engine.ECS.ComponentTypes')
+`componentTypes` [ComponentTypes](ComponentTypes.md 'Friflo.Engine.ECS.ComponentTypes')
 
 #### Returns
-[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean#'System.Boolean')
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')

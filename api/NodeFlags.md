@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS')
 
 ## NodeFlags Enum
 
-Flags assigned to [EntityNode](EntityNode.md#'Friflo.Engine.ECS.EntityNode')'s internally stored in an [EntityStore](EntityStore.md#'Friflo.Engine.ECS.EntityStore').
+Flags assigned to [EntityNode](EntityNode.md 'Friflo.Engine.ECS.EntityNode')'s internally stored in an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore').
 
 ```csharp
 public enum NodeFlags : System.Byte
@@ -42,4 +42,4 @@ public enum NodeFlags : System.Byte
 
 `TreeNode` 2
 
-If set a node is a [treeNode](TreeMembership.md#Friflo.Engine.ECS.TreeMembership.treeNode#'Friflo.Engine.ECS.TreeMembership.treeNode'). Otherwise [floating](TreeMembership.md#Friflo.Engine.ECS.TreeMembership.floating#'Friflo.Engine.ECS.TreeMembership.floating')
+If set a node is a [treeNode](TreeMembership.md#Friflo.Engine.ECS.TreeMembership.treeNode 'Friflo.Engine.ECS.TreeMembership.treeNode'). Otherwise [floating](TreeMembership.md#Friflo.Engine.ECS.TreeMembership.floating 'Friflo.Engine.ECS.TreeMembership.floating')

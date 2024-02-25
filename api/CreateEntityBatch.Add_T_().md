@@ -1,9 +1,9 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[CreateEntityBatch](CreateEntityBatch.md#'Friflo.Engine.ECS.CreateEntityBatch')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[CreateEntityBatch](CreateEntityBatch.md 'Friflo.Engine.ECS.CreateEntityBatch')
 
 ## CreateEntityBatch.Add<T>() Method
 
-Add a component that will be added to the entity when calling [CreateEntity()](CreateEntityBatch.CreateEntity().md#'Friflo.Engine.ECS.CreateEntityBatch.CreateEntity()').
+Add a component that will be added to the entity when calling [CreateEntity()](CreateEntityBatch.CreateEntity().md 'Friflo.Engine.ECS.CreateEntityBatch.CreateEntity()').
 
 ```csharp
 public Friflo.Engine.ECS.CreateEntityBatch Add<T>()
@@ -16,4 +16,4 @@ public Friflo.Engine.ECS.CreateEntityBatch Add<T>()
 `T`
 
 #### Returns
-[CreateEntityBatch](CreateEntityBatch.md#'Friflo.Engine.ECS.CreateEntityBatch')
+[CreateEntityBatch](CreateEntityBatch.md 'Friflo.Engine.ECS.CreateEntityBatch')

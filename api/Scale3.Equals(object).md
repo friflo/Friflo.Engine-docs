@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[Scale3](Scale3.md#'Friflo.Engine.ECS.Scale3')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[Scale3](Scale3.md 'Friflo.Engine.ECS.Scale3')
 
 ## Scale3.Equals(object) Method
 
@@ -10,7 +10,7 @@ public override bool Equals(object obj);
 
 <a name='Friflo.Engine.ECS.Scale3.Equals(object).obj'></a>
 
-`obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object#'System.Object')
+`obj` [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 
 #### Returns
-[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean#'System.Boolean')
+[System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')

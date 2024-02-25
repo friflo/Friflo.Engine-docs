@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[TagNameAttribute](TagNameAttribute.md#'Friflo.Engine.ECS.TagNameAttribute')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[TagNameAttribute](TagNameAttribute.md 'Friflo.Engine.ECS.TagNameAttribute')
 
 ## TagNameAttribute(string) Constructor
 
@@ -10,4 +10,4 @@ public TagNameAttribute(string name);
 
 <a name='Friflo.Engine.ECS.TagNameAttribute.TagNameAttribute(string).name'></a>
 
-`name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String#'System.String')
+`name` [System.String](https://docs.microsoft.com/en-us/dotnet/api/System.String 'System.String')

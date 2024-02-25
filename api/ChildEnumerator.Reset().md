@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[ChildEnumerator](ChildEnumerator.md#'Friflo.Engine.ECS.ChildEnumerator')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[ChildEnumerator](ChildEnumerator.md 'Friflo.Engine.ECS.ChildEnumerator')
 
 ## ChildEnumerator.Reset() Method
 
@@ -7,4 +7,4 @@
 public void Reset();
 ```
 
-Implements [Reset()](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerator.Reset#'System.Collections.IEnumerator.Reset')
+Implements [Reset()](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerator.Reset 'System.Collections.IEnumerator.Reset')

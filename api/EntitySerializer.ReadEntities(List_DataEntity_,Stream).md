@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS.Serialize](Friflo.Engine.ECS.Serialize.md#'Friflo.Engine.ECS.Serialize').[EntitySerializer](EntitySerializer.md#'Friflo.Engine.ECS.Serialize.EntitySerializer')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS.Serialize](Friflo.Engine.ECS.Serialize.md 'Friflo.Engine.ECS.Serialize').[EntitySerializer](EntitySerializer.md 'Friflo.Engine.ECS.Serialize.EntitySerializer')
 
 ## EntitySerializer.ReadEntities(List<DataEntity>, Stream) Method
 
@@ -10,11 +10,11 @@ public Friflo.Engine.ECS.Serialize.ReadResult ReadEntities(System.Collections.Ge
 
 <a name='Friflo.Engine.ECS.Serialize.EntitySerializer.ReadEntities(System.Collections.Generic.List_Friflo.Engine.ECS.Serialize.DataEntity_,System.IO.Stream).entities'></a>
 
-`entities` [System.Collections.Generic.List&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1#'System.Collections.Generic.List`1')[DataEntity](DataEntity.md#'Friflo.Engine.ECS.Serialize.DataEntity')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1#'System.Collections.Generic.List`1')
+`entities` [System.Collections.Generic.List&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1 'System.Collections.Generic.List`1')[DataEntity](DataEntity.md 'Friflo.Engine.ECS.Serialize.DataEntity')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.List-1 'System.Collections.Generic.List`1')
 
 <a name='Friflo.Engine.ECS.Serialize.EntitySerializer.ReadEntities(System.Collections.Generic.List_Friflo.Engine.ECS.Serialize.DataEntity_,System.IO.Stream).stream'></a>
 
-`stream` [System.IO.Stream](https://docs.microsoft.com/en-us/dotnet/api/System.IO.Stream#'System.IO.Stream')
+`stream` [System.IO.Stream](https://docs.microsoft.com/en-us/dotnet/api/System.IO.Stream 'System.IO.Stream')
 
 #### Returns
-[ReadResult](ReadResult.md#'Friflo.Engine.ECS.Serialize.ReadResult')
+[ReadResult](ReadResult.md 'Friflo.Engine.ECS.Serialize.ReadResult')

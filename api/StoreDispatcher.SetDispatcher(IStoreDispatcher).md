@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[StoreDispatcher](StoreDispatcher.md#'Friflo.Engine.ECS.StoreDispatcher')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[StoreDispatcher](StoreDispatcher.md 'Friflo.Engine.ECS.StoreDispatcher')
 
 ## StoreDispatcher.SetDispatcher(IStoreDispatcher) Method
 
@@ -10,7 +10,7 @@ public static Friflo.Engine.ECS.IStoreDispatcher SetDispatcher(Friflo.Engine.ECS
 
 <a name='Friflo.Engine.ECS.StoreDispatcher.SetDispatcher(Friflo.Engine.ECS.IStoreDispatcher).dispatcher'></a>
 
-`dispatcher` [IStoreDispatcher](IStoreDispatcher.md#'Friflo.Engine.ECS.IStoreDispatcher')
+`dispatcher` [IStoreDispatcher](IStoreDispatcher.md 'Friflo.Engine.ECS.IStoreDispatcher')
 
 #### Returns
-[IStoreDispatcher](IStoreDispatcher.md#'Friflo.Engine.ECS.IStoreDispatcher')
+[IStoreDispatcher](IStoreDispatcher.md 'Friflo.Engine.ECS.IStoreDispatcher')

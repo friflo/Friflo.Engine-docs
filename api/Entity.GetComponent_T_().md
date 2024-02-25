@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[Entity](Entity.md#'Friflo.Engine.ECS.Entity')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[Entity](Entity.md 'Friflo.Engine.ECS.Entity')
 
 ## Entity.GetComponent<T>() Method
 
@@ -16,12 +16,12 @@ public ref T GetComponent<T>()
 `T`
 
 #### Returns
-[T](Entity.GetComponent_T_().md#Friflo.Engine.ECS.Entity.GetComponent_T_().T#'Friflo.Engine.ECS.Entity.GetComponent<T>().T')
+[T](Entity.GetComponent_T_().md#Friflo.Engine.ECS.Entity.GetComponent_T_().T 'Friflo.Engine.ECS.Entity.GetComponent<T>().T')
 
 #### Exceptions
 
-[System.NullReferenceException](https://docs.microsoft.com/en-us/dotnet/api/System.NullReferenceException#'System.NullReferenceException')  
-if entity has no component of Type [T](Entity.GetComponent_T_().md#Friflo.Engine.ECS.Entity.GetComponent_T_().T#'Friflo.Engine.ECS.Entity.GetComponent<T>().T')
+[System.NullReferenceException](https://docs.microsoft.com/en-us/dotnet/api/System.NullReferenceException 'System.NullReferenceException')  
+if entity has no component of Type [T](Entity.GetComponent_T_().md#Friflo.Engine.ECS.Entity.GetComponent_T_().T 'Friflo.Engine.ECS.Entity.GetComponent<T>().T')
 
 ### Remarks
 Executes in O(1)

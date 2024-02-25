@@ -1,5 +1,5 @@
-#### [Friflo.Engine.ECS](index.md#'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md#'Friflo.Engine.ECS').[EntityComponent](EntityComponent.md#'Friflo.Engine.ECS.EntityComponent')
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityComponent](EntityComponent.md 'Friflo.Engine.ECS.EntityComponent')
 
 ## EntityComponent.Value Property
 
@@ -11,7 +11,7 @@ public Friflo.Engine.ECS.IComponent Value { get; }
 ```
 
 #### Property Value
-[IComponent](IComponent.md#'Friflo.Engine.ECS.IComponent')
+[IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')
 
 ### Remarks
-To access a component use [GetComponent&lt;T&gt;()](Entity.GetComponent_T_().md#'Friflo.Engine.ECS.Entity.GetComponent<T>()')
+To access a component use [GetComponent&lt;T&gt;()](Entity.GetComponent_T_().md 'Friflo.Engine.ECS.Entity.GetComponent<T>()')
