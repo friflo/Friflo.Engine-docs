@@ -3,6 +3,9 @@
 
 ## QueryJob<T1,T2,T3> Class
 
+Enables [Parallel](JobExecution.md#Friflo.Engine.ECS.JobExecution.Parallel 'Friflo.Engine.ECS.JobExecution.Parallel') query execution returning the specified components.
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#parallel-query-job">Example.</a>
+
 ```csharp
 public sealed class QueryJob<T1,T2,T3> : Friflo.Engine.ECS.QueryJob
     where T1 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType

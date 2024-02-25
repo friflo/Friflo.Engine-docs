@@ -3,7 +3,8 @@
 
 ## QueryChunks<T1> Struct
 
-Contains the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>')'s storing components and entities of an [ArchetypeQuery&lt;T1&gt;](ArchetypeQuery_T1_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1>').
+Contains the component chunks returned by a component query.
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#enumerate-query-chunks">Example.</a>
 
 ```csharp
 public readonly struct QueryChunks<T1> :

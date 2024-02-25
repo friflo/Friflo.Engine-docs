@@ -3,6 +3,9 @@
 
 ## Chunks<T1,T2,T3,T4> Struct
 
+Contains the components returned by a component query.
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#enumerate-query-chunks">Example.</a>
+
 ```csharp
 public readonly struct Chunks<T1,T2,T3,T4>
     where T1 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
