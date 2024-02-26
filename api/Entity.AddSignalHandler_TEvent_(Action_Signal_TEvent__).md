@@ -3,7 +3,8 @@
 
 ## Entity.AddSignalHandler<TEvent>(Action<Signal<TEvent>>) Method
 
-Add the given [Signal&lt;TEvent&gt;](Signal_TEvent_.md 'Friflo.Engine.ECS.Signal<TEvent>') handler to the entity.
+Add the given [Signal&lt;TEvent&gt;](Signal_TEvent_.md 'Friflo.Engine.ECS.Signal<TEvent>') handler to the entity.<br/>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#signal">Example.</a>
 
 ```csharp
 public System.Action<Friflo.Engine.ECS.Signal<TEvent>> AddSignalHandler<TEvent>(System.Action<Friflo.Engine.ECS.Signal<TEvent>> handler)

@@ -4,7 +4,8 @@
 ## Entity.AddComponent<T>(T) Method
 
 Add the given [component](Entity.AddComponent_T_(T).md#Friflo.Engine.ECS.Entity.AddComponent_T_(T).component 'Friflo.Engine.ECS.Entity.AddComponent<T>(T).component') to the entity.<br/>
-            If the entity contains a component of the same type it is updated.
+If the entity contains a component of the same type it is updated.<br/>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#component">Example.</a>
 
 ```csharp
 public bool AddComponent<T>(in T component)

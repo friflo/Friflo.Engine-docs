@@ -19,7 +19,7 @@ Implements [System.Collections.Generic.IEnumerable&lt;](https://docs.microsoft.c
 
 | Methods | |
 | :--- | :--- |
-| [ApplyBatch(EntityBatch)](QueryEntities.ApplyBatch(EntityBatch).md 'Friflo.Engine.ECS.QueryEntities.ApplyBatch(Friflo.Engine.ECS.EntityBatch)') | Apply the given entity [batch](QueryEntities.ApplyBatch(EntityBatch).md#Friflo.Engine.ECS.QueryEntities.ApplyBatch(Friflo.Engine.ECS.EntityBatch).batch 'Friflo.Engine.ECS.QueryEntities.ApplyBatch(Friflo.Engine.ECS.EntityBatch).batch') to all entities in this set. |
+| [ApplyBatch(EntityBatch)](QueryEntities.ApplyBatch(EntityBatch).md 'Friflo.Engine.ECS.QueryEntities.ApplyBatch(Friflo.Engine.ECS.EntityBatch)') | Apply the given entity [batch](QueryEntities.ApplyBatch(EntityBatch).md#Friflo.Engine.ECS.QueryEntities.ApplyBatch(Friflo.Engine.ECS.EntityBatch).batch 'Friflo.Engine.ECS.QueryEntities.ApplyBatch(Friflo.Engine.ECS.EntityBatch).batch') to all entities in this set.<br/> See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#entitybatch---query">Example.</a> |
 | [GetEnumerator()](QueryEntities.GetEnumerator().md 'Friflo.Engine.ECS.QueryEntities.GetEnumerator()') | |
 | [ToString()](QueryEntities.ToString().md 'Friflo.Engine.ECS.QueryEntities.ToString()') | |
 

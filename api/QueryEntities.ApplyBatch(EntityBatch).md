@@ -3,7 +3,8 @@
 
 ## QueryEntities.ApplyBatch(EntityBatch) Method
 
-Apply the given entity [batch](QueryEntities.ApplyBatch(EntityBatch).md#Friflo.Engine.ECS.QueryEntities.ApplyBatch(Friflo.Engine.ECS.EntityBatch).batch 'Friflo.Engine.ECS.QueryEntities.ApplyBatch(Friflo.Engine.ECS.EntityBatch).batch') to all entities in this set.
+Apply the given entity [batch](QueryEntities.ApplyBatch(EntityBatch).md#Friflo.Engine.ECS.QueryEntities.ApplyBatch(Friflo.Engine.ECS.EntityBatch).batch 'Friflo.Engine.ECS.QueryEntities.ApplyBatch(Friflo.Engine.ECS.EntityBatch).batch') to all entities in this set.<br/>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#entitybatch---query">Example.</a>
 
 ```csharp
 public void ApplyBatch(Friflo.Engine.ECS.EntityBatch batch);
