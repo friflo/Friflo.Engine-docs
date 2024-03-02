@@ -24,7 +24,7 @@ Common used structs and classes.
 | [EventFilter](api/EventFilter.md)             | class     | Used to filter structural changes made to entities like added/removed components/tags.
 | [EventRecorder](api/EventRecorder.md)         | class     | Record entity changes like adding/removing commands/tags. Required for EventFilter's.
 |                                               |           |
-| [EntityBatch](api/EntityBatch.md)             | class     | Used to optimize adding components and tags to entities via a fluent API.
+| [EntityBatch](api/EntityBatch.md)             | class     | Used to optimize adding/removing components/tags to entities via a fluent API.
 
 
 ## Hello World
