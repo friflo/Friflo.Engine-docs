@@ -19,7 +19,7 @@ Common used structs and classes.
 | [ArchetypeQuery](api/ArchetypeQuery.md)       | class     | Used to return components and entities matching the assigned query filter.
 | [QueryJob](api/QueryJob.md)                   | class     | Enables parallel query execution.
 | [ParallelJobRunner](api/ParallelJobRunner.md) | class     | Required for parallel (multi threaded) query execution.
-| [CommandBuffer](api/CommandBuffer.md)         | class     | Enables recording entity changes on arbitrary threads.
+| [CommandBuffer](api/CommandBuffer.md)         | class     | Record entity changes on arbitrary threads and Playback() them on the main thread.
 |                                               |           |
 | [EventFilter](api/EventFilter.md)             | class     | Used to filter structural changes made to entities like added/removed components/tags.
 | [EventRecorder](api/EventRecorder.md)         | class     | Record entity changes like adding/removing commands/tags. Required for EventFilter's.
