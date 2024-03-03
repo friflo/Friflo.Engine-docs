@@ -1,4 +1,4 @@
-# ![logo](docs/images/Json-Fliox.svg)   **Friflo.Engine.ECS API Reference**![SPLASH](docs/images/paint-splatter.svg)
+# ![logo](docs/images/Json-Fliox.svg)   **Friflo.Engine.ECS  ·  API Reference**![SPLASH](docs/images/paint-splatter.svg)
 
 
 This project contains the C# API reference of [**Friflo Engine ECS - GitHub**](https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md).    
