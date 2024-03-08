@@ -55,3 +55,9 @@ public static void HelloWorld()
 }
 ```
 
+<a href="https://sdl-wasm-sample-web.vercel.app/docs/MonoGame/">
+<img src="https://raw.githubusercontent.com/friflo/Friflo.Engine-docs/main/docs/images/MonoGame-wasm.png" width="600" height="405"/>
+</a>
+
+Interactive Browser Demo showing MonoGame WebAssembly integration. [Try out Demo](https://sdl-wasm-sample-web.vercel.app/docs/MonoGame/).  
+*Note:* WebGL rendering performance cannot compete with Desktop build.
