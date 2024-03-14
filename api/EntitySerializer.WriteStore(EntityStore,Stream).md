@@ -3,6 +3,8 @@
 
 ## EntitySerializer.WriteStore(EntityStore, Stream) Method
 
+Writes all entities in the given [store](EntitySerializer.WriteStore(EntityStore,Stream).md#Friflo.Engine.ECS.Serialize.EntitySerializer.WriteStore(Friflo.Engine.ECS.EntityStore,System.IO.Stream).store 'Friflo.Engine.ECS.Serialize.EntitySerializer.WriteStore(Friflo.Engine.ECS.EntityStore, System.IO.Stream).store') as a JSON array to the passed [stream](EntitySerializer.WriteStore(EntityStore,Stream).md#Friflo.Engine.ECS.Serialize.EntitySerializer.WriteStore(Friflo.Engine.ECS.EntityStore,System.IO.Stream).stream 'Friflo.Engine.ECS.Serialize.EntitySerializer.WriteStore(Friflo.Engine.ECS.EntityStore, System.IO.Stream).stream').
+
 ```csharp
 public void WriteStore(Friflo.Engine.ECS.EntityStore store, System.IO.Stream stream);
 ```

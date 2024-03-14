@@ -3,6 +3,8 @@
 
 ## EntitySerializer.ReadIntoStoreAsync(EntityStore, Stream) Method
 
+Asynchronously reads the JSON array of the given [stream](EntitySerializer.ReadIntoStoreAsync(EntityStore,Stream).md#Friflo.Engine.ECS.Serialize.EntitySerializer.ReadIntoStoreAsync(Friflo.Engine.ECS.EntityStore,System.IO.Stream).stream 'Friflo.Engine.ECS.Serialize.EntitySerializer.ReadIntoStoreAsync(Friflo.Engine.ECS.EntityStore, System.IO.Stream).stream') into the passed [store](EntitySerializer.ReadIntoStoreAsync(EntityStore,Stream).md#Friflo.Engine.ECS.Serialize.EntitySerializer.ReadIntoStoreAsync(Friflo.Engine.ECS.EntityStore,System.IO.Stream).store 'Friflo.Engine.ECS.Serialize.EntitySerializer.ReadIntoStoreAsync(Friflo.Engine.ECS.EntityStore, System.IO.Stream).store').
+
 ```csharp
 public System.Threading.Tasks.Task<Friflo.Engine.ECS.Serialize.ReadResult> ReadIntoStoreAsync(Friflo.Engine.ECS.EntityStore store, System.IO.Stream stream);
 ```

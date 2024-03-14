@@ -10,6 +10,7 @@ public readonly struct EngineDependant
 | Properties | |
 | :--- | :--- |
 | [Assembly](EngineDependant.Assembly.md 'Friflo.Engine.ECS.EngineDependant.Assembly') | |
+| [AssemblyName](EngineDependant.AssemblyName.md 'Friflo.Engine.ECS.EngineDependant.AssemblyName') | |
 | [Types](EngineDependant.Types.md 'Friflo.Engine.ECS.EngineDependant.Types') | |
 
 | Methods | |

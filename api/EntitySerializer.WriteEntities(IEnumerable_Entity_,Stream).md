@@ -3,6 +3,8 @@
 
 ## EntitySerializer.WriteEntities(IEnumerable<Entity>, Stream) Method
 
+Writes the given [entities](EntitySerializer.WriteEntities(IEnumerable_Entity_,Stream).md#Friflo.Engine.ECS.Serialize.EntitySerializer.WriteEntities(System.Collections.Generic.IEnumerable_Friflo.Engine.ECS.Entity_,System.IO.Stream).entities 'Friflo.Engine.ECS.Serialize.EntitySerializer.WriteEntities(System.Collections.Generic.IEnumerable<Friflo.Engine.ECS.Entity>, System.IO.Stream).entities') as a JSON array to the passed [stream](EntitySerializer.WriteEntities(IEnumerable_Entity_,Stream).md#Friflo.Engine.ECS.Serialize.EntitySerializer.WriteEntities(System.Collections.Generic.IEnumerable_Friflo.Engine.ECS.Entity_,System.IO.Stream).stream 'Friflo.Engine.ECS.Serialize.EntitySerializer.WriteEntities(System.Collections.Generic.IEnumerable<Friflo.Engine.ECS.Entity>, System.IO.Stream).stream').
+
 ```csharp
 public void WriteEntities(System.Collections.Generic.IEnumerable<Friflo.Engine.ECS.Entity> entities, System.IO.Stream stream);
 ```

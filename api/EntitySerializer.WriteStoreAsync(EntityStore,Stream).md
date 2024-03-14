@@ -3,6 +3,8 @@
 
 ## EntitySerializer.WriteStoreAsync(EntityStore, Stream) Method
 
+Asynchronously writes all entities in the given [store](EntitySerializer.WriteStoreAsync(EntityStore,Stream).md#Friflo.Engine.ECS.Serialize.EntitySerializer.WriteStoreAsync(Friflo.Engine.ECS.EntityStore,System.IO.Stream).store 'Friflo.Engine.ECS.Serialize.EntitySerializer.WriteStoreAsync(Friflo.Engine.ECS.EntityStore, System.IO.Stream).store') as a JSON array to the passed [stream](EntitySerializer.WriteStoreAsync(EntityStore,Stream).md#Friflo.Engine.ECS.Serialize.EntitySerializer.WriteStoreAsync(Friflo.Engine.ECS.EntityStore,System.IO.Stream).stream 'Friflo.Engine.ECS.Serialize.EntitySerializer.WriteStoreAsync(Friflo.Engine.ECS.EntityStore, System.IO.Stream).stream').
+
 ```csharp
 public System.Threading.Tasks.Task WriteStoreAsync(Friflo.Engine.ECS.EntityStore store, System.IO.Stream stream);
 ```

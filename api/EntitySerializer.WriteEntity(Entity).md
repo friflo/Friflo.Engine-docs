@@ -3,6 +3,8 @@
 
 ## EntitySerializer.WriteEntity(Entity) Method
 
+Returns a JSON object of the passed [entity](EntitySerializer.WriteEntity(Entity).md#Friflo.Engine.ECS.Serialize.EntitySerializer.WriteEntity(Friflo.Engine.ECS.Entity).entity 'Friflo.Engine.ECS.Serialize.EntitySerializer.WriteEntity(Friflo.Engine.ECS.Entity).entity') as a string.
+
 ```csharp
 public string WriteEntity(Friflo.Engine.ECS.Entity entity);
 ```
