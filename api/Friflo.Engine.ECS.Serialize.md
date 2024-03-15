@@ -2,7 +2,7 @@
 
 ## Friflo.Engine.ECS.Serialize Namespace
 
-Contains type and methods to serialize / deserialize [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s as JSON.
+Contains types and methods to serialize / deserialize [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s as JSON.
 
 | Classes | |
 | :--- | :--- |
