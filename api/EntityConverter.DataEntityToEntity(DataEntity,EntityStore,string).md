@@ -3,6 +3,9 @@
 
 ## EntityConverter.DataEntityToEntity(DataEntity, EntityStore, string) Method
 
+Add / update the passed [DataEntity](DataEntity.md 'Friflo.Engine.ECS.Serialize.DataEntity') in the given [store](EntityConverter.DataEntityToEntity(DataEntity,EntityStore,string).md#Friflo.Engine.ECS.Serialize.EntityConverter.DataEntityToEntity(Friflo.Engine.ECS.Serialize.DataEntity,Friflo.Engine.ECS.EntityStore,string).store 'Friflo.Engine.ECS.Serialize.EntityConverter.DataEntityToEntity(Friflo.Engine.ECS.Serialize.DataEntity, Friflo.Engine.ECS.EntityStore, string).store') and returns
+the added / updated [Entity](Entity.md 'Friflo.Engine.ECS.Entity').
+
 ```csharp
 public Friflo.Engine.ECS.Entity DataEntityToEntity(Friflo.Engine.ECS.Serialize.DataEntity dataEntity, Friflo.Engine.ECS.EntityStore store, out string error);
 ```

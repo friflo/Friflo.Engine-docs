@@ -3,6 +3,8 @@
 
 ## EntityConverter.Default Field
 
+An [EntityConverter](EntityConverter.md 'Friflo.Engine.ECS.Serialize.EntityConverter') singleton. Must be used only from the main thread.
+
 ```csharp
 public static readonly EntityConverter Default;
 ```

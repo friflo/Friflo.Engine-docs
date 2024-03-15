@@ -3,6 +3,8 @@
 
 ## EntityConverter.EntityToDataEntity(Entity, DataEntity, bool) Method
 
+Returns the passed [Entity](Entity.md 'Friflo.Engine.ECS.Entity') as a [DataEntity](DataEntity.md 'Friflo.Engine.ECS.Serialize.DataEntity')
+
 ```csharp
 public Friflo.Engine.ECS.Serialize.DataEntity EntityToDataEntity(Friflo.Engine.ECS.Entity entity, Friflo.Engine.ECS.Serialize.DataEntity dataEntity, bool pretty);
 ```

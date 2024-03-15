@@ -3,6 +3,8 @@
 
 ## DataEntitySerializer Class
 
+Used to serialize a single [DataEntity](DataEntity.md 'Friflo.Engine.ECS.Serialize.DataEntity') to JSON.
+
 ```csharp
 public sealed class DataEntitySerializer
 ```
@@ -11,4 +13,4 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Methods | |
 | :--- | :--- |
-| [WriteDataEntity(DataEntity, string)](DataEntitySerializer.WriteDataEntity(DataEntity,string).md 'Friflo.Engine.ECS.Serialize.DataEntitySerializer.WriteDataEntity(Friflo.Engine.ECS.Serialize.DataEntity, string)') | |
+| [WriteDataEntity(DataEntity, string)](DataEntitySerializer.WriteDataEntity(DataEntity,string).md 'Friflo.Engine.ECS.Serialize.DataEntitySerializer.WriteDataEntity(Friflo.Engine.ECS.Serialize.DataEntity, string)') | Return the given [DataEntity](DataEntity.md 'Friflo.Engine.ECS.Serialize.DataEntity') as JSON. |

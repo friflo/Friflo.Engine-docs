@@ -3,6 +3,8 @@
 
 ## DataEntitySerializer.WriteDataEntity(DataEntity, string) Method
 
+Return the given [DataEntity](DataEntity.md 'Friflo.Engine.ECS.Serialize.DataEntity') as JSON.
+
 ```csharp
 public string WriteDataEntity(Friflo.Engine.ECS.Serialize.DataEntity data, out string error);
 ```

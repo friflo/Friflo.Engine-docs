@@ -3,6 +3,8 @@
 
 ## ReadResult.entityCount Field
 
+Number of entities returned by an [EntitySerializer](EntitySerializer.md 'Friflo.Engine.ECS.Serialize.EntitySerializer')`Read` method.
+
 ```csharp
 public readonly int entityCount;
 ```

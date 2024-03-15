@@ -3,6 +3,9 @@
 
 ## ReadResult.error Field
 
+null - if reading entities was successful.<br/>
+Otherwise the error of an [EntitySerializer](EntitySerializer.md 'Friflo.Engine.ECS.Serialize.EntitySerializer')`Read` method call.
+
 ```csharp
 public readonly string error;
 ```

@@ -3,7 +3,8 @@
 
 ## DataEntity.components Field
 
-Each key in [components](DataEntity.components.md 'Friflo.Engine.ECS.Serialize.DataEntity.components') defines the type of a component or script. Its value is the component / script value.
+Each key in [components](DataEntity.components.md 'Friflo.Engine.ECS.Serialize.DataEntity.components') defines the type of a component or script.<br/>
+Its value is the component / script value.
 
 ```csharp
 public JsonValue components;

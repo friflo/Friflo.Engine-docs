@@ -3,7 +3,7 @@
 
 ## DataEntity.pid Field
 
-permanent id used to identify entities in a database
+Permanent id used to identify entities in a database
 
 ```csharp
 public long pid;

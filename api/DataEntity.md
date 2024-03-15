@@ -3,7 +3,7 @@
 
 ## DataEntity Class
 
-A [DataEntity](DataEntity.md 'Friflo.Engine.ECS.Serialize.DataEntity') is used to serialize entities.
+A [DataEntity](DataEntity.md 'Friflo.Engine.ECS.Serialize.DataEntity') represents an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') as a POCO class used for serialization.
 
 ```csharp
 public sealed class DataEntity
@@ -21,10 +21,10 @@ Even small changes will show a massive diff in version control.
 
 | Fields | |
 | :--- | :--- |
-| [children](DataEntity.children.md 'Friflo.Engine.ECS.Serialize.DataEntity.children') | |
-| [components](DataEntity.components.md 'Friflo.Engine.ECS.Serialize.DataEntity.components') | Each key in [components](DataEntity.components.md 'Friflo.Engine.ECS.Serialize.DataEntity.components') defines the type of a component or script. Its value is the component / script value. |
+| [children](DataEntity.children.md 'Friflo.Engine.ECS.Serialize.DataEntity.children') | The list of child entity ids. |
+| [components](DataEntity.components.md 'Friflo.Engine.ECS.Serialize.DataEntity.components') | Each key in [components](DataEntity.components.md 'Friflo.Engine.ECS.Serialize.DataEntity.components') defines the type of a component or script.<br/> Its value is the component / script value. |
 | [modify](DataEntity.modify.md 'Friflo.Engine.ECS.Serialize.DataEntity.modify') | Modify the referenced entity of a`preFab`.<br/> with [components](DataEntity.components.md 'Friflo.Engine.ECS.Serialize.DataEntity.components') != null<br/> Remove the referenced entity if [components](DataEntity.components.md 'Friflo.Engine.ECS.Serialize.DataEntity.components') == null |
-| [pid](DataEntity.pid.md 'Friflo.Engine.ECS.Serialize.DataEntity.pid') | permanent id used to identify entities in a database |
+| [pid](DataEntity.pid.md 'Friflo.Engine.ECS.Serialize.DataEntity.pid') | Permanent id used to identify entities in a database |
 | [prefab](DataEntity.prefab.md 'Friflo.Engine.ECS.Serialize.DataEntity.prefab') | Reference to the `Prefab` the entity is based on |
 | [sceneName](DataEntity.sceneName.md 'Friflo.Engine.ECS.Serialize.DataEntity.sceneName') | if != null the entity is the root of a scene using the assigned [sceneName](DataEntity.sceneName.md 'Friflo.Engine.ECS.Serialize.DataEntity.sceneName') |
 | [tags](DataEntity.tags.md 'Friflo.Engine.ECS.Serialize.DataEntity.tags') | List of tags assigned to an entity |
