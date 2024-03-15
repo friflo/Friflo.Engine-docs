@@ -2,6 +2,8 @@
 
 ## Friflo.Engine.ECS Namespace
 
+Contains types and methods to query, add, remove or change [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s in an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore').<br/>
+
 | Classes | |
 | :--- | :--- |
 | [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') | An [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') store entities with a specific set of [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') and [ITag](ITag.md 'Friflo.Engine.ECS.ITag') types.<br/> See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#archetype">Example.</a> |

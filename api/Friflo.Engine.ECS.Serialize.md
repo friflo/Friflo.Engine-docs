@@ -2,6 +2,8 @@
 
 ## Friflo.Engine.ECS.Serialize Namespace
 
+Contains type and methods to serialize / deserialize [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s as JSON.
+
 | Classes | |
 | :--- | :--- |
 | [DataEntity](DataEntity.md 'Friflo.Engine.ECS.Serialize.DataEntity') | A [DataEntity](DataEntity.md 'Friflo.Engine.ECS.Serialize.DataEntity') represents an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') as a POCO class used for serialization. |

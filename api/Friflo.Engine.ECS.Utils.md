@@ -2,6 +2,8 @@
 
 ## Friflo.Engine.ECS.Utils Namespace
 
+Utility types and methods typically used by generic libraries.
+
 | Classes | |
 | :--- | :--- |
 | [AddDataEntitiesResult](AddDataEntitiesResult.md 'Friflo.Engine.ECS.Utils.AddDataEntitiesResult') | |
