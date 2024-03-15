@@ -26,6 +26,8 @@ Common used structs and classes.
 |                                               |           |
 | [EntityBatch](api/EntityBatch.md)             | class     | Used to optimize adding/removing components/tags to entities via a fluent API.
 | [CreateEntityBatch](api/CreateEntityBatch.md) | class     | Used to optimize entity creation via a fluent API.
+|                                               |           |
+| [EntitySerializer](api/EntitySerializer.md)   | class     | Enables serialization of entities to / from JSON.
 
 
 ## Hello World
