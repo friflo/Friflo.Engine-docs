@@ -3,6 +3,8 @@
 
 ## EntityStore.Capacity Property
 
+Get the number of internally reserved entities.
+
 ```csharp
 public int Capacity { get; }
 ```

@@ -15,12 +15,14 @@ Implements [System.Collections.Generic.IEnumerable&lt;](https://docs.microsoft.c
 
 | Properties | |
 | :--- | :--- |
-| [Count](QueryEntities.Count.md 'Friflo.Engine.ECS.QueryEntities.Count') | |
+| [Count](QueryEntities.Count.md 'Friflo.Engine.ECS.QueryEntities.Count') | Return the number of entities matching the query. |
 
 | Methods | |
 | :--- | :--- |
 | [ApplyBatch(EntityBatch)](QueryEntities.ApplyBatch(EntityBatch).md 'Friflo.Engine.ECS.QueryEntities.ApplyBatch(Friflo.Engine.ECS.EntityBatch)') | Apply the given entity [batch](QueryEntities.ApplyBatch(EntityBatch).md#Friflo.Engine.ECS.QueryEntities.ApplyBatch(Friflo.Engine.ECS.EntityBatch).batch 'Friflo.Engine.ECS.QueryEntities.ApplyBatch(Friflo.Engine.ECS.EntityBatch).batch') to all entities in this set.<br/> See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#entitybatch---query">Example.</a> |
 | [GetEnumerator()](QueryEntities.GetEnumerator().md 'Friflo.Engine.ECS.QueryEntities.GetEnumerator()') | |
+| [ToEntityList()](QueryEntities.ToEntityList().md 'Friflo.Engine.ECS.QueryEntities.ToEntityList()') | Returns the query result as an [EntityList](EntityList.md 'Friflo.Engine.ECS.EntityList') to perform structural changes. |
+| [ToEntityList(EntityList)](QueryEntities.ToEntityList(EntityList).md 'Friflo.Engine.ECS.QueryEntities.ToEntityList(Friflo.Engine.ECS.EntityList)') | Returns the query result as an [EntityList](EntityList.md 'Friflo.Engine.ECS.EntityList') to perform structural changes. |
 | [ToString()](QueryEntities.ToString().md 'Friflo.Engine.ECS.QueryEntities.ToString()') | |
 
 | Explicit Interface Implementations | |

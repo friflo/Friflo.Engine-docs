@@ -3,6 +3,8 @@
 
 ## QueryEntities.Count Property
 
+Return the number of entities matching the query.
+
 ```csharp
 public int Count { get; }
 ```

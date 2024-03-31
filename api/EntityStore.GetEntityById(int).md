@@ -3,7 +3,8 @@
 
 ## EntityStore.GetEntityById(int) Method
 
-Return the [Entity](Entity.md 'Friflo.Engine.ECS.Entity') with the passed entity [id](EntityStore.GetEntityById(int).md#Friflo.Engine.ECS.EntityStore.GetEntityById(int).id 'Friflo.Engine.ECS.EntityStore.GetEntityById(int).id').
+Returns the [Entity](Entity.md 'Friflo.Engine.ECS.Entity') with the passed [id](EntityStore.GetEntityById(int).md#Friflo.Engine.ECS.EntityStore.GetEntityById(int).id 'Friflo.Engine.ECS.EntityStore.GetEntityById(int).id').<br/>
+The returned entity can be null ([IsNull](Entity.IsNull.md 'Friflo.Engine.ECS.Entity.IsNull') == true).
 
 ```csharp
 public Friflo.Engine.ECS.Entity GetEntityById(int id);
@@ -16,3 +17,8 @@ public Friflo.Engine.ECS.Entity GetEntityById(int id);
 
 #### Returns
 [Entity](Entity.md 'Friflo.Engine.ECS.Entity')
+
+#### Exceptions
+
+[System.IndexOutOfRangeException](https://docs.microsoft.com/en-us/dotnet/api/System.IndexOutOfRangeException 'System.IndexOutOfRangeException')  
+In case passed [id](EntityStore.GetEntityById(int).md#Friflo.Engine.ECS.EntityStore.GetEntityById(int).id 'Friflo.Engine.ECS.EntityStore.GetEntityById(int).id') invalid (id >= [Capacity](EntityStore.Capacity.md 'Friflo.Engine.ECS.EntityStore.Capacity')).

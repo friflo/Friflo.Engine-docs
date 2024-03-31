@@ -3,6 +3,8 @@
 
 ## Entity.IsNull Property
 
+Returns true if the entity was deleted.
+
 ```csharp
 public bool IsNull { get; }
 ```

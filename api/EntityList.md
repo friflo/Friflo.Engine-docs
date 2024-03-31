@@ -21,6 +21,7 @@ Implements [System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-
 
 | Constructors | |
 | :--- | :--- |
+| [EntityList()](EntityList.EntityList().md 'Friflo.Engine.ECS.EntityList.EntityList()') | Creates a container for entities returned by a query to perform structural changes.<br/> This constructor is intended for use in [ToEntityList()](QueryEntities.ToEntityList().md 'Friflo.Engine.ECS.QueryEntities.ToEntityList()'). |
 | [EntityList(EntityStore)](EntityList.EntityList(EntityStore).md 'Friflo.Engine.ECS.EntityList.EntityList(Friflo.Engine.ECS.EntityStore)') | Creates a container to store entities of the given [store](EntityList.EntityList(EntityStore).md#Friflo.Engine.ECS.EntityList.EntityList(Friflo.Engine.ECS.EntityStore).store 'Friflo.Engine.ECS.EntityList.EntityList(Friflo.Engine.ECS.EntityStore).store'). |
 
 | Properties | |

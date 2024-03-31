@@ -3,7 +3,7 @@
 
 ## EntityStore.CreateEntity(int) Method
 
-Create and return new [Entity](Entity.md 'Friflo.Engine.ECS.Entity') with the passed [id](EntityStore.CreateEntity(int).md#Friflo.Engine.ECS.EntityStore.CreateEntity(int).id 'Friflo.Engine.ECS.EntityStore.CreateEntity(int).id') in the entity store.
+Create and return a new [Entity](Entity.md 'Friflo.Engine.ECS.Entity') with the passed [id](EntityStore.CreateEntity(int).md#Friflo.Engine.ECS.EntityStore.CreateEntity(int).id 'Friflo.Engine.ECS.EntityStore.CreateEntity(int).id') in the entity store.
 
 ```csharp
 public Friflo.Engine.ECS.Entity CreateEntity(int id);

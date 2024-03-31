@@ -3,6 +3,8 @@
 
 ## Entity.operator !=(Entity, Entity) Operator
 
+Return true if the passed entities have the different [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id')'s.
+
 ```csharp
 public static bool operator !=(Friflo.Engine.ECS.Entity a, Friflo.Engine.ECS.Entity b);
 ```

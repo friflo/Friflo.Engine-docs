@@ -3,6 +3,8 @@
 
 ## EntityStoreInfo.PooledEntityBatchCount Property
 
+Return the number of cached [EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch')'s.
+
 ```csharp
 public int PooledEntityBatchCount { get; }
 ```

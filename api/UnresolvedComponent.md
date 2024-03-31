@@ -9,6 +9,10 @@ Is used as item type for [Unresolved](Unresolved.md 'Friflo.Engine.ECS.Unresolve
 public readonly struct UnresolvedComponent
 ```
 
+| Constructors | |
+| :--- | :--- |
+| [UnresolvedComponent(string, JsonValue)](UnresolvedComponent.UnresolvedComponent(string,JsonValue).md 'Friflo.Engine.ECS.UnresolvedComponent.UnresolvedComponent(string, Friflo.Json.Fliox.JsonValue)') | |
+
 | Fields | |
 | :--- | :--- |
 | [key](UnresolvedComponent.key.md 'Friflo.Engine.ECS.UnresolvedComponent.key') | |

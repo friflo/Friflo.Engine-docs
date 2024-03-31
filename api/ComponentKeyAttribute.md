@@ -4,6 +4,7 @@
 ## ComponentKeyAttribute Class
 
 Assign a custom key used for JSON serialization for annotated [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') and [Script](Script.md 'Friflo.Engine.ECS.Script') types.<br/>
+If specified key is null The component type is not serialized.
 
 ```csharp
 public sealed class ComponentKeyAttribute : System.Attribute

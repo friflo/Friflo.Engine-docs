@@ -3,6 +3,8 @@
 
 ## EntityStore.Info Field
 
+Return store information used for debugging and optimization.
+
 ```csharp
 public readonly EntityStoreInfo Info;
 ```

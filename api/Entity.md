@@ -75,7 +75,7 @@ Comparison to other game engines.
 | [HasPosition](Entity.HasPosition.md 'Friflo.Engine.ECS.Entity.HasPosition') | Returns true if the entity has a [Position](Position.md 'Friflo.Engine.ECS.Position'). |
 | [HasRotation](Entity.HasRotation.md 'Friflo.Engine.ECS.Entity.HasRotation') | Returns true if the entity has a [Rotation](Rotation.md 'Friflo.Engine.ECS.Rotation'). |
 | [HasScale3](Entity.HasScale3.md 'Friflo.Engine.ECS.Entity.HasScale3') | Returns true if the entity has a [Scale3](Scale3.md 'Friflo.Engine.ECS.Scale3'). |
-| [IsNull](Entity.IsNull.md 'Friflo.Engine.ECS.Entity.IsNull') | |
+| [IsNull](Entity.IsNull.md 'Friflo.Engine.ECS.Entity.IsNull') | Returns true if the entity was deleted. |
 | [Name](Entity.Name.md 'Friflo.Engine.ECS.Entity.Name') | Returns the [EntityName](EntityName.md 'Friflo.Engine.ECS.EntityName') reference of an entity. |
 | [Parent](Entity.Parent.md 'Friflo.Engine.ECS.Entity.Parent') | Returns the parent entity that contains the entity. |
 | [Pid](Entity.Pid.md 'Friflo.Engine.ECS.Entity.Pid') | Returns the permanent entity id used for serialization. |
@@ -129,5 +129,5 @@ Comparison to other game engines.
 
 | Operators | |
 | :--- | :--- |
-| [operator ==(Entity, Entity)](Entity.operator(Entity,Entity).md 'Friflo.Engine.ECS.Entity.op_Equality(Friflo.Engine.ECS.Entity, Friflo.Engine.ECS.Entity)') | |
-| [operator !=(Entity, Entity)](Entity.operator!(Entity,Entity).md 'Friflo.Engine.ECS.Entity.op_Inequality(Friflo.Engine.ECS.Entity, Friflo.Engine.ECS.Entity)') | |
+| [operator ==(Entity, Entity)](Entity.operator(Entity,Entity).md 'Friflo.Engine.ECS.Entity.op_Equality(Friflo.Engine.ECS.Entity, Friflo.Engine.ECS.Entity)') | Return true if the passed entities have the same [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id')'s. |
+| [operator !=(Entity, Entity)](Entity.operator!(Entity,Entity).md 'Friflo.Engine.ECS.Entity.op_Inequality(Friflo.Engine.ECS.Entity, Friflo.Engine.ECS.Entity)') | Return true if the passed entities have the different [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id')'s. |

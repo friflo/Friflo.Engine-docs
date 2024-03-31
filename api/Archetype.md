@@ -35,5 +35,6 @@ Queries can be created via generic [EntityStoreBase](EntityStoreBase.md 'Friflo.
 | Methods | |
 | :--- | :--- |
 | [CreateEntity()](Archetype.CreateEntity().md 'Friflo.Engine.ECS.Archetype.CreateEntity()') | Create an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') with the [ComponentTypes](Archetype.ComponentTypes.md 'Friflo.Engine.ECS.Archetype.ComponentTypes') and [Tags](Archetype.Tags.md 'Friflo.Engine.ECS.Archetype.Tags') managed by the archetype. |
+| [CreateEntity(int)](Archetype.CreateEntity(int).md 'Friflo.Engine.ECS.Archetype.CreateEntity(int)') | |
 | [EnsureCapacity(int)](Archetype.EnsureCapacity(int).md 'Friflo.Engine.ECS.Archetype.EnsureCapacity(int)') | Allocates memory for entity components in the archetype to enable adding entity components without reallocation. |
 | [ToString()](Archetype.ToString().md 'Friflo.Engine.ECS.Archetype.ToString()') | |
