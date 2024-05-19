@@ -44,11 +44,7 @@ public static void HelloWorld()
 {
     var store = new EntityStore();
     for (int n = 0; n < 10; n++) {
-        store.Batch()
-            .Add(new Position(n, 0, 0))
-            .Add(new Velocity{ value = new Vector3(0, n, 0) })
-            .Add(new EntityName("hello entity"))
-            .CreateEntity();
+        store.CreateEntity(new Position(n, 0, 0), new Velocity{ value = new Vector3(0, n, 0)});
     }
     var query = store.Query<Position, Velocity>();
     query.ForEachEntity((ref Position position, ref Velocity velocity, Entity entity) => {
