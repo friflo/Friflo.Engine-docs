@@ -3,8 +3,8 @@
 
 ## ArchetypeQuery.EventFilter Property
 
-An [EventFilter](EventFilter.md 'Friflo.Engine.ECS.EventFilter') used to filter the query result for added/removed components/tags.<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#eventfilter">Example.</a>
+A [EventFilter](EventFilter.md 'Friflo.Engine.ECS.EventFilter') used to filter the query result for added/removed components/tags.<br/>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#eventfilter">Example.</a>
 
 ```csharp
 public Friflo.Engine.ECS.EventFilter EventFilter { get; }

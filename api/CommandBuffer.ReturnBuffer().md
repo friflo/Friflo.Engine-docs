@@ -3,7 +3,7 @@
 
 ## CommandBuffer.ReturnBuffer() Method
 
-Return the resources of the [CommandBuffer](CommandBuffer.md 'Friflo.Engine.ECS.CommandBuffer') to the [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore').
+Return the resources of the [CommandBuffer](CommandBuffer.md 'Friflo.Engine.ECS.CommandBuffer') to the [EntityStore](CommandBuffer.EntityStore.md 'Friflo.Engine.ECS.CommandBuffer.EntityStore').
 
 ```csharp
 public void ReturnBuffer();

@@ -3,6 +3,8 @@
 
 ## Signature<T1,T2,T3,T4>.ComponentTypes Property
 
+Return the component types of the query signature.
+
 ```csharp
 public Friflo.Engine.ECS.ComponentTypes ComponentTypes { get; }
 ```

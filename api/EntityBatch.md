@@ -20,11 +20,11 @@ Each of these methods may cause a structural change which is a relative costly o
 Using a batch minimize theses structural changes to one or none.<br/><br/><b>Bulk operation</b><br/>
 To perform a batch on multiple entities you can use [ApplyBatch(EntityBatch)](QueryEntities.ApplyBatch(EntityBatch).md 'Friflo.Engine.ECS.QueryEntities.ApplyBatch(Friflo.Engine.ECS.EntityBatch)') for <br/>
 - the entities of an [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') using [Entities](ArchetypeQuery.Entities.md 'Friflo.Engine.ECS.ArchetypeQuery.Entities').
-  See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#entitybatch---query">Example.</a><br/>
+  See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#entitybatch---query">Example.</a><br/>
 - all entities of an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') using [Entities](EntityStore.Entities.md 'Friflo.Engine.ECS.EntityStore.Entities').<br/>
 - or the entities of an [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') using [Entities](Archetype.Entities.md 'Friflo.Engine.ECS.Archetype.Entities').<br/>
 To perform a batch on entities in an [EntityList](EntityList.md 'Friflo.Engine.ECS.EntityList') you can use [ApplyBatch(EntityBatch)](EntityList.ApplyBatch(EntityBatch).md 'Friflo.Engine.ECS.EntityList.ApplyBatch(Friflo.Engine.ECS.EntityBatch)').
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#entitybatch---entitylist">Example.</a><br/>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#entitybatch---entitylist">Example.</a><br/>
 
 | Constructors | |
 | :--- | :--- |

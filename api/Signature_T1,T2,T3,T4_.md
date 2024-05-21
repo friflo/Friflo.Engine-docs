@@ -3,6 +3,8 @@
 
 ## Signature<T1,T2,T3,T4> Struct
 
+A Signature to create a query using [Query&lt;T1,T2,T3,T4&gt;(Signature&lt;T1,T2,T3,T4&gt;)](EntityStoreBase.Query_T1,T2,T3,T4_(Signature_T1,T2,T3,T4_).md 'Friflo.Engine.ECS.EntityStoreBase.Query<T1,T2,T3,T4>(Friflo.Engine.ECS.Signature<T1,T2,T3,T4>)') with four components.
+
 ```csharp
 public readonly struct Signature<T1,T2,T3,T4>
     where T1 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
@@ -30,8 +32,8 @@ public readonly struct Signature<T1,T2,T3,T4>
 
 | Properties | |
 | :--- | :--- |
-| [ComponentCount](Signature_T1,T2,T3,T4_.ComponentCount.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>.ComponentCount') | |
-| [ComponentTypes](Signature_T1,T2,T3,T4_.ComponentTypes.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>.ComponentTypes') | |
+| [ComponentCount](Signature_T1,T2,T3,T4_.ComponentCount.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>.ComponentCount') | Gets the number component types of the query signature. |
+| [ComponentTypes](Signature_T1,T2,T3,T4_.ComponentTypes.md 'Friflo.Engine.ECS.Signature<T1,T2,T3,T4>.ComponentTypes') | Return the component types of the query signature. |
 
 | Methods | |
 | :--- | :--- |

@@ -3,7 +3,7 @@
 
 ## EntityList.ApplyBatch(EntityBatch) Method
 
-Apply the the given [batch](EntityList.ApplyBatch(EntityBatch).md#Friflo.Engine.ECS.EntityList.ApplyBatch(Friflo.Engine.ECS.EntityBatch).batch 'Friflo.Engine.ECS.EntityList.ApplyBatch(Friflo.Engine.ECS.EntityBatch).batch') to all entities in the [EntityList](EntityList.md 'Friflo.Engine.ECS.EntityList').
+Apply the given [batch](EntityList.ApplyBatch(EntityBatch).md#Friflo.Engine.ECS.EntityList.ApplyBatch(Friflo.Engine.ECS.EntityBatch).batch 'Friflo.Engine.ECS.EntityList.ApplyBatch(Friflo.Engine.ECS.EntityBatch).batch') to all entities in the [EntityList](EntityList.md 'Friflo.Engine.ECS.EntityList').
 
 ```csharp
 public void ApplyBatch(Friflo.Engine.ECS.EntityBatch batch);

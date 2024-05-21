@@ -14,4 +14,4 @@ public int Count { get; }
 
 ### Remarks
 Execution time O(matching [Archetypes](ArchetypeQuery.Archetypes.md 'Friflo.Engine.ECS.ArchetypeQuery.Archetypes')).<br/>
-Typically there are only a few matching [Archetypes](ArchetypeQuery.Archetypes.md 'Friflo.Engine.ECS.ArchetypeQuery.Archetypes').
+Typically, there are only a few matching [Archetypes](ArchetypeQuery.Archetypes.md 'Friflo.Engine.ECS.ArchetypeQuery.Archetypes').

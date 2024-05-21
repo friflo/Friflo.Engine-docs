@@ -3,6 +3,8 @@
 
 ## Signature<T1,T2,T3>.ComponentCount Property
 
+Gets the number component types of the query signature.
+
 ```csharp
 public int ComponentCount { get; }
 ```

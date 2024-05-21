@@ -3,6 +3,8 @@
 
 ## ArchetypeQuery<T1,T2>.WithDisabled() Method
 
+A query result will contain [Disabled](Disabled.md 'Friflo.Engine.ECS.Disabled') entities.
+
 ```csharp
 public Friflo.Engine.ECS.ArchetypeQuery<T1,T2> WithDisabled();
 ```

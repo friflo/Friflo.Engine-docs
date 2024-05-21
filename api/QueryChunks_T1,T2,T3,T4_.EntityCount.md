@@ -3,6 +3,8 @@
 
 ## QueryChunks<T1,T2,T3,T4>.EntityCount Property
 
+Obsolete. Renamed to [Count](QueryChunks_T1,T2,T3,T4_.Count.md 'Friflo.Engine.ECS.QueryChunks<T1,T2,T3,T4>.Count').
+
 ```csharp
 public int EntityCount { get; }
 ```

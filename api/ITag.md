@@ -4,7 +4,7 @@
 ## ITag Interface
 
 Used to create entity <b>Tag</b>'s by declaring a struct without fields or properties extending [ITag](ITag.md 'Friflo.Engine.ECS.ITag').<br/><b>Note:</b> An [ITag](ITag.md 'Friflo.Engine.ECS.ITag') should be used to tag a group of multiple entities.<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#tag">Example.</a>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#tag">Example.</a>
 
 ```csharp
 public interface ITag

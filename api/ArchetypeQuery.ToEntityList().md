@@ -3,7 +3,7 @@
 
 ## ArchetypeQuery.ToEntityList() Method
 
-Returns the query result as an [EntityList](EntityList.md 'Friflo.Engine.ECS.EntityList') to perform structural changes.
+Returns the query result as a [EntityList](EntityList.md 'Friflo.Engine.ECS.EntityList') used to perform structural changes.
 
 ```csharp
 public Friflo.Engine.ECS.EntityList ToEntityList();

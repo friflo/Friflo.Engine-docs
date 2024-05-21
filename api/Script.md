@@ -4,7 +4,7 @@
 ## Script Class
 
 To enable adding a script class to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') it need to extend [Script](Script.md 'Friflo.Engine.ECS.Script').<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#script">Example.</a>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#script">Example.</a>
 
 ```csharp
 public abstract class Script
@@ -23,7 +23,6 @@ to assign a custom component key name used for JSON serialization.<br/><br/><i>I
 | :--- | :--- |
 | [Entity](Script.Entity.md 'Friflo.Engine.ECS.Script.Entity') | The entity the component is added to. Otherwise null. |
 | [Store](Script.Store.md 'Friflo.Engine.ECS.Script.Store') | |
-| [Systems](Script.Systems.md 'Friflo.Engine.ECS.Script.Systems') | |
 
 | Methods | |
 | :--- | :--- |

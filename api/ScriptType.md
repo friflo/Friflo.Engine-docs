@@ -11,6 +11,10 @@ public abstract class ScriptType : Friflo.Engine.ECS.SchemaType
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [SchemaType](SchemaType.md 'Friflo.Engine.ECS.SchemaType') &#129106; ScriptType
 
+| Constructors | |
+| :--- | :--- |
+| [ScriptType(string, int, Type)](ScriptType.ScriptType(string,int,Type).md 'Friflo.Engine.ECS.ScriptType.ScriptType(string, int, System.Type)') | |
+
 | Fields | |
 | :--- | :--- |
 | [IsBlittable](ScriptType.IsBlittable.md 'Friflo.Engine.ECS.ScriptType.IsBlittable') | Return true if [Script](Script.md 'Friflo.Engine.ECS.Script')'s of this type can be copied. |

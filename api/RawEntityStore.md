@@ -36,3 +36,4 @@ The downside of this approach are:<br/>
 | [GetEntityTags(int)](RawEntityStore.GetEntityTags(int).md 'Friflo.Engine.ECS.RawEntityStore.GetEntityTags(int)') | |
 | [RemoveEntityComponent&lt;T&gt;(int)](RawEntityStore.RemoveEntityComponent_T_(int).md 'Friflo.Engine.ECS.RawEntityStore.RemoveEntityComponent<T>(int)') | |
 | [RemoveEntityTags(int, Tags)](RawEntityStore.RemoveEntityTags(int,Tags).md 'Friflo.Engine.ECS.RawEntityStore.RemoveEntityTags(int, Friflo.Engine.ECS.Tags)') | |
+| [UpdateEntityCompIndex(int, int)](RawEntityStore.UpdateEntityCompIndex(int,int).md 'Friflo.Engine.ECS.RawEntityStore.UpdateEntityCompIndex(int, int)') | |

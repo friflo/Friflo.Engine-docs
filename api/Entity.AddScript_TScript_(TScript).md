@@ -5,7 +5,7 @@
 
 Add the given [script](Entity.AddScript_TScript_(TScript).md#Friflo.Engine.ECS.Entity.AddScript_TScript_(TScript).script 'Friflo.Engine.ECS.Entity.AddScript<TScript>(TScript).script') to the entity.<br/>
             If the entity contains a script of the same [TScript](Entity.AddScript_TScript_(TScript).md#Friflo.Engine.ECS.Entity.AddScript_TScript_(TScript).TScript 'Friflo.Engine.ECS.Entity.AddScript<TScript>(TScript).TScript')[System.Type](https://docs.microsoft.com/en-us/dotnet/api/System.Type 'System.Type') it is replaced.<br/>
-            See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#script">Example.</a>
+            See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#script">Example.</a>
 
 ```csharp
 public TScript AddScript<TScript>(TScript script)

@@ -14,6 +14,10 @@ System.Collections.IEnumerable
 
 Implements [System.Collections.Generic.IEnumerable&lt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1 'System.Collections.Generic.IEnumerable`1')[ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType')[&gt;](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.IEnumerable-1 'System.Collections.Generic.IEnumerable`1'), [System.Collections.IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.IEnumerable 'System.Collections.IEnumerable')
 
+| Constructors | |
+| :--- | :--- |
+| [ComponentTypes(ComponentType)](ComponentTypes.ComponentTypes(ComponentType).md 'Friflo.Engine.ECS.ComponentTypes.ComponentTypes(Friflo.Engine.ECS.ComponentType)') | |
+
 | Properties | |
 | :--- | :--- |
 | [Count](ComponentTypes.Count.md 'Friflo.Engine.ECS.ComponentTypes.Count') | Return the number of contained [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s. |

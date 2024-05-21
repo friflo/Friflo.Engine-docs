@@ -4,7 +4,7 @@
 ## EntityStoreBase.Query() Method
 
 Create a reusable [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') for the entity store.<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#query-entities">Example.</a>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#query-entities">Example.</a>
 
 ```csharp
 public Friflo.Engine.ECS.ArchetypeQuery Query();

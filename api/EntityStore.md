@@ -5,7 +5,7 @@
 
 An [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') is a container for [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s their components, scripts, tags
 and the tree structure.<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#entitystore">Example.</a>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#entitystore">Example.</a>
 
 ```csharp
 public sealed class EntityStore : Friflo.Engine.ECS.EntityStoreBase
@@ -45,7 +45,7 @@ The [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') provide the fe
 | :--- | :--- |
 | [CastEntitiesChanged(object, EntitiesChanged)](EntityStore.CastEntitiesChanged(object,EntitiesChanged).md 'Friflo.Engine.ECS.EntityStore.CastEntitiesChanged(object, Friflo.Engine.ECS.EntitiesChanged)') | |
 | [CloneEntity(Entity)](EntityStore.CloneEntity(Entity).md 'Friflo.Engine.ECS.EntityStore.CloneEntity(Friflo.Engine.ECS.Entity)') | Create and return a clone of the of the passed [entity](EntityStore.CloneEntity(Entity).md#Friflo.Engine.ECS.EntityStore.CloneEntity(Friflo.Engine.ECS.Entity).entity 'Friflo.Engine.ECS.EntityStore.CloneEntity(Friflo.Engine.ECS.Entity).entity') in the store. |
-| [CreateEntity()](EntityStore.CreateEntity().md 'Friflo.Engine.ECS.EntityStore.CreateEntity()') | Create and return a new [Entity](Entity.md 'Friflo.Engine.ECS.Entity') in the entity store.<br/> See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#entity">Example.</a> |
+| [CreateEntity()](EntityStore.CreateEntity().md 'Friflo.Engine.ECS.EntityStore.CreateEntity()') | Create and return a new [Entity](Entity.md 'Friflo.Engine.ECS.Entity') in the entity store.<br/> See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#entity">Example.</a> |
 | [CreateEntity(int)](EntityStore.CreateEntity(int).md 'Friflo.Engine.ECS.EntityStore.CreateEntity(int)') | Create and return a new [Entity](Entity.md 'Friflo.Engine.ECS.Entity') with the passed [id](EntityStore.CreateEntity(int).md#Friflo.Engine.ECS.EntityStore.CreateEntity(int).id 'Friflo.Engine.ECS.EntityStore.CreateEntity(int).id') in the entity store. |
 | [EnsureCapacity(int)](EntityStore.EnsureCapacity(int).md 'Friflo.Engine.ECS.EntityStore.EnsureCapacity(int)') | Allocates memory for entities in the store to enable creating entities without reallocation. |
 | [GetCommandBuffer()](EntityStore.GetCommandBuffer().md 'Friflo.Engine.ECS.EntityStore.GetCommandBuffer()') | Returns a [CommandBuffer](CommandBuffer.md 'Friflo.Engine.ECS.CommandBuffer') used to record and [Playback()](CommandBuffer.Playback().md 'Friflo.Engine.ECS.CommandBuffer.Playback()') entity changes. |
@@ -59,6 +59,7 @@ The [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') provide the fe
 | [SetStoreRoot(Entity)](EntityStore.SetStoreRoot(Entity).md 'Friflo.Engine.ECS.EntityStore.SetStoreRoot(Friflo.Engine.ECS.Entity)') | Set the passed [entity](EntityStore.SetStoreRoot(Entity).md#Friflo.Engine.ECS.EntityStore.SetStoreRoot(Friflo.Engine.ECS.Entity).entity 'Friflo.Engine.ECS.EntityStore.SetStoreRoot(Friflo.Engine.ECS.Entity).entity') as the [StoreRoot](EntityStore.StoreRoot.md 'Friflo.Engine.ECS.EntityStore.StoreRoot') entity. |
 | [TryGetEntityById(int, Entity)](EntityStore.TryGetEntityById(int,Entity).md 'Friflo.Engine.ECS.EntityStore.TryGetEntityById(int, Friflo.Engine.ECS.Entity)') | Get the [Entity](Entity.md 'Friflo.Engine.ECS.Entity') associated with the passed [id](EntityStore.TryGetEntityById(int,Entity).md#Friflo.Engine.ECS.EntityStore.TryGetEntityById(int,Friflo.Engine.ECS.Entity).id 'Friflo.Engine.ECS.EntityStore.TryGetEntityById(int, Friflo.Engine.ECS.Entity).id').<br/> Returns true if passed [id](EntityStore.TryGetEntityById(int,Entity).md#Friflo.Engine.ECS.EntityStore.TryGetEntityById(int,Friflo.Engine.ECS.Entity).id 'Friflo.Engine.ECS.EntityStore.TryGetEntityById(int, Friflo.Engine.ECS.Entity).id') is valid (id < [Capacity](EntityStore.Capacity.md 'Friflo.Engine.ECS.EntityStore.Capacity')).<br/> The returned entity can be null ([IsNull](Entity.IsNull.md 'Friflo.Engine.ECS.Entity.IsNull') == true). |
 | [TryGetEntityByPid(long, Entity)](EntityStore.TryGetEntityByPid(long,Entity).md 'Friflo.Engine.ECS.EntityStore.TryGetEntityByPid(long, Friflo.Engine.ECS.Entity)') | Try to return the [Entity](Entity.md 'Friflo.Engine.ECS.Entity') with the passed entity [pid](EntityStore.TryGetEntityByPid(long,Entity).md#Friflo.Engine.ECS.EntityStore.TryGetEntityByPid(long,Friflo.Engine.ECS.Entity).pid 'Friflo.Engine.ECS.EntityStore.TryGetEntityByPid(long, Friflo.Engine.ECS.Entity).pid').<br/> |
+| [UpdateEntityCompIndex(int, int)](EntityStore.UpdateEntityCompIndex(int,int).md 'Friflo.Engine.ECS.EntityStore.UpdateEntityCompIndex(int, int)') | |
 
 | Events | |
 | :--- | :--- |

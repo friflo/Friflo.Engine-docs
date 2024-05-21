@@ -5,7 +5,7 @@
 
 A create batch is used to optimize entity creation.<br/>
 Components and tags are buffered before creating an entity with [CreateEntity()](CreateEntityBatch.CreateEntity().md 'Friflo.Engine.ECS.CreateEntityBatch.CreateEntity()').<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#batch---create-entity">Example.</a>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#batch---create-entity">Example.</a>
 
 ```csharp
 public sealed class CreateEntityBatch
@@ -16,7 +16,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 ### Remarks
 Multiple entities can be created using the same batch.<br/><br/>
 Creating an entity via a batch stores the entity directly in the target [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype')<br/>
-This prevents any structural changes caused when creating an entity in steps using<br/>[CreateEntity()](EntityStore.CreateEntity().md 'Friflo.Engine.ECS.EntityStore.CreateEntity()') an subsequent calls to [AddComponent&lt;T&gt;()](Entity.AddComponent_T_().md 'Friflo.Engine.ECS.Entity.AddComponent<T>()')
+This prevents any structural changes caused when creating an entity in steps using<br/>[CreateEntity()](EntityStore.CreateEntity().md 'Friflo.Engine.ECS.EntityStore.CreateEntity()') a subsequent calls to [AddComponent&lt;T&gt;()](Entity.AddComponent_T_().md 'Friflo.Engine.ECS.Entity.AddComponent<T>()')
 and [AddTag&lt;TTag&gt;()](Entity.AddTag_TTag_().md 'Friflo.Engine.ECS.Entity.AddTag<TTag>()').
 
 | Constructors | |
@@ -36,6 +36,7 @@ and [AddTag&lt;TTag&gt;()](Entity.AddTag_TTag_().md 'Friflo.Engine.ECS.Entity.Ad
 | [AddTags(Tags)](CreateEntityBatch.AddTags(Tags).md 'Friflo.Engine.ECS.CreateEntityBatch.AddTags(Friflo.Engine.ECS.Tags)') | Adds the given [tags](CreateEntityBatch.AddTags(Tags).md#Friflo.Engine.ECS.CreateEntityBatch.AddTags(Friflo.Engine.ECS.Tags).tags 'Friflo.Engine.ECS.CreateEntityBatch.AddTags(Friflo.Engine.ECS.Tags).tags') that will be added to the entity when calling [CreateEntity()](CreateEntityBatch.CreateEntity().md 'Friflo.Engine.ECS.CreateEntityBatch.CreateEntity()'). |
 | [Clear()](CreateEntityBatch.Clear().md 'Friflo.Engine.ECS.CreateEntityBatch.Clear()') | Clear all components and tags previously added to the batch. |
 | [CreateEntity()](CreateEntityBatch.CreateEntity().md 'Friflo.Engine.ECS.CreateEntityBatch.CreateEntity()') | Creates an entity with the components and tags previously added.<br/> Added batch components and tags are not cleared. |
+| [CreateEntity(int)](CreateEntityBatch.CreateEntity(int).md 'Friflo.Engine.ECS.CreateEntityBatch.CreateEntity(int)') | Creates an entity with the specified [id](CreateEntityBatch.CreateEntity(int).md#Friflo.Engine.ECS.CreateEntityBatch.CreateEntity(int).id 'Friflo.Engine.ECS.CreateEntityBatch.CreateEntity(int).id') and the components and tags previously added.<br/> Added batch components and tags are not cleared. |
 | [Disable()](CreateEntityBatch.Disable().md 'Friflo.Engine.ECS.CreateEntityBatch.Disable()') | |
 | [Get&lt;T&gt;()](CreateEntityBatch.Get_T_().md 'Friflo.Engine.ECS.CreateEntityBatch.Get<T>()') | Get a component by reference previously added to the batch.<br/> This enables creation of multiple entities using the same batch. |
 | [Return()](CreateEntityBatch.Return().md 'Friflo.Engine.ECS.CreateEntityBatch.Return()') | Return the batch instance to its [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') to prevent memory allocations for future [Batch(bool)](EntityStoreBase.Batch(bool).md 'Friflo.Engine.ECS.EntityStoreBase.Batch(bool)') calls. |

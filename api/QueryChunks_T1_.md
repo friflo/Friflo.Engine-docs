@@ -4,7 +4,7 @@
 ## QueryChunks<T1> Struct
 
 Contains the component chunks returned by a component query.
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#enumerate-query-chunks">Example.</a>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#enumerate-query-chunks">Example.</a>
 
 ```csharp
 public readonly struct QueryChunks<T1> :
@@ -23,7 +23,7 @@ Implements [System.Collections.Generic.IEnumerable&lt;](https://docs.microsoft.c
 | Properties | |
 | :--- | :--- |
 | [Count](QueryChunks_T1_.Count.md 'Friflo.Engine.ECS.QueryChunks<T1>.Count') | |
-| [EntityCount](QueryChunks_T1_.EntityCount.md 'Friflo.Engine.ECS.QueryChunks<T1>.EntityCount') | |
+| [EntityCount](QueryChunks_T1_.EntityCount.md 'Friflo.Engine.ECS.QueryChunks<T1>.EntityCount') | Obsolete. Renamed to [Count](QueryChunks_T1_.Count.md 'Friflo.Engine.ECS.QueryChunks<T1>.Count'). |
 
 | Methods | |
 | :--- | :--- |

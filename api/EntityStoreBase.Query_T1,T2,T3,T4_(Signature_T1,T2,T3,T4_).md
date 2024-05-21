@@ -6,7 +6,7 @@
 Create a reusable [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery') for given component [signature](EntityStoreBase.Query_T1,T2,T3,T4_(Signature_T1,T2,T3,T4_).md#Friflo.Engine.ECS.EntityStoreBase.Query_T1,T2,T3,T4_(Friflo.Engine.ECS.Signature_T1,T2,T3,T4_).signature 'Friflo.Engine.ECS.EntityStoreBase.Query<T1,T2,T3,T4>(Friflo.Engine.ECS.Signature<T1,T2,T3,T4>).signature').
 
 ```csharp
-public Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4> Query<T1,T2,T3,T4>(in Friflo.Engine.ECS.Signature<T1,T2,T3,T4> signature)
+public Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4> Query<T1,T2,T3,T4>(Friflo.Engine.ECS.Signature<T1,T2,T3,T4> signature)
     where T1 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
     where T2 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
     where T3 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType

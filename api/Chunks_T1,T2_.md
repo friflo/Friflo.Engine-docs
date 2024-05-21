@@ -4,7 +4,7 @@
 ## Chunks<T1,T2> Struct
 
 Contains the components returned by a component query.
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#enumerate-query-chunks">Example.</a>
+See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#enumerate-query-chunks">Example.</a>
 
 ```csharp
 public readonly struct Chunks<T1,T2>

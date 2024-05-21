@@ -3,6 +3,8 @@
 
 ## EntityStoreBase.EntityCount Property
 
+Obsolete. Renamed to [Count](EntityStoreBase.Count.md 'Friflo.Engine.ECS.EntityStoreBase.Count').
+
 ```csharp
 public int EntityCount { get; }
 ```

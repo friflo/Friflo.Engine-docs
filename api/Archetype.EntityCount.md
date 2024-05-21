@@ -3,6 +3,8 @@
 
 ## Archetype.EntityCount Property
 
+Obsolete. Renamed to [Count](Archetype.Count.md 'Friflo.Engine.ECS.Archetype.Count').
+
 ```csharp
 public int EntityCount { get; }
 ```
