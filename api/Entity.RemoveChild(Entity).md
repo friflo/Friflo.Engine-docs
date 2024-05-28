@@ -3,16 +3,16 @@
 
 ## Entity.RemoveChild(Entity) Method
 
-Remove the given child [entity](Entity.RemoveChild(Entity).md#Friflo.Engine.ECS.Entity.RemoveChild(Friflo.Engine.ECS.Entity).entity 'Friflo.Engine.ECS.Entity.RemoveChild(Friflo.Engine.ECS.Entity).entity') from the entity.
+Remove the given child [child](Entity.RemoveChild(Entity).md#Friflo.Engine.ECS.Entity.RemoveChild(Friflo.Engine.ECS.Entity).child 'Friflo.Engine.ECS.Entity.RemoveChild(Friflo.Engine.ECS.Entity).child') from the entity.
 
 ```csharp
-public bool RemoveChild(Friflo.Engine.ECS.Entity entity);
+public bool RemoveChild(Friflo.Engine.ECS.Entity child);
 ```
 #### Parameters
 
-<a name='Friflo.Engine.ECS.Entity.RemoveChild(Friflo.Engine.ECS.Entity).entity'></a>
+<a name='Friflo.Engine.ECS.Entity.RemoveChild(Friflo.Engine.ECS.Entity).child'></a>
 
-`entity` [Entity](Entity.md 'Friflo.Engine.ECS.Entity')
+`child` [Entity](Entity.md 'Friflo.Engine.ECS.Entity')
 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')

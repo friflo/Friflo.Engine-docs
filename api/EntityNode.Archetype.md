@@ -3,7 +3,7 @@
 
 ## EntityNode.Archetype Property
 
-The [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') the entity node is stored.
+The [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') storing the entity.
 
 ```csharp
 public Friflo.Engine.ECS.Archetype Archetype { get; }

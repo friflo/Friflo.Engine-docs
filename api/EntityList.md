@@ -26,6 +26,7 @@ Implements [System.Collections.Generic.IList&lt;](https://docs.microsoft.com/en-
 
 | Properties | |
 | :--- | :--- |
+| [Capacity](EntityList.Capacity.md 'Friflo.Engine.ECS.EntityList.Capacity') | |
 | [Count](EntityList.Count.md 'Friflo.Engine.ECS.EntityList.Count') | Returns the number of entities stored in the container. |
 | [EntityStore](EntityList.EntityStore.md 'Friflo.Engine.ECS.EntityList.EntityStore') | Returns the store to which the list entities belong to. |
 | [Ids](EntityList.Ids.md 'Friflo.Engine.ECS.EntityList.Ids') | Return the ids of entities stored in the container. |

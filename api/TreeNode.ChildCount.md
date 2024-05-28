@@ -1,9 +1,7 @@
 #### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityNode](EntityNode.md 'Friflo.Engine.ECS.EntityNode')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[TreeNode](TreeNode.md 'Friflo.Engine.ECS.TreeNode')
 
-## EntityNode.ChildCount Property
-
-Number of child entities.
+## TreeNode.ChildCount Property
 
 ```csharp
 public int ChildCount { get; }

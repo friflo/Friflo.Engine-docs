@@ -117,6 +117,7 @@ Contains types and methods to query, add, remove or change [Entity](Entity.md 'F
 | [TagsChanged](TagsChanged.md 'Friflo.Engine.ECS.TagsChanged') | Is the event for event handlers added to [OnTagsChanged](Entity.OnTagsChanged.md 'Friflo.Engine.ECS.Entity.OnTagsChanged') or [OnTagsChanged](EntityStoreBase.OnTagsChanged.md 'Friflo.Engine.ECS.EntityStoreBase.OnTagsChanged'). |
 | [TagsEnumerator](TagsEnumerator.md 'Friflo.Engine.ECS.TagsEnumerator') | Used to enumerate the [ITag](ITag.md 'Friflo.Engine.ECS.ITag')'s stored in [Tags](Tags.md 'Friflo.Engine.ECS.Tags'). |
 | [Transform](Transform.md 'Friflo.Engine.ECS.Transform') | |
+| [TreeNode](TreeNode.md 'Friflo.Engine.ECS.TreeNode') | |
 | [UniqueEntity](UniqueEntity.md 'Friflo.Engine.ECS.UniqueEntity') | A [UniqueEntity](UniqueEntity.md 'Friflo.Engine.ECS.UniqueEntity') is used to assign a unique `string` to an entity within an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore'). |
 | [Unresolved](Unresolved.md 'Friflo.Engine.ECS.Unresolved') | [Unresolved](Unresolved.md 'Friflo.Engine.ECS.Unresolved') is a container for unresolved entity components. |
 | [UnresolvedComponent](UnresolvedComponent.md 'Friflo.Engine.ECS.UnresolvedComponent') | Is used as item type for [Unresolved](Unresolved.md 'Friflo.Engine.ECS.Unresolved').[components](Unresolved.components.md 'Friflo.Engine.ECS.Unresolved.components') storing unresolved entity components. |

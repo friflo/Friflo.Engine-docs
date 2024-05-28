@@ -1,9 +1,7 @@
 #### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityNode](EntityNode.md 'Friflo.Engine.ECS.EntityNode')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[TreeNode](TreeNode.md 'Friflo.Engine.ECS.TreeNode')
 
-## EntityNode.ChildIds Property
-
-The child entities of an entity as an array of ids.
+## TreeNode.ChildIds Property
 
 ```csharp
 public System.ReadOnlySpan<int> ChildIds { get; }
