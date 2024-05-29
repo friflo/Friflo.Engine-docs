@@ -77,6 +77,7 @@ Contains types and methods to query, add, remove or change [Entity](Entity.md 'F
 | [DebugEventHandlers](DebugEventHandlers.md 'Friflo.Engine.ECS.DebugEventHandlers') | Provide the event / signal handlers of an entity using [Entity](Entity.md 'Friflo.Engine.ECS.Entity').[DebugEventHandlers](Entity.DebugEventHandlers.md 'Friflo.Engine.ECS.Entity.DebugEventHandlers'). |
 | [Disabled](Disabled.md 'Friflo.Engine.ECS.Disabled') | If entity [Enabled](Entity.Enabled.md 'Friflo.Engine.ECS.Entity.Enabled') == false it is tagged with [Disabled](Disabled.md 'Friflo.Engine.ECS.Disabled').<br/> Disabled entities are excluded from query results by default. To include use [WithDisabled()](ArchetypeQuery.WithDisabled().md 'Friflo.Engine.ECS.ArchetypeQuery.WithDisabled()'). |
 | [EngineDependant](EngineDependant.md 'Friflo.Engine.ECS.EngineDependant') | |
+| [Entities](Entities.md 'Friflo.Engine.ECS.Entities') | |
 | [EntitiesChanged](EntitiesChanged.md 'Friflo.Engine.ECS.EntitiesChanged') | |
 | [EntitiesEnumerator](EntitiesEnumerator.md 'Friflo.Engine.ECS.EntitiesEnumerator') | Used to enumerate the [Entities](ArchetypeQuery.Entities.md 'Friflo.Engine.ECS.ArchetypeQuery.Entities') of an  [ArchetypeQuery](ArchetypeQuery.md 'Friflo.Engine.ECS.ArchetypeQuery'). |
 | [Entity](Entity.md 'Friflo.Engine.ECS.Entity') | Represent an object in an [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') - e.g. a cube in a game scene.<br/> It is the <b>main API</b> to deal with entities in the engine.<br/> See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#entity">Example.</a> |
@@ -84,6 +85,7 @@ Contains types and methods to query, add, remove or change [Entity](Entity.md 'F
 | [EntityComponents](EntityComponents.md 'Friflo.Engine.ECS.EntityComponents') | Return the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity'). |
 | [EntityCreate](EntityCreate.md 'Friflo.Engine.ECS.EntityCreate') | Is the event for event handlers added to [OnEntityCreate](EntityStore.OnEntityCreate.md 'Friflo.Engine.ECS.EntityStore.OnEntityCreate'). |
 | [EntityDelete](EntityDelete.md 'Friflo.Engine.ECS.EntityDelete') | Is the event for event handlers added to [OnEntityDelete](EntityStore.OnEntityDelete.md 'Friflo.Engine.ECS.EntityStore.OnEntityDelete'). |
+| [EntityEnumerator](EntityEnumerator.md 'Friflo.Engine.ECS.EntityEnumerator') | |
 | [EntityEvent](EntityEvent.md 'Friflo.Engine.ECS.EntityEvent') | The information about a structural change recorded by the [EventRecorder](EventRecorder.md 'Friflo.Engine.ECS.EventRecorder'). |
 | [EntityListEnumerator](EntityListEnumerator.md 'Friflo.Engine.ECS.EntityListEnumerator') | Enumerates the entities of an [EntityList](EntityList.md 'Friflo.Engine.ECS.EntityList'). |
 | [EntityName](EntityName.md 'Friflo.Engine.ECS.EntityName') | Can be added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') to provide a descriptive name for debugging or in an editor. |
