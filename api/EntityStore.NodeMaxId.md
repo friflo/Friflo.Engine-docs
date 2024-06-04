@@ -1,7 +1,7 @@
 #### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityStoreBase](EntityStoreBase.md 'Friflo.Engine.ECS.EntityStoreBase')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore')
 
-## EntityStoreBase.NodeMaxId Property
+## EntityStore.NodeMaxId Property
 
 Return the largest entity [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id') store in the entity store.
 

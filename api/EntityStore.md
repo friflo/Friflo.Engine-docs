@@ -39,6 +39,7 @@ The [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') provide the fe
 | [Entities](EntityStore.Entities.md 'Friflo.Engine.ECS.EntityStore.Entities') | Return all [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s stored in the [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore'). |
 | [EntityScripts](EntityStore.EntityScripts.md 'Friflo.Engine.ECS.EntityStore.EntityScripts') | Return all [Script](Script.md 'Friflo.Engine.ECS.Script')'s added to [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s in the [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore'). |
 | [EventRecorder](EntityStore.EventRecorder.md 'Friflo.Engine.ECS.EntityStore.EventRecorder') | Record adding/removing of components/tags to/from entities if [Enabled](EventRecorder.Enabled.md 'Friflo.Engine.ECS.EventRecorder.Enabled') is true.<br/> It is required to filter these events using an [EventFilter](EventFilter.md 'Friflo.Engine.ECS.EventFilter'). |
+| [NodeMaxId](EntityStore.NodeMaxId.md 'Friflo.Engine.ECS.EntityStore.NodeMaxId') | Return the largest entity [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id') store in the entity store. |
 | [StoreRoot](EntityStore.StoreRoot.md 'Friflo.Engine.ECS.EntityStore.StoreRoot') | Return the root [Entity](Entity.md 'Friflo.Engine.ECS.Entity') of the store. |
 
 | Methods | |

@@ -22,7 +22,6 @@ Derived
 | Fields | |
 | :--- | :--- |
 | [archs](EntityStoreBase.archs.md 'Friflo.Engine.ECS.EntityStoreBase.archs') | |
-| [nodesMaxId](EntityStoreBase.nodesMaxId.md 'Friflo.Engine.ECS.EntityStoreBase.nodesMaxId') | |
 
 | Properties | |
 | :--- | :--- |
@@ -31,7 +30,6 @@ Derived
 | [Count](EntityStoreBase.Count.md 'Friflo.Engine.ECS.EntityStoreBase.Count') | Number of all entities stored in the entity store |
 | [EntityCount](EntityStoreBase.EntityCount.md 'Friflo.Engine.ECS.EntityStoreBase.EntityCount') | Obsolete. Renamed to [Count](EntityStoreBase.Count.md 'Friflo.Engine.ECS.EntityStoreBase.Count'). |
 | [JobRunner](EntityStoreBase.JobRunner.md 'Friflo.Engine.ECS.EntityStoreBase.JobRunner') | Initialize a default [ParallelJobRunner](ParallelJobRunner.md 'Friflo.Engine.ECS.ParallelJobRunner') used for [QueryJob](QueryJob.md 'Friflo.Engine.ECS.QueryJob')'s. |
-| [NodeMaxId](EntityStoreBase.NodeMaxId.md 'Friflo.Engine.ECS.EntityStoreBase.NodeMaxId') | Return the largest entity [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id') store in the entity store. |
 | [UniqueEntities](EntityStoreBase.UniqueEntities.md 'Friflo.Engine.ECS.EntityStoreBase.UniqueEntities') | Return all [UniqueEntity](UniqueEntity.md 'Friflo.Engine.ECS.UniqueEntity')'s in the entity store |
 
 | Methods | |
