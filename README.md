@@ -3,7 +3,13 @@
 
 This project contains the C# API reference of [**Friflo Engine ECS - GitHub**](https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md).    
 
-Full API reference list: [Friflo.Engine.ECS - API](api/Friflo.Engine.ECS.md)
+| Namespace                                                             | Description                                                                                                                   |
+| --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| [Friflo.Engine.ECS](api/Friflo.Engine.ECS.md)                         | Contains types and methods to query, add, remove or change [Entity](api/Entity.md)'s in an [EntityStore](api/EntityStore.md). |
+| [Friflo.Engine.ECS.Collections](api/Friflo.Engine.ECS.Collections.md) | Contains types to enable data binding for common .NET applications.                                                           |
+| [Friflo.Engine.ECS.Serialize](api/Friflo.Engine.ECS.Serialize.md)     | Contains types and methods to serialize / deserialize [Entity](api/Entity.md)'s as JSON.                                      |
+| [Friflo.Engine.ECS.Systems](api/Friflo.Engine.ECS.Systems.md)         | Used to organize and execute a set of systems within a [SystemRoot](api/SystemRoot.md).                                       |
+| [Friflo.Engine.ECS.Utils](api/Friflo.Engine.ECS.Utils.md)             | Utility types and methods typically used by generic libraries.                                                                |
 
 Common used structs and classes.
 
