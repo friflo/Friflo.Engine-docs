@@ -21,7 +21,7 @@ Used to organize and execute a set of systems within a [SystemRoot](SystemRoot.m
 | :--- | :--- |
 | [SystemChanged](SystemChanged.md 'Friflo.Engine.ECS.Systems.SystemChanged') | The event for event handlers added to [OnSystemChanged](BaseSystem.OnSystemChanged.md 'Friflo.Engine.ECS.Systems.BaseSystem.OnSystemChanged'). |
 | [SystemMatch](SystemMatch.md 'Friflo.Engine.ECS.Systems.SystemMatch') | Information of a matching system returned by [GetMatchingSystems(this SystemGroup, Archetype, List&lt;SystemMatch&gt;, bool)](SystemExtensions.GetMatchingSystems(thisSystemGroup,Archetype,List_SystemMatch_,bool).md 'Friflo.Engine.ECS.Systems.SystemExtensions.GetMatchingSystems(this Friflo.Engine.ECS.Systems.SystemGroup, Friflo.Engine.ECS.Archetype, System.Collections.Generic.List<Friflo.Engine.ECS.Systems.SystemMatch>, bool)'). |
-| [SystemPerf](SystemPerf.md 'Friflo.Engine.ECS.Systems.SystemPerf') | Provide performance statics of system execution. |
+| [SystemPerf](SystemPerf.md 'Friflo.Engine.ECS.Systems.SystemPerf') | Provide performance statistics of system execution via the system property [Perf](BaseSystem.Perf.md 'Friflo.Engine.ECS.Systems.BaseSystem.Perf'). |
 
 | Enums | |
 | :--- | :--- |

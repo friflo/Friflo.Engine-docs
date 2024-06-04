@@ -3,7 +3,7 @@
 
 ## SystemPerf.LastMemory Property
 
-Return the sum of all memory allocations in bytes.
+Return the memory allocations of the last execution in bytes.
 
 ```csharp
 public long LastMemory { get; }
