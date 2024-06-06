@@ -23,3 +23,5 @@ public void AddComponent<T>(int entityId, in T component)
 <a name='Friflo.Engine.ECS.CommandBuffer.AddComponent_T_(int,T).component'></a>
 
 `component` [T](CommandBuffer.AddComponent_T_(int,T).md#Friflo.Engine.ECS.CommandBuffer.AddComponent_T_(int,T).T 'Friflo.Engine.ECS.CommandBuffer.AddComponent<T>(int, T).T')
+
+Implements [AddComponent&lt;T&gt;(int, T)](ICommandBuffer.AddComponent_T_(int,T).md 'Friflo.Engine.ECS.ICommandBuffer.AddComponent<T>(int, T)')

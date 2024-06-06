@@ -19,3 +19,5 @@ public void RemoveTag<T>(int entityId)
 <a name='Friflo.Engine.ECS.CommandBuffer.RemoveTag_T_(int).entityId'></a>
 
 `entityId` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')
+
+Implements [RemoveTag&lt;T&gt;(int)](ICommandBuffer.RemoveTag_T_(int).md 'Friflo.Engine.ECS.ICommandBuffer.RemoveTag<T>(int)')

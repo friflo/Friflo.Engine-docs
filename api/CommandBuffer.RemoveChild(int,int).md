@@ -17,3 +17,5 @@ public void RemoveChild(int parentId, int childId);
 <a name='Friflo.Engine.ECS.CommandBuffer.RemoveChild(int,int).childId'></a>
 
 `childId` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')
+
+Implements [RemoveChild(int, int)](ICommandBuffer.RemoveChild(int,int).md 'Friflo.Engine.ECS.ICommandBuffer.RemoveChild(int, int)')

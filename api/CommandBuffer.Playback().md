@@ -10,6 +10,8 @@ See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimiz
 public void Playback();
 ```
 
+Implements [Playback()](ICommandBuffer.Playback().md 'Friflo.Engine.ECS.ICommandBuffer.Playback()')
+
 #### Exceptions
 
 [System.InvalidOperationException](https://docs.microsoft.com/en-us/dotnet/api/System.InvalidOperationException 'System.InvalidOperationException')  

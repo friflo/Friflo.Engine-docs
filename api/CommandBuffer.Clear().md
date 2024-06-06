@@ -6,3 +6,5 @@
 ```csharp
 public void Clear();
 ```
+
+Implements [Clear()](ICommandBuffer.Clear().md 'Friflo.Engine.ECS.ICommandBuffer.Clear()')

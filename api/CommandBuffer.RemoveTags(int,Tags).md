@@ -17,3 +17,5 @@ public void RemoveTags(int entityId, in Friflo.Engine.ECS.Tags tags);
 <a name='Friflo.Engine.ECS.CommandBuffer.RemoveTags(int,Friflo.Engine.ECS.Tags).tags'></a>
 
 `tags` [Tags](Tags.md 'Friflo.Engine.ECS.Tags')
+
+Implements [RemoveTags(int, Tags)](ICommandBuffer.RemoveTags(int,Tags).md 'Friflo.Engine.ECS.ICommandBuffer.RemoveTags(int, Friflo.Engine.ECS.Tags)')

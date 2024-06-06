@@ -19,3 +19,5 @@ public void AddTag<T>(int entityId)
 <a name='Friflo.Engine.ECS.CommandBuffer.AddTag_T_(int).entityId'></a>
 
 `entityId` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')
+
+Implements [AddTag&lt;T&gt;(int)](ICommandBuffer.AddTag_T_(int).md 'Friflo.Engine.ECS.ICommandBuffer.AddTag<T>(int)')

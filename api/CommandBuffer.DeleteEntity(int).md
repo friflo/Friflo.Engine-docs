@@ -13,3 +13,5 @@ public void DeleteEntity(int entityId);
 <a name='Friflo.Engine.ECS.CommandBuffer.DeleteEntity(int).entityId'></a>
 
 `entityId` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')
+
+Implements [DeleteEntity(int)](ICommandBuffer.DeleteEntity(int).md 'Friflo.Engine.ECS.ICommandBuffer.DeleteEntity(int)')

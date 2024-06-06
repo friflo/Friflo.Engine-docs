@@ -3,15 +3,17 @@
 
 ## CommandBuffer Class
 
-A command buffer enables recording entity changes on <b>arbitrary</b> threads.<br/>
-These changes are executed by calling [Playback()](CommandBuffer.Playback().md 'Friflo.Engine.ECS.CommandBuffer.Playback()') on the <b>main</b> thread.<br/>
+A command buffer recording entity changes and execute these changes when calling [Playback()](CommandBuffer.Playback().md 'Friflo.Engine.ECS.CommandBuffer.Playback()').<br/>[CommandBuffer](CommandBuffer.md 'Friflo.Engine.ECS.CommandBuffer') is not thread safe. To record changes on arbitrary threads use [Synced](CommandBuffer.Synced.md 'Friflo.Engine.ECS.CommandBuffer.Synced').<br/>
 See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#commandbuffer">Example.</a>
 
 ```csharp
-public sealed class CommandBuffer
+public sealed class CommandBuffer :
+Friflo.Engine.ECS.ICommandBuffer
 ```
 
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; CommandBuffer
+
+Implements [ICommandBuffer](ICommandBuffer.md 'Friflo.Engine.ECS.ICommandBuffer')
 
 | Properties | |
 | :--- | :--- |
@@ -21,6 +23,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [EntityStore](CommandBuffer.EntityStore.md 'Friflo.Engine.ECS.CommandBuffer.EntityStore') | |
 | [ReuseBuffer](CommandBuffer.ReuseBuffer.md 'Friflo.Engine.ECS.CommandBuffer.ReuseBuffer') | Set [ReuseBuffer](CommandBuffer.ReuseBuffer.md 'Friflo.Engine.ECS.CommandBuffer.ReuseBuffer') = true to reuse a [CommandBuffer](CommandBuffer.md 'Friflo.Engine.ECS.CommandBuffer') instance for multiple [Playback()](CommandBuffer.Playback().md 'Friflo.Engine.ECS.CommandBuffer.Playback()')'s. |
 | [ScriptCommandsCount](CommandBuffer.ScriptCommandsCount.md 'Friflo.Engine.ECS.CommandBuffer.ScriptCommandsCount') | Return the number of recorded script commands. |
+| [Synced](CommandBuffer.Synced.md 'Friflo.Engine.ECS.CommandBuffer.Synced') | Returns a command buffer that must be used in parallel queries - executed with [RunParallel()](QueryJob.RunParallel().md 'Friflo.Engine.ECS.QueryJob.RunParallel()'). |
 | [TagCommandsCount](CommandBuffer.TagCommandsCount.md 'Friflo.Engine.ECS.CommandBuffer.TagCommandsCount') | Return the number of recorded tag commands. |
 
 | Methods | |
@@ -43,3 +46,10 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | [ReturnBuffer()](CommandBuffer.ReturnBuffer().md 'Friflo.Engine.ECS.CommandBuffer.ReturnBuffer()') | Return the resources of the [CommandBuffer](CommandBuffer.md 'Friflo.Engine.ECS.CommandBuffer') to the [EntityStore](CommandBuffer.EntityStore.md 'Friflo.Engine.ECS.CommandBuffer.EntityStore'). |
 | [SetComponent&lt;T&gt;(int, T)](CommandBuffer.SetComponent_T_(int,T).md 'Friflo.Engine.ECS.CommandBuffer.SetComponent<T>(int, T)') | Set the given [component](CommandBuffer.SetComponent_T_(int,T).md#Friflo.Engine.ECS.CommandBuffer.SetComponent_T_(int,T).component 'Friflo.Engine.ECS.CommandBuffer.SetComponent<T>(int, T).component') with type [T](CommandBuffer.SetComponent_T_(int,T).md#Friflo.Engine.ECS.CommandBuffer.SetComponent_T_(int,T).T 'Friflo.Engine.ECS.CommandBuffer.SetComponent<T>(int, T).T') of the entity with the passed [entityId](CommandBuffer.SetComponent_T_(int,T).md#Friflo.Engine.ECS.CommandBuffer.SetComponent_T_(int,T).entityId 'Friflo.Engine.ECS.CommandBuffer.SetComponent<T>(int, T).entityId'). |
 | [ToString()](CommandBuffer.ToString().md 'Friflo.Engine.ECS.CommandBuffer.ToString()') | |
+
+| Explicit Interface Implementations | |
+| :--- | :--- |
+| [Friflo.Engine.ECS.ICommandBuffer.AddComponent&lt;T&gt;(int, T)](CommandBuffer.Friflo.Engine.ECS.ICommandBuffer.AddComponent_T_(int,T).md 'Friflo.Engine.ECS.CommandBuffer.Friflo.Engine.ECS.ICommandBuffer.AddComponent<T>(int, T)') | |
+| [Friflo.Engine.ECS.ICommandBuffer.AddTags(int, Tags)](CommandBuffer.Friflo.Engine.ECS.ICommandBuffer.AddTags(int,Tags).md 'Friflo.Engine.ECS.CommandBuffer.Friflo.Engine.ECS.ICommandBuffer.AddTags(int, Friflo.Engine.ECS.Tags)') | |
+| [Friflo.Engine.ECS.ICommandBuffer.RemoveTags(int, Tags)](CommandBuffer.Friflo.Engine.ECS.ICommandBuffer.RemoveTags(int,Tags).md 'Friflo.Engine.ECS.CommandBuffer.Friflo.Engine.ECS.ICommandBuffer.RemoveTags(int, Friflo.Engine.ECS.Tags)') | |
+| [Friflo.Engine.ECS.ICommandBuffer.SetComponent&lt;T&gt;(int, T)](CommandBuffer.Friflo.Engine.ECS.ICommandBuffer.SetComponent_T_(int,T).md 'Friflo.Engine.ECS.CommandBuffer.Friflo.Engine.ECS.ICommandBuffer.SetComponent<T>(int, T)') | |

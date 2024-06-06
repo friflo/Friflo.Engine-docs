@@ -19,3 +19,5 @@ public void RemoveScript<T>(int entityId)
 <a name='Friflo.Engine.ECS.CommandBuffer.RemoveScript_T_(int).entityId'></a>
 
 `entityId` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')
+
+Implements [RemoveScript&lt;T&gt;(int)](ICommandBuffer.RemoveScript_T_(int).md 'Friflo.Engine.ECS.ICommandBuffer.RemoveScript<T>(int)')

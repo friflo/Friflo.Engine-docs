@@ -19,3 +19,5 @@ public void RemoveComponent<T>(int entityId)
 <a name='Friflo.Engine.ECS.CommandBuffer.RemoveComponent_T_(int).entityId'></a>
 
 `entityId` [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')
+
+Implements [RemoveComponent&lt;T&gt;(int)](ICommandBuffer.RemoveComponent_T_(int).md 'Friflo.Engine.ECS.ICommandBuffer.RemoveComponent<T>(int)')

@@ -23,3 +23,5 @@ public void AddScript<T>(int entityId, T script)
 <a name='Friflo.Engine.ECS.CommandBuffer.AddScript_T_(int,T).script'></a>
 
 `script` [T](CommandBuffer.AddScript_T_(int,T).md#Friflo.Engine.ECS.CommandBuffer.AddScript_T_(int,T).T 'Friflo.Engine.ECS.CommandBuffer.AddScript<T>(int, T).T')
+
+Implements [AddScript&lt;T&gt;(int, T)](ICommandBuffer.AddScript_T_(int,T).md 'Friflo.Engine.ECS.ICommandBuffer.AddScript<T>(int, T)')

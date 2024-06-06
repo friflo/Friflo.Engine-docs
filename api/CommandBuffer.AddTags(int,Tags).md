@@ -17,3 +17,5 @@ public void AddTags(int entityId, in Friflo.Engine.ECS.Tags tags);
 <a name='Friflo.Engine.ECS.CommandBuffer.AddTags(int,Friflo.Engine.ECS.Tags).tags'></a>
 
 `tags` [Tags](Tags.md 'Friflo.Engine.ECS.Tags')
+
+Implements [AddTags(int, Tags)](ICommandBuffer.AddTags(int,Tags).md 'Friflo.Engine.ECS.ICommandBuffer.AddTags(int, Friflo.Engine.ECS.Tags)')
