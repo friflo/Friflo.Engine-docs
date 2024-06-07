@@ -3,6 +3,8 @@
 
 ## BaseSystem.GetPerfLog() Method
 
+Returns performance statistics formatted as a table intended for logging.
+
 ```csharp
 public string GetPerfLog();
 ```
