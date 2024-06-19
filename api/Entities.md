@@ -4,7 +4,7 @@
 ## Entities Struct
 
 ```csharp
-public readonly struct Entities :
+public struct Entities :
 System.Collections.Generic.IReadOnlyList<Friflo.Engine.ECS.Entity>,
 System.Collections.Generic.IEnumerable<Friflo.Engine.ECS.Entity>,
 System.Collections.IEnumerable,
@@ -17,11 +17,13 @@ Implements [System.Collections.Generic.IReadOnlyList&lt;](https://docs.microsoft
 | :--- | :--- |
 | [Count](Entities.Count.md 'Friflo.Engine.ECS.Entities.Count') | |
 | [EntityStore](Entities.EntityStore.md 'Friflo.Engine.ECS.Entities.EntityStore') | |
+| [Ids](Entities.Ids.md 'Friflo.Engine.ECS.Entities.Ids') | |
 | [this[int]](Entities.this[int].md 'Friflo.Engine.ECS.Entities.this[int]') | |
 
 | Methods | |
 | :--- | :--- |
 | [GetEnumerator()](Entities.GetEnumerator().md 'Friflo.Engine.ECS.Entities.GetEnumerator()') | |
+| [ToString()](Entities.ToString().md 'Friflo.Engine.ECS.Entities.ToString()') | |
 
 | Explicit Interface Implementations | |
 | :--- | :--- |
