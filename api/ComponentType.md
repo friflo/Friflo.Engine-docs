@@ -13,10 +13,11 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Constructors | |
 | :--- | :--- |
-| [ComponentType(string, int, Type, int)](ComponentType.ComponentType(string,int,Type,int).md 'Friflo.Engine.ECS.ComponentType.ComponentType(string, int, System.Type, int)') | |
+| [ComponentType(string, int, Type, Type, int)](ComponentType.ComponentType(string,int,Type,Type,int).md 'Friflo.Engine.ECS.ComponentType.ComponentType(string, int, System.Type, System.Type, int)') | |
 
 | Fields | |
 | :--- | :--- |
+| [IndexType](ComponentType.IndexType.md 'Friflo.Engine.ECS.ComponentType.IndexType') | |
 | [IsBlittable](ComponentType.IsBlittable.md 'Friflo.Engine.ECS.ComponentType.IsBlittable') | Return true if [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s of this type can be copied. |
 | [StructIndex](ComponentType.StructIndex.md 'Friflo.Engine.ECS.ComponentType.StructIndex') | The index in [EntitySchema](EntitySchema.md 'Friflo.Engine.ECS.EntitySchema').[Components](EntitySchema.Components.md 'Friflo.Engine.ECS.EntitySchema.Components'). |
 | [StructSize](ComponentType.StructSize.md 'Friflo.Engine.ECS.ComponentType.StructSize') | The size in bytes of the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') struct. |
