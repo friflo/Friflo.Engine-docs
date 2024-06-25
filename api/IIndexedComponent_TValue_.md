@@ -1,5 +1,5 @@
 #### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS')
+### [Friflo.Engine.ECS.Index](Friflo.Engine.ECS.Index.md 'Friflo.Engine.ECS.Index')
 
 ## IIndexedComponent<TValue> Interface
 
@@ -11,21 +11,21 @@ Friflo.Engine.ECS.IComponent
 ```
 #### Type parameters
 
-<a name='Friflo.Engine.ECS.IIndexedComponent_TValue_.TValue'></a>
+<a name='Friflo.Engine.ECS.Index.IIndexedComponent_TValue_.TValue'></a>
 
 `TValue`
 
 Derived  
-&#8627; [ILinkComponent](ILinkComponent.md 'Friflo.Engine.ECS.ILinkComponent')
+&#8627; [ILinkComponent](ILinkComponent.md 'Friflo.Engine.ECS.Index.ILinkComponent')
 
 Implements [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')
 
 ### Remarks
 This component type enables:
 - Return all entities with a component field of a specific value. <br/>
-  See [GetEntitiesWithComponentValue&lt;TComponent,TValue&gt;(TValue)](EntityStore.GetEntitiesWithComponentValue_TComponent,TValue_(TValue).md 'Friflo.Engine.ECS.EntityStore.GetEntitiesWithComponentValue<TComponent,TValue>(TValue)').
+  See [GetEntitiesWithComponentValue&lt;TComponent,TValue&gt;(this EntityStore, TValue)](IndexExtensions.GetEntitiesWithComponentValue_TComponent,TValue_(thisEntityStore,TValue).md 'Friflo.Engine.ECS.Index.IndexExtensions.GetEntitiesWithComponentValue<TComponent,TValue>(this Friflo.Engine.ECS.EntityStore, TValue)').
 - Return a collection of all unique component values.<br/>
-  See [GetIndexedComponentValues&lt;TComponent,TValue&gt;()](EntityStore.GetIndexedComponentValues_TComponent,TValue_().md 'Friflo.Engine.ECS.EntityStore.GetIndexedComponentValues<TComponent,TValue>()').
+  See [GetIndexedComponentValues&lt;TComponent,TValue&gt;(this EntityStore)](IndexExtensions.GetIndexedComponentValues_TComponent,TValue_(thisEntityStore).md 'Friflo.Engine.ECS.Index.IndexExtensions.GetIndexedComponentValues<TComponent,TValue>(this Friflo.Engine.ECS.EntityStore)').
 - Filter entities in a query having a specific component value.<br/>
   See [HasValue&lt;TComponent,TValue&gt;(TValue)](ArchetypeQuery.HasValue_TComponent,TValue_(TValue).md 'Friflo.Engine.ECS.ArchetypeQuery.HasValue<TComponent,TValue>(TValue)').
 - Filter entities in a query with a component value in a specific range.<br/>
@@ -33,4 +33,4 @@ This component type enables:
 
 | Methods | |
 | :--- | :--- |
-| [GetIndexedValue()](IIndexedComponent_TValue_.GetIndexedValue().md 'Friflo.Engine.ECS.IIndexedComponent<TValue>.GetIndexedValue()') | |
+| [GetIndexedValue()](IIndexedComponent_TValue_.GetIndexedValue().md 'Friflo.Engine.ECS.Index.IIndexedComponent<TValue>.GetIndexedValue()') | |

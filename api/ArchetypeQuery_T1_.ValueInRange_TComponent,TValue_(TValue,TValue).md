@@ -7,7 +7,7 @@ Include entities having a component value in the specified range.
 
 ```csharp
 public Friflo.Engine.ECS.ArchetypeQuery<T1> ValueInRange<TComponent,TValue>(TValue min, TValue max)
-    where TComponent : struct, Friflo.Engine.ECS.IIndexedComponent<TValue>, System.ValueType, System.ValueType
+    where TComponent : struct, Friflo.Engine.ECS.Index.IIndexedComponent<TValue>, System.ValueType, System.ValueType
     where TValue : System.IComparable<TValue>;
 ```
 #### Type parameters

@@ -12,8 +12,8 @@ public interface IComponent
 
 Derived  
 &#8627; [EntityName](EntityName.md 'Friflo.Engine.ECS.EntityName')  
-&#8627; [IIndexedComponent&lt;TValue&gt;](IIndexedComponent_TValue_.md 'Friflo.Engine.ECS.IIndexedComponent<TValue>')  
-&#8627; [ILinkComponent](ILinkComponent.md 'Friflo.Engine.ECS.ILinkComponent')  
+&#8627; [IIndexedComponent&lt;TValue&gt;](IIndexedComponent_TValue_.md 'Friflo.Engine.ECS.Index.IIndexedComponent<TValue>')  
+&#8627; [ILinkComponent](ILinkComponent.md 'Friflo.Engine.ECS.Index.ILinkComponent')  
 &#8627; [Position](Position.md 'Friflo.Engine.ECS.Position')  
 &#8627; [Rotation](Rotation.md 'Friflo.Engine.ECS.Rotation')  
 &#8627; [Scale3](Scale3.md 'Friflo.Engine.ECS.Scale3')  

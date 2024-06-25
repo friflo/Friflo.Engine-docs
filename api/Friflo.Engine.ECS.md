@@ -36,7 +36,6 @@ Contains types and methods to query, add, remove or change [Entity](Entity.md 'F
 | [EventFilter](EventFilter.md 'Friflo.Engine.ECS.EventFilter') | Used to filter structural changes made to an entity like added / removed components / tags using [HasEvent(int)](EventFilter.HasEvent(int).md 'Friflo.Engine.ECS.EventFilter.HasEvent(int)').<br/> The [EventRecorder](EntityStore.EventRecorder.md 'Friflo.Engine.ECS.EntityStore.EventRecorder') must be enabled to get add / remove events.<br/> See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#eventfilter">Example.</a> |
 | [EventRecorder](EventRecorder.md 'Friflo.Engine.ECS.EventRecorder') | Used to record events of structural changes like add/remove component/tag.<br/> The recorder is required to filter these events using an [EventFilter](EventFilter.md 'Friflo.Engine.ECS.EventFilter'). |
 | [GenericInstanceTypeAttribute](GenericInstanceTypeAttribute.md 'Friflo.Engine.ECS.GenericInstanceTypeAttribute') | The attribute is required to register specific type instances of generic component and tags types. See example in remarks. |
-| [IndexExtensions](IndexExtensions.md 'Friflo.Engine.ECS.IndexExtensions') | |
 | [MissingComponentException](MissingComponentException.md 'Friflo.Engine.ECS.MissingComponentException') | Is thrown when calling `Entity.Set()` on an entity missing the specified components. |
 | [NativeAOT](NativeAOT.md 'Friflo.Engine.ECS.NativeAOT') | |
 | [ParallelJobRunner](ParallelJobRunner.md 'Friflo.Engine.ECS.ParallelJobRunner') | Required for parallel - multi threaded - query job execution using [RunParallel()](QueryJob.RunParallel().md 'Friflo.Engine.ECS.QueryJob.RunParallel()').<br/> See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#parallel-query-job">Example.</a> |
@@ -134,8 +133,6 @@ Contains types and methods to query, add, remove or change [Entity](Entity.md 'F
 | :--- | :--- |
 | [ICommandBuffer](ICommandBuffer.md 'Friflo.Engine.ECS.ICommandBuffer') | |
 | [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') | To enable adding a struct component to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') it need to implement [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent').<br/>[IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') types are <b>struct</b>s which only contains data <b>but no</b> script / methods.<br/> See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#component">Example.</a> |
-| [IIndexedComponent&lt;TValue&gt;](IIndexedComponent_TValue_.md 'Friflo.Engine.ECS.IIndexedComponent<TValue>') | Is used to define a component type having a single indexed field / property. |
-| [ILinkComponent](ILinkComponent.md 'Friflo.Engine.ECS.ILinkComponent') | Is used to define a component type having a link to another [Entity](Entity.md 'Friflo.Engine.ECS.Entity'). |
 | [IStoreDispatcher](IStoreDispatcher.md 'Friflo.Engine.ECS.IStoreDispatcher') | |
 | [ITag](ITag.md 'Friflo.Engine.ECS.ITag') | Used to create entity <b>Tag</b>'s by declaring a struct without fields or properties extending [ITag](ITag.md 'Friflo.Engine.ECS.ITag').<br/><b>Note:</b> An [ITag](ITag.md 'Friflo.Engine.ECS.ITag') should be used to tag a group of multiple entities.<br/> See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#tag">Example.</a> |
 
