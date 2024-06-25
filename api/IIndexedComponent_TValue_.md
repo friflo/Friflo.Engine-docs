@@ -3,7 +3,8 @@
 
 ## IIndexedComponent<TValue> Interface
 
-Is used to define a component type having a single indexed field / property.
+Is used to define a component type having a single indexed field / property.<br/>
+Components values can be queried with `HasValue()` in a `Query()` or with `ValueInRange()`
 
 ```csharp
 public interface IIndexedComponent<out TValue> :

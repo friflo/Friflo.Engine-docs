@@ -3,7 +3,8 @@
 
 ## ILinkComponent Interface
 
-Is used to define a component type having a link relationship to another [Entity](Entity.md 'Friflo.Engine.ECS.Entity').
+Is used to define a component type having a link relationship to another [Entity](Entity.md 'Friflo.Engine.ECS.Entity').<br/>
+Specific component links can be queried with `HasValue()` in a `Query()`.
 
 ```csharp
 public interface ILinkComponent :

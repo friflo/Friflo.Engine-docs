@@ -14,5 +14,5 @@ Support efficient entity relationships like entity links (foreign keys) and back
 
 | Interfaces | |
 | :--- | :--- |
-| [IIndexedComponent&lt;TValue&gt;](IIndexedComponent_TValue_.md 'Friflo.Engine.ECS.Index.IIndexedComponent<TValue>') | Is used to define a component type having a single indexed field / property. |
-| [ILinkComponent](ILinkComponent.md 'Friflo.Engine.ECS.Index.ILinkComponent') | Is used to define a component type having a link relationship to another [Entity](Entity.md 'Friflo.Engine.ECS.Entity'). |
+| [IIndexedComponent&lt;TValue&gt;](IIndexedComponent_TValue_.md 'Friflo.Engine.ECS.Index.IIndexedComponent<TValue>') | Is used to define a component type having a single indexed field / property.<br/> Components values can be queried with `HasValue()` in a `Query()` or with `ValueInRange()` |
+| [ILinkComponent](ILinkComponent.md 'Friflo.Engine.ECS.Index.ILinkComponent') | Is used to define a component type having a link relationship to another [Entity](Entity.md 'Friflo.Engine.ECS.Entity').<br/> Specific component links can be queried with `HasValue()` in a `Query()`. |
