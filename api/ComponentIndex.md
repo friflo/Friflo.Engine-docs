@@ -3,6 +3,8 @@
 
 ## ComponentIndex Class
 
+Base class to enable implementing custom component indexes.
+
 ```csharp
 public abstract class ComponentIndex
 ```

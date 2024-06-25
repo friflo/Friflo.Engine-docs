@@ -3,6 +3,9 @@
 
 ## IndexExtensions Class
 
+Provide extension methods to query all or a specific component values.<br/>
+Enables to query all or a specific entity links (relationships).
+
 ```csharp
 public static class IndexExtensions
 ```
