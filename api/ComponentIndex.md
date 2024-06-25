@@ -3,7 +3,8 @@
 
 ## ComponentIndex Class
 
-Base class to enable implementing custom component indexes.
+Base class to enable implementing a custom component index.<br/>
+A custom component index can be implemented to optimize indexing or component queries for a specific component type.
 
 ```csharp
 public abstract class ComponentIndex

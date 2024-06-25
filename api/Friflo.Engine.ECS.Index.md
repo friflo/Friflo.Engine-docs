@@ -7,8 +7,9 @@ Support efficient entity relationships like entity links (foreign keys) and back
 
 | Classes | |
 | :--- | :--- |
-| [ComponentIndex](ComponentIndex.md 'Friflo.Engine.ECS.Index.ComponentIndex') | Base class to enable implementing custom component indexes. |
-| [ComponentIndex&lt;TValue&gt;](ComponentIndex_TValue_.md 'Friflo.Engine.ECS.Index.ComponentIndex<TValue>') | Generic base class required to implement custom component indexes. |
+| [ComponentIndex](ComponentIndex.md 'Friflo.Engine.ECS.Index.ComponentIndex') | Base class to enable implementing a custom component index.<br/> A custom component index can be implemented to optimize indexing or component queries for a specific component type. |
+| [ComponentIndex&lt;TValue&gt;](ComponentIndex_TValue_.md 'Friflo.Engine.ECS.Index.ComponentIndex<TValue>') | Generic base class required to implement a custom component index. |
+| [ComponentIndexAttribute](ComponentIndexAttribute.md 'Friflo.Engine.ECS.Index.ComponentIndexAttribute') | Assigns a custom [ComponentIndex](ComponentIndex.md 'Friflo.Engine.ECS.Index.ComponentIndex') to an attributed component type. |
 | [IndexExtensions](IndexExtensions.md 'Friflo.Engine.ECS.Index.IndexExtensions') | Provide extension methods to query all or a specific component values.<br/> Enables to query all or a specific entity links (relationships). |
 | [RangeIndex&lt;TValue&gt;](RangeIndex_TValue_.md 'Friflo.Engine.ECS.Index.RangeIndex<TValue>') | A component index optimized to execute range queries in O(log N) at the cost of index updates in O(log N).<br/> The default index executed index updates in O(1): |
 

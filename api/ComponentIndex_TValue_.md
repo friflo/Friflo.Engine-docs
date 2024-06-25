@@ -3,7 +3,7 @@
 
 ## ComponentIndex<TValue> Class
 
-Generic base class required to implement custom component indexes.
+Generic base class required to implement a custom component index.
 
 ```csharp
 public abstract class ComponentIndex<TValue> : Friflo.Engine.ECS.Index.ComponentIndex
