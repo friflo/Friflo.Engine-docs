@@ -34,4 +34,4 @@ This component type enables:
 
 | Methods | |
 | :--- | :--- |
-| [GetIndexedValue()](IIndexedComponent_TValue_.GetIndexedValue().md 'Friflo.Engine.ECS.Index.IIndexedComponent<TValue>.GetIndexedValue()') | |
+| [GetIndexedValue()](IIndexedComponent_TValue_.GetIndexedValue().md 'Friflo.Engine.ECS.Index.IIndexedComponent<TValue>.GetIndexedValue()') | Returns the value of the indexed component field. |

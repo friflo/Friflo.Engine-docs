@@ -3,6 +3,8 @@
 
 ## IIndexedComponent<TValue>.GetIndexedValue() Method
 
+Returns the value of the indexed component field.
+
 ```csharp
 TValue GetIndexedValue();
 ```
