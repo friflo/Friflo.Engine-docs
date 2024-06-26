@@ -4,7 +4,7 @@
 ## RangeIndex<TValue> Class
 
 A component index optimized to execute range queries in O(log N) at the cost of index updates in O(log N).<br/>
-The default index executed index updates in O(1):
+The default index executes in O(1) when adding, removing or updating indexed component values.
 
 ```csharp
 public sealed class RangeIndex<TValue> : Friflo.Engine.ECS.Index.ComponentIndex<TValue>
