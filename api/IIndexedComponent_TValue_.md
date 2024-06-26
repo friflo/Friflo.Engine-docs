@@ -26,7 +26,7 @@ This component type enables:
 - Return all entities with a component field of a specific value. <br/>
   See [GetEntitiesWithComponentValue&lt;TComponent,TValue&gt;(this EntityStore, TValue)](IndexExtensions.GetEntitiesWithComponentValue_TComponent,TValue_(thisEntityStore,TValue).md 'Friflo.Engine.ECS.Index.IndexExtensions.GetEntitiesWithComponentValue<TComponent,TValue>(this Friflo.Engine.ECS.EntityStore, TValue)').
 - Return a collection of all unique component values.<br/>
-  See [GetIndexedComponentValues&lt;TComponent,TValue&gt;(this EntityStore)](IndexExtensions.GetIndexedComponentValues_TComponent,TValue_(thisEntityStore).md 'Friflo.Engine.ECS.Index.IndexExtensions.GetIndexedComponentValues<TComponent,TValue>(this Friflo.Engine.ECS.EntityStore)').
+  See [GetAllIndexedComponentValues&lt;TComponent,TValue&gt;(this EntityStore)](IndexExtensions.GetAllIndexedComponentValues_TComponent,TValue_(thisEntityStore).md 'Friflo.Engine.ECS.Index.IndexExtensions.GetAllIndexedComponentValues<TComponent,TValue>(this Friflo.Engine.ECS.EntityStore)').
 - Filter entities in a query having a specific component value.<br/>
   See [HasValue&lt;TComponent,TValue&gt;(TValue)](ArchetypeQuery.HasValue_TComponent,TValue_(TValue).md 'Friflo.Engine.ECS.ArchetypeQuery.HasValue<TComponent,TValue>(TValue)').
 - Filter entities in a query with a component value in a specific range.<br/>

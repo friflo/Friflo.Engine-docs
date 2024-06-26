@@ -1,23 +1,23 @@
 #### [Friflo.Engine.ECS](index.md 'index')
 ### [Friflo.Engine.ECS.Index](Friflo.Engine.ECS.Index.md 'Friflo.Engine.ECS.Index').[IndexExtensions](IndexExtensions.md 'Friflo.Engine.ECS.Index.IndexExtensions')
 
-## IndexExtensions.GetLinkingEntities<TComponent>(this Entity) Method
+## IndexExtensions.GetEntityReferences<TComponent>(this Entity) Method
 
-Return the entities having a component link to this entity of the passed [ILinkComponent](ILinkComponent.md 'Friflo.Engine.ECS.Index.ILinkComponent') type.<br/>
+Return the entities with a component link referencing this entity of the passed [ILinkComponent](ILinkComponent.md 'Friflo.Engine.ECS.Index.ILinkComponent') type.<br/>
 Executes in O(1).
 
 ```csharp
-public static Friflo.Engine.ECS.Entities GetLinkingEntities<TComponent>(this Friflo.Engine.ECS.Entity entity)
+public static Friflo.Engine.ECS.Entities GetEntityReferences<TComponent>(this Friflo.Engine.ECS.Entity entity)
     where TComponent : struct, Friflo.Engine.ECS.Index.ILinkComponent, System.ValueType, System.ValueType;
 ```
 #### Type parameters
 
-<a name='Friflo.Engine.ECS.Index.IndexExtensions.GetLinkingEntities_TComponent_(thisFriflo.Engine.ECS.Entity).TComponent'></a>
+<a name='Friflo.Engine.ECS.Index.IndexExtensions.GetEntityReferences_TComponent_(thisFriflo.Engine.ECS.Entity).TComponent'></a>
 
 `TComponent`
 #### Parameters
 
-<a name='Friflo.Engine.ECS.Index.IndexExtensions.GetLinkingEntities_TComponent_(thisFriflo.Engine.ECS.Entity).entity'></a>
+<a name='Friflo.Engine.ECS.Index.IndexExtensions.GetEntityReferences_TComponent_(thisFriflo.Engine.ECS.Entity).entity'></a>
 
 `entity` [Entity](Entity.md 'Friflo.Engine.ECS.Entity')
 
