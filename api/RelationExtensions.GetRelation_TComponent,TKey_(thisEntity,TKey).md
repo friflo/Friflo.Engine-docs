@@ -1,0 +1,35 @@
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[RelationExtensions](RelationExtensions.md 'Friflo.Engine.ECS.RelationExtensions')
+
+## RelationExtensions.GetRelation<TComponent,TKey>(this Entity, TKey) Method
+
+```csharp
+public static ref TComponent GetRelation<TComponent,TKey>(this Friflo.Engine.ECS.Entity entity, TKey key)
+    where TComponent : struct, Friflo.Engine.ECS.IRelationComponent<TKey>, System.ValueType, System.ValueType;
+```
+#### Type parameters
+
+<a name='Friflo.Engine.ECS.RelationExtensions.GetRelation_TComponent,TKey_(thisFriflo.Engine.ECS.Entity,TKey).TComponent'></a>
+
+`TComponent`
+
+<a name='Friflo.Engine.ECS.RelationExtensions.GetRelation_TComponent,TKey_(thisFriflo.Engine.ECS.Entity,TKey).TKey'></a>
+
+`TKey`
+#### Parameters
+
+<a name='Friflo.Engine.ECS.RelationExtensions.GetRelation_TComponent,TKey_(thisFriflo.Engine.ECS.Entity,TKey).entity'></a>
+
+`entity` [Entity](Entity.md 'Friflo.Engine.ECS.Entity')
+
+<a name='Friflo.Engine.ECS.RelationExtensions.GetRelation_TComponent,TKey_(thisFriflo.Engine.ECS.Entity,TKey).key'></a>
+
+`key` [TKey](RelationExtensions.GetRelation_TComponent,TKey_(thisEntity,TKey).md#Friflo.Engine.ECS.RelationExtensions.GetRelation_TComponent,TKey_(thisFriflo.Engine.ECS.Entity,TKey).TKey 'Friflo.Engine.ECS.RelationExtensions.GetRelation<TComponent,TKey>(this Friflo.Engine.ECS.Entity, TKey).TKey')
+
+#### Returns
+[TComponent](RelationExtensions.GetRelation_TComponent,TKey_(thisEntity,TKey).md#Friflo.Engine.ECS.RelationExtensions.GetRelation_TComponent,TKey_(thisFriflo.Engine.ECS.Entity,TKey).TComponent 'Friflo.Engine.ECS.RelationExtensions.GetRelation<TComponent,TKey>(this Friflo.Engine.ECS.Entity, TKey).TComponent')
+
+#### Exceptions
+
+[System.Collections.Generic.KeyNotFoundException](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.KeyNotFoundException 'System.Collections.Generic.KeyNotFoundException')  
+The relation is not found at the passed entity.
