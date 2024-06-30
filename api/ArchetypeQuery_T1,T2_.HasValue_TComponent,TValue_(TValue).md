@@ -7,7 +7,7 @@ Include entities having a component with the specified value.
 
 ```csharp
 public Friflo.Engine.ECS.ArchetypeQuery<T1,T2> HasValue<TComponent,TValue>(TValue value)
-    where TComponent : struct, Friflo.Engine.ECS.Index.IIndexedComponent<TValue>, System.ValueType, System.ValueType;
+    where TComponent : struct, Friflo.Engine.ECS.IIndexedComponent<TValue>, System.ValueType, System.ValueType;
 ```
 #### Type parameters
 

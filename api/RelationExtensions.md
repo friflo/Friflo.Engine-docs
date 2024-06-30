@@ -1,0 +1,16 @@
+#### [Friflo.Engine.ECS](index.md 'index')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS')
+
+## RelationExtensions Class
+
+```csharp
+public static class RelationExtensions
+```
+
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; RelationExtensions
+
+| Methods | |
+| :--- | :--- |
+| [GetRelations&lt;TComponent&gt;(this Entity)](RelationExtensions.GetRelations_TComponent_(thisEntity).md 'Friflo.Engine.ECS.RelationExtensions.GetRelations<TComponent>(this Friflo.Engine.ECS.Entity)') | Returns all unique relation components of the passed [entity](RelationExtensions.GetRelations_TComponent_(thisEntity).md#Friflo.Engine.ECS.RelationExtensions.GetRelations_TComponent_(thisFriflo.Engine.ECS.Entity).entity 'Friflo.Engine.ECS.RelationExtensions.GetRelations<TComponent>(this Friflo.Engine.ECS.Entity).entity').<br/> Executes in O(1). In case [TComponent](RelationExtensions.GetRelations_TComponent_(thisEntity).md#Friflo.Engine.ECS.RelationExtensions.GetRelations_TComponent_(thisFriflo.Engine.ECS.Entity).TComponent 'Friflo.Engine.ECS.RelationExtensions.GetRelations<TComponent>(this Friflo.Engine.ECS.Entity).TComponent') is a [ILinkRelation](ILinkRelation.md 'Friflo.Engine.ECS.ILinkRelation') it returns all linked entities. |
+| [RemoveLinkRelation&lt;T&gt;(this Entity, Entity)](RelationExtensions.RemoveLinkRelation_T_(thisEntity,Entity).md 'Friflo.Engine.ECS.RelationExtensions.RemoveLinkRelation<T>(this Friflo.Engine.ECS.Entity, Friflo.Engine.ECS.Entity)') | Removes the specified link relation [target](RelationExtensions.RemoveLinkRelation_T_(thisEntity,Entity).md#Friflo.Engine.ECS.RelationExtensions.RemoveLinkRelation_T_(thisFriflo.Engine.ECS.Entity,Friflo.Engine.ECS.Entity).target 'Friflo.Engine.ECS.RelationExtensions.RemoveLinkRelation<T>(this Friflo.Engine.ECS.Entity, Friflo.Engine.ECS.Entity).target') from an entity.<br/> Executes in O(N) N: number of link relations of the specified entity. |
+| [RemoveRelation&lt;T,TKey&gt;(this Entity, TKey)](RelationExtensions.RemoveRelation_T,TKey_(thisEntity,TKey).md 'Friflo.Engine.ECS.RelationExtensions.RemoveRelation<T,TKey>(this Friflo.Engine.ECS.Entity, TKey)') | Removes the relation component with the specified [key](RelationExtensions.RemoveRelation_T,TKey_(thisEntity,TKey).md#Friflo.Engine.ECS.RelationExtensions.RemoveRelation_T,TKey_(thisFriflo.Engine.ECS.Entity,TKey).key 'Friflo.Engine.ECS.RelationExtensions.RemoveRelation<T,TKey>(this Friflo.Engine.ECS.Entity, TKey).key') from an entity.<br/> Executes in O(N) N: number of relations of the specific entity. |
