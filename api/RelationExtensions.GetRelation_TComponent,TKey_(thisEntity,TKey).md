@@ -3,6 +3,9 @@
 
 ## RelationExtensions.GetRelation<TComponent,TKey>(this Entity, TKey) Method
 
+Returns the relation of the [entity](RelationExtensions.GetRelation_TComponent,TKey_(thisEntity,TKey).md#Friflo.Engine.ECS.RelationExtensions.GetRelation_TComponent,TKey_(thisFriflo.Engine.ECS.Entity,TKey).entity 'Friflo.Engine.ECS.RelationExtensions.GetRelation<TComponent,TKey>(this Friflo.Engine.ECS.Entity, TKey).entity') with the given [key](RelationExtensions.GetRelation_TComponent,TKey_(thisEntity,TKey).md#Friflo.Engine.ECS.RelationExtensions.GetRelation_TComponent,TKey_(thisFriflo.Engine.ECS.Entity,TKey).key 'Friflo.Engine.ECS.RelationExtensions.GetRelation<TComponent,TKey>(this Friflo.Engine.ECS.Entity, TKey).key').<br/>
+Executes in O(N) N: number of entity relations.
+
 ```csharp
 public static ref TComponent GetRelation<TComponent,TKey>(this Friflo.Engine.ECS.Entity entity, TKey key)
     where TComponent : struct, Friflo.Engine.ECS.IRelationComponent<TKey>, System.ValueType, System.ValueType;
