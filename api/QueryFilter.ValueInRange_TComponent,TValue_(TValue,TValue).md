@@ -3,7 +3,8 @@
 
 ## QueryFilter.ValueInRange<TComponent,TValue>(TValue, TValue) Method
 
-Include entities having a component value in the specified range.
+Include entities having a component value in the specified range.<br/>
+Executes O(N ⋅ log N) N: all unique values.
 
 ```csharp
 public Friflo.Engine.ECS.QueryFilter ValueInRange<TComponent,TValue>(TValue min, TValue max)

@@ -3,7 +3,8 @@
 
 ## ArchetypeQuery<T1,T2,T3>.HasValue<TComponent,TValue>(TValue) Method
 
-Include entities having a component with the specified value.
+Include entities having a component with the specified value.<br/>
+Executes in O(1).
 
 ```csharp
 public Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3> HasValue<TComponent,TValue>(TValue value)
