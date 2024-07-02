@@ -24,6 +24,11 @@ public static Friflo.Engine.ECS.Entities GetEntityReferences<TComponent>(this Fr
 #### Returns
 [Entities](Entities.md 'Friflo.Engine.ECS.Entities')
 
+#### Exceptions
+
+[System.NullReferenceException](https://docs.microsoft.com/en-us/dotnet/api/System.NullReferenceException 'System.NullReferenceException')  
+If the entity is null.
+
 ### Remarks
 The method id a specialized version of [GetEntitiesWithComponentValue&lt;TComponent,TValue&gt;(this EntityStore, TValue)](IndexExtensions.GetEntitiesWithComponentValue_TComponent,TValue_(thisEntityStore,TValue).md 'Friflo.Engine.ECS.IndexExtensions.GetEntitiesWithComponentValue<TComponent,TValue>(this Friflo.Engine.ECS.EntityStore, TValue)')<br/>
 using ` TComponent = IIndexedComponent<Entity>, TValue = Entity` and `value = this`.

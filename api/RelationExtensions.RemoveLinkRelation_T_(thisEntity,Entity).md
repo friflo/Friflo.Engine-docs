@@ -28,3 +28,8 @@ public static bool RemoveLinkRelation<T>(this Friflo.Engine.ECS.Entity entity, F
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
 true if the entity contained a link relation of the given type before.
+
+#### Exceptions
+
+[System.NullReferenceException](https://docs.microsoft.com/en-us/dotnet/api/System.NullReferenceException 'System.NullReferenceException')  
+If the entity is null.

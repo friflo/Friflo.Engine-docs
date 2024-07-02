@@ -36,3 +36,6 @@ public static ref TComponent GetRelation<TComponent,TKey>(this Friflo.Engine.ECS
 
 [System.Collections.Generic.KeyNotFoundException](https://docs.microsoft.com/en-us/dotnet/api/System.Collections.Generic.KeyNotFoundException 'System.Collections.Generic.KeyNotFoundException')  
 The relation is not found at the passed entity.
+
+[System.NullReferenceException](https://docs.microsoft.com/en-us/dotnet/api/System.NullReferenceException 'System.NullReferenceException')  
+If the entity is null.

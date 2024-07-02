@@ -17,4 +17,4 @@ public abstract class ComponentIndex<TValue> : Friflo.Engine.ECS.Index.Component
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [ComponentIndex](ComponentIndex.md 'Friflo.Engine.ECS.Index.ComponentIndex') &#129106; ComponentIndex<TValue>
 
 Derived  
-&#8627; [RangeIndex&lt;TValue&gt;](RangeIndex_TValue_.md 'Friflo.Engine.ECS.Index.RangeIndex<TValue>')
+&#8627; [RangeIndex&lt;TIndexedComponent,TValue&gt;](RangeIndex_TIndexedComponent,TValue_.md 'Friflo.Engine.ECS.Index.RangeIndex<TIndexedComponent,TValue>')

@@ -23,3 +23,8 @@ public static Friflo.Engine.ECS.RelationComponents<TComponent> GetRelations<TCom
 
 #### Returns
 [Friflo.Engine.ECS.RelationComponents&lt;](RelationComponents_TComponent_.md 'Friflo.Engine.ECS.RelationComponents<TComponent>')[TComponent](RelationExtensions.GetRelations_TComponent_(thisEntity).md#Friflo.Engine.ECS.RelationExtensions.GetRelations_TComponent_(thisFriflo.Engine.ECS.Entity).TComponent 'Friflo.Engine.ECS.RelationExtensions.GetRelations<TComponent>(this Friflo.Engine.ECS.Entity).TComponent')[&gt;](RelationComponents_TComponent_.md 'Friflo.Engine.ECS.RelationComponents<TComponent>')
+
+#### Exceptions
+
+[System.NullReferenceException](https://docs.microsoft.com/en-us/dotnet/api/System.NullReferenceException 'System.NullReferenceException')  
+If the entity is null.

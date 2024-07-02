@@ -32,3 +32,8 @@ public static bool RemoveRelation<T,TKey>(this Friflo.Engine.ECS.Entity entity, 
 #### Returns
 [System.Boolean](https://docs.microsoft.com/en-us/dotnet/api/System.Boolean 'System.Boolean')  
 true if the entity contained a relation of the given type before.
+
+#### Exceptions
+
+[System.NullReferenceException](https://docs.microsoft.com/en-us/dotnet/api/System.NullReferenceException 'System.NullReferenceException')  
+If the entity is null.
