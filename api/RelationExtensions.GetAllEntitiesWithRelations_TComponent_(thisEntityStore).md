@@ -3,7 +3,8 @@
 
 ## RelationExtensions.GetAllEntitiesWithRelations<TComponent>(this EntityStore) Method
 
-Returns a collection of entities having one or more relations of the specified [TComponent](RelationExtensions.GetAllEntitiesWithRelations_TComponent_(thisEntityStore).md#Friflo.Engine.ECS.RelationExtensions.GetAllEntitiesWithRelations_TComponent_(thisFriflo.Engine.ECS.EntityStore).TComponent 'Friflo.Engine.ECS.RelationExtensions.GetAllEntitiesWithRelations<TComponent>(this Friflo.Engine.ECS.EntityStore).TComponent') type.
+Returns a collection of entities having one or more relations of the specified [TComponent](RelationExtensions.GetAllEntitiesWithRelations_TComponent_(thisEntityStore).md#Friflo.Engine.ECS.RelationExtensions.GetAllEntitiesWithRelations_TComponent_(thisFriflo.Engine.ECS.EntityStore).TComponent 'Friflo.Engine.ECS.RelationExtensions.GetAllEntitiesWithRelations<TComponent>(this Friflo.Engine.ECS.EntityStore).TComponent') type.<br/>
+Executes in O(1).
 
 ```csharp
 public static Friflo.Engine.ECS.EntityReadOnlyCollection GetAllEntitiesWithRelations<TComponent>(this Friflo.Engine.ECS.EntityStore store)
@@ -25,4 +26,4 @@ public static Friflo.Engine.ECS.EntityReadOnlyCollection GetAllEntitiesWithRelat
 
 ### Remarks
 - The returned collection changes when relations are updated, removed or added.
-- To get all entities including their relations - the cartesian product aka CROSS JOIN - use:<br/>`query = store.Query<TComponent>();`
+- To get all entities including their relations - the cartesian product aka CROSS JOIN - use:<br/>[ForAllEntityRelations&lt;TComponent&gt;(this EntityStore, ForEachEntity&lt;TComponent&gt;)](RelationExtensions.ForAllEntityRelations_TComponent_(thisEntityStore,ForEachEntity_TComponent_).md 'Friflo.Engine.ECS.RelationExtensions.ForAllEntityRelations<TComponent>(this Friflo.Engine.ECS.EntityStore, Friflo.Engine.ECS.ForEachEntity<TComponent>)')
