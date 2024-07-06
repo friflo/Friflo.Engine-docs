@@ -3,6 +3,9 @@
 
 ## CollectionExtensions.Debug(this IEnumerable<Entity>) Method
 
+Returns a string containing the entity ids.<br/>
+E.g `"{ 1, 3, 7 }"`
+
 ```csharp
 public static string Debug(this System.Collections.Generic.IEnumerable<Friflo.Engine.ECS.Entity> entities);
 ```

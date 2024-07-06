@@ -3,6 +3,8 @@
 
 ## Entities.Debug() Method
 
+Return the entity ids as a string.<br/>E.g `"{ 1, 3, 7 }"`
+
 ```csharp
 public string Debug();
 ```

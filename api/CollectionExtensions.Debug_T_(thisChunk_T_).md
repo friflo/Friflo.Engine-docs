@@ -3,6 +3,9 @@
 
 ## CollectionExtensions.Debug<T>(this Chunk<T>) Method
 
+Returns a string containing the [System.Object.ToString](https://docs.microsoft.com/en-us/dotnet/api/System.Object.ToString 'System.Object.ToString') for each component.<br/>
+E.g `"{ 1, 3, 7 }"`
+
 ```csharp
 public static string Debug<T>(this Friflo.Engine.ECS.Chunk<T> chunk)
     where T : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType;

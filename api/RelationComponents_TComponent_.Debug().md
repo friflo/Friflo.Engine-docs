@@ -3,6 +3,8 @@
 
 ## RelationComponents<TComponent>.Debug() Method
 
+Returns a string containing the relation keys.<br/>E.g `"{ 1, 3, 7 }"`
+
 ```csharp
 public string Debug();
 ```

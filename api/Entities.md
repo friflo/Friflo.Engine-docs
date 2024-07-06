@@ -22,7 +22,7 @@ Implements [System.Collections.Generic.IReadOnlyList&lt;](https://docs.microsoft
 
 | Methods | |
 | :--- | :--- |
-| [Debug()](Entities.Debug().md 'Friflo.Engine.ECS.Entities.Debug()') | |
+| [Debug()](Entities.Debug().md 'Friflo.Engine.ECS.Entities.Debug()') | Return the entity ids as a string.<br/>E.g `"{ 1, 3, 7 }"` |
 | [GetEnumerator()](Entities.GetEnumerator().md 'Friflo.Engine.ECS.Entities.GetEnumerator()') | |
 | [ToString()](Entities.ToString().md 'Friflo.Engine.ECS.Entities.ToString()') | |
 

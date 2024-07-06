@@ -20,7 +20,7 @@ Implements [System.Collections.Generic.IReadOnlyList&lt;](https://docs.microsoft
 
 | Methods | |
 | :--- | :--- |
-| [Debug()](EntityLinks.Debug().md 'Friflo.Engine.ECS.EntityLinks.Debug()') | |
+| [Debug()](EntityLinks.Debug().md 'Friflo.Engine.ECS.EntityLinks.Debug()') | Return the entity ids as a string.<br/>E.g `"{ 1, 3, 7 }"` |
 | [GetEnumerator()](EntityLinks.GetEnumerator().md 'Friflo.Engine.ECS.EntityLinks.GetEnumerator()') | |
 | [ToString()](EntityLinks.ToString().md 'Friflo.Engine.ECS.EntityLinks.ToString()') | |
 

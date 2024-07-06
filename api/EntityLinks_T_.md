@@ -31,7 +31,7 @@ Implements [System.Collections.Generic.IReadOnlyList&lt;](https://docs.microsoft
 
 | Methods | |
 | :--- | :--- |
-| [Debug()](EntityLinks_T_.Debug().md 'Friflo.Engine.ECS.EntityLinks<T>.Debug()') | |
+| [Debug()](EntityLinks_T_.Debug().md 'Friflo.Engine.ECS.EntityLinks<T>.Debug()') | Return the entity ids as a string.<br/>E.g `"{ 1, 3, 7 }"` |
 | [GetEnumerator()](EntityLinks_T_.GetEnumerator().md 'Friflo.Engine.ECS.EntityLinks<T>.GetEnumerator()') | |
 | [ToString()](EntityLinks_T_.ToString().md 'Friflo.Engine.ECS.EntityLinks<T>.ToString()') | |
 
