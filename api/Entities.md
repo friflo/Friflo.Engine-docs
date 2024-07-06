@@ -22,6 +22,7 @@ Implements [System.Collections.Generic.IReadOnlyList&lt;](https://docs.microsoft
 
 | Methods | |
 | :--- | :--- |
+| [Debug()](Entities.Debug().md 'Friflo.Engine.ECS.Entities.Debug()') | |
 | [GetEnumerator()](Entities.GetEnumerator().md 'Friflo.Engine.ECS.Entities.GetEnumerator()') | |
 | [ToString()](Entities.ToString().md 'Friflo.Engine.ECS.Entities.ToString()') | |
 

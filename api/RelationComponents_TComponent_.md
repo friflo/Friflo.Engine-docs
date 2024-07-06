@@ -29,6 +29,7 @@ Implements [System.Collections.Generic.IEnumerable&lt;](https://docs.microsoft.c
 
 | Methods | |
 | :--- | :--- |
+| [Debug()](RelationComponents_TComponent_.Debug().md 'Friflo.Engine.ECS.RelationComponents<TComponent>.Debug()') | |
 | [GetEnumerator()](RelationComponents_TComponent_.GetEnumerator().md 'Friflo.Engine.ECS.RelationComponents<TComponent>.GetEnumerator()') | |
 | [ToString()](RelationComponents_TComponent_.ToString().md 'Friflo.Engine.ECS.RelationComponents<TComponent>.ToString()') | |
 

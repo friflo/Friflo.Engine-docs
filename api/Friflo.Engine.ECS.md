@@ -17,6 +17,7 @@ Contains types and methods to query, add, remove or change [Entity](Entity.md 'F
 | [BatchAlreadyAppliedException](BatchAlreadyAppliedException.md 'Friflo.Engine.ECS.BatchAlreadyAppliedException') | Is thrown if using a batch returned by [Batch()](Entity.Batch().md 'Friflo.Engine.ECS.Entity.Batch()') after calling [Apply()](EntityBatch.Apply().md 'Friflo.Engine.ECS.EntityBatch.Apply()'). |
 | [BatchAlreadyReturnedException](BatchAlreadyReturnedException.md 'Friflo.Engine.ECS.BatchAlreadyReturnedException') | Is thrown if using a batch returned by [Batch(bool)](EntityStoreBase.Batch(bool).md 'Friflo.Engine.ECS.EntityStoreBase.Batch(bool)') with autoReturn: true<br/> after calling [CreateEntity()](CreateEntityBatch.CreateEntity().md 'Friflo.Engine.ECS.CreateEntityBatch.CreateEntity()'). |
 | [ChunkExtensions](ChunkExtensions.md 'Friflo.Engine.ECS.ChunkExtensions') | |
+| [CollectionExtensions](CollectionExtensions.md 'Friflo.Engine.ECS.CollectionExtensions') | |
 | [CommandBuffer](CommandBuffer.md 'Friflo.Engine.ECS.CommandBuffer') | A command buffer recording entity changes and execute these changes when calling [Playback()](CommandBuffer.Playback().md 'Friflo.Engine.ECS.CommandBuffer.Playback()').<br/>[CommandBuffer](CommandBuffer.md 'Friflo.Engine.ECS.CommandBuffer') is not thread safe. To record changes on arbitrary threads use [Synced](CommandBuffer.Synced.md 'Friflo.Engine.ECS.CommandBuffer.Synced').<br/> See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#commandbuffer">Example.</a> |
 | [CommandBufferSynced](CommandBufferSynced.md 'Friflo.Engine.ECS.CommandBufferSynced') | Same functionality as [CommandBuffer](CommandBuffer.md 'Friflo.Engine.ECS.CommandBuffer') but thread safe.<br/> Use this command buffer to record entity changes in parallel queries executed via [RunParallel()](QueryJob.RunParallel().md 'Friflo.Engine.ECS.QueryJob.RunParallel()'). |
 | [ComponentKeyAttribute](ComponentKeyAttribute.md 'Friflo.Engine.ECS.ComponentKeyAttribute') | Assign a custom key used for JSON serialization for annotated [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') and [Script](Script.md 'Friflo.Engine.ECS.Script') types.<br/> If specified key is null The component type is not serialized. |
@@ -93,6 +94,12 @@ Contains types and methods to query, add, remove or change [Entity](Entity.md 'F
 | [EntityDelete](EntityDelete.md 'Friflo.Engine.ECS.EntityDelete') | Is the event for event handlers added to [OnEntityDelete](EntityStore.OnEntityDelete.md 'Friflo.Engine.ECS.EntityStore.OnEntityDelete'). |
 | [EntityEnumerator](EntityEnumerator.md 'Friflo.Engine.ECS.EntityEnumerator') | |
 | [EntityEvent](EntityEvent.md 'Friflo.Engine.ECS.EntityEvent') | The information about a structural change recorded by the [EventRecorder](EventRecorder.md 'Friflo.Engine.ECS.EventRecorder'). |
+| [EntityLink](EntityLink.md 'Friflo.Engine.ECS.EntityLink') | |
+| [EntityLink&lt;TComponent&gt;](EntityLink_TComponent_.md 'Friflo.Engine.ECS.EntityLink<TComponent>') | |
+| [EntityLinkEnumerator](EntityLinkEnumerator.md 'Friflo.Engine.ECS.EntityLinkEnumerator') | |
+| [EntityLinkEnumerator&lt;T&gt;](EntityLinkEnumerator_T_.md 'Friflo.Engine.ECS.EntityLinkEnumerator<T>') | |
+| [EntityLinks](EntityLinks.md 'Friflo.Engine.ECS.EntityLinks') | |
+| [EntityLinks&lt;T&gt;](EntityLinks_T_.md 'Friflo.Engine.ECS.EntityLinks<T>') | |
 | [EntityListEnumerator](EntityListEnumerator.md 'Friflo.Engine.ECS.EntityListEnumerator') | Enumerates the entities of an [EntityList](EntityList.md 'Friflo.Engine.ECS.EntityList'). |
 | [EntityName](EntityName.md 'Friflo.Engine.ECS.EntityName') | Can be added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') to provide a descriptive name for debugging or in an editor. |
 | [EntityNode](EntityNode.md 'Friflo.Engine.ECS.EntityNode') | Used by the [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') to store [Entity](Entity.md 'Friflo.Engine.ECS.Entity') components, scripts, tags and child entities internally as an array of nodes. |

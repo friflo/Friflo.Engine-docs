@@ -26,4 +26,4 @@ public static Friflo.Engine.ECS.EntityReadOnlyCollection GetAllEntitiesWithRelat
 
 ### Remarks
 - The returned collection changes when relations are updated, removed or added.
-- To get all entities including their relations - the cartesian product aka CROSS JOIN - use:<br/>[ForAllEntityRelations&lt;TComponent&gt;(this EntityStore, ForEachEntity&lt;TComponent&gt;)](RelationExtensions.ForAllEntityRelations_TComponent_(thisEntityStore,ForEachEntity_TComponent_).md 'Friflo.Engine.ECS.RelationExtensions.ForAllEntityRelations<TComponent>(this Friflo.Engine.ECS.EntityStore, Friflo.Engine.ECS.ForEachEntity<TComponent>)')
+- To get all entities including their relations (the cartesian product aka CROSS JOIN) use<br/>[GetAllEntityRelations&lt;TComponent&gt;(this EntityStore)](RelationExtensions.GetAllEntityRelations_TComponent_(thisEntityStore).md 'Friflo.Engine.ECS.RelationExtensions.GetAllEntityRelations<TComponent>(this Friflo.Engine.ECS.EntityStore)')

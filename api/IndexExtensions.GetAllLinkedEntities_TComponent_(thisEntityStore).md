@@ -26,6 +26,6 @@ public static System.Collections.Generic.IReadOnlyCollection<Friflo.Engine.ECS.E
 
 ### Remarks
 - The returned collection changes when component link values are updated, removed or added.
-- To get the entities linking a specific entity use [GetEntityReferences&lt;TComponent&gt;(this Entity)](IndexExtensions.GetEntityReferences_TComponent_(thisEntity).md 'Friflo.Engine.ECS.IndexExtensions.GetEntityReferences<TComponent>(this Friflo.Engine.ECS.Entity)').<br/>
+- To get the entities linking a specific entity use [GetIncomingLinks&lt;TComponent&gt;(this Entity)](IndexExtensions.GetIncomingLinks_TComponent_(thisEntity).md 'Friflo.Engine.ECS.IndexExtensions.GetIncomingLinks<TComponent>(this Friflo.Engine.ECS.Entity)').<br/>
 - The method is a specialized version of [GetAllIndexedComponentValues&lt;TComponent,TValue&gt;(this EntityStore)](IndexExtensions.GetAllIndexedComponentValues_TComponent,TValue_(thisEntityStore).md 'Friflo.Engine.ECS.IndexExtensions.GetAllIndexedComponentValues<TComponent,TValue>(this Friflo.Engine.ECS.EntityStore)')<br/>
   using ` TComponent = ILinkComponent` and `TValue = Entity`.
