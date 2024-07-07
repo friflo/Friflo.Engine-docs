@@ -4,13 +4,13 @@
 ## EntityExtensions.GetAllIncomingLinks(this Entity) Method
 
 ```csharp
-public static Friflo.Engine.ECS.EntityLinks GetAllIncomingLinks(this Friflo.Engine.ECS.Entity entity);
+public static Friflo.Engine.ECS.EntityLinks GetAllIncomingLinks(this Friflo.Engine.ECS.Entity target);
 ```
 #### Parameters
 
-<a name='Friflo.Engine.ECS.EntityExtensions.GetAllIncomingLinks(thisFriflo.Engine.ECS.Entity).entity'></a>
+<a name='Friflo.Engine.ECS.EntityExtensions.GetAllIncomingLinks(thisFriflo.Engine.ECS.Entity).target'></a>
 
-`entity` [Entity](Entity.md 'Friflo.Engine.ECS.Entity')
+`target` [Entity](Entity.md 'Friflo.Engine.ECS.Entity')
 
 #### Returns
 [EntityLinks](EntityLinks.md 'Friflo.Engine.ECS.EntityLinks')

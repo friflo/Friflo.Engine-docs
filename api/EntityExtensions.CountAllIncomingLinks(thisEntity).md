@@ -4,13 +4,13 @@
 ## EntityExtensions.CountAllIncomingLinks(this Entity) Method
 
 ```csharp
-public static int CountAllIncomingLinks(this Friflo.Engine.ECS.Entity entity);
+public static int CountAllIncomingLinks(this Friflo.Engine.ECS.Entity target);
 ```
 #### Parameters
 
-<a name='Friflo.Engine.ECS.EntityExtensions.CountAllIncomingLinks(thisFriflo.Engine.ECS.Entity).entity'></a>
+<a name='Friflo.Engine.ECS.EntityExtensions.CountAllIncomingLinks(thisFriflo.Engine.ECS.Entity).target'></a>
 
-`entity` [Entity](Entity.md 'Friflo.Engine.ECS.Entity')
+`target` [Entity](Entity.md 'Friflo.Engine.ECS.Entity')
 
 #### Returns
 [System.Int32](https://docs.microsoft.com/en-us/dotnet/api/System.Int32 'System.Int32')

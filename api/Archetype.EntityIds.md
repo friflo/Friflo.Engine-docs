@@ -3,7 +3,7 @@
 
 ## Archetype.EntityIds Property
 
-The list of entity ids stored in the archetype.
+Return the entity ids stored in the archetype.
 
 ```csharp
 public System.ReadOnlySpan<int> EntityIds { get; }

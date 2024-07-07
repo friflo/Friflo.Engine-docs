@@ -27,13 +27,14 @@ Queries can be created via generic [EntityStoreBase](EntityStoreBase.md 'Friflo.
 | [Count](Archetype.Count.md 'Friflo.Engine.ECS.Archetype.Count') | Number of entities / components stored in the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') |
 | [Entities](Archetype.Entities.md 'Friflo.Engine.ECS.Archetype.Entities') | Return all [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s stored in the [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype'). |
 | [EntityCount](Archetype.EntityCount.md 'Friflo.Engine.ECS.Archetype.EntityCount') | Obsolete. Renamed to [Count](Archetype.Count.md 'Friflo.Engine.ECS.Archetype.Count'). |
-| [EntityIds](Archetype.EntityIds.md 'Friflo.Engine.ECS.Archetype.EntityIds') | The list of entity ids stored in the archetype. |
+| [EntityIds](Archetype.EntityIds.md 'Friflo.Engine.ECS.Archetype.EntityIds') | Return the entity ids stored in the archetype. |
 | [Name](Archetype.Name.md 'Friflo.Engine.ECS.Archetype.Name') | |
 | [Store](Archetype.Store.md 'Friflo.Engine.ECS.Archetype.Store') | The [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') owning the archetype. |
 | [Tags](Archetype.Tags.md 'Friflo.Engine.ECS.Archetype.Tags') | The [ITag](ITag.md 'Friflo.Engine.ECS.ITag') types managed by the archetype. |
 
 | Methods | |
 | :--- | :--- |
+| [Components&lt;TComponent&gt;()](Archetype.Components_TComponent_().md 'Friflo.Engine.ECS.Archetype.Components<TComponent>()') | Return the components of the specified [TComponent](Archetype.Components_TComponent_().md#Friflo.Engine.ECS.Archetype.Components_TComponent_().TComponent 'Friflo.Engine.ECS.Archetype.Components<TComponent>().TComponent') type stored in the archetype. |
 | [CreateEntities(int)](Archetype.CreateEntities(int).md 'Friflo.Engine.ECS.Archetype.CreateEntities(int)') | |
 | [CreateEntity()](Archetype.CreateEntity().md 'Friflo.Engine.ECS.Archetype.CreateEntity()') | Create an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') with the [ComponentTypes](Archetype.ComponentTypes.md 'Friflo.Engine.ECS.Archetype.ComponentTypes') and [Tags](Archetype.Tags.md 'Friflo.Engine.ECS.Archetype.Tags') managed by the archetype. |
 | [CreateEntity(int)](Archetype.CreateEntity(int).md 'Friflo.Engine.ECS.Archetype.CreateEntity(int)') | |
