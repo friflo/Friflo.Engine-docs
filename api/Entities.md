@@ -4,7 +4,7 @@
 ## Entities Struct
 
 ```csharp
-public struct Entities :
+public readonly struct Entities :
 System.Collections.Generic.IReadOnlyList<Friflo.Engine.ECS.Entity>,
 System.Collections.Generic.IEnumerable<Friflo.Engine.ECS.Entity>,
 System.Collections.IEnumerable,
