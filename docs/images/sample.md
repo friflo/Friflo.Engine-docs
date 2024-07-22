@@ -1,6 +1,6 @@
 
 
-# Projects using Friflo ECS
+# Projects using *friflo* ECS
 
 
 ### 
