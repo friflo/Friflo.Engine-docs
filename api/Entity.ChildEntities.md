@@ -18,3 +18,4 @@ Executes in O(1).<br/> Enumerate with:
 ```csharp
 foreach (var child in entity.ChildEntities)
 ```
+To iterate all entities with child entities use [TreeNode](TreeNode.md 'Friflo.Engine.ECS.TreeNode') in a `Query()`.

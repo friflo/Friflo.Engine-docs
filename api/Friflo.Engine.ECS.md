@@ -60,7 +60,7 @@ Contains types and methods to query, add, remove or change [Entity](Entity.md 'F
 
 | Structs | |
 | :--- | :--- |
-| [ChildEntities](ChildEntities.md 'Friflo.Engine.ECS.ChildEntities') | Return the child entities of an [Entity](Entity.md 'Friflo.Engine.ECS.Entity'). |
+| [ChildEntities](ChildEntities.md 'Friflo.Engine.ECS.ChildEntities') | Return the child entities of an [Entity](Entity.md 'Friflo.Engine.ECS.Entity').<br/> To iterate all entities with child entities use [TreeNode](TreeNode.md 'Friflo.Engine.ECS.TreeNode') in a `Query()`. |
 | [ChildEntitiesChanged](ChildEntitiesChanged.md 'Friflo.Engine.ECS.ChildEntitiesChanged') | Is the event for event handlers added to [OnChildEntitiesChanged](Entity.OnChildEntitiesChanged.md 'Friflo.Engine.ECS.Entity.OnChildEntitiesChanged') or [OnChildEntitiesChanged](EntityStore.OnChildEntitiesChanged.md 'Friflo.Engine.ECS.EntityStore.OnChildEntitiesChanged'). |
 | [ChildEnumerator](ChildEnumerator.md 'Friflo.Engine.ECS.ChildEnumerator') | Use to enumerate the child entities stored in [Entity](Entity.md 'Friflo.Engine.ECS.Entity').[ChildEntities](Entity.ChildEntities.md 'Friflo.Engine.ECS.Entity.ChildEntities'). |
 | [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') | A [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') is container of <b>struct</b> components of Type [T](Chunk_T_.md#Friflo.Engine.ECS.Chunk_T_.T 'Friflo.Engine.ECS.Chunk<T>.T'). |

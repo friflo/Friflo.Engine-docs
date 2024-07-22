@@ -3,7 +3,8 @@
 
 ## ChildEntities Struct
 
-Return the child entities of an [Entity](Entity.md 'Friflo.Engine.ECS.Entity').
+Return the child entities of an [Entity](Entity.md 'Friflo.Engine.ECS.Entity').<br/>
+To iterate all entities with child entities use [TreeNode](TreeNode.md 'Friflo.Engine.ECS.TreeNode') in a `Query()`.
 
 ```csharp
 public readonly struct ChildEntities :
