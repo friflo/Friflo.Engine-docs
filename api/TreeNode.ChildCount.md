@@ -3,7 +3,7 @@
 
 ## TreeNode.ChildCount Property
 
-returns the number of [ChildEntities](Entity.ChildEntities.md 'Friflo.Engine.ECS.Entity.ChildEntities').
+Returns the number of [ChildEntities](Entity.ChildEntities.md 'Friflo.Engine.ECS.Entity.ChildEntities').
 
 ```csharp
 public int ChildCount { get; }

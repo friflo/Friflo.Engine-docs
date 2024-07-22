@@ -37,9 +37,3 @@ public enum NodeFlags : System.Byte
 <a name='Friflo.Engine.ECS.NodeFlags.PrefabLink'></a>
 
 `PrefabLink` 16
-
-<a name='Friflo.Engine.ECS.NodeFlags.TreeNode'></a>
-
-`TreeNode` 2
-
-If set a node is a [treeNode](TreeMembership.md#Friflo.Engine.ECS.TreeMembership.treeNode 'Friflo.Engine.ECS.TreeMembership.treeNode'). Otherwise [floating](TreeMembership.md#Friflo.Engine.ECS.TreeMembership.floating 'Friflo.Engine.ECS.TreeMembership.floating')

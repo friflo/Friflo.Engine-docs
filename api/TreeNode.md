@@ -23,11 +23,11 @@ If these array buffers grown large enough over time no heap allocations will hap
 
 | Properties | |
 | :--- | :--- |
-| [ChildCount](TreeNode.ChildCount.md 'Friflo.Engine.ECS.TreeNode.ChildCount') | returns the number of [ChildEntities](Entity.ChildEntities.md 'Friflo.Engine.ECS.Entity.ChildEntities'). |
+| [ChildCount](TreeNode.ChildCount.md 'Friflo.Engine.ECS.TreeNode.ChildCount') | Returns the number of [ChildEntities](Entity.ChildEntities.md 'Friflo.Engine.ECS.Entity.ChildEntities'). |
 | [ChildIds](TreeNode.ChildIds.md 'Friflo.Engine.ECS.TreeNode.ChildIds') | Property is obsolete. Use [GetChildIds(EntityStore)](TreeNode.GetChildIds(EntityStore).md 'Friflo.Engine.ECS.TreeNode.GetChildIds(Friflo.Engine.ECS.EntityStore)') instead. |
 
 | Methods | |
 | :--- | :--- |
-| [GetChildEntities(EntityStore)](TreeNode.GetChildEntities(EntityStore).md 'Friflo.Engine.ECS.TreeNode.GetChildEntities(Friflo.Engine.ECS.EntityStore)') | |
-| [GetChildIds(EntityStore)](TreeNode.GetChildIds(EntityStore).md 'Friflo.Engine.ECS.TreeNode.GetChildIds(Friflo.Engine.ECS.EntityStore)') | |
+| [GetChildEntities(EntityStore)](TreeNode.GetChildEntities(EntityStore).md 'Friflo.Engine.ECS.TreeNode.GetChildEntities(Friflo.Engine.ECS.EntityStore)') | Returns the child entities.<br/> Executes in O(1). |
+| [GetChildIds(EntityStore)](TreeNode.GetChildIds(EntityStore).md 'Friflo.Engine.ECS.TreeNode.GetChildIds(Friflo.Engine.ECS.EntityStore)') | Returns the child entity ids.<br/> Executes in O(1). |
 | [ToString()](TreeNode.ToString().md 'Friflo.Engine.ECS.TreeNode.ToString()') | |

@@ -3,6 +3,9 @@
 
 ## TreeNode.GetChildIds(EntityStore) Method
 
+Returns the child entity ids.<br/>
+Executes in O(1).
+
 ```csharp
 public System.ReadOnlySpan<int> GetChildIds(Friflo.Engine.ECS.EntityStore store);
 ```

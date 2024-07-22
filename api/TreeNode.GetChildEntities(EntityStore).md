@@ -3,6 +3,9 @@
 
 ## TreeNode.GetChildEntities(EntityStore) Method
 
+Returns the child entities.<br/>
+Executes in O(1).
+
 ```csharp
 public Friflo.Engine.ECS.ChildEntities GetChildEntities(Friflo.Engine.ECS.EntityStore store);
 ```
