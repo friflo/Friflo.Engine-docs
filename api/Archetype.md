@@ -4,7 +4,7 @@
 ## Archetype Class
 
 An [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype') store entities with a specific set of [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') and [ITag](ITag.md 'Friflo.Engine.ECS.ITag') types.<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#archetype">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/general#archetype">Example.</a>
 
 ```csharp
 public sealed class Archetype

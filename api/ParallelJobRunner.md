@@ -4,7 +4,7 @@
 ## ParallelJobRunner Class
 
 Required for parallel - multi threaded - query job execution using [RunParallel()](QueryJob.RunParallel().md 'Friflo.Engine.ECS.QueryJob.RunParallel()').<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#parallel-query-job">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/optimization#parallel-query-job">Example.</a>
 
 ```csharp
 public sealed class ParallelJobRunner :

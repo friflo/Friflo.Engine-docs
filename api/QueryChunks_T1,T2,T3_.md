@@ -4,7 +4,7 @@
 ## QueryChunks<T1,T2,T3> Struct
 
 Contains the component chunks returned by a component query.
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#enumerate-query-chunks">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/optimization#enumerate-query-chunks">Example.</a>
 
 ```csharp
 public readonly struct QueryChunks<T1,T2,T3> :

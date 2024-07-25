@@ -4,7 +4,7 @@
 ## EntitySerializer Class
 
 Enables serialization of entities to / from JSON.
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#json-serialization">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/general#json-serialization">Example.</a>
 
 ```csharp
 public sealed class EntitySerializer

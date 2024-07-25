@@ -4,7 +4,7 @@
 ## Entity.OnScriptChanged Event
 
 Add / remove an event handler for [ScriptChanged](ScriptChanged.md 'Friflo.Engine.ECS.ScriptChanged') events triggered by:<br/>[AddScript&lt;TScript&gt;(TScript)](Entity.AddScript_TScript_(TScript).md 'Friflo.Engine.ECS.Entity.AddScript<TScript>(TScript)')<br/>[RemoveScript&lt;TScript&gt;()](Entity.RemoveScript_TScript_().md 'Friflo.Engine.ECS.Entity.RemoveScript<TScript>()').<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#event">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/general#event">Example.</a>
 
 ```csharp
 public event Action<ScriptChanged> OnScriptChanged;

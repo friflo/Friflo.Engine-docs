@@ -4,7 +4,7 @@
 ## Signal<TEvent> Struct
 
 [Signal&lt;TEvent&gt;](Signal_TEvent_.md 'Friflo.Engine.ECS.Signal<TEvent>')'s are used to emit custom events from an entity to custom [Signal&lt;TEvent&gt;](Signal_TEvent_.md 'Friflo.Engine.ECS.Signal<TEvent>') handlers.<br/>
-            See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#signal">Example.</a>
+            See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/general#signal">Example.</a>
 
 ```csharp
 public readonly struct Signal<TEvent>

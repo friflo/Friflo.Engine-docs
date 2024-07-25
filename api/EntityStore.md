@@ -5,7 +5,7 @@
 
 An [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') is a container for [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s their components, scripts, tags
 and the tree structure.<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#entitystore">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/general#entitystore">Example.</a>
 
 ```csharp
 public sealed class EntityStore : Friflo.Engine.ECS.EntityStoreBase
@@ -46,7 +46,7 @@ The [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') provide the fe
 | :--- | :--- |
 | [CastEntitiesChanged(object, EntitiesChanged)](EntityStore.CastEntitiesChanged(object,EntitiesChanged).md 'Friflo.Engine.ECS.EntityStore.CastEntitiesChanged(object, Friflo.Engine.ECS.EntitiesChanged)') | |
 | [CloneEntity(Entity)](EntityStore.CloneEntity(Entity).md 'Friflo.Engine.ECS.EntityStore.CloneEntity(Friflo.Engine.ECS.Entity)') | Create and return a clone of the passed [entity](EntityStore.CloneEntity(Entity).md#Friflo.Engine.ECS.EntityStore.CloneEntity(Friflo.Engine.ECS.Entity).entity 'Friflo.Engine.ECS.EntityStore.CloneEntity(Friflo.Engine.ECS.Entity).entity') in the store. |
-| [CreateEntity()](EntityStore.CreateEntity().md 'Friflo.Engine.ECS.EntityStore.CreateEntity()') | Create and return a new [Entity](Entity.md 'Friflo.Engine.ECS.Entity') in the entity store.<br/> See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#entity">Example.</a> |
+| [CreateEntity()](EntityStore.CreateEntity().md 'Friflo.Engine.ECS.EntityStore.CreateEntity()') | Create and return a new [Entity](Entity.md 'Friflo.Engine.ECS.Entity') in the entity store.<br/> See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/general#entity">Example.</a> |
 | [CreateEntity(int)](EntityStore.CreateEntity(int).md 'Friflo.Engine.ECS.EntityStore.CreateEntity(int)') | Create and return a new [Entity](Entity.md 'Friflo.Engine.ECS.Entity') with the passed [id](EntityStore.CreateEntity(int).md#Friflo.Engine.ECS.EntityStore.CreateEntity(int).id 'Friflo.Engine.ECS.EntityStore.CreateEntity(int).id') in the entity store. |
 | [EnsureCapacity(int)](EntityStore.EnsureCapacity(int).md 'Friflo.Engine.ECS.EntityStore.EnsureCapacity(int)') | Allocates memory for entities in the store to enable creating entities without reallocation. |
 | [GetCommandBuffer()](EntityStore.GetCommandBuffer().md 'Friflo.Engine.ECS.EntityStore.GetCommandBuffer()') | Returns a [CommandBuffer](CommandBuffer.md 'Friflo.Engine.ECS.CommandBuffer') used to record and [Playback()](CommandBuffer.Playback().md 'Friflo.Engine.ECS.CommandBuffer.Playback()') entity changes. |

@@ -4,7 +4,7 @@
 ## Script Class
 
 To enable adding a script class to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') it need to extend [Script](Script.md 'Friflo.Engine.ECS.Script').<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#script">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/general#script">Example.</a>
 
 ```csharp
 public abstract class Script

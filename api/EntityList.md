@@ -5,7 +5,7 @@
 
 A list of entities of a specific [EntityStore](EntityList.EntityStore.md 'Friflo.Engine.ECS.EntityList.EntityStore') used to apply changes to all entities in the container.<br/>
 It's recommended to reuse instances of this class to avoid unnecessary allocations.<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#entitybatch---entitylist">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/optimization#entitybatch---entitylist">Example.</a>
 
 ```csharp
 public sealed class EntityList :

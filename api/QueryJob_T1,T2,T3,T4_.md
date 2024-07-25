@@ -4,7 +4,7 @@
 ## QueryJob<T1,T2,T3,T4> Class
 
 Enables [Parallel](JobExecution.md#Friflo.Engine.ECS.JobExecution.Parallel 'Friflo.Engine.ECS.JobExecution.Parallel') query execution returning the specified components.
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#parallel-query-job">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/optimization#parallel-query-job">Example.</a>
 
 ```csharp
 public sealed class QueryJob<T1,T2,T3,T4> : Friflo.Engine.ECS.QueryJob
@@ -40,5 +40,5 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | Methods | |
 | :--- | :--- |
 | [Run()](QueryJob_T1,T2,T3,T4_.Run().md 'Friflo.Engine.ECS.QueryJob<T1,T2,T3,T4>.Run()') | |
-| [RunParallel()](QueryJob_T1,T2,T3,T4_.RunParallel().md 'Friflo.Engine.ECS.QueryJob<T1,T2,T3,T4>.RunParallel()') | Execute the query.             See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#parallel-query-job">Example.</a>.<br/>             All chunks having at least [MinParallelChunkLength](QueryJob.MinParallelChunkLength.md 'Friflo.Engine.ECS.QueryJob.MinParallelChunkLength') * [ThreadCount](ParallelJobRunner.ThreadCount.md 'Friflo.Engine.ECS.ParallelJobRunner.ThreadCount')             components are executed [Parallel](JobExecution.md#Friflo.Engine.ECS.JobExecution.Parallel 'Friflo.Engine.ECS.JobExecution.Parallel'). |
+| [RunParallel()](QueryJob_T1,T2,T3,T4_.RunParallel().md 'Friflo.Engine.ECS.QueryJob<T1,T2,T3,T4>.RunParallel()') | Execute the query.             See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/optimization#parallel-query-job">Example.</a>.<br/>             All chunks having at least [MinParallelChunkLength](QueryJob.MinParallelChunkLength.md 'Friflo.Engine.ECS.QueryJob.MinParallelChunkLength') * [ThreadCount](ParallelJobRunner.ThreadCount.md 'Friflo.Engine.ECS.ParallelJobRunner.ThreadCount')             components are executed [Parallel](JobExecution.md#Friflo.Engine.ECS.JobExecution.Parallel 'Friflo.Engine.ECS.JobExecution.Parallel'). |
 | [ToString()](QueryJob_T1,T2,T3,T4_.ToString().md 'Friflo.Engine.ECS.QueryJob<T1,T2,T3,T4>.ToString()') | |

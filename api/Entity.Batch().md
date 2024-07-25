@@ -4,7 +4,7 @@
 ## Entity.Batch() Method
 
 Returns an [EntityBatch](EntityBatch.md 'Friflo.Engine.ECS.EntityBatch') to add/remove components or tags to/from this entity using the batch.<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#batch---entity">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/optimization#batch---entity">Example.</a>
 
 ```csharp
 public Friflo.Engine.ECS.EntityBatch Batch();

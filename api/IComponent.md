@@ -4,7 +4,7 @@
 ## IComponent Interface
 
 To enable adding a struct component to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') it need to implement [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent').<br/>[IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') types are <b>struct</b>s which only contains data <b>but no</b> script / methods.<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#component">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/general#component">Example.</a>
 
 ```csharp
 public interface IComponent

@@ -4,7 +4,7 @@
 ## ArchetypeQuery<T1,T2,T3,T4,T5> Class
 
 A query instance use to retrieve the given component types.
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#query-entities">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/general#query-entities">Example.</a>
 
 ```csharp
 public sealed class ArchetypeQuery<T1,T2,T3,T4,T5> : Friflo.Engine.ECS.ArchetypeQuery
@@ -40,7 +40,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 
 | Properties | |
 | :--- | :--- |
-| [Chunks](ArchetypeQuery_T1,T2,T3,T4,T5_.Chunks.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4,T5>.Chunks') | Return the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>')'s storing the components and entities of an [ArchetypeQuery&lt;T1,T2,T3,T4,T5&gt;](ArchetypeQuery_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4,T5>').<br/> See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#enumerate-query-chunks">Example.</a> |
+| [Chunks](ArchetypeQuery_T1,T2,T3,T4,T5_.Chunks.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4,T5>.Chunks') | Return the [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>')'s storing the components and entities of an [ArchetypeQuery&lt;T1,T2,T3,T4,T5&gt;](ArchetypeQuery_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.ArchetypeQuery<T1,T2,T3,T4,T5>').<br/> See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/optimization#enumerate-query-chunks">Example.</a> |
 
 | Methods | |
 | :--- | :--- |

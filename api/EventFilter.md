@@ -5,7 +5,7 @@
 
 Used to filter structural changes made to an entity like added / removed components / tags using [HasEvent(int)](EventFilter.HasEvent(int).md 'Friflo.Engine.ECS.EventFilter.HasEvent(int)').<br/>
 The [EventRecorder](EntityStore.EventRecorder.md 'Friflo.Engine.ECS.EntityStore.EventRecorder') must be enabled to get add / remove events.<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#eventfilter">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/optimization#eventfilter">Example.</a>
 
 ```csharp
 public sealed class EventFilter

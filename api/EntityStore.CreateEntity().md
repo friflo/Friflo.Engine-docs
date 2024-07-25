@@ -4,7 +4,7 @@
 ## EntityStore.CreateEntity() Method
 
 Create and return a new [Entity](Entity.md 'Friflo.Engine.ECS.Entity') in the entity store.<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-General#entity">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/general#entity">Example.</a>
 
 ```csharp
 public Friflo.Engine.ECS.Entity CreateEntity();

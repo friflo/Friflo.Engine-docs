@@ -5,7 +5,7 @@
 
 A create batch is used to optimize entity creation.<br/>
 Components and tags are buffered before creating an entity with [CreateEntity()](CreateEntityBatch.CreateEntity().md 'Friflo.Engine.ECS.CreateEntityBatch.CreateEntity()').<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#batch---create-entity">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/optimization#batch---create-entity">Example.</a>
 
 ```csharp
 public sealed class CreateEntityBatch

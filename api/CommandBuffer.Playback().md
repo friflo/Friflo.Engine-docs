@@ -4,7 +4,7 @@
 ## CommandBuffer.Playback() Method
 
 Execute recorded entity changes. [Playback()](CommandBuffer.Playback().md 'Friflo.Engine.ECS.CommandBuffer.Playback()') must be called on the <b>main</b> thread.<br/>
-See <a href="https://github.com/friflo/Friflo.Json.Fliox/wiki/Examples-~-Optimization#commandbuffer">Example.</a>
+See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/optimization#commandbuffer">Example.</a>
 
 ```csharp
 public void Playback();
