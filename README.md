@@ -1,7 +1,7 @@
 # ![logo](docs/images/Json-Fliox.svg)   **Friflo.Engine.ECS  ·  API Reference**![SPLASH](docs/images/paint-splatter.svg)
 
 
-This project contains the C# API reference of [**Friflo Engine ECS - GitHub**](https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md).    
+This project contains the C# API reference of [**Friflo Engine ECS - GitHub**](https://github.com/friflo/Friflo.Engine.ECS).    
 
 | Namespace                                                             | Description                                                                                                                   |
 | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -42,7 +42,7 @@ Common used structs and classes.
 The hello world examples demonstrates the creation of some entities  
 and their movement using a simple `ForEachEntity()` call.  
 
-Much more examples at [Friflo.Engine.ECS · Examples](https://github.com/friflo/Friflo.Json.Fliox/blob/main/Engine/README.md#examples)
+Much more examples at [Friflo.Engine.ECS · Examples](https://github.com/friflo/Friflo.Engine.ECS#-examples)
 
 ```csharp
 public struct Velocity : IComponent { public Vector3 value; }
