@@ -1,7 +1,7 @@
 # ![logo](docs/images/friflo-ECS.svg)   **Friflo.Engine.ECS  ·  API Reference**![SPLASH](docs/images/paint-splatter.svg)
 
 [![Github Repo](https://img.shields.io/badge/Friflo.Engine.ECS-blue)](https://github.com/friflo/Friflo.Engine.ECS)
-[![Github Repo](https://img.shields.io/badge/Wiki-f46)](https://friflo.gitbook.io/friflo.engine.ecs)
+[![Github Repo](https://img.shields.io/badge/Wiki-C200FF)](https://friflo.gitbook.io/friflo.engine.ecs)
 [![Demos](https://img.shields.io/badge/Demos-22aa22)](https://github.com/friflo/Friflo.Engine.ECS-Demos)
 
 This project contains the C# API reference of [**Friflo Engine ECS - GitHub**](https://github.com/friflo/Friflo.Engine.ECS).    
