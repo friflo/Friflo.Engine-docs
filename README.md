@@ -1,9 +1,9 @@
 ![logo](docs/images/friflo-ECS.svg)   ![SPLASH](docs/images/paint-splatter.svg)
 
 
-[![Github Repo](https://img.shields.io/badge/Friflo.Engine.ECS-blue?logo=github&logoColor=white)](https://github.com/friflo/Friflo.Engine.ECS)
-[![Wiki](https://img.shields.io/badge/Wiki-A200FF?logo=gitbook&logoColor=white)](https://friflo.gitbook.io/friflo.engine.ecs)
+[![Github Repo](https://img.shields.io/badge/Friflo.Engine.ECS-grey?logo=github&logoColor=white)](https://github.com/friflo/Friflo.Engine.ECS)
 [![Demos](https://img.shields.io/badge/Demos-22aa22?logo=github&logoColor=white)](https://github.com/friflo/Friflo.Engine.ECS-Demos)
+[![Wiki](https://img.shields.io/badge/Wiki-A200FF?logo=gitbook&logoColor=white)](https://friflo.gitbook.io/friflo.engine.ecs)
 
 # **Friflo.Engine.ECS  ·  API Reference**
 
