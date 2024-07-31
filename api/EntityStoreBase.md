@@ -19,17 +19,15 @@ Derived
 [EntityStoreBase](EntityStoreBase.md 'Friflo.Engine.ECS.EntityStoreBase') is separated as a base from [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') as is can be used for<br/>
             different entity store implementations like the [RawEntityStore](RawEntityStore.md 'Friflo.Engine.ECS.RawEntityStore').
 
-| Fields | |
-| :--- | :--- |
-| [archs](EntityStoreBase.archs.md 'Friflo.Engine.ECS.EntityStoreBase.archs') | |
-
 | Properties | |
 | :--- | :--- |
 | [ArchetypeCount](EntityStoreBase.ArchetypeCount.md 'Friflo.Engine.ECS.EntityStoreBase.ArchetypeCount') | Returns the current number of [Archetypes](EntityStoreBase.Archetypes.md 'Friflo.Engine.ECS.EntityStoreBase.Archetypes') managed by the entity store. |
 | [Archetypes](EntityStoreBase.Archetypes.md 'Friflo.Engine.ECS.EntityStoreBase.Archetypes') | Array of [Archetype](Archetype.md 'Friflo.Engine.ECS.Archetype')'s utilized by the entity store |
+| [CapacitySumArchetypes](EntityStoreBase.CapacitySumArchetypes.md 'Friflo.Engine.ECS.EntityStoreBase.CapacitySumArchetypes') | Return the sum of all Archetype capacities. |
 | [Count](EntityStoreBase.Count.md 'Friflo.Engine.ECS.EntityStoreBase.Count') | Number of all entities stored in the entity store |
 | [EntityCount](EntityStoreBase.EntityCount.md 'Friflo.Engine.ECS.EntityStoreBase.EntityCount') | Obsolete. Renamed to [Count](EntityStoreBase.Count.md 'Friflo.Engine.ECS.EntityStoreBase.Count'). |
 | [JobRunner](EntityStoreBase.JobRunner.md 'Friflo.Engine.ECS.EntityStoreBase.JobRunner') | Initialize a default [ParallelJobRunner](ParallelJobRunner.md 'Friflo.Engine.ECS.ParallelJobRunner') used for [QueryJob](QueryJob.md 'Friflo.Engine.ECS.QueryJob')'s. |
+| [ShrinkRatioThreshold](EntityStoreBase.ShrinkRatioThreshold.md 'Friflo.Engine.ECS.EntityStoreBase.ShrinkRatioThreshold') | Shrink ratio threshold: ` Sum of all Archetype capacities / EntityStore entity count`. Default: 10<br/>    If the current ratio is > [ShrinkRatioThreshold](EntityStoreBase.ShrinkRatioThreshold.md 'Friflo.Engine.ECS.EntityStoreBase.ShrinkRatioThreshold') archetype capacities are shrinked. |
 | [UniqueEntities](EntityStoreBase.UniqueEntities.md 'Friflo.Engine.ECS.EntityStoreBase.UniqueEntities') | Return all [UniqueEntity](UniqueEntity.md 'Friflo.Engine.ECS.UniqueEntity')'s in the entity store |
 
 | Methods | |

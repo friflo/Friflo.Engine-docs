@@ -59,7 +59,8 @@ Comparison to other game engines.
 
 | Fields | |
 | :--- | :--- |
-| [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id') | Unique entity id.<br/>             Uniqueness relates to the [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s stored in its [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore') |
+| [Id](Entity.Id.md 'Friflo.Engine.ECS.Entity.Id') | |
+| [Revision](Entity.Revision.md 'Friflo.Engine.ECS.Entity.Revision') | |
 
 | Properties | |
 | :--- | :--- |
@@ -68,6 +69,7 @@ Comparison to other game engines.
 | [ChildEntities](Entity.ChildEntities.md 'Friflo.Engine.ECS.Entity.ChildEntities') | Return all child entities of an entity. |
 | [ChildIds](Entity.ChildIds.md 'Friflo.Engine.ECS.Entity.ChildIds') | Return the ids of the child entities. |
 | [Components](Entity.Components.md 'Friflo.Engine.ECS.Entity.Components') | Return the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s added to the entity. |
+| [Data](Entity.Data.md 'Friflo.Engine.ECS.Entity.Data') | Returns the entity data used to optimize access of entity components and tags. |
 | [DebugEventHandlers](Entity.DebugEventHandlers.md 'Friflo.Engine.ECS.Entity.DebugEventHandlers') | Return event and signal handlers added to the entity. |
 | [DebugJSON](Entity.DebugJSON.md 'Friflo.Engine.ECS.Entity.DebugJSON') | Return the <b>JSON</b> representation of an entity. |
 | [Enabled](Entity.Enabled.md 'Friflo.Engine.ECS.Entity.Enabled') | Set entity to enabled/disabled by removing/adding the [Disabled](Disabled.md 'Friflo.Engine.ECS.Disabled') tag.<br/> |

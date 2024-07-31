@@ -91,6 +91,7 @@ Contains types and methods to query, add, remove or change [Entity](Entity.md 'F
 | [EntityComponent](EntityComponent.md 'Friflo.Engine.ECS.EntityComponent') | An item in [EntityComponents](EntityComponents.md 'Friflo.Engine.ECS.EntityComponents') containing an entity [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent'). |
 | [EntityComponents](EntityComponents.md 'Friflo.Engine.ECS.EntityComponents') | Return the [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s added to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity'). |
 | [EntityCreate](EntityCreate.md 'Friflo.Engine.ECS.EntityCreate') | Is the event for event handlers added to [OnEntityCreate](EntityStore.OnEntityCreate.md 'Friflo.Engine.ECS.EntityStore.OnEntityCreate'). |
+| [EntityData](EntityData.md 'Friflo.Engine.ECS.EntityData') | An [EntityData](EntityData.md 'Friflo.Engine.ECS.EntityData') is used to optimize access of entity components and tags.<br/> An instance can be returned by [Data](Entity.Data.md 'Friflo.Engine.ECS.Entity.Data'). |
 | [EntityDelete](EntityDelete.md 'Friflo.Engine.ECS.EntityDelete') | Is the event for event handlers added to [OnEntityDelete](EntityStore.OnEntityDelete.md 'Friflo.Engine.ECS.EntityStore.OnEntityDelete'). |
 | [EntityEnumerator](EntityEnumerator.md 'Friflo.Engine.ECS.EntityEnumerator') | |
 | [EntityEvent](EntityEvent.md 'Friflo.Engine.ECS.EntityEvent') | The information about a structural change recorded by the [EventRecorder](EventRecorder.md 'Friflo.Engine.ECS.EventRecorder'). |
