@@ -12,7 +12,7 @@ public abstract class BaseSystem
 Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; BaseSystem
 
 Derived  
-&#8627; [QuerySystem](QuerySystem.md 'Friflo.Engine.ECS.Systems.QuerySystem')  
+&#8627; [QuerySystemBase](QuerySystemBase.md 'Friflo.Engine.ECS.Systems.QuerySystemBase')  
 &#8627; [SystemGroup](SystemGroup.md 'Friflo.Engine.ECS.Systems.SystemGroup')
 
 | Properties | |
@@ -31,6 +31,8 @@ Derived
 | [CastSystemUpdate(string, object)](BaseSystem.CastSystemUpdate(string,object).md 'Friflo.Engine.ECS.Systems.BaseSystem.CastSystemUpdate(string, object)') | Send an event to [OnSystemChanged](BaseSystem.OnSystemChanged.md 'Friflo.Engine.ECS.Systems.BaseSystem.OnSystemChanged') handlers to notify a changed system [field](BaseSystem.CastSystemUpdate(string,object).md#Friflo.Engine.ECS.Systems.BaseSystem.CastSystemUpdate(string,object).field 'Friflo.Engine.ECS.Systems.BaseSystem.CastSystemUpdate(string, object).field'). |
 | [GetPerfLog()](BaseSystem.GetPerfLog().md 'Friflo.Engine.ECS.Systems.BaseSystem.GetPerfLog()') | Returns performance statistics formatted as a table intended for logging. |
 | [MoveSystemTo(SystemGroup, int)](BaseSystem.MoveSystemTo(SystemGroup,int).md 'Friflo.Engine.ECS.Systems.BaseSystem.MoveSystemTo(Friflo.Engine.ECS.Systems.SystemGroup, int)') | Move the system to the specified [targetGroup](BaseSystem.MoveSystemTo(SystemGroup,int).md#Friflo.Engine.ECS.Systems.BaseSystem.MoveSystemTo(Friflo.Engine.ECS.Systems.SystemGroup,int).targetGroup 'Friflo.Engine.ECS.Systems.BaseSystem.MoveSystemTo(Friflo.Engine.ECS.Systems.SystemGroup, int).targetGroup') at the given [index](BaseSystem.MoveSystemTo(SystemGroup,int).md#Friflo.Engine.ECS.Systems.BaseSystem.MoveSystemTo(Friflo.Engine.ECS.Systems.SystemGroup,int).index 'Friflo.Engine.ECS.Systems.BaseSystem.MoveSystemTo(Friflo.Engine.ECS.Systems.SystemGroup, int).index').<br/> If [index](BaseSystem.MoveSystemTo(SystemGroup,int).md#Friflo.Engine.ECS.Systems.BaseSystem.MoveSystemTo(Friflo.Engine.ECS.Systems.SystemGroup,int).index 'Friflo.Engine.ECS.Systems.BaseSystem.MoveSystemTo(Friflo.Engine.ECS.Systems.SystemGroup, int).index') is -1 the system is moved to the tail of the group. |
+| [OnAddStore(EntityStore)](BaseSystem.OnAddStore(EntityStore).md 'Friflo.Engine.ECS.Systems.BaseSystem.OnAddStore(Friflo.Engine.ECS.EntityStore)') | |
+| [OnRemoveStore(EntityStore)](BaseSystem.OnRemoveStore(EntityStore).md 'Friflo.Engine.ECS.Systems.BaseSystem.OnRemoveStore(Friflo.Engine.ECS.EntityStore)') | |
 | [OnUpdateGroup()](BaseSystem.OnUpdateGroup().md 'Friflo.Engine.ECS.Systems.BaseSystem.OnUpdateGroup()') | Called for every system of the parent [ChildSystems](SystemGroup.ChildSystems.md 'Friflo.Engine.ECS.Systems.SystemGroup.ChildSystems'). |
 | [OnUpdateGroupBegin()](BaseSystem.OnUpdateGroupBegin().md 'Friflo.Engine.ECS.Systems.BaseSystem.OnUpdateGroupBegin()') | Called for every system of the parent [ChildSystems](SystemGroup.ChildSystems.md 'Friflo.Engine.ECS.Systems.SystemGroup.ChildSystems') before group [OnUpdateGroup()](SystemGroup.OnUpdateGroup().md 'Friflo.Engine.ECS.Systems.SystemGroup.OnUpdateGroup()'). |
 | [OnUpdateGroupEnd()](BaseSystem.OnUpdateGroupEnd().md 'Friflo.Engine.ECS.Systems.BaseSystem.OnUpdateGroupEnd()') | Called for every system of the parent [ChildSystems](SystemGroup.ChildSystems.md 'Friflo.Engine.ECS.Systems.SystemGroup.ChildSystems') after group [OnUpdateGroup()](SystemGroup.OnUpdateGroup().md 'Friflo.Engine.ECS.Systems.SystemGroup.OnUpdateGroup()'). |

@@ -6,7 +6,7 @@
 A query system returning entities with the specified component type via its [Query](QuerySystem_T1_.Query.md 'Friflo.Engine.ECS.Systems.QuerySystem<T1>.Query') property.
 
 ```csharp
-public abstract class QuerySystem<T1> : Friflo.Engine.ECS.Systems.QuerySystem
+public abstract class QuerySystem<T1> : Friflo.Engine.ECS.Systems.QuerySystemBase
     where T1 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
 ```
 #### Type parameters
@@ -15,7 +15,7 @@ public abstract class QuerySystem<T1> : Friflo.Engine.ECS.Systems.QuerySystem
 
 `T1`
 
-Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseSystem](BaseSystem.md 'Friflo.Engine.ECS.Systems.BaseSystem') &#129106; [QuerySystem](QuerySystem.md 'Friflo.Engine.ECS.Systems.QuerySystem') &#129106; QuerySystem<T1>
+Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object') &#129106; [BaseSystem](BaseSystem.md 'Friflo.Engine.ECS.Systems.BaseSystem') &#129106; [QuerySystemBase](QuerySystemBase.md 'Friflo.Engine.ECS.Systems.QuerySystemBase') &#129106; QuerySystem<T1>
 
 | Properties | |
 | :--- | :--- |

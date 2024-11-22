@@ -8,7 +8,7 @@ public struct EntityLinkEnumerator<T> :
 System.Collections.Generic.IEnumerator<Friflo.Engine.ECS.EntityLink<T>>,
 System.Collections.IEnumerator,
 System.IDisposable
-    where T : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
+    where T : struct, System.ValueType, System.ValueType
 ```
 #### Type parameters
 

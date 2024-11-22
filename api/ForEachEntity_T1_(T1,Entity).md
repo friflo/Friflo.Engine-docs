@@ -7,7 +7,7 @@ Provide the state of an [entity](ForEachEntity_T1_(T1,Entity).md#Friflo.Engine.E
 
 ```csharp
 public delegate void ForEachEntity<T1>(ref T1 component1, Friflo.Engine.ECS.Entity entity)
-    where T1 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType;
+    where T1 : struct, System.ValueType, System.ValueType;
 ```
 #### Type parameters
 

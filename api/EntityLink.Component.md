@@ -4,8 +4,8 @@
 ## EntityLink.Component Field
 
 ```csharp
-public readonly IComponent Component;
+public readonly object Component;
 ```
 
 #### Field Value
-[IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')
+[System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')

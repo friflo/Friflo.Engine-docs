@@ -5,7 +5,7 @@
 
 ```csharp
 public readonly struct EntityLink<TComponent>
-    where TComponent : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
+    where TComponent : struct, System.ValueType, System.ValueType
 ```
 #### Type parameters
 

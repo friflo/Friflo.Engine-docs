@@ -6,11 +6,11 @@
 Return the old [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') for debugging.<br/><b>Note</b>: It degrades performance as it boxes the returned component.
 
 ```csharp
-public Friflo.Engine.ECS.IComponent DebugOldComponent { get; }
+public object DebugOldComponent { get; }
 ```
 
 #### Property Value
-[IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')
+[System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.Object 'System.Object')
 
 ### Remarks
 To access the old component use [OldComponent&lt;T&gt;()](ComponentChanged.OldComponent_T_().md 'Friflo.Engine.ECS.ComponentChanged.OldComponent<T>()')

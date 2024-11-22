@@ -8,7 +8,7 @@ public struct RelationsEnumerator<TComponent> :
 System.Collections.Generic.IEnumerator<TComponent>,
 System.Collections.IEnumerator,
 System.IDisposable
-    where TComponent : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
+    where TComponent : struct, System.ValueType, System.ValueType
 ```
 #### Type parameters
 

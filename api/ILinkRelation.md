@@ -8,11 +8,10 @@ A link relation is a component type used to create multiple links from one entit
 ```csharp
 public interface ILinkRelation :
 Friflo.Engine.ECS.IRelationComponent<Friflo.Engine.ECS.Entity>,
-Friflo.Engine.ECS.IRelationComponent,
-Friflo.Engine.ECS.IComponent
+Friflo.Engine.ECS.IRelationComponent
 ```
 
-Implements [Friflo.Engine.ECS.IRelationComponent&lt;](IRelationComponent_TKey_.md 'Friflo.Engine.ECS.IRelationComponent<TKey>')[Entity](Entity.md 'Friflo.Engine.ECS.Entity')[&gt;](IRelationComponent_TKey_.md 'Friflo.Engine.ECS.IRelationComponent<TKey>'), [IRelationComponent](IRelationComponent.md 'Friflo.Engine.ECS.IRelationComponent'), [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')
+Implements [Friflo.Engine.ECS.IRelationComponent&lt;](IRelationComponent_TKey_.md 'Friflo.Engine.ECS.IRelationComponent<TKey>')[Entity](Entity.md 'Friflo.Engine.ECS.Entity')[&gt;](IRelationComponent_TKey_.md 'Friflo.Engine.ECS.IRelationComponent<TKey>'), [IRelationComponent](IRelationComponent.md 'Friflo.Engine.ECS.IRelationComponent')
 
 ### Remarks
 A link relation enables:

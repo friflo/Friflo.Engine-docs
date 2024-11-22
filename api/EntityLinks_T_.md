@@ -9,7 +9,7 @@ System.Collections.Generic.IReadOnlyList<Friflo.Engine.ECS.EntityLink<T>>,
 System.Collections.Generic.IEnumerable<Friflo.Engine.ECS.EntityLink<T>>,
 System.Collections.IEnumerable,
 System.Collections.Generic.IReadOnlyCollection<Friflo.Engine.ECS.EntityLink<T>>
-    where T : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
+    where T : struct, System.ValueType, System.ValueType
 ```
 #### Type parameters
 

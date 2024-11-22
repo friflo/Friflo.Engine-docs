@@ -14,11 +14,11 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 ### Remarks
 The focus of the this entity store implementation is performance.<br/>
 The key is to minimize heap consumption required by [EntityNode](EntityNode.md 'Friflo.Engine.ECS.EntityNode')'s - 48 bytes<br/>
-A [RawEntityStore](RawEntityStore.md 'Friflo.Engine.ECS.RawEntityStore') stores only an array of blittable [Friflo.Engine.ECS.RawEntity](https://docs.microsoft.com/en-us/dotnet/api/Friflo.Engine.ECS.RawEntity 'Friflo.Engine.ECS.RawEntity')'s -
+A [RawEntityStore](RawEntityStore.md 'Friflo.Engine.ECS.RawEntityStore') stores only an array of blittable [Friflo.Engine.ECS.RawEntityNode](https://docs.microsoft.com/en-us/dotnet/api/Friflo.Engine.ECS.RawEntityNode 'Friflo.Engine.ECS.RawEntityNode')'s -
 structs having no reference type fields.<br/><br/>
 The downside of this approach are:<br/>
 - Entities can be created only programmatically but not within the editor which requires (managed) [Entity](Entity.md 'Friflo.Engine.ECS.Entity')'s.
-- The API to access / query / mutate [Friflo.Engine.ECS.RawEntity](https://docs.microsoft.com/en-us/dotnet/api/Friflo.Engine.ECS.RawEntity 'Friflo.Engine.ECS.RawEntity')'s is less convenient.<br/>
+- The API to access / query / mutate [Friflo.Engine.ECS.RawEntityNode](https://docs.microsoft.com/en-us/dotnet/api/Friflo.Engine.ECS.RawEntityNode 'Friflo.Engine.ECS.RawEntityNode')'s is less convenient.<br/>
                   It requires always two parameters - a [RawEntityStore](RawEntityStore.md 'Friflo.Engine.ECS.RawEntityStore') + entity `id` - instead of a single [Entity](Entity.md 'Friflo.Engine.ECS.Entity') reference.
 
 | Methods | |

@@ -8,7 +8,7 @@ Executes in O(1).
 
 ```csharp
 public static Friflo.Engine.ECS.EntityLinks<TComponent> GetIncomingLinks<TComponent>(this Friflo.Engine.ECS.Entity target)
-    where TComponent : struct, Friflo.Engine.ECS.IRelationComponent, System.ValueType, System.ValueType;
+    where TComponent : struct, Friflo.Engine.ECS.ILinkRelation, System.ValueType, System.ValueType;
 ```
 #### Type parameters
 

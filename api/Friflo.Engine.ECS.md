@@ -146,6 +146,16 @@ Contains types and methods to query, add, remove or change [Entity](Entity.md 'F
 | :--- | :--- |
 | [ICommandBuffer](ICommandBuffer.md 'Friflo.Engine.ECS.ICommandBuffer') | |
 | [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') | To enable adding a struct component to an [Entity](Entity.md 'Friflo.Engine.ECS.Entity') it need to implement [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent').<br/>[IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent') types are <b>struct</b>s which only contains data <b>but no</b> script / methods.<br/> See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/general#component">Example.</a> |
+| [IEach&lt;T1,T2,T3,T4,T5&gt;](IEach_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.IEach<T1,T2,T3,T4,T5>') | |
+| [IEach&lt;T1,T2,T3,T4&gt;](IEach_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.IEach<T1,T2,T3,T4>') | |
+| [IEach&lt;T1,T2,T3&gt;](IEach_T1,T2,T3_.md 'Friflo.Engine.ECS.IEach<T1,T2,T3>') | |
+| [IEach&lt;T1,T2&gt;](IEach_T1,T2_.md 'Friflo.Engine.ECS.IEach<T1,T2>') | |
+| [IEach&lt;T1&gt;](IEach_T1_.md 'Friflo.Engine.ECS.IEach<T1>') | |
+| [IEachEntity&lt;T1,T2,T3,T4,T5&gt;](IEachEntity_T1,T2,T3,T4,T5_.md 'Friflo.Engine.ECS.IEachEntity<T1,T2,T3,T4,T5>') | |
+| [IEachEntity&lt;T1,T2,T3,T4&gt;](IEachEntity_T1,T2,T3,T4_.md 'Friflo.Engine.ECS.IEachEntity<T1,T2,T3,T4>') | |
+| [IEachEntity&lt;T1,T2,T3&gt;](IEachEntity_T1,T2,T3_.md 'Friflo.Engine.ECS.IEachEntity<T1,T2,T3>') | |
+| [IEachEntity&lt;T1,T2&gt;](IEachEntity_T1,T2_.md 'Friflo.Engine.ECS.IEachEntity<T1,T2>') | |
+| [IEachEntity&lt;T1&gt;](IEachEntity_T1_.md 'Friflo.Engine.ECS.IEachEntity<T1>') | |
 | [IIndexedComponent&lt;TValue&gt;](IIndexedComponent_TValue_.md 'Friflo.Engine.ECS.IIndexedComponent<TValue>') | Is used to define a component type having a single indexed field / property.<br/> Indexed component values can be queried with `HasValue()` or `ValueInRange()` in a `Query()`. |
 | [ILinkComponent](ILinkComponent.md 'Friflo.Engine.ECS.ILinkComponent') | A link component is a component type used to create a single link from one entity to another entity.<br/> Specific component links can be queried with `HasValue()` in a `Query()`. |
 | [ILinkRelation](ILinkRelation.md 'Friflo.Engine.ECS.ILinkRelation') | A link relation is a component type used to create multiple links from one entity to other entities. |

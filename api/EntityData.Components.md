@@ -11,3 +11,8 @@ public Friflo.Engine.ECS.EntityComponents Components { get; }
 
 #### Property Value
 [EntityComponents](EntityComponents.md 'Friflo.Engine.ECS.EntityComponents')
+
+#### Exceptions
+
+[System.NullReferenceException](https://docs.microsoft.com/en-us/dotnet/api/System.NullReferenceException 'System.NullReferenceException')  
+if the entity is deleted.

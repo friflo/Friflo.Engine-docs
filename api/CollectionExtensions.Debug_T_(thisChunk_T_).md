@@ -8,7 +8,7 @@ E.g `"{ 1, 3, 7 }"`
 
 ```csharp
 public static string Debug<T>(this Friflo.Engine.ECS.Chunk<T> chunk)
-    where T : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType;
+    where T : struct, System.ValueType, System.ValueType;
 ```
 #### Type parameters
 

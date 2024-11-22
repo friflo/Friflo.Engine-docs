@@ -8,8 +8,7 @@ The components added to a single entity build a set of components using the rela
 
 ```csharp
 public interface IRelationComponent<out TKey> :
-Friflo.Engine.ECS.IRelationComponent,
-Friflo.Engine.ECS.IComponent
+Friflo.Engine.ECS.IRelationComponent
 ```
 #### Type parameters
 
@@ -22,7 +21,7 @@ The key defining a unique relation component.
 Derived  
 &#8627; [ILinkRelation](ILinkRelation.md 'Friflo.Engine.ECS.ILinkRelation')
 
-Implements [IRelationComponent](IRelationComponent.md 'Friflo.Engine.ECS.IRelationComponent'), [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')
+Implements [IRelationComponent](IRelationComponent.md 'Friflo.Engine.ECS.IRelationComponent')
 
 ### Remarks
 A relation component enables:

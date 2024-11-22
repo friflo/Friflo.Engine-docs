@@ -7,7 +7,7 @@ A [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>') is container of <b>
 
 ```csharp
 public readonly struct Chunk<T>
-    where T : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
+    where T : struct, System.ValueType, System.ValueType
 ```
 #### Type parameters
 
@@ -27,6 +27,7 @@ public readonly struct Chunk<T>
 
 | Fields | |
 | :--- | :--- |
+| [ArchetypeComponents](Chunk_T_.ArchetypeComponents.md 'Friflo.Engine.ECS.Chunk<T>.ArchetypeComponents') | |
 | [Length](Chunk_T_.Length.md 'Friflo.Engine.ECS.Chunk<T>.Length') | Return the number of components in a [Chunk&lt;T&gt;](Chunk_T_.md 'Friflo.Engine.ECS.Chunk<T>'). |
 
 | Properties | |

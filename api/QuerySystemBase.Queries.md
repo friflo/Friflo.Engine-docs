@@ -1,7 +1,7 @@
 #### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS.Systems](Friflo.Engine.ECS.Systems.md 'Friflo.Engine.ECS.Systems').[QuerySystem](QuerySystem.md 'Friflo.Engine.ECS.Systems.QuerySystem')
+### [Friflo.Engine.ECS.Systems](Friflo.Engine.ECS.Systems.md 'Friflo.Engine.ECS.Systems').[QuerySystemBase](QuerySystemBase.md 'Friflo.Engine.ECS.Systems.QuerySystemBase')
 
-## QuerySystem.Queries Property
+## QuerySystemBase.Queries Property
 
 Return all system queries. One per store in [Stores](SystemRoot.Stores.md 'Friflo.Engine.ECS.Systems.SystemRoot.Stores').
 

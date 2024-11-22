@@ -9,7 +9,7 @@ Contains the relation components of a specific entity returned by [GetRelations&
 public readonly struct RelationComponents<TComponent> :
 System.Collections.Generic.IEnumerable<TComponent>,
 System.Collections.IEnumerable
-    where TComponent : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
+    where TComponent : struct, System.ValueType, System.ValueType
 ```
 #### Type parameters
 
