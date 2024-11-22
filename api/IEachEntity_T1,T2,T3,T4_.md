@@ -5,10 +5,6 @@
 
 ```csharp
 public interface IEachEntity<T1,T2,T3,T4>
-    where T1 : Friflo.Engine.ECS.IComponent
-    where T2 : Friflo.Engine.ECS.IComponent
-    where T3 : Friflo.Engine.ECS.IComponent
-    where T4 : Friflo.Engine.ECS.IComponent
 ```
 #### Type parameters
 

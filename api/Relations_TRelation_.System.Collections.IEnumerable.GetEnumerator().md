@@ -1,7 +1,7 @@
 #### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[RelationComponents&lt;TComponent&gt;](RelationComponents_TComponent_.md 'Friflo.Engine.ECS.RelationComponents<TComponent>')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[Relations&lt;TRelation&gt;](Relations_TRelation_.md 'Friflo.Engine.ECS.Relations<TRelation>')
 
-## RelationComponents<TComponent>.System.Collections.IEnumerable.GetEnumerator() Method
+## Relations<TRelation>.System.Collections.IEnumerable.GetEnumerator() Method
 
 ```csharp
 System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator();

@@ -5,7 +5,6 @@
 
 ```csharp
 public interface IEach<T1>
-    where T1 : Friflo.Engine.ECS.IComponent
 ```
 #### Type parameters
 

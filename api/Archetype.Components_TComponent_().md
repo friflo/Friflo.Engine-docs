@@ -7,7 +7,7 @@ Return the components of the specified [TComponent](Archetype.Components_TCompon
 
 ```csharp
 public System.Span<TComponent> Components<TComponent>()
-    where TComponent : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType;
+    where TComponent : struct, System.ValueType, System.ValueType;
 ```
 #### Type parameters
 

@@ -8,7 +8,7 @@ See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/optimization#p
 
 ```csharp
 public sealed class QueryJob<T1> : Friflo.Engine.ECS.QueryJob
-    where T1 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
+    where T1 : struct, System.ValueType, System.ValueType
 ```
 #### Type parameters
 

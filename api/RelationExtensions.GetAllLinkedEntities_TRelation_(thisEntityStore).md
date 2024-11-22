@@ -1,20 +1,20 @@
 #### [Friflo.Engine.ECS](index.md 'index')
 ### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[RelationExtensions](RelationExtensions.md 'Friflo.Engine.ECS.RelationExtensions')
 
-## RelationExtensions.GetAllLinkedEntities<TComponent>(this EntityStore) Method
+## RelationExtensions.GetAllLinkedEntities<TRelation>(this EntityStore) Method
 
 ```csharp
-public static System.Collections.Generic.IReadOnlyCollection<Friflo.Engine.ECS.Entity> GetAllLinkedEntities<TComponent>(this Friflo.Engine.ECS.EntityStore store)
-    where TComponent : struct, Friflo.Engine.ECS.IRelationComponent, System.ValueType, System.ValueType;
+public static System.Collections.Generic.IReadOnlyCollection<Friflo.Engine.ECS.Entity> GetAllLinkedEntities<TRelation>(this Friflo.Engine.ECS.EntityStore store)
+    where TRelation : struct, Friflo.Engine.ECS.IRelation, System.ValueType, System.ValueType;
 ```
 #### Type parameters
 
-<a name='Friflo.Engine.ECS.RelationExtensions.GetAllLinkedEntities_TComponent_(thisFriflo.Engine.ECS.EntityStore).TComponent'></a>
+<a name='Friflo.Engine.ECS.RelationExtensions.GetAllLinkedEntities_TRelation_(thisFriflo.Engine.ECS.EntityStore).TRelation'></a>
 
-`TComponent`
+`TRelation`
 #### Parameters
 
-<a name='Friflo.Engine.ECS.RelationExtensions.GetAllLinkedEntities_TComponent_(thisFriflo.Engine.ECS.EntityStore).store'></a>
+<a name='Friflo.Engine.ECS.RelationExtensions.GetAllLinkedEntities_TRelation_(thisFriflo.Engine.ECS.EntityStore).store'></a>
 
 `store` [EntityStore](EntityStore.md 'Friflo.Engine.ECS.EntityStore')
 

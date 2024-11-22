@@ -7,10 +7,10 @@ Provide the state of an [entity](ForEachEntity_T1,T2,T3,T4_(T1,T2,T3,T4,Entity).
 
 ```csharp
 public delegate void ForEachEntity<T1,T2,T3,T4>(ref T1 component1, ref T2 component2, ref T3 component3, ref T4 component4, Friflo.Engine.ECS.Entity entity)
-    where T1 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
-    where T2 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
-    where T3 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
-    where T4 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType;
+    where T1 : struct, System.ValueType, System.ValueType
+    where T2 : struct, System.ValueType, System.ValueType
+    where T3 : struct, System.ValueType, System.ValueType
+    where T4 : struct, System.ValueType, System.ValueType;
 ```
 #### Type parameters
 

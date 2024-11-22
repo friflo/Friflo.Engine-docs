@@ -8,7 +8,7 @@ See <a href="https://friflo.gitbook.io/friflo.engine.ecs/examples/general#query-
 
 ```csharp
 public sealed class ArchetypeQuery<T1> : Friflo.Engine.ECS.ArchetypeQuery
-    where T1 : struct, Friflo.Engine.ECS.IComponent, System.ValueType, System.ValueType
+    where T1 : struct, System.ValueType, System.ValueType
 ```
 #### Type parameters
 

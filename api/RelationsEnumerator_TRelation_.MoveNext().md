@@ -1,7 +1,7 @@
 #### [Friflo.Engine.ECS](index.md 'index')
-### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[RelationsEnumerator&lt;TComponent&gt;](RelationsEnumerator_TComponent_.md 'Friflo.Engine.ECS.RelationsEnumerator<TComponent>')
+### [Friflo.Engine.ECS](Friflo.Engine.ECS.md 'Friflo.Engine.ECS').[RelationsEnumerator&lt;TRelation&gt;](RelationsEnumerator_TRelation_.md 'Friflo.Engine.ECS.RelationsEnumerator<TRelation>')
 
-## RelationsEnumerator<TComponent>.MoveNext() Method
+## RelationsEnumerator<TRelation>.MoveNext() Method
 
 ```csharp
 public bool MoveNext();
