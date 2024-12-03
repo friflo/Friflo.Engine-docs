@@ -3,6 +3,8 @@
 
 ## RelationExtensions.EntityRelations<TRelation>(this EntityStore) Method
 
+Return the storage for all entity relations of the specified [TRelation](RelationExtensions.EntityRelations_TRelation_(thisEntityStore).md#Friflo.Engine.ECS.RelationExtensions.EntityRelations_TRelation_(thisFriflo.Engine.ECS.EntityStore).TRelation 'Friflo.Engine.ECS.RelationExtensions.EntityRelations<TRelation>(this Friflo.Engine.ECS.EntityStore).TRelation') type.
+
 ```csharp
 public static Friflo.Engine.ECS.EntityRelations<TRelation> EntityRelations<TRelation>(this Friflo.Engine.ECS.EntityStore store)
     where TRelation : struct, Friflo.Engine.ECS.IRelation, System.ValueType, System.ValueType;

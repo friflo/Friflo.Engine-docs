@@ -27,6 +27,7 @@ Inheritance [System.Object](https://docs.microsoft.com/en-us/dotnet/api/System.O
 | Methods | |
 | :--- | :--- |
 | [GetComponentType&lt;T&gt;()](EntitySchema.GetComponentType_T_().md 'Friflo.Engine.ECS.EntitySchema.GetComponentType<T>()') | Return the [ComponentType](ComponentType.md 'Friflo.Engine.ECS.ComponentType') of a struct implementing [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent'). |
+| [GetRelationType&lt;T&gt;()](EntitySchema.GetRelationType_T_().md 'Friflo.Engine.ECS.EntitySchema.GetRelationType<T>()') | |
 | [GetScriptType&lt;T&gt;()](EntitySchema.GetScriptType_T_().md 'Friflo.Engine.ECS.EntitySchema.GetScriptType<T>()') | Return the [ScriptType](ScriptType.md 'Friflo.Engine.ECS.ScriptType') of a class extending [Script](Script.md 'Friflo.Engine.ECS.Script'). |
 | [GetTagType&lt;T&gt;()](EntitySchema.GetTagType_T_().md 'Friflo.Engine.ECS.EntitySchema.GetTagType<T>()') | Return the [TagType](TagType.md 'Friflo.Engine.ECS.TagType') of a struct implementing [ITag](ITag.md 'Friflo.Engine.ECS.ITag'). |
 | [ToString()](EntitySchema.ToString().md 'Friflo.Engine.ECS.EntitySchema.ToString()') | |

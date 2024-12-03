@@ -3,7 +3,8 @@
 
 ## ComponentIndex<TIndexedComponent,TValue> Struct
 
-The index for [IIndexedComponent&lt;TValue&gt;](IIndexedComponent_TValue_.md 'Friflo.Engine.ECS.IIndexedComponent<TValue>') struct's to search entities with a specific component value in O(1).
+The index for [IIndexedComponent&lt;TValue&gt;](IIndexedComponent_TValue_.md 'Friflo.Engine.ECS.IIndexedComponent<TValue>') struct's to search entities with a specific component value in O(1).<br/>
+An instance is returned via [ComponentIndex&lt;TIndexedComponent,TValue&gt;(this EntityStore)](IndexExtensions.ComponentIndex_TIndexedComponent,TValue_(thisEntityStore).md 'Friflo.Engine.ECS.IndexExtensions.ComponentIndex<TIndexedComponent,TValue>(this Friflo.Engine.ECS.EntityStore)').
 
 ```csharp
 public readonly struct ComponentIndex<TIndexedComponent,TValue>

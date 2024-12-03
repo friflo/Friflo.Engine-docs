@@ -3,6 +3,9 @@
 
 ## EntityRelations<TRelation> Struct
 
+Storage for all entity relations of the specified [TRelation](EntityRelations_TRelation_.md#Friflo.Engine.ECS.EntityRelations_TRelation_.TRelation 'Friflo.Engine.ECS.EntityRelations<TRelation>.TRelation') type.<br/>
+An instance is returned via [EntityRelations&lt;TRelation&gt;(this EntityStore)](RelationExtensions.EntityRelations_TRelation_(thisEntityStore).md 'Friflo.Engine.ECS.RelationExtensions.EntityRelations<TRelation>(this Friflo.Engine.ECS.EntityStore)').
+
 ```csharp
 public readonly struct EntityRelations<TRelation>
     where TRelation : struct, Friflo.Engine.ECS.IRelation, System.ValueType, System.ValueType
