@@ -3,6 +3,7 @@
 
 ## RelationExtensions.ForAllEntityRelations<TRelation>(this EntityStore, ForEachEntity<TRelation>) Method
 
+Obsolete: Use [For(ForEachEntity&lt;TRelation&gt;)](EntityRelations_TRelation_.For(ForEachEntity_TRelation_).md 'Friflo.Engine.ECS.EntityRelations<TRelation>.For(Friflo.Engine.ECS.ForEachEntity<TRelation>)')<br/>
 Iterates all entity relations of the specified [TRelation](RelationExtensions.ForAllEntityRelations_TRelation_(thisEntityStore,ForEachEntity_TRelation_).md#Friflo.Engine.ECS.RelationExtensions.ForAllEntityRelations_TRelation_(thisFriflo.Engine.ECS.EntityStore,Friflo.Engine.ECS.ForEachEntity_TRelation_).TRelation 'Friflo.Engine.ECS.RelationExtensions.ForAllEntityRelations<TRelation>(this Friflo.Engine.ECS.EntityStore, Friflo.Engine.ECS.ForEachEntity<TRelation>).TRelation') type.<br/>
 Executes in O(N) N: number of all entity relations.
 

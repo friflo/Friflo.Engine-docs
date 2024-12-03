@@ -3,6 +3,7 @@
 
 ## RelationExtensions.GetAllEntitiesWithRelations<TRelation>(this EntityStore) Method
 
+Obsolete: Use [Entities](EntityRelations_TRelation_.Entities.md 'Friflo.Engine.ECS.EntityRelations<TRelation>.Entities')<br/>
 Returns a collection of entities having one or more relations of the specified [TRelation](RelationExtensions.GetAllEntitiesWithRelations_TRelation_(thisEntityStore).md#Friflo.Engine.ECS.RelationExtensions.GetAllEntitiesWithRelations_TRelation_(thisFriflo.Engine.ECS.EntityStore).TRelation 'Friflo.Engine.ECS.RelationExtensions.GetAllEntitiesWithRelations<TRelation>(this Friflo.Engine.ECS.EntityStore).TRelation') type.<br/>
 Executes in O(1).
 
@@ -26,4 +27,4 @@ public static Friflo.Engine.ECS.EntityReadOnlyCollection GetAllEntitiesWithRelat
 
 ### Remarks
 - The returned collection changes when relations are updated, removed or added.
-- To get all entities including their relations (the cartesian product aka CROSS JOIN) use<br/>[GetAllEntityRelations&lt;TRelation&gt;(this EntityStore)](RelationExtensions.GetAllEntityRelations_TRelation_(thisEntityStore).md 'Friflo.Engine.ECS.RelationExtensions.GetAllEntityRelations<TRelation>(this Friflo.Engine.ECS.EntityStore)')
+- To get all entities including their relations (the cartesian product aka CROSS JOIN) use<br/>[Pairs](EntityRelations_TRelation_.Pairs.md 'Friflo.Engine.ECS.EntityRelations<TRelation>.Pairs')

@@ -3,6 +3,7 @@
 
 ## IndexExtensions.GetAllLinkedEntities<TComponent>(this EntityStore) Method
 
+Obsolete: Use [Values](LinkComponentIndex_TLinkComponent_.Values.md 'Friflo.Engine.ECS.LinkComponentIndex<TLinkComponent>.Values')<br/>
 Returns all entities linked by the specified [ILinkComponent](ILinkComponent.md 'Friflo.Engine.ECS.ILinkComponent') type.<br/>
 Executes in O(1). Each entity in the returned list is unique. See remarks for additional infos.
 
@@ -27,5 +28,5 @@ public static System.Collections.Generic.IReadOnlyCollection<Friflo.Engine.ECS.E
 ### Remarks
 - The returned collection changes when component link values are updated, removed or added.
 - To get the entities linking a specific entity use [GetIncomingLinks&lt;TComponent&gt;(this Entity)](IndexExtensions.GetIncomingLinks_TComponent_(thisEntity).md 'Friflo.Engine.ECS.IndexExtensions.GetIncomingLinks<TComponent>(this Friflo.Engine.ECS.Entity)').<br/>
-- The method is a specialized version of [GetAllIndexedComponentValues&lt;TComponent,TValue&gt;(this EntityStore)](IndexExtensions.GetAllIndexedComponentValues_TComponent,TValue_(thisEntityStore).md 'Friflo.Engine.ECS.IndexExtensions.GetAllIndexedComponentValues<TComponent,TValue>(this Friflo.Engine.ECS.EntityStore)')<br/>
-  using ` TComponent = ILinkComponent` and `TValue = Entity`.
+- The method is a specialized version of [Values](ComponentIndex_TIndexedComponent,TValue_.Values.md 'Friflo.Engine.ECS.ComponentIndex<TIndexedComponent,TValue>.Values')<br/>
+  using ` TIndexedComponent = ILinkComponent` and `TValue = Entity`.

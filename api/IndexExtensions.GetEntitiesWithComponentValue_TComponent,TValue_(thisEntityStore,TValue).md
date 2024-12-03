@@ -3,6 +3,7 @@
 
 ## IndexExtensions.GetEntitiesWithComponentValue<TComponent,TValue>(this EntityStore, TValue) Method
 
+Obsolete: Use [this[TValue]](ComponentIndex_TIndexedComponent,TValue_.this[TValue].md 'Friflo.Engine.ECS.ComponentIndex<TIndexedComponent,TValue>.this[TValue]')<br/>
 Return the entities with the passed component value.<br/>
 Executes in O(1) with default index.
 

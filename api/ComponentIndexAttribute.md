@@ -3,7 +3,7 @@
 
 ## ComponentIndexAttribute Class
 
-Assigns a custom [ComponentIndex](ComponentIndex.md 'Friflo.Engine.ECS.Index.ComponentIndex') to an attributed component type.
+Assigns a custom [AbstractComponentIndex](AbstractComponentIndex.md 'Friflo.Engine.ECS.Index.AbstractComponentIndex') to an attributed component type.
 
 ```csharp
 public sealed class ComponentIndexAttribute : System.Attribute

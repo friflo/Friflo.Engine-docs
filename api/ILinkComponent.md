@@ -20,6 +20,6 @@ This component type enables:
 - Return all entities having a [ILinkComponent](ILinkComponent.md 'Friflo.Engine.ECS.ILinkComponent') to a specific entity.<br/>
   See [GetIncomingLinks&lt;TComponent&gt;(this Entity)](IndexExtensions.GetIncomingLinks_TComponent_(thisEntity).md 'Friflo.Engine.ECS.IndexExtensions.GetIncomingLinks<TComponent>(this Friflo.Engine.ECS.Entity)')
 - Return all entities linked by a specific [ILinkComponent](ILinkComponent.md 'Friflo.Engine.ECS.ILinkComponent') type.<br/>
-  See [GetAllLinkedEntities&lt;TComponent&gt;(this EntityStore)](IndexExtensions.GetAllLinkedEntities_TComponent_(thisEntityStore).md 'Friflo.Engine.ECS.IndexExtensions.GetAllLinkedEntities<TComponent>(this Friflo.Engine.ECS.EntityStore)')
+  See [Values](LinkComponentIndex_TLinkComponent_.Values.md 'Friflo.Engine.ECS.LinkComponentIndex<TLinkComponent>.Values')
 - Filter entities in a query having a [ILinkComponent](ILinkComponent.md 'Friflo.Engine.ECS.ILinkComponent') to a specific entity.<br/>
   See [HasValue&lt;TComponent,TValue&gt;(TValue)](ArchetypeQuery.HasValue_TComponent,TValue_(TValue).md 'Friflo.Engine.ECS.ArchetypeQuery.HasValue<TComponent,TValue>(TValue)').

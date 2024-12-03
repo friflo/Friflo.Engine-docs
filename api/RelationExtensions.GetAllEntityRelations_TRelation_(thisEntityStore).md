@@ -3,6 +3,7 @@
 
 ## RelationExtensions.GetAllEntityRelations<TRelation>(this EntityStore) Method
 
+Obsolete: Use [Pairs](EntityRelations_TRelation_.Pairs.md 'Friflo.Engine.ECS.EntityRelations<TRelation>.Pairs')<br/> 
 Return all entity relations  of the specified [TRelation](RelationExtensions.GetAllEntityRelations_TRelation_(thisEntityStore).md#Friflo.Engine.ECS.RelationExtensions.GetAllEntityRelations_TRelation_(thisFriflo.Engine.ECS.EntityStore).TRelation 'Friflo.Engine.ECS.RelationExtensions.GetAllEntityRelations<TRelation>(this Friflo.Engine.ECS.EntityStore).TRelation') type.<br/>
 Executes in O(1).  Most efficient way to iterate all entity relations.
 
