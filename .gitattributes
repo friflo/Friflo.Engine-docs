@@ -1,2 +1,2 @@
-# To turn off end of line conversion (CRLR <-> LF) on all text files
-* -text
+# Use LF for all markdown files
+*.md text eol=lf

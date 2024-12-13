@@ -14,6 +14,6 @@ public Friflo.Engine.ECS.QueryEntities Entities { get; }
 
 ### Remarks
 Property is mainly used for debugging.<br/>
-            For efficient access to entity [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s use one of the generic <b>
-  <c>EntityStore.Query()</c>
+            For efficient access to entity [IComponent](IComponent.md 'Friflo.Engine.ECS.IComponent')'s use one of the generic <b>
+  <c>EntityStore.Query()</c>
 </b> methods.
